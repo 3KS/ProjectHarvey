@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
+
 public class ScrapbookController : MonoBehaviour {
 
     private bool isActive = false;
@@ -44,7 +45,7 @@ public class ScrapbookController : MonoBehaviour {
             isActive = true;
         }
         Debug.Log(isActive &&  !GameController.GetPauseState());
-        if (isActive && Input.GetKeyUp(KeyCode.Space) && !GameController.GetPauseState())
+        if (isActive && (Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Book"))&& !GameController.GetPauseState())
         {
             state = BookState.Missions;
             isOpen = isOpen ? false : true;
@@ -58,7 +59,7 @@ public class ScrapbookController : MonoBehaviour {
                 MovementFreeze.UnFreezePlayer();
             }
             delay = .2f;
-        } else if (isOpen && Input.GetKeyUp(KeyCode.Escape))
+        } else if (isOpen && (Input.GetKeyUp(KeyCode.Escape) || Input.GetButtonUp("Pause")))
         {
             isOpen = false;
             scrapBook.SetActive(false);
