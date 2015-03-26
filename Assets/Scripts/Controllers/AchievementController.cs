@@ -59,7 +59,11 @@ public class AchievementController : MonoBehaviour {
         Sewing_1917,
         Theater_1917,
         Presidents_1950,
-        Textile_1950
+        Textile_1950,
+		CalPeters_1917,
+		Chemistry_1917,
+		Tea_1917,
+		Millinery_1950
     };
 
     public enum Achievements {

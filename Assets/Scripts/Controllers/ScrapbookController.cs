@@ -7,7 +7,7 @@ using System.Collections.Generic;
 public class ScrapbookController : MonoBehaviour {
 
     private bool isActive = false;
-    public bool isOpen = false;
+    public static bool isOpen = false;
     private float delay = 0;
     public Texture[] lockedTextures;
     public Texture[] unlockedTextures;
@@ -53,17 +53,19 @@ public class ScrapbookController : MonoBehaviour {
             {
                 scrapBook.SetActive(true);
                 MovementFreeze.FreezePlayer();
+				Screen.lockCursor = false;
             } else
             {
                 scrapBook.SetActive(false);
                 MovementFreeze.UnFreezePlayer();
+				Screen.lockCursor = true;
             }
             delay = .2f;
         } else if (isOpen && (Input.GetKeyUp(KeyCode.Escape) || Input.GetButtonUp("Pause")))
         {
             isOpen = false;
             scrapBook.SetActive(false);
-
+			Screen.lockCursor = true;
             MovementFreeze.UnFreezePlayer();
             delay = .2f;
         }

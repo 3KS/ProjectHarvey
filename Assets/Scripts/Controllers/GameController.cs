@@ -89,15 +89,22 @@ public class GameController : MonoBehaviour
             }
         }
 
-		if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonUp ("Pause") )&& !Application.loadedLevelName.Equals("LogoSplash") &&  !Fadeometer.isPlaying)
+		if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonUp ("Pause") )&& !Application.loadedLevelName.Equals("LogoSplash") &&  !Fadeometer.isPlaying && !ScrapbookController.isOpen)
         {
             if (!Application.loadedLevelName.Equals("MainMenu"))
             {
                 isPaused = isPaused ? false : true;
                 isAchievements = false;
+				if(isPaused) {
+					MovementFreeze.FreezePlayer();
+					Screen.lockCursor = false;
+				} else {
+					MovementFreeze.UnFreezePlayer();
+					Screen.lockCursor = true;
+				}
                 if (!Application.loadedLevelName.Equals("HarveyWithLighting") && !Application.loadedLevelName.Equals("MainMenu") && !Application.loadedLevelName.Equals("LogoSplash"))
                 {
-                    Screen.lockCursor = Screen.lockCursor ? false : true;
+                    //Screen.lockCursor = Screen.lockCursor ? false : true;
                 }
             } else {
                 if(MenuGui.isCreatingProfile) {

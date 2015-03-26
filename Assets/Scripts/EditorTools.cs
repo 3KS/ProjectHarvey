@@ -9,7 +9,9 @@ public class EditorTools : MonoBehaviour {
         {
             GameObject temp;
             temp = GameObject.Find("GameController(Clone)");
-            if(temp == null) {
+			GameObject temp2;
+			temp2 = GameObject.Find("GameController");
+            if(temp == null && temp2 == null) {
                 GameObject.Instantiate(gameController);
             }
         }

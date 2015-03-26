@@ -44,6 +44,8 @@ public class boxHover : MonoBehaviour
 					light.enabled = true;
 				}
 				if ((Input.GetMouseButton (0) || Input.GetButtonDown("Select")) && available) {
+
+					Screen.lockCursor = true;
 					zoomingRoom = true;
                     PlayerPrefs.SetInt(SaveController.GetPrefix() + room.ToString(), 1);
 					BeginFader.StartRoomZoom (DestinationScene);
