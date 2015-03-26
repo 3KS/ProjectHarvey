@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 4739eed56d2fa484eac81ad3edcd13a5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: beam
+    100002: beam 1
+    100004: beam 2
+    100006: beam 3
+    100008: beam 4
+    100010: beam 5
+    100012: beam 6
+    100014: beam 7
+    100016: beam1
+    100018: beam3
+    100020: box10
+    100022: box11
+    100024: box4
+    100026: box7
+    100028: box8
+    100030: box9
+    100032: brush11
+    100034: brush12
+    100036: brush13
+    100038: brush14
+    100040: brush15
+    100042: brush4
+    100044: brush5
+    100046: brush6
+    100048: brush7
+    100050: brush8
+    100052: brush_cup
+    100054: //RootNode
+    100056: canvas10
+    100058: canvas11
+    100060: canvas12
+    100062: canvas13
+    100064: canvas14
+    100066: canvas15
+    100068: canvas16
+    100070: canvas17
+    100072: canvas18
+    100074: canvas19
+    100076: canvas20
+    100078: canvas21
+    100080: canvas22
+    100082: canvas23
+    100084: canvas8
+    100086: canvas9
+    100088: canvases
+    100090: chair32
+    100092: chair33
+    100094: chairs
+    100096: cup1
+    100098: cup2
+    100100: cup3
+    100102: desk
+    100104: door7
+    100106: door8
+    100108: door_frame
+    100110: doubleDoor2
+    100112: easle
+    100114: easle1
+    100116: easle2
+    100118: handle
+    100120: handle1
+    100122: hook1
+    100124: hook2
+    100126: ladder
+    100128: ladder 1
+    100130: ladder1
+    100132: ladder2
+    100134: ladder2 1
+    100136: ladder3
+    100138: ladder_rungs
+    100140: ladder_rungs10
+    100142: ladder_rungs11
+    100144: ladder_rungs12
+    100146: ladder_rungs6
+    100148: ladder_rungs7
+    100150: ladder_rungs8
+    100152: ladder_rungs9
+    100154: leg
+    100156: leg1
+    100158: leg1 1
+    100160: leg1 2
+    100162: leg1 3
+    100164: leg1 4
+    100166: leg1 5
+    100168: leg1 6
+    100170: leg1 7
+    100172: leg11
+    100174: leg12
+    100176: leg13
+    100178: leg2
+    100180: leg2 1
+    100182: leg2 2
+    100184: leg2 3
+    100186: leg2 4
+    100188: leg2 5
+    100190: leg2 6
+    100192: leg2 7
+    100194: lightbulb1
+    100196: lightbulb2
+    100198: lightbulb3
+    100200: paint_jar4
+    100202: paint_jar5
+    100204: paint_jar6
+    100206: paint_jar7
+    100208: pCube10
+    100210: pCube11
+    100212: pCube12
+    100214: pCube13
+    100216: pCube14
+    100218: pCube8
+    100220: pCube9
+    100222: pipe_wall
+    100224: pipes
+    100226: pipes1
+    100228: pipes2
+    100230: pipes3
+    100232: pipes4
+    100234: pipes5
+    100236: pipes6
+    100238: pipes7
+    100240: pPlane1
+    100242: pPlane3
+    100244: pPlane4
+    100246: pPlane6
+    100248: room_boundaries
+    100250: sawhorse10
+    100252: sawhorse11
+    100254: sawhorse12
+    100256: sawhorse13
+    100258: sawhorse14
+    100260: sawhorse6
+    100262: sawhorse8
+    100264: sawhorse9
+    100266: side_table
+    100268: table
+    100270: table 1
+    100272: table1
+    100274: table2
+    100276: wall_pipe2
+    100278: window_pane
+    100280: window_pane1
+    100282: window_part
+    100284: window_part1
+    100286: window_part2
+    100288: window_part3
+    400000: beam
+    400002: beam 1
+    400004: beam 2
+    400006: beam 3
+    400008: beam 4
+    400010: beam 5
+    400012: beam 6
+    400014: beam 7
+    400016: beam1
+    400018: beam3
+    400020: box10
+    400022: box11
+    400024: box4
+    400026: box7
+    400028: box8
+    400030: box9
+    400032: brush11
+    400034: brush12
+    400036: brush13
+    400038: brush14
+    400040: brush15
+    400042: brush4
+    400044: brush5
+    400046: brush6
+    400048: brush7
+    400050: brush8
+    400052: brush_cup
+    400054: //RootNode
+    400056: canvas10
+    400058: canvas11
+    400060: canvas12
+    400062: canvas13
+    400064: canvas14
+    400066: canvas15
+    400068: canvas16
+    400070: canvas17
+    400072: canvas18
+    400074: canvas19
+    400076: canvas20
+    400078: canvas21
+    400080: canvas22
+    400082: canvas23
+    400084: canvas8
+    400086: canvas9
+    400088: canvases
+    400090: chair32
+    400092: chair33
+    400094: chairs
+    400096: cup1
+    400098: cup2
+    400100: cup3
+    400102: desk
+    400104: door7
+    400106: door8
+    400108: door_frame
+    400110: doubleDoor2
+    400112: easle
+    400114: easle1
+    400116: easle2
+    400118: handle
+    400120: handle1
+    400122: hook1
+    400124: hook2
+    400126: ladder
+    400128: ladder 1
+    400130: ladder1
+    400132: ladder2
+    400134: ladder2 1
+    400136: ladder3
+    400138: ladder_rungs
+    400140: ladder_rungs10
+    400142: ladder_rungs11
+    400144: ladder_rungs12
+    400146: ladder_rungs6
+    400148: ladder_rungs7
+    400150: ladder_rungs8
+    400152: ladder_rungs9
+    400154: leg
+    400156: leg1
+    400158: leg1 1
+    400160: leg1 2
+    400162: leg1 3
+    400164: leg1 4
+    400166: leg1 5
+    400168: leg1 6
+    400170: leg1 7
+    400172: leg11
+    400174: leg12
+    400176: leg13
+    400178: leg2
+    400180: leg2 1
+    400182: leg2 2
+    400184: leg2 3
+    400186: leg2 4
+    400188: leg2 5
+    400190: leg2 6
+    400192: leg2 7
+    400194: lightbulb1
+    400196: lightbulb2
+    400198: lightbulb3
+    400200: paint_jar4
+    400202: paint_jar5
+    400204: paint_jar6
+    400206: paint_jar7
+    400208: pCube10
+    400210: pCube11
+    400212: pCube12
+    400214: pCube13
+    400216: pCube14
+    400218: pCube8
+    400220: pCube9
+    400222: pipe_wall
+    400224: pipes
+    400226: pipes1
+    400228: pipes2
+    400230: pipes3
+    400232: pipes4
+    400234: pipes5
+    400236: pipes6
+    400238: pipes7
+    400240: pPlane1
+    400242: pPlane3
+    400244: pPlane4
+    400246: pPlane6
+    400248: room_boundaries
+    400250: sawhorse10
+    400252: sawhorse11
+    400254: sawhorse12
+    400256: sawhorse13
+    400258: sawhorse14
+    400260: sawhorse6
+    400262: sawhorse8
+    400264: sawhorse9
+    400266: side_table
+    400268: table
+    400270: table 1
+    400272: table1
+    400274: table2
+    400276: wall_pipe2
+    400278: window_pane
+    400280: window_pane1
+    400282: window_part
+    400284: window_part1
+    400286: window_part2
+    400288: window_part3
+    2300000: beam
+    2300002: beam 1
+    2300004: beam 2
+    2300006: beam 3
+    2300008: beam 4
+    2300010: beam 5
+    2300012: beam 6
+    2300014: beam 7
+    2300016: beam1
+    2300018: beam3
+    2300020: box10
+    2300022: box11
+    2300024: box4
+    2300026: box7
+    2300028: box8
+    2300030: box9
+    2300032: brush11
+    2300034: brush12
+    2300036: brush13
+    2300038: brush14
+    2300040: brush15
+    2300042: brush4
+    2300044: brush5
+    2300046: brush6
+    2300048: brush7
+    2300050: brush8
+    2300052: canvas10
+    2300054: canvas11
+    2300056: canvas12
+    2300058: canvas13
+    2300060: canvas14
+    2300062: canvas15
+    2300064: canvas16
+    2300066: canvas17
+    2300068: canvas18
+    2300070: canvas19
+    2300072: canvas20
+    2300074: canvas21
+    2300076: canvas22
+    2300078: canvas23
+    2300080: canvas8
+    2300082: canvas9
+    2300084: chair32
+    2300086: chair33
+    2300088: cup1
+    2300090: cup2
+    2300092: cup3
+    2300094: desk
+    2300096: door7
+    2300098: door8
+    2300100: door_frame
+    2300102: easle
+    2300104: easle1
+    2300106: easle2
+    2300108: handle
+    2300110: handle1
+    2300112: hook1
+    2300114: hook2
+    2300116: ladder 1
+    2300118: ladder1
+    2300120: ladder2 1
+    2300122: ladder3
+    2300124: ladder_rungs
+    2300126: ladder_rungs10
+    2300128: ladder_rungs11
+    2300130: ladder_rungs12
+    2300132: ladder_rungs6
+    2300134: ladder_rungs7
+    2300136: ladder_rungs8
+    2300138: ladder_rungs9
+    2300140: leg
+    2300142: leg1
+    2300144: leg1 1
+    2300146: leg1 2
+    2300148: leg1 3
+    2300150: leg1 4
+    2300152: leg1 5
+    2300154: leg1 6
+    2300156: leg1 7
+    2300158: leg11
+    2300160: leg12
+    2300162: leg13
+    2300164: leg2
+    2300166: leg2 1
+    2300168: leg2 2
+    2300170: leg2 3
+    2300172: leg2 4
+    2300174: leg2 5
+    2300176: leg2 6
+    2300178: leg2 7
+    2300180: lightbulb1
+    2300182: lightbulb2
+    2300184: lightbulb3
+    2300186: paint_jar4
+    2300188: paint_jar5
+    2300190: paint_jar6
+    2300192: paint_jar7
+    2300194: pCube10
+    2300196: pCube11
+    2300198: pCube12
+    2300200: pCube13
+    2300202: pCube14
+    2300204: pCube8
+    2300206: pCube9
+    2300208: pipe_wall
+    2300210: pipes
+    2300212: pipes1
+    2300214: pipes2
+    2300216: pipes3
+    2300218: pipes4
+    2300220: pipes5
+    2300222: pipes6
+    2300224: pipes7
+    2300226: pPlane1
+    2300228: pPlane3
+    2300230: pPlane4
+    2300232: pPlane6
+    2300234: room_boundaries
+    2300236: table
+    2300238: table 1
+    2300240: table1
+    2300242: table2
+    2300244: wall_pipe2
+    2300246: window_pane
+    2300248: window_pane1
+    2300250: window_part
+    2300252: window_part1
+    2300254: window_part2
+    2300256: window_part3
+    3300000: beam
+    3300002: beam 1
+    3300004: beam 2
+    3300006: beam 3
+    3300008: beam 4
+    3300010: beam 5
+    3300012: beam 6
+    3300014: beam 7
+    3300016: beam1
+    3300018: beam3
+    3300020: box10
+    3300022: box11
+    3300024: box4
+    3300026: box7
+    3300028: box8
+    3300030: box9
+    3300032: brush11
+    3300034: brush12
+    3300036: brush13
+    3300038: brush14
+    3300040: brush15
+    3300042: brush4
+    3300044: brush5
+    3300046: brush6
+    3300048: brush7
+    3300050: brush8
+    3300052: canvas10
+    3300054: canvas11
+    3300056: canvas12
+    3300058: canvas13
+    3300060: canvas14
+    3300062: canvas15
+    3300064: canvas16
+    3300066: canvas17
+    3300068: canvas18
+    3300070: canvas19
+    3300072: canvas20
+    3300074: canvas21
+    3300076: canvas22
+    3300078: canvas23
+    3300080: canvas8
+    3300082: canvas9
+    3300084: chair32
+    3300086: chair33
+    3300088: cup1
+    3300090: cup2
+    3300092: cup3
+    3300094: desk
+    3300096: door7
+    3300098: door8
+    3300100: door_frame
+    3300102: easle
+    3300104: easle1
+    3300106: easle2
+    3300108: handle
+    3300110: handle1
+    3300112: hook1
+    3300114: hook2
+    3300116: ladder 1
+    3300118: ladder1
+    3300120: ladder2 1
+    3300122: ladder3
+    3300124: ladder_rungs
+    3300126: ladder_rungs10
+    3300128: ladder_rungs11
+    3300130: ladder_rungs12
+    3300132: ladder_rungs6
+    3300134: ladder_rungs7
+    3300136: ladder_rungs8
+    3300138: ladder_rungs9
+    3300140: leg
+    3300142: leg1
+    3300144: leg1 1
+    3300146: leg1 2
+    3300148: leg1 3
+    3300150: leg1 4
+    3300152: leg1 5
+    3300154: leg1 6
+    3300156: leg1 7
+    3300158: leg11
+    3300160: leg12
+    3300162: leg13
+    3300164: leg2
+    3300166: leg2 1
+    3300168: leg2 2
+    3300170: leg2 3
+    3300172: leg2 4
+    3300174: leg2 5
+    3300176: leg2 6
+    3300178: leg2 7
+    3300180: lightbulb1
+    3300182: lightbulb2
+    3300184: lightbulb3
+    3300186: paint_jar4
+    3300188: paint_jar5
+    3300190: paint_jar6
+    3300192: paint_jar7
+    3300194: pCube10
+    3300196: pCube11
+    3300198: pCube12
+    3300200: pCube13
+    3300202: pCube14
+    3300204: pCube8
+    3300206: pCube9
+    3300208: pipe_wall
+    3300210: pipes
+    3300212: pipes1
+    3300214: pipes2
+    3300216: pipes3
+    3300218: pipes4
+    3300220: pipes5
+    3300222: pipes6
+    3300224: pipes7
+    3300226: pPlane1
+    3300228: pPlane3
+    3300230: pPlane4
+    3300232: pPlane6
+    3300234: room_boundaries
+    3300236: table
+    3300238: table 1
+    3300240: table1
+    3300242: table2
+    3300244: wall_pipe2
+    3300246: window_pane
+    3300248: window_pane1
+    3300250: window_part
+    3300252: window_part1
+    3300254: window_part2
+    3300256: window_part3
+    4300000: pipes
+    4300002: pipes1
+    4300004: pipes2
+    4300006: pipes3
+    4300008: desk
+    4300010: easle
+    4300012: paint_jar4
+    4300014: paint_jar5
+    4300016: paint_jar6
+    4300018: paint_jar7
+    4300020: brush4
+    4300022: brush5
+    4300024: cup1
+    4300026: brush6
+    4300028: brush7
+    4300030: cup2
+    4300032: brush8
+    4300034: brush11
+    4300036: cup3
+    4300038: brush12
+    4300040: brush13
+    4300042: brush14
+    4300044: brush15
+    4300046: room_boundaries
+    4300048: door_frame
+    4300050: door7
+    4300052: door8
+    4300054: handle
+    4300056: handle1
+    4300058: canvas8
+    4300060: canvas9
+    4300062: canvas10
+    4300064: canvas11
+    4300066: canvas12
+    4300068: canvas13
+    4300070: canvas14
+    4300072: canvas15
+    4300074: canvas16
+    4300076: canvas17
+    4300078: canvas18
+    4300080: canvas19
+    4300082: canvas20
+    4300084: canvas21
+    4300086: canvas22
+    4300088: canvas23
+    4300090: table
+    4300092: leg
+    4300094: table1
+    4300096: leg11
+    4300098: leg12
+    4300100: leg13
+    4300102: window_pane1
+    4300104: window_pane
+    4300106: table
+    4300108: table2
+    4300110: window_part3
+    4300112: window_part2
+    4300114: window_part1
+    4300116: window_part
+    4300118: ladder2
+    4300120: ladder3
+    4300122: ladder_rungs10
+    4300124: ladder_rungs9
+    4300126: ladder_rungs11
+    4300128: ladder_rungs12
+    4300130: ladder
+    4300132: ladder_rungs
+    4300134: ladder1
+    4300136: ladder_rungs6
+    4300138: ladder_rungs7
+    4300140: ladder_rungs8
+    4300142: box4
+    4300144: chair32
+    4300146: chair33
+    4300148: easle1
+    4300150: easle2
+    4300152: beam1
+    4300154: pipes4
+    4300156: pipes5
+    4300158: pipes6
+    4300160: pipes7
+    4300162: leg2
+    4300164: beam
+    4300166: leg1
+    4300168: wall_pipe2
+    4300170: pipe_wall
+    4300172: beam3
+    4300174: pCube8
+    4300176: hook1
+    4300178: leg2
+    4300180: beam
+    4300182: leg1
+    4300184: leg2
+    4300186: beam
+    4300188: leg1
+    4300190: leg2
+    4300192: beam
+    4300194: leg1
+    4300196: leg2
+    4300198: beam
+    4300200: leg1
+    4300202: leg2
+    4300204: beam
+    4300206: leg1
+    4300208: leg2
+    4300210: beam
+    4300212: leg1
+    4300214: leg2
+    4300216: beam
+    4300218: leg1
+    4300220: pCube9
+    4300222: pPlane1
+    4300224: hook2
+    4300226: pCube10
+    4300228: pCube11
+    4300230: pCube12
+    4300232: pCube13
+    4300234: pPlane3
+    4300236: pPlane4
+    4300238: pPlane6
+    4300240: lightbulb1
+    4300242: box7
+    4300244: box8
+    4300246: box9
+    4300248: box10
+    4300250: box11
+    4300252: pCube14
+    4300254: lightbulb2
+    4300256: lightbulb3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

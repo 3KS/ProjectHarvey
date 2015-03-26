@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 683be0cc647c8704a8d66f0a0fb102b8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: carpet
+    100002: Ceiling_Light1
+    100004: Ceiling_Light2
+    100006: centerBrace
+    100008: Chair2
+    100010: Chair3
+    100012: Chair4
+    100014: Chair5
+    100016: Chair6
+    100018: Chair7
+    100020: Chair8
+    100022: ComfyChair2
+    100024: ComfyChair3
+    100026: ComfyChair4
+    100028: Connectors2
+    100030: Connectors3
+    100032: Connectors4
+    100034: Couch3
+    100036: Couch4
+    100038: door
+    100040: Faux_Wall3
+    100042: Faux_Wall4
+    100044: Faux_Wall5
+    100046: Faux_Wall6
+    100048: FauxWall
+    100050: Floor
+    100052: glass10
+    100054: glass11
+    100056: Grand_Piano2
+    100058: JukeBox
+    100060: leftBrace
+    100062: leg
+    100064: leg2
+    100066: leg6
+    100068: leg7
+    100070: main_table1
+    100072: main_table2
+    100074: mainDoor19
+    100076: mainDoor20
+    100078: painting1
+    100080: painting3
+    100082: painting4
+    100084: pCube116
+    100086: pCube116 1
+    100088: pCube116 2
+    100090: pCube116 3
+    100092: pCylinder86
+    100094: pCylinder87
+    100096: pCylinder88
+    100098: pCylinder89
+    100100: pCylinder91
+    100102: pCylinder91 1
+    100104: pCylinder92
+    100106: pCylinder92 1
+    100108: PianoBench3
+    100110: pipeHolder
+    100112: pipeHolder 1
+    100114: pipeHolder1
+    100116: pipeHolder1 1
+    100118: pipes
+    100120: pipes1
+    100122: pipes2
+    100124: Plate1
+    100126: Plate2
+    100128: Plate3
+    100130: Plate4
+    100132: Plate5
+    100134: polySurface232
+    100136: polySurface233
+    100138: polySurface237
+    100140: polySurface238
+    100142: polySurface239
+    100144: polySurface240
+    100146: polySurface241
+    100148: polySurface242
+    100150: polySurface252
+    100152: polySurface252 1
+    100154: polySurface252 2
+    100156: polySurface252 3
+    100158: rightBrace
+    100160: Table4
+    100162: TeaCup2
+    100164: TeaCup3
+    100166: TeaCup4
+    100168: TeaPot
+    100170: TeaPot1
+    100172: //RootNode
+    100174: TeaSet1
+    100176: TeaTable
+    100178: TeaTable 1
+    100180: TeaThing
+    100182: TeaTray1
+    100184: Walls
+    100186: WindowWall
+    400000: carpet
+    400002: Ceiling_Light1
+    400004: Ceiling_Light2
+    400006: centerBrace
+    400008: Chair2
+    400010: Chair3
+    400012: Chair4
+    400014: Chair5
+    400016: Chair6
+    400018: Chair7
+    400020: Chair8
+    400022: ComfyChair2
+    400024: ComfyChair3
+    400026: ComfyChair4
+    400028: Connectors2
+    400030: Connectors3
+    400032: Connectors4
+    400034: Couch3
+    400036: Couch4
+    400038: door
+    400040: Faux_Wall3
+    400042: Faux_Wall4
+    400044: Faux_Wall5
+    400046: Faux_Wall6
+    400048: FauxWall
+    400050: Floor
+    400052: glass10
+    400054: glass11
+    400056: Grand_Piano2
+    400058: JukeBox
+    400060: leftBrace
+    400062: leg
+    400064: leg2
+    400066: leg6
+    400068: leg7
+    400070: main_table1
+    400072: main_table2
+    400074: mainDoor19
+    400076: mainDoor20
+    400078: painting1
+    400080: painting3
+    400082: painting4
+    400084: pCube116
+    400086: pCube116 1
+    400088: pCube116 2
+    400090: pCube116 3
+    400092: pCylinder86
+    400094: pCylinder87
+    400096: pCylinder88
+    400098: pCylinder89
+    400100: pCylinder91
+    400102: pCylinder91 1
+    400104: pCylinder92
+    400106: pCylinder92 1
+    400108: PianoBench3
+    400110: pipeHolder
+    400112: pipeHolder 1
+    400114: pipeHolder1
+    400116: pipeHolder1 1
+    400118: pipes
+    400120: pipes1
+    400122: pipes2
+    400124: Plate1
+    400126: Plate2
+    400128: Plate3
+    400130: Plate4
+    400132: Plate5
+    400134: polySurface232
+    400136: polySurface233
+    400138: polySurface237
+    400140: polySurface238
+    400142: polySurface239
+    400144: polySurface240
+    400146: polySurface241
+    400148: polySurface242
+    400150: polySurface252
+    400152: polySurface252 1
+    400154: polySurface252 2
+    400156: polySurface252 3
+    400158: rightBrace
+    400160: Table4
+    400162: TeaCup2
+    400164: TeaCup3
+    400166: TeaCup4
+    400168: TeaPot
+    400170: TeaPot1
+    400172: //RootNode
+    400174: TeaSet1
+    400176: TeaTable
+    400178: TeaTable 1
+    400180: TeaThing
+    400182: TeaTray1
+    400184: Walls
+    400186: WindowWall
+    2300000: carpet
+    2300002: Ceiling_Light1
+    2300004: Ceiling_Light2
+    2300006: centerBrace
+    2300008: Chair2
+    2300010: Chair3
+    2300012: Chair4
+    2300014: Chair5
+    2300016: Chair6
+    2300018: Chair7
+    2300020: Chair8
+    2300022: ComfyChair2
+    2300024: ComfyChair3
+    2300026: ComfyChair4
+    2300028: Connectors2
+    2300030: Connectors3
+    2300032: Connectors4
+    2300034: Couch3
+    2300036: Couch4
+    2300038: Faux_Wall3
+    2300040: Faux_Wall4
+    2300042: Faux_Wall5
+    2300044: Faux_Wall6
+    2300046: Floor
+    2300048: glass10
+    2300050: glass11
+    2300052: Grand_Piano2
+    2300054: JukeBox
+    2300056: leftBrace
+    2300058: main_table1
+    2300060: main_table2
+    2300062: mainDoor19
+    2300064: mainDoor20
+    2300066: painting1
+    2300068: painting3
+    2300070: painting4
+    2300072: pCube116
+    2300074: pCube116 1
+    2300076: pCube116 2
+    2300078: pCube116 3
+    2300080: pCylinder86
+    2300082: pCylinder87
+    2300084: pCylinder88
+    2300086: pCylinder89
+    2300088: pCylinder91
+    2300090: pCylinder91 1
+    2300092: pCylinder92
+    2300094: pCylinder92 1
+    2300096: PianoBench3
+    2300098: pipeHolder
+    2300100: pipeHolder 1
+    2300102: pipeHolder1
+    2300104: pipeHolder1 1
+    2300106: Plate1
+    2300108: Plate2
+    2300110: Plate3
+    2300112: Plate4
+    2300114: Plate5
+    2300116: polySurface232
+    2300118: polySurface237
+    2300120: polySurface238
+    2300122: polySurface239
+    2300124: polySurface240
+    2300126: polySurface241
+    2300128: polySurface242
+    2300130: polySurface252
+    2300132: polySurface252 1
+    2300134: polySurface252 2
+    2300136: polySurface252 3
+    2300138: rightBrace
+    2300140: Table4
+    2300142: TeaCup2
+    2300144: TeaCup3
+    2300146: TeaCup4
+    2300148: TeaPot
+    2300150: TeaPot1
+    2300152: TeaTable 1
+    2300154: TeaThing
+    2300156: TeaTray1
+    2300158: WindowWall
+    3300000: carpet
+    3300002: Ceiling_Light1
+    3300004: Ceiling_Light2
+    3300006: centerBrace
+    3300008: Chair2
+    3300010: Chair3
+    3300012: Chair4
+    3300014: Chair5
+    3300016: Chair6
+    3300018: Chair7
+    3300020: Chair8
+    3300022: ComfyChair2
+    3300024: ComfyChair3
+    3300026: ComfyChair4
+    3300028: Connectors2
+    3300030: Connectors3
+    3300032: Connectors4
+    3300034: Couch3
+    3300036: Couch4
+    3300038: Faux_Wall3
+    3300040: Faux_Wall4
+    3300042: Faux_Wall5
+    3300044: Faux_Wall6
+    3300046: Floor
+    3300048: glass10
+    3300050: glass11
+    3300052: Grand_Piano2
+    3300054: JukeBox
+    3300056: leftBrace
+    3300058: main_table1
+    3300060: main_table2
+    3300062: mainDoor19
+    3300064: mainDoor20
+    3300066: painting1
+    3300068: painting3
+    3300070: painting4
+    3300072: pCube116
+    3300074: pCube116 1
+    3300076: pCube116 2
+    3300078: pCube116 3
+    3300080: pCylinder86
+    3300082: pCylinder87
+    3300084: pCylinder88
+    3300086: pCylinder89
+    3300088: pCylinder91
+    3300090: pCylinder91 1
+    3300092: pCylinder92
+    3300094: pCylinder92 1
+    3300096: PianoBench3
+    3300098: pipeHolder
+    3300100: pipeHolder 1
+    3300102: pipeHolder1
+    3300104: pipeHolder1 1
+    3300106: Plate1
+    3300108: Plate2
+    3300110: Plate3
+    3300112: Plate4
+    3300114: Plate5
+    3300116: polySurface232
+    3300118: polySurface237
+    3300120: polySurface238
+    3300122: polySurface239
+    3300124: polySurface240
+    3300126: polySurface241
+    3300128: polySurface242
+    3300130: polySurface252
+    3300132: polySurface252 1
+    3300134: polySurface252 2
+    3300136: polySurface252 3
+    3300138: rightBrace
+    3300140: Table4
+    3300142: TeaCup2
+    3300144: TeaCup3
+    3300146: TeaCup4
+    3300148: TeaPot
+    3300150: TeaPot1
+    3300152: TeaTable 1
+    3300154: TeaThing
+    3300156: TeaTray1
+    3300158: WindowWall
+    4300000: painting1
+    4300002: main_table1
+    4300004: Floor
+    4300006: WindowWall
+    4300008: polySurface239
+    4300010: polySurface240
+    4300012: polySurface232
+    4300014: mainDoor19
+    4300016: glass10
+    4300018: glass11
+    4300020: polySurface242
+    4300022: mainDoor20
+    4300024: polySurface241
+    4300026: polySurface238
+    4300028: carpet
+    4300030: polySurface237
+    4300032: Ceiling_Light1
+    4300034: Couch3
+    4300036: JukeBox
+    4300038: Table4
+    4300040: ComfyChair2
+    4300042: painting3
+    4300044: painting4
+    4300046: pCylinder86
+    4300048: pCylinder87
+    4300050: pCylinder88
+    4300052: pCylinder89
+    4300054: pCylinder91
+    4300056: pCylinder92
+    4300058: pipeHolder1
+    4300060: pipeHolder
+    4300062: pCylinder91
+    4300064: pCylinder92
+    4300066: pipeHolder1
+    4300068: pipeHolder
+    4300070: Chair2
+    4300072: Grand_Piano2
+    4300074: ComfyChair3
+    4300076: Faux_Wall5
+    4300078: Faux_Wall4
+    4300080: Connectors3
+    4300082: Connectors2
+    4300084: Faux_Wall6
+    4300086: Faux_Wall3
+    4300088: Connectors4
+    4300090: ComfyChair4
+    4300092: Couch4
+    4300094: centerBrace
+    4300096: rightBrace
+    4300098: leftBrace
+    4300100: pCube116
+    4300102: polySurface252
+    4300104: pCube116
+    4300106: polySurface252
+    4300108: pCube116
+    4300110: polySurface252
+    4300112: pCube116
+    4300114: polySurface252
+    4300116: TeaTable
+    4300118: Ceiling_Light2
+    4300120: PianoBench3
+    4300122: Chair3
+    4300124: Chair4
+    4300126: Chair5
+    4300128: Chair6
+    4300130: Chair7
+    4300132: Chair8
+    4300134: TeaThing
+    4300136: TeaPot
+    4300138: TeaCup2
+    4300140: TeaTray1
+    4300142: Plate1
+    4300144: TeaPot1
+    4300146: TeaCup3
+    4300148: Plate2
+    4300150: Plate3
+    4300152: Plate4
+    4300154: Plate5
+    4300156: TeaCup4
+    4300158: main_table2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

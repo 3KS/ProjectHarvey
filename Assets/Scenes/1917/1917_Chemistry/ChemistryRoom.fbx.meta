@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 608d09583457631479790bf498e05234
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: blackBoard
+    100002: booth3
+    100004: booth4
+    100006: booth5
+    100008: booth6
+    100010: bucket1
+    100012: bucket2
+    100014: bucket3
+    100016: bucket4
+    100018: buckets
+    100020: //RootNode
+    100022: clock
+    100024: doorKnobs
+    100026: floor
+    100028: hangLight
+    100030: hangLight1
+    100032: hangLight2
+    100034: hangLight3
+    100036: hangLight4
+    100038: hangLight5
+    100040: hangLight6
+    100042: hangLight7
+    100044: knob10
+    100046: knob11
+    100048: knob3
+    100050: knob7
+    100052: knob8
+    100054: knob9
+    100056: lights_Hanging
+    100058: radiator1
+    100060: radiator2
+    100062: radiators
+    100064: radiators1
+    100066: room_walls
+    100068: sciTable
+    100070: sciTable1
+    100072: sciTable2
+    100074: sciTable3
+    100076: shelf_backwall
+    100078: shelf_sidewall
+    100080: shelfSmall_backwall
+    100082: shelves
+    100084: sink
+    100086: sink 1
+    100088: sink 2
+    100090: sink 3
+    100092: stool
+    100094: stool10
+    100096: stool11
+    100098: stool7
+    100100: stool8
+    100102: stool9
+    100104: stools
+    100106: table
+    100108: table 1
+    100110: table 2
+    100112: table 3
+    100114: tables
+    100116: vent_booths
+    100118: wall_Lights
+    100120: wallLight1
+    100122: wallLight2
+    100124: walls
+    400000: blackBoard
+    400002: booth3
+    400004: booth4
+    400006: booth5
+    400008: booth6
+    400010: bucket1
+    400012: bucket2
+    400014: bucket3
+    400016: bucket4
+    400018: buckets
+    400020: //RootNode
+    400022: clock
+    400024: doorKnobs
+    400026: floor
+    400028: hangLight
+    400030: hangLight1
+    400032: hangLight2
+    400034: hangLight3
+    400036: hangLight4
+    400038: hangLight5
+    400040: hangLight6
+    400042: hangLight7
+    400044: knob10
+    400046: knob11
+    400048: knob3
+    400050: knob7
+    400052: knob8
+    400054: knob9
+    400056: lights_Hanging
+    400058: radiator1
+    400060: radiator2
+    400062: radiators
+    400064: radiators1
+    400066: room_walls
+    400068: sciTable
+    400070: sciTable1
+    400072: sciTable2
+    400074: sciTable3
+    400076: shelf_backwall
+    400078: shelf_sidewall
+    400080: shelfSmall_backwall
+    400082: shelves
+    400084: sink
+    400086: sink 1
+    400088: sink 2
+    400090: sink 3
+    400092: stool
+    400094: stool10
+    400096: stool11
+    400098: stool7
+    400100: stool8
+    400102: stool9
+    400104: stools
+    400106: table
+    400108: table 1
+    400110: table 2
+    400112: table 3
+    400114: tables
+    400116: vent_booths
+    400118: wall_Lights
+    400120: wallLight1
+    400122: wallLight2
+    400124: walls
+    2300000: blackBoard
+    2300002: booth3
+    2300004: booth4
+    2300006: booth5
+    2300008: booth6
+    2300010: bucket1
+    2300012: bucket2
+    2300014: bucket3
+    2300016: bucket4
+    2300018: clock
+    2300020: floor
+    2300022: hangLight
+    2300024: hangLight1
+    2300026: hangLight2
+    2300028: hangLight3
+    2300030: hangLight4
+    2300032: hangLight5
+    2300034: hangLight6
+    2300036: hangLight7
+    2300038: knob10
+    2300040: knob11
+    2300042: knob3
+    2300044: knob7
+    2300046: knob8
+    2300048: knob9
+    2300050: radiator1
+    2300052: radiator2
+    2300054: shelf_backwall
+    2300056: shelf_sidewall
+    2300058: shelfSmall_backwall
+    2300060: sink
+    2300062: sink 1
+    2300064: sink 2
+    2300066: sink 3
+    2300068: stool
+    2300070: stool10
+    2300072: stool11
+    2300074: stool7
+    2300076: stool8
+    2300078: stool9
+    2300080: table
+    2300082: table 1
+    2300084: table 2
+    2300086: table 3
+    2300088: wallLight1
+    2300090: wallLight2
+    2300092: walls
+    3300000: blackBoard
+    3300002: booth3
+    3300004: booth4
+    3300006: booth5
+    3300008: booth6
+    3300010: bucket1
+    3300012: bucket2
+    3300014: bucket3
+    3300016: bucket4
+    3300018: clock
+    3300020: floor
+    3300022: hangLight
+    3300024: hangLight1
+    3300026: hangLight2
+    3300028: hangLight3
+    3300030: hangLight4
+    3300032: hangLight5
+    3300034: hangLight6
+    3300036: hangLight7
+    3300038: knob10
+    3300040: knob11
+    3300042: knob3
+    3300044: knob7
+    3300046: knob8
+    3300048: knob9
+    3300050: radiator1
+    3300052: radiator2
+    3300054: shelf_backwall
+    3300056: shelf_sidewall
+    3300058: shelfSmall_backwall
+    3300060: sink
+    3300062: sink 1
+    3300064: sink 2
+    3300066: sink 3
+    3300068: stool
+    3300070: stool10
+    3300072: stool11
+    3300074: stool7
+    3300076: stool8
+    3300078: stool9
+    3300080: table
+    3300082: table 1
+    3300084: table 2
+    3300086: table 3
+    3300088: wallLight1
+    3300090: wallLight2
+    3300092: walls
+    4300000: walls
+    4300002: floor
+    4300004: clock
+    4300006: blackBoard
+    4300008: table
+    4300010: sink
+    4300012: table
+    4300014: sink
+    4300016: table
+    4300018: sink
+    4300020: table
+    4300022: sink
+    4300024: stool
+    4300026: stool7
+    4300028: stool8
+    4300030: stool9
+    4300032: stool10
+    4300034: stool11
+    4300036: knob3
+    4300038: knob7
+    4300040: knob8
+    4300042: knob9
+    4300044: knob10
+    4300046: knob11
+    4300048: booth3
+    4300050: booth4
+    4300052: booth5
+    4300054: booth6
+    4300056: wallLight1
+    4300058: wallLight2
+    4300060: bucket1
+    4300062: bucket2
+    4300064: bucket3
+    4300066: bucket4
+    4300068: shelf_backwall
+    4300070: shelfSmall_backwall
+    4300072: shelf_sidewall
+    4300074: radiator1
+    4300076: radiator2
+    4300078: hangLight
+    4300080: hangLight1
+    4300082: hangLight2
+    4300084: hangLight3
+    4300086: hangLight4
+    4300088: hangLight5
+    4300090: hangLight6
+    4300092: hangLight7
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
