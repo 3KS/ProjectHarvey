@@ -4,6 +4,7 @@ using System.Collections;
 public class boxHover : MonoBehaviour
 {
     //public GameObject levelSelectControl;
+	public bool available = true;
     private Vector3 cameraDestination;
     private static bool zoomingRoom = false;
     private static Camera mainCamera;
@@ -42,7 +43,7 @@ public class boxHover : MonoBehaviour
 				foreach (Light light in lights) {
 					light.enabled = true;
 				}
-				if (Input.GetMouseButton (0) || Input.GetButtonDown("Select")) {
+				if ((Input.GetMouseButton (0) || Input.GetButtonDown("Select")) && available) {
 					zoomingRoom = true;
                     PlayerPrefs.SetInt(SaveController.GetPrefix() + room.ToString(), 1);
 					BeginFader.StartRoomZoom (DestinationScene);
@@ -57,8 +58,9 @@ public class boxHover : MonoBehaviour
         {
             Vector2 size = MenuTools.dioramaLabel.CalcSize(new GUIContent(roomName));
             //GUI.Box(new Rect((int)Input.mousePosition.x, Screen.height-(int)Input.mousePosition.y, size.x, size.y), "");
-            MenuTools.DrawSmallMenu((int)Input.mousePosition.x, Screen.height-(int)Input.mousePosition.y, (int)size.x+20, (int)size.y+20);
+            MenuTools.DrawSmallMenu((int)Input.mousePosition.x, Screen.height-(int)Input.mousePosition.y, (int)size.x+50, (int)size.y+20);
             GUI.Label(new Rect(Input.mousePosition.x+10, Screen.height-Input.mousePosition.y+10, 150, 50),roomName, MenuTools.dioramaLabel);
+
         }
     }
     void zoomRoom()
