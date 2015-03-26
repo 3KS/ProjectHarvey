@@ -16,60 +16,49 @@ using System.Collections;
 ///   -> Set the mouse look to use LookY. (You want the camera to tilt up and down like a head. The character already turns.)
 [AddComponentMenu("Camera-Control/Mouse Look")]
 public class MouseLook : MonoBehaviour {
-    
-    public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 , JoyXAndY = 3, JoyX = 4, JoyY = 5, BothXAndY = 6, BothX = 7, BothY = 8}
-    public RotationAxes axes = RotationAxes.MouseXAndY;
-    public float sensitivityX = 15F;
-    public float sensitivityY = 15F;
-    
-    public float minimumX = -360F;
-    public float maximumX = 360F;
-    
-    public float minimumY = -60F;
-    public float maximumY = 60F;
-    
-    float rotationY = 0F;
-    void Update ()
-    {
-        if (axes == RotationAxes.MouseXAndY) {
-            float rotationX = transform.localEulerAngles.y + Input.GetAxis ("Mouse X") * sensitivityX;
-            
-            rotationY += Input.GetAxis ("Mouse Y") * sensitivityY;
-            rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
-            
-            transform.localEulerAngles = new Vector3 (-rotationY, rotationX, 0);
-        } else if (axes == RotationAxes.MouseX) {
-            transform.Rotate (0, Input.GetAxis ("Mouse X") * sensitivityX, 0);
-        } else if (axes == RotationAxes.MouseY) {
-            rotationY += Input.GetAxis ("Mouse Y") * sensitivityY;
-            rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
-            
-            transform.localEulerAngles = new Vector3 (-rotationY, transform.localEulerAngles.y, 0);
-        } else if (axes == RotationAxes.JoyXAndY) {
-            
-        } else if (axes == RotationAxes.JoyX) {
-            
-        } else if (axes == RotationAxes.JoyY) {
-            
-        } else if (axes == RotationAxes.BothXAndY) {
-            
-        } else if (axes == RotationAxes.BothX) {
-            transform.Rotate (0, Input.GetAxis ("Mouse X") * sensitivityX, 0);
-            transform.Rotate (0, (-1 * Input.GetAxis ("HorizontalTwo")/10) * sensitivityX, 0);
-        }else if (axes == RotationAxes.BothY) {
-            rotationY += Input.GetAxis ("Mouse Y") * sensitivityY;
-            rotationY += Input.GetAxis ("VerticalTwo") * -2f;
-            Debug.Log(Input.GetAxis ("VerticalTwo"));
-            rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
-            
-            transform.localEulerAngles = new Vector3 (-rotationY, transform.localEulerAngles.y, 0);
+
+	public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
+	public RotationAxes axes = RotationAxes.MouseXAndY;
+	public float sensitivityX = 15F;
+	public float sensitivityY = 15F;
+
+	public float minimumX = -360F;
+	public float maximumX = 360F;
+
+	public float minimumY = -60F;
+	public float maximumY = 60F;
+
+	float rotationY = 0F;
+
+	void Update ()
+	{
+        if (Time.timeScale == 1)
+        {
+            if (axes == RotationAxes.MouseXAndY)
+            {
+                float rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
+			
+                rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+                rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
+			
+                transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
+            } else if (axes == RotationAxes.MouseX)
+            {
+                transform.Rotate(0, Input.GetAxis("Mouse X") * sensitivityX, 0);
+            } else
+            {
+                rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+                rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
+			
+                transform.localEulerAngles = new Vector3(-rotationY, transform.localEulerAngles.y, 0);
+            }
         }
-    }
-    
-    void Start ()
-    {
-        // Make the rigid body not change rotation
-        if (GetComponent<Rigidbody>())
-            GetComponent<Rigidbody>().freezeRotation = true;
-    }
+	}
+	
+	void Start ()
+	{
+		// Make the rigid body not change rotation
+		if (GetComponent<Rigidbody>())
+			GetComponent<Rigidbody>().freezeRotation = true;
+	}
 }
