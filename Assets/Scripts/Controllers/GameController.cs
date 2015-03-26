@@ -83,13 +83,13 @@ public class GameController : MonoBehaviour
     {
         if (!Application.loadedLevelName.Equals("HarveyWithLighting") && !Application.loadedLevelName.Equals("MainMenu") && !Application.loadedLevelName.Equals("LogoSplash"))
         {
-            if (Input.GetKey(KeyCode.Backspace) && !GameController.GetPauseState())
+			if ((Input.GetKey(KeyCode.Backspace) || Input.GetButtonUp("Back")) && !GameController.GetPauseState() )
             {
                 ReturnToDiorama();
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !Application.loadedLevelName.Equals("LogoSplash") &&  !Fadeometer.isPlaying)
+		if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonUp ("Pause") )&& !Application.loadedLevelName.Equals("LogoSplash") &&  !Fadeometer.isPlaying)
         {
             if (!Application.loadedLevelName.Equals("MainMenu"))
             {

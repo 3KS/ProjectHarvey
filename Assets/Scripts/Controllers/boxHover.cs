@@ -42,7 +42,7 @@ public class boxHover : MonoBehaviour
 				foreach (Light light in lights) {
 					light.enabled = true;
 				}
-				if (Input.GetMouseButton (0)) {
+				if (Input.GetMouseButton (0) || Input.GetButtonDown("Select")) {
 					zoomingRoom = true;
                     PlayerPrefs.SetInt(SaveController.GetPrefix() + room.ToString(), 1);
 					BeginFader.StartRoomZoom (DestinationScene);
