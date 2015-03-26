@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 989651e383fafa34abfb4a1b6556fd49
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - objectName: {instanceID: 0}
+  - normalShader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  - glow: {fileID: 4800000, guid: 52634002063f74547be748e3f67a4432, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

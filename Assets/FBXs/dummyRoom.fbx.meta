@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 4937af6695ad1433c9ee564600fc8e36
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Clock
+    100002: Desks
+    100004: door
+    100006: doorWall
+    100008: //RootNode
+    100010: floor
+    100012: L_Wall
+    100014: pCube1
+    100016: pCube2
+    100018: pCube3
+    100020: pCube4
+    100022: R_Wall
+    100024: VictorianLeatherCeiling
+    100026: windowWall
+    400000: Clock
+    400002: Desks
+    400004: door
+    400006: doorWall
+    400008: //RootNode
+    400010: floor
+    400012: L_Wall
+    400014: pCube1
+    400016: pCube2
+    400018: pCube3
+    400020: pCube4
+    400022: R_Wall
+    400024: VictorianLeatherCeiling
+    400026: windowWall
+    2300000: Clock
+    2300002: door
+    2300004: doorWall
+    2300006: floor
+    2300008: L_Wall
+    2300010: pCube1
+    2300012: pCube2
+    2300014: pCube3
+    2300016: pCube4
+    2300018: R_Wall
+    2300020: VictorianLeatherCeiling
+    2300022: windowWall
+    3300000: Clock
+    3300002: door
+    3300004: doorWall
+    3300006: floor
+    3300008: L_Wall
+    3300010: pCube1
+    3300012: pCube2
+    3300014: pCube3
+    3300016: pCube4
+    3300018: R_Wall
+    3300020: VictorianLeatherCeiling
+    3300022: windowWall
+    4300000: VictorianLeatherCeiling
+    4300002: floor
+    4300004: windowWall
+    4300006: R_Wall
+    4300008: L_Wall
+    4300010: doorWall
+    4300012: door
+    4300014: Clock
+    4300016: pCube1
+    4300018: pCube2
+    4300020: pCube3
+    4300022: pCube4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

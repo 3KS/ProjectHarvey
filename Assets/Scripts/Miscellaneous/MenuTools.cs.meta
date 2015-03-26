@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f573f3886cdd25d48a2b43f443e08e02
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - backgroundTex: {fileID: 2800000, guid: 2a3d4bd393899524783d80cfa19d00f6, type: 3}
+  - topTex: {fileID: 2800000, guid: e3319a7e8c811a44e84c18e8efef51ef, type: 3}
+  - bottomTex: {fileID: 2800000, guid: 77f34d8ff04fa8b45b2228eb7cd3eb78, type: 3}
+  - leftTex: {fileID: 2800000, guid: 01ccd66c08de1984c89d0649582d19c4, type: 3}
+  - rightTex: {fileID: 2800000, guid: 5643e3e4385da1e438b268642c90f9a4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

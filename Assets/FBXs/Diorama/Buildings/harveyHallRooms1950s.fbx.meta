@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: fe317af23d6ab4c44a9718916257c877
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube1
+    100004: pCube212
+    100006: pCube217
+    100008: pCube218
+    100010: pCube219
+    100012: pCube368
+    100014: presidentsRoom
+    100016: presRoomLowPoly:pCube367
+    100018: presRoomLowPoly:pCube368
+    100020: presRoomLowPoly:pCube369
+    100022: presRoomLowPoly:pCube370
+    100024: textileRoomLowPoly:pCube212
+    100026: textileRoomLowPoly:pCube214
+    100028: textileRoomLowPoly:pCube217
+    100030: textileRoomLowPoly:pCube219
+    100032: textileRoomLowPoly:pCylinder94
+    400000: //RootNode
+    400002: pCube1
+    400004: pCube212
+    400006: pCube217
+    400008: pCube218
+    400010: pCube219
+    400012: pCube368
+    400014: presidentsRoom
+    400016: presRoomLowPoly:pCube367
+    400018: presRoomLowPoly:pCube368
+    400020: presRoomLowPoly:pCube369
+    400022: presRoomLowPoly:pCube370
+    400024: textileRoomLowPoly:pCube212
+    400026: textileRoomLowPoly:pCube214
+    400028: textileRoomLowPoly:pCube217
+    400030: textileRoomLowPoly:pCube219
+    400032: textileRoomLowPoly:pCylinder94
+    2300000: pCube1
+    2300002: pCube212
+    2300004: pCube217
+    2300006: pCube218
+    2300008: pCube219
+    2300010: pCube368
+    2300012: presidentsRoom
+    2300014: presRoomLowPoly:pCube367
+    2300016: presRoomLowPoly:pCube368
+    2300018: presRoomLowPoly:pCube369
+    2300020: presRoomLowPoly:pCube370
+    2300022: textileRoomLowPoly:pCube212
+    2300024: textileRoomLowPoly:pCube214
+    2300026: textileRoomLowPoly:pCube217
+    2300028: textileRoomLowPoly:pCube219
+    2300030: textileRoomLowPoly:pCylinder94
+    3300000: pCube1
+    3300002: pCube212
+    3300004: pCube217
+    3300006: pCube218
+    3300008: pCube219
+    3300010: pCube368
+    3300012: presidentsRoom
+    3300014: presRoomLowPoly:pCube367
+    3300016: presRoomLowPoly:pCube368
+    3300018: presRoomLowPoly:pCube369
+    3300020: presRoomLowPoly:pCube370
+    3300022: textileRoomLowPoly:pCube212
+    3300024: textileRoomLowPoly:pCube214
+    3300026: textileRoomLowPoly:pCube217
+    3300028: textileRoomLowPoly:pCube219
+    3300030: textileRoomLowPoly:pCylinder94
+    4300000: presidentsRoom
+    4300002: pCube1
+    4300004: textileRoomLowPoly:pCylinder94
+    4300006: textileRoomLowPoly:pCube212
+    4300008: textileRoomLowPoly:pCube217
+    4300010: textileRoomLowPoly:pCube219
+    4300012: textileRoomLowPoly:pCube214
+    4300014: pCube217
+    4300016: pCube218
+    4300018: pCube219
+    4300020: pCube212
+    4300022: presRoomLowPoly:pCube370
+    4300024: presRoomLowPoly:pCube367
+    4300026: presRoomLowPoly:pCube368
+    4300028: presRoomLowPoly:pCube369
+    4300030: pCube368
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,1332 @@
+fileFormatVersion: 2
+guid: 36fcb1dd5c6e5d94c8ceb85050373b8f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Character_Body
+    100002: Character_mesh
+    100004: //RootNode
+    100006: UniversalRig_Final_V03:be_head01
+    100008: UniversalRig_Final_V03:be_l_eye01
+    100010: UniversalRig_Final_V03:be_lowerJaw01
+    100012: UniversalRig_Final_V03:be_r_eye01
+    100014: UniversalRig_Final_V03:be_upperJaw01
+    100016: UniversalRig_Final_V03:bind_head01
+    100018: UniversalRig_Final_V03:bind_l_eye01
+    100020: UniversalRig_Final_V03:bind_l_lowerLid01
+    100022: UniversalRig_Final_V03:bind_l_upperLid01
+    100024: UniversalRig_Final_V03:bind_lowerJaw01
+    100026: UniversalRig_Final_V03:bind_neck01
+    100028: UniversalRig_Final_V03:bind_r_eye01
+    100030: UniversalRig_Final_V03:bind_r_lowerLid01
+    100032: UniversalRig_Final_V03:bind_r_upperLid01
+    100034: UniversalRig_Final_V03:bind_upperJaw01
+    100036: UniversalRig_Final_V03:jDrv_l_lowerLid01
+    100038: UniversalRig_Final_V03:jDrv_l_upperLid01
+    100040: UniversalRig_Final_V03:jDrv_r_lowerLid01
+    100042: UniversalRig_Final_V03:jDrv_r_upperLid01
+    100044: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_L_01
+    100046: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_R_01
+    100048: UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_L_01
+    100050: UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_R_01
+    100052: UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_L_01
+    100054: UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_R_01
+    100056: UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_L_01
+    100058: UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_R_01
+    100060: UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_L_01
+    100062: UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_R_01
+    100064: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_L_01
+    100066: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_R_01
+    100068: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_L_01
+    100070: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_R_01
+    100072: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01
+    100074: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01
+    100076: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01
+    100078: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01
+    100080: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01
+    100082: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_L_01
+    100084: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_R_01
+    100086: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01
+    100088: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01
+    100090: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01
+    100092: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01
+    100094: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01
+    100096: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_b01
+    100098: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_c01
+    100100: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01
+    100102: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_b01
+    100104: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_c01
+    100106: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01
+    100108: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01
+    100110: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01
+    100112: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01
+    100114: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_b01
+    100116: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_c01
+    100118: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01
+    100120: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_b01
+    100122: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_c01
+    100124: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01
+    100126: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_b01
+    100128: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_c01
+    100130: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01
+    100132: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_b01
+    100134: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_c01
+    100136: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01
+    100138: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01
+    100140: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_b01
+    100142: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_c01
+    100144: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01
+    100146: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_b01
+    100148: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_c01
+    100150: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01
+    100152: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01
+    100154: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01
+    100156: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01
+    100158: UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01
+    100160: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_a01
+    100162: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_b01
+    100164: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_a01
+    100166: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_b01
+    100168: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01
+    100170: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01
+    100172: UniversalRig_Final_V03:RefinedRig_Final:Root_01
+    100174: UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01
+    100176: UniversalRig_Final_V03:RefinedRig_Final:SKELETON
+    100178: UniversalRig_Final_V03:RefinedRig_Final:transform40
+    100180: UniversalRig_Final_V03:transform2
+    400000: Character_Body
+    400002: Character_mesh
+    400004: //RootNode
+    400006: UniversalRig_Final_V03:be_head01
+    400008: UniversalRig_Final_V03:be_l_eye01
+    400010: UniversalRig_Final_V03:be_lowerJaw01
+    400012: UniversalRig_Final_V03:be_r_eye01
+    400014: UniversalRig_Final_V03:be_upperJaw01
+    400016: UniversalRig_Final_V03:bind_head01
+    400018: UniversalRig_Final_V03:bind_l_eye01
+    400020: UniversalRig_Final_V03:bind_l_lowerLid01
+    400022: UniversalRig_Final_V03:bind_l_upperLid01
+    400024: UniversalRig_Final_V03:bind_lowerJaw01
+    400026: UniversalRig_Final_V03:bind_neck01
+    400028: UniversalRig_Final_V03:bind_r_eye01
+    400030: UniversalRig_Final_V03:bind_r_lowerLid01
+    400032: UniversalRig_Final_V03:bind_r_upperLid01
+    400034: UniversalRig_Final_V03:bind_upperJaw01
+    400036: UniversalRig_Final_V03:jDrv_l_lowerLid01
+    400038: UniversalRig_Final_V03:jDrv_l_upperLid01
+    400040: UniversalRig_Final_V03:jDrv_r_lowerLid01
+    400042: UniversalRig_Final_V03:jDrv_r_upperLid01
+    400044: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_L_01
+    400046: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_R_01
+    400048: UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_L_01
+    400050: UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_R_01
+    400052: UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_L_01
+    400054: UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_R_01
+    400056: UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_L_01
+    400058: UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_R_01
+    400060: UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_L_01
+    400062: UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_R_01
+    400064: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_L_01
+    400066: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_R_01
+    400068: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_L_01
+    400070: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_R_01
+    400072: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01
+    400074: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01
+    400076: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01
+    400078: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01
+    400080: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01
+    400082: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_L_01
+    400084: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_R_01
+    400086: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01
+    400088: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01
+    400090: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01
+    400092: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01
+    400094: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01
+    400096: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_b01
+    400098: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_c01
+    400100: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01
+    400102: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_b01
+    400104: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_c01
+    400106: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01
+    400108: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01
+    400110: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01
+    400112: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01
+    400114: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_b01
+    400116: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_c01
+    400118: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01
+    400120: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_b01
+    400122: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_c01
+    400124: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01
+    400126: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_b01
+    400128: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_c01
+    400130: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01
+    400132: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_b01
+    400134: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_c01
+    400136: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01
+    400138: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01
+    400140: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_b01
+    400142: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_c01
+    400144: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01
+    400146: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_b01
+    400148: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_c01
+    400150: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01
+    400152: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01
+    400154: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01
+    400156: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01
+    400158: UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01
+    400160: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_a01
+    400162: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_b01
+    400164: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_a01
+    400166: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_b01
+    400168: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01
+    400170: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01
+    400172: UniversalRig_Final_V03:RefinedRig_Final:Root_01
+    400174: UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01
+    400176: UniversalRig_Final_V03:RefinedRig_Final:SKELETON
+    400178: UniversalRig_Final_V03:RefinedRig_Final:transform40
+    400180: UniversalRig_Final_V03:transform2
+    4300000: Character_Body
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Character_Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_mesh
+        weight: 0
+      - path: Character_mesh/Character_Body
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_L_01/UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_R_01/UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_L_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_L_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_L_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_L_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01/UniversalRig_Final_V03:RefinedRig_Final:transform40/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_b01/UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_L_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_R_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_R_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_R_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_c01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_b01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_c01/UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_R_01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_a01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_b01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_a01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_b01/UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_R_01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:be_head01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_lowerJaw01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_lowerJaw01/UniversalRig_Final_V03:be_lowerJaw01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:be_upperJaw01
+        weight: 1
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:bind_l_eye01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:bind_l_eye01/UniversalRig_Final_V03:be_l_eye01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:bind_r_eye01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:bind_r_eye01/UniversalRig_Final_V03:be_r_eye01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_l_lowerLid01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_l_lowerLid01/UniversalRig_Final_V03:bind_l_lowerLid01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_l_upperLid01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_l_upperLid01/UniversalRig_Final_V03:bind_l_upperLid01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_r_lowerLid01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_r_lowerLid01/UniversalRig_Final_V03:bind_r_lowerLid01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_r_upperLid01
+        weight: 0
+      - path: UniversalRig_Final_V03:RefinedRig_Final:SKELETON/UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01/UniversalRig_Final_V03:RefinedRig_Final:Root_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01/UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01/UniversalRig_Final_V03:transform2/UniversalRig_Final_V03:bind_neck01/UniversalRig_Final_V03:bind_head01/UniversalRig_Final_V03:bind_upperJaw01/UniversalRig_Final_V03:jDrv_r_upperLid01/UniversalRig_Final_V03:bind_r_upperLid01
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Root_01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_L_01
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_R_01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:bind_neck01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:bind_head01
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_L_01
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_R_01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:be_upperJaw01
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:bind_lowerJaw01
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_a01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_b01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_L_01
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_b01
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_c01
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_b01
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_c01
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_b01
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_c01
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_b01
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_c01
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_a01
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_b01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_R_01
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_b01
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_c01
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_b01
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_c01
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_b01
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_c01
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_b01
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_c01
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Steve_Animations(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character_mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Character_Body
+      position: {x: .00559841376, y: 1.0143472, z: -.0929330215}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:SKELETON
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: .226159379, y: .226159379, z: .226159379}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Root_Model_01
+      position: {x: -0, y: 0, z: -9.81805842e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Root_01
+      position: {x: -6.17698845e-07, y: 4.61883402, z: .515218198}
+      rotation: {x: 2.20952862e-17, y: 5.265683e-09, z: 1.39869705e-09, w: 1}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_SpineBase_01
+      position: {x: .0019151225, y: .696368694, z: .0645401701}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ribcage_01
+      position: {x: -.00474740006, y: .910529375, z: -.0575472191}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Chest_01
+      position: {x: -.0102082407, y: .918417513, z: -.183899567}
+      rotation: {x: -2.20952862e-17, y: -5.265683e-09, z: -1.39869705e-09, w: 1}
+      scale: {x: .999999881, y: .999999821, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:transform2
+      position: {x: -.00595015939, y: -7.02271366, z: .176906615}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 4.42166042, y: 4.42166042, z: 4.42166042}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_neck01
+      position: {x: .0013456844, y: 1.66909862, z: -.0464152731}
+      rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_head01
+      position: {x: -.0776268542, y: -.042424757, z: .000624730892}
+      rotation: {x: -9.79894234e-17, y: 1.8917488e-08, z: -1.85371367e-24, w: 1}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:be_head01
+      position: {x: -.263049543, y: 9.27209698e-16, z: -.00368941622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_lowerJaw01
+      position: {x: -.0654507056, y: 8.88159044e-16, z: .00682926178}
+      rotation: {x: -.33496955, y: .622732222, z: .622732282, w: .33496955}
+      scale: {x: .999999821, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:be_lowerJaw01
+      position: {x: -.126330927, y: .0239483044, z: -.000730581814}
+      rotation: {x: 3.23103428e-08, y: 3.4299962e-08, z: 1.62028169e-08, w: 1}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_upperJaw01
+      position: {x: -.0654507056, y: 8.88159044e-16, z: .00682926178}
+      rotation: {x: -.33496961, y: .622732222, z: .622732162, w: .33496955}
+      scale: {x: .99999994, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_l_eye01
+      position: {x: -.0370274372, y: .097499162, z: -.0348992124}
+      rotation: {x: -1.62486357e-16, y: -2.3399309e-16, z: -.287762672, w: .957701802}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:be_l_eye01
+      position: {x: -.0118740546, y: -3.77475828e-15, z: 2.16852611e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_r_eye01
+      position: {x: -.038359154, y: .0979795381, z: .0361957215}
+      rotation: {x: 2.57406932e-32, y: -1.39692737e-15, z: .957701802, w: .287762672}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:be_r_eye01
+      position: {x: .0118741002, y: 4.4408921e-16, z: 6.9388939e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:jDrv_l_lowerLid01
+      position: {x: -.0370274372, y: .097499162, z: -.0348992124}
+      rotation: {x: .995100558, y: -.0988681987, z: -6.053931e-18, w: 6.09323341e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_l_lowerLid01
+      position: {x: -.0180795863, y: .000954867748, z: 2.58485948e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:be_upperJaw01
+      position: {x: -.110533878, y: .0585067086, z: -.00303904898}
+      rotation: {x: -1.21282877e-08, y: -4.03641067e-08, z: 3.23103428e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:jDrv_l_upperLid01
+      position: {x: -.0370274372, y: .097499162, z: -.0348992124}
+      rotation: {x: 2.13947593e-09, y: -1.23441524e-07, z: -.44571349, w: .895175636}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_l_upperLid01
+      position: {x: -.0179449264, y: .00621810043, z: 2.5154708e-16}
+      rotation: {x: 8.88178314e-16, y: 0, z: 2.07693542e-08, w: 1}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:jDrv_r_upperLid01
+      position: {x: -.0384373963, y: .098032549, z: .0357491039}
+      rotation: {x: -4.27133102e-08, y: -2.6396048e-08, z: .895175636, w: .44571349}
+      scale: {x: 1.00000024, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_r_upperLid01
+      position: {x: .0188866295, y: -.00493832864, z: -1.0394903e-10}
+      rotation: {x: -5.19233856e-09, y: -8.91735075e-10, z: 5.192339e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:jDrv_r_lowerLid01
+      position: {x: -.0381944515, y: .0978500843, z: .035644576}
+      rotation: {x: -.0988681614, y: -.995100617, z: 2.82845676e-08, w: -1.2309502e-07}
+      scale: {x: .999999642, y: 1, z: .999999404}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:bind_r_lowerLid01
+      position: {x: .0140713248, y: -.00406384189, z: 2.08166817e-17}
+      rotation: {x: 2.26322472e-09, y: 4.33849721e-08, z: 2.7472387e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_L_01
+      position: {x: -.700709462, y: -.00123482943, z: .0448857844}
+      rotation: {x: -1.31642075e-09, y: 5.265683e-09, z: -4.11381484e-10, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_L_01
+      position: {x: -.247680068, y: 0, z: .0324104279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_L_01
+      position: {x: -0, y: 0, z: -6.93889324e-17}
+      rotation: {x: .999372303, y: .00479857763, z: -.0343764573, w: .00708751986}
+      scale: {x: .999999702, y: .999999881, z: 1.00000036}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_L_01
+      position: {x: -.974476337, y: -.0068269847, z: .146453157}
+      rotation: {x: .353674769, y: -.486040473, z: -.616914928, w: .508030355}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000048}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:transform40
+      position: {x: -3.38981795, y: 6.05484438, z: 8.32633305}
+      rotation: {x: .770641148, y: .269446373, z: .495833814, w: -.296073854}
+      scale: {x: 1, y: 1, z: -1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_L_01
+      position: {x: -6.21121645, y: 8.18081856, z: -.163774684}
+      rotation: {x: -.832620144, y: .097394146, z: .348225206, w: -.419520438}
+      scale: {x: .710014045, y: .109633528, z: -.1379942}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_L_01
+      position: {x: .227903157, y: .008629377, z: .00974121783}
+      rotation: {x: -.0216229074, y: .0218121279, z: -.0251530521, w: .999211729}
+      scale: {x: 1.13419211, y: .82270062, z: .942162097}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_a01
+      position: {x: .220282122, y: .0284953136, z: -.0141939661}
+      rotation: {x: .959287524, y: .00180556625, z: .282414138, w: .00253375573}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_b01
+      position: {x: .110966295, y: -.000975855335, z: -.0111655518}
+      rotation: {x: .96721828, y: -.0724880993, z: -.240240321, w: .0389727764}
+      scale: {x: -1.49944293, y: .381312698, z: -1.36967444}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_L_c01
+      position: {x: .0999147743, y: -.00724479463, z: .0477570631}
+      rotation: {x: .838345885, y: -.143876955, z: -.0817511454, w: .519415319}
+      scale: {x: .00383800315, y: .211289868, z: .310706139}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_L_01
+      position: {x: .065932937, y: -.00524804462, z: .0542474613}
+      rotation: {x: -.00208284357, y: .0662411302, z: .0313591585, w: .997308552}
+      scale: {x: -43.5981712, y: -58.8780174, z: -32.848423}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_a01
+      position: {x: -.0339538231, y: .135400295, z: .0303128231}
+      rotation: {x: .558095813, y: .270403504, z: .737324953, w: .267886311}
+      scale: {x: -1.51070154, y: 3.8878665, z: 1.39814878}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_L_b01
+      position: {x: .106288292, y: .0271894466, z: -.0048620603}
+      rotation: {x: -.588781595, y: -.26187095, z: .0837359056, w: .760097504}
+      scale: {x: -1.35914457, y: 2.57585359, z: -2.88446975}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_L_01
+      position: {x: .141454503, y: .105836369, z: .0746248588}
+      rotation: {x: -.00137758127, y: .0156467948, z: .0876943618, w: .996023595}
+      scale: {x: .919635594, y: 1.02319992, z: .985677838}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_a01
+      position: {x: .185041949, y: .125975877, z: -.00129293522}
+      rotation: {x: .993347406, y: .000412849913, z: .115154415, w: -.000409630942}
+      scale: {x: 1.09283102, y: 1.00307441, z: .982890785}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_b01
+      position: {x: .11943958, y: .00691353716, z: -.0230727885}
+      rotation: {x: -.0177208558, y: .264944136, z: -.00459531089, w: .96408993}
+      scale: {x: .0998658761, y: 1.03112721, z: -.082360439}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_L_c01
+      position: {x: .0744955838, y: -.000500842463, z: .0291048717}
+      rotation: {x: -.201050401, y: -.36063233, z: .14540948, w: .899099112}
+      scale: {x: .412221134, y: 6.76753426, z: 1.18875194}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_L_01
+      position: {x: .0708914027, y: -.0102226334, z: .0473551117}
+      rotation: {x: -.00383712584, y: .0416994654, z: .0915515348, w: .994919479}
+      scale: {x: -.602263451, y: 11.8627691, z: 1.14840496}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_a01
+      position: {x: .221802413, y: -.0410204902, z: -.0134447077}
+      rotation: {x: .963785648, y: -.0765055269, z: .255225897, w: .01113737}
+      scale: {x: .156991765, y: .148409948, z: -.121975586}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_b01
+      position: {x: .0940548927, y: -.00367914769, z: .018616654}
+      rotation: {x: .00847475976, y: .178319901, z: .00114514306, w: .983935416}
+      scale: {x: .91418159, y: -.375607669, z: 1.20087695}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_L_c01
+      position: {x: .0749835297, y: -.00221191812, z: .0343128256}
+      rotation: {x: .0297840051, y: .0550586209, z: -.0104029579, w: .997984648}
+      scale: {x: 1.16874325, y: -3.34360504, z: 1.18110406}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_L_01
+      position: {x: .0786948055, y: .00650083367, z: .0515708886}
+      rotation: {x: -.00240184134, y: .0557697974, z: .0429593921, w: .997516215}
+      scale: {x: 1.37159133, y: -3.68872309, z: 1.08129644}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_a01
+      position: {x: .196522608, y: -.119766526, z: .00103683514}
+      rotation: {x: .204385102, y: .49876374, z: -.463428855, w: .703345776}
+      scale: {x: -.206138924, y: -.259894729, z: -.372132748}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_b01
+      position: {x: .0819523782, y: -.000210144455, z: .0179524366}
+      rotation: {x: .148209423, y: .110788748, z: -.0577990748, w: .981029689}
+      scale: {x: .203729182, y: -.246902555, z: .685277164}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_L_c01
+      position: {x: .0705167204, y: .0109989513, z: .0328874066}
+      rotation: {x: .0273690596, y: .124169186, z: .0343304612, w: .991289318}
+      scale: {x: -.520203352, y: -14.2728443, z: -1.85743427}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_L_01
+      position: {x: .061567273, y: .00414595939, z: .0396819301}
+      rotation: {x: -.0016451322, y: .268145472, z: .00591008877, w: .963358939}
+      scale: {x: -2.0193553, y: 2.50071335, z: 11.7694588}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_ShoulderRotator_R_01
+      position: {x: .700710773, y: -.00123482943, z: .0448860005}
+      rotation: {x: 1, y: 5.26568344e-09, z: 0, w: 0}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Clavicle_R_01
+      position: {x: .231270254, y: -.00035991185, z: -.0294771753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Shoulder_R_01
+      position: {x: 2.0428102e-14, y: 1.33226754e-14, z: -2.91433544e-16}
+      rotation: {x: -.333028883, y: -.0134957107, z: .00865711179, w: .942780316}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Elbow_R_01
+      position: {x: 1.05272889, y: -.0576802641, z: .0375499614}
+      rotation: {x: .428181738, y: .880378723, z: -.0233819541, w: -.202600703}
+      scale: {x: .999999821, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Wrist_R_01
+      position: {x: -.543195724, y: .656394303, z: -.389622748}
+      rotation: {x: -.355159193, y: -.718360364, z: -.33801201, w: -.49352631}
+      scale: {x: .999999821, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Palm_R_01
+      position: {x: .206312135, y: .0098675983, z: -.0842704177}
+      rotation: {x: -.974913538, y: -.00579955475, z: .216302201, w: .0521861501}
+      scale: {x: 1.00000012, y: .999999642, z: .99999994}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_a01
+      position: {x: .244423926, y: .123273045, z: -.0687075257}
+      rotation: {x: -.0110987639, y: .185873151, z: .0617392212, w: .980569363}
+      scale: {x: .99999994, y: .999999702, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_b01
+      position: {x: .0998393148, y: -.00586169306, z: .0188547261}
+      rotation: {x: .0983559489, y: .136685401, z: -.0365965478, w: .985040069}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pinky_R_c01
+      position: {x: .0808058083, y: .00613824232, z: .0339777507}
+      rotation: {x: -.000749728468, y: .072361201, z: .0296937302, w: .996936083}
+      scale: {x: .999999821, y: .999999881, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Pinky_R_01
+      position: {x: .0739573538, y: .00039661568, z: .0370469354}
+      rotation: {x: -.00164501707, y: .268145412, z: .0059100762, w: .963358998}
+      scale: {x: .999999821, y: .999999702, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_a01
+      position: {x: .273263782, y: .0434906483, z: -.0629367307}
+      rotation: {x: -.0326059908, y: .11494334, z: .0041934019, w: .992827952}
+      scale: {x: .999999881, y: .999999762, z: 1.00000024}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_b01
+      position: {x: .122993417, y: -.00275703752, z: -.00585464714}
+      rotation: {x: .100467943, y: .170393616, z: .00216847006, w: .980238497}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ring_R_c01
+      position: {x: .0981291533, y: .00667241262, z: .0352707617}
+      rotation: {x: -.00670637563, y: .0988021567, z: .0530171767, w: .993671119}
+      scale: {x: .999999821, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Ring_R_01
+      position: {x: .0770091116, y: -.00488547282, z: .0382988229}
+      rotation: {x: -.00240184925, y: .0557699054, z: .0429594889, w: .997516215}
+      scale: {x: 1, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_a01
+      position: {x: .268844098, y: -.036597725, z: -.0520884991}
+      rotation: {x: -.0417664945, y: .212524951, z: -.0105397645, w: .976205707}
+      scale: {x: 1, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_b01
+      position: {x: .12927334, y: .00120864925, z: .0197879653}
+      rotation: {x: .0253872424, y: .104638539, z: .041877199, w: .993303835}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Middle_R_c01
+      position: {x: .102460489, y: -.00851333234, z: .0487631708}
+      rotation: {x: -.00468629831, y: .118400335, z: .0144595103, w: .992849648}
+      scale: {x: 1.00000012, y: 1, z: .999999821}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Middle_R_01
+      position: {x: .0766312778, y: -.00265991502, z: .0583582893}
+      rotation: {x: -.00208281493, y: .0662411302, z: .0313590877, w: .997308612}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_a01
+      position: {x: .251056582, y: -.132424444, z: -.061025016}
+      rotation: {x: -.0259539075, y: .279793203, z: -.0238272678, w: .959413588}
+      scale: {x: 1, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_b01
+      position: {x: .121673197, y: -.00238572434, z: .0346526653}
+      rotation: {x: -.0203034673, y: .0618686713, z: -.0258421153, w: .997543097}
+      scale: {x: .999999702, y: .999999881, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pointer_R_c01
+      position: {x: .0902275741, y: .00917479768, z: .0413764827}
+      rotation: {x: -.0134654427, y: .0921171084, z: .087583594, w: .991797507}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Pointer_R_01
+      position: {x: .0760174915, y: -.0135100782, z: .0498755835}
+      rotation: {x: -.00383714889, y: .0416994803, z: .0915515944, w: .994919479}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_a01
+      position: {x: .0498063453, y: -.139898598, z: -.0480485931}
+      rotation: {x: -.0515905544, y: -.00231690099, z: -.472544193, w: .879792571}
+      scale: {x: .999999881, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Thumb_R_b01
+      position: {x: .157386497, y: .0267917756, z: -.02230932}
+      rotation: {x: -.0175646935, y: .238580495, z: -.219827443, w: .945752025}
+      scale: {x: 1.00000024, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Thumb_R_01
+      position: {x: .124766141, y: .0841563866, z: .0405875519}
+      rotation: {x: -.00137761328, y: .0156468283, z: .0876943395, w: .996023595}
+      scale: {x: .99999994, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Pelvis_01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.85860416e-16, y: -1.57970508e-08, z: 8.227663e-11, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_L_01
+      position: {x: -.535356104, y: -.0269025099, z: .0460505821}
+      rotation: {x: .0265094861, y: .0106989928, z: .696574807, w: .716914535}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_L_01
+      position: {x: -1.56803131, y: 6.22704511e-06, z: 6.33641048e-06}
+      rotation: {x: -.0327763185, y: -.0560808741, z: -.00053903379, w: .997887969}
+      scale: {x: .999999821, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_L_01
+      position: {x: -2.52636695, y: 5.33597358e-06, z: 2.11444749e-05}
+      rotation: {x: -.0112010697, y: .0907605886, z: .00181682047, w: .995808065}
+      scale: {x: 1, y: .999999702, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_L_01
+      position: {x: -.331134617, y: -.0231790226, z: .363925993}
+      rotation: {x: .0168500468, y: -.0234302897, z: .0113653606, w: .999518871}
+      scale: {x: 1.00000024, y: 1.00000036, z: .999999821}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_L_01
+      position: {x: -.070731543, y: -.00098826515, z: .585995018}
+      rotation: {x: -2.2080282e-09, y: -2.97431257e-09, z: -2.67239638e-12, w: 1}
+      scale: {x: .999999821, y: .999999762, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Hip_R_01
+      position: {x: .535357296, y: -.0269222576, z: .0460507087}
+      rotation: {x: .0149369473, y: -.0138830747, z: .706939459, w: .70698005}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Knee_R_01
+      position: {x: -1.56725383, y: -.0387009531, z: -.0296083782}
+      rotation: {x: -.0179382637, y: -.00219951943, z: .00215041172, w: .999834359}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Ankle_R_01
+      position: {x: -2.52043724, y: -.0498853102, z: -.165651232}
+      rotation: {x: .0665604323, y: .0494299382, z: -.00321321655, w: .99655211}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:Jnt_Foot_R_01
+      position: {x: -.335854083, y: .0445087627, z: .361771941}
+      rotation: {x: -.085051544, y: -.00400042301, z: .00693005277, w: .996344507}
+      scale: {x: .99999994, y: .999999762, z: 1}
+      transformModified: 1
+    - name: UniversalRig_Final_V03:RefinedRig_Final:BE_Foot_R_01
+      position: {x: -.100156277, y: -.062588796, z: .581660688}
+      rotation: {x: -.0169044379, y: -.0234274864, z: -.0113668088, w: .999518037}
+      scale: {x: 1.00000012, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

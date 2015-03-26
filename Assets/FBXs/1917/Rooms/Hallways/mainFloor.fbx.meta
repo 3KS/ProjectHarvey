@@ -1,0 +1,5077 @@
+fileFormatVersion: 2
+guid: 4aecc5fb2e7524d4e82c3881948ea0f0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ceiling_structure1
+    100002: column
+    100004: column1
+    100006: column2
+    100008: column3
+    100010: column4
+    100012: column5
+    100014: column6
+    100016: column7
+    100018: door1
+    100020: door1 1
+    100022: door1 2
+    100024: door1 3
+    100026: door1 4
+    100028: door1 5
+    100030: door1 6
+    100032: door1 7
+    100034: door1 8
+    100036: door1 9
+    100038: door3
+    100040: door3 1
+    100042: door3 2
+    100044: door_10
+    100046: door_2
+    100048: door_2 1
+    100050: door_4
+    100052: door_4 1
+    100054: door_5
+    100056: door_6
+    100058: door_7
+    100060: door_8
+    100062: door_9
+    100064: door_enclosure
+    100066: door_enclosure 1
+    100068: door_enclosure3
+    100070: door_enclosure3 1
+    100072: door_frame
+    100074: door_frame 1
+    100076: door_frame 2
+    100078: door_frame 3
+    100080: door_frame 4
+    100082: door_frame 5
+    100084: door_frame 6
+    100086: door_frame 7
+    100088: door_frame1
+    100090: door_frame2
+    100092: door_frame3
+    100094: door_group2
+    100096: door_handle1
+    100098: door_window
+    100100: door_window 1
+    100102: door_window 2
+    100104: door_window 3
+    100106: door_window 4
+    100108: door_window 5
+    100110: door_window 6
+    100112: door_window 7
+    100114: door_window1
+    100116: door_window1 1
+    100118: door_window1 2
+    100120: downward_stairs
+    100122: downward_stairs1
+    100124: elevatorDoor1
+    100126: elevatorDoor1 1
+    100128: elevatorDoor2
+    100130: elevatorDoor2 1
+    100132: elevatorFrame
+    100134: elevatorFrame 1
+    100136: entranceDoor_1
+    100138: entranceDoor_2
+    100140: entranceDoor_3
+    100142: entranceDoor_4
+    100144: entranceDoor_5
+    100146: entranceDoor_6
+    100148: entranceDoor_7
+    100150: entranceDoor_7 1
+    100152: entranceDoor_8
+    100154: entranceDoor_8 1
+    100156: entranceDoor_window1
+    100158: entranceDoor_window2
+    100160: entranceDoor_window3
+    100162: entranceDoor_window4
+    100164: entranceDoor_window4 1
+    100166: entrancedoor_windows
+    100168: frontDoor_1
+    100170: frontDoor_2
+    100172: frontDoor_3
+    100174: frontDoor_4
+    100176: frontDoor_5
+    100178: frontDoor_6
+    100180: frontDoor_7
+    100182: frontDoor_7 1
+    100184: frontDoor_8
+    100186: frontDoor_8 1
+    100188: hallway_light1
+    100190: hallway_light11
+    100192: hallway_light12
+    100194: hallway_light13
+    100196: hallway_light14
+    100198: hallway_light15
+    100200: hallway_light16
+    100202: hallway_light2
+    100204: hallway_light3
+    100206: hallway_light4
+    100208: hallway_light5
+    100210: hallway_light6
+    100212: hallway_light7
+    100214: hallway_light8
+    100216: hallway_light9
+    100218: hallway_window
+    100220: hallway_window 1
+    100222: main_backWall
+    100224: main_basementStairs1
+    100226: main_basementStairs2
+    100228: main_basementWalls
+    100230: main_bubbler
+    100232: main_ceiling
+    100234: main_clock
+    100236: main_columns
+    100238: main_door1
+    100240: main_door10
+    100242: main_door2
+    100244: main_door3
+    100246: main_doors
+    100248: main_doors10
+    100250: main_doors11
+    100252: main_doors4
+    100254: main_doors5
+    100256: main_doors6
+    100258: main_doors8
+    100260: main_doors9
+    100262: main_doosr7
+    100264: main_elevatorDoor1
+    100266: main_elevatorDoor2
+    100268: main_elevatorRm
+    100270: main_elevatorRm1
+    100272: main_elevators
+    100274: main_enterWay
+    100276: main_entraceWall1
+    100278: main_entranceWayDoor
+    100280: main_exhibitRmDoors
+    100282: main_exitSign1
+    100284: main_exitSign2
+    100286: main_exitSign3
+    100288: main_exitSigns
+    100290: main_frontDoor
+    100292: main_hallwayLight
+    100294: main_lightSwitch
+    100296: main_radiator1
+    100298: main_radiator2
+    100300: main_radiators
+    100302: main_railing1
+    100304: main_railing2
+    100306: main_railing3
+    100308: main_railing4
+    100310: main_receptDoor1
+    100312: main_receptDoor2
+    100314: main_sideDoor1
+    100316: main_sideDoor2
+    100318: main_sideDoors1
+    100320: main_stairRail
+    100322: main_stairRail1
+    100324: main_stairRailings
+    100326: main_stairRoom1
+    100328: main_stairRoom2
+    100330: main_stairRoom3
+    100332: main_stairRoom4
+    100334: main_stairRoom5
+    100336: main_stairRooms
+    100338: main_stairs
+    100340: main_structure
+    100342: main_theatreDoors
+    100344: main_thing1
+    100346: main_wall1
+    100348: main_wall2
+    100350: main_wall4
+    100352: main_wall5
+    100354: main_wallLamp1
+    100356: main_wallLamp2
+    100358: main_wallLamp3
+    100360: main_wallLamp4
+    100362: main_wallLamps
+    100364: main_wallPoster
+    100366: main_walls
+    100368: main_wallTrim
+    100370: main_wallTrim1
+    100372: main_wallTrim10
+    100374: main_wallTrim11
+    100376: main_wallTrim12
+    100378: main_wallTrim13
+    100380: main_wallTrim14
+    100382: main_wallTrim15
+    100384: main_wallTrim16
+    100386: main_wallTrim17
+    100388: main_wallTrim18
+    100390: main_wallTrim19
+    100392: main_wallTrim2
+    100394: main_wallTrim20
+    100396: main_wallTrim21
+    100398: main_wallTrim3
+    100400: main_wallTrim4
+    100402: main_wallTrim5
+    100404: main_wallTrim6
+    100406: main_wallTrim7
+    100408: main_wallTrim8
+    100410: main_wallTrim9
+    100412: main_windowDoor
+    100414: main_windowDoor1
+    100416: main_windowDoor2
+    100418: main_windowSill
+    100420: //RootNode
+    100422: pCube15
+    100424: pCube45
+    100426: pCube45 1
+    100428: pCube46
+    100430: pCube46 1
+    100432: pCube47
+    100434: pCube47 1
+    100436: pCube48
+    100438: pCube48 1
+    100440: pCube49
+    100442: pCube49 1
+    100444: pCube50
+    100446: pCube50 1
+    100448: pCube51
+    100450: pCube51 1
+    100452: pCube52
+    100454: pCube52 1
+    100456: pCube53
+    100458: pCube53 1
+    100460: pCube54
+    100462: pCube54 1
+    100464: pCube55
+    100466: pCube55 1
+    100468: pCube56
+    100470: pCube56 1
+    100472: pCube57
+    100474: pCube57 1
+    100476: pCube58
+    100478: pCube58 1
+    100480: pCube59
+    100482: pCube59 1
+    100484: pCube60
+    100486: pCube60 1
+    100488: pCylinder73
+    100490: pCylinder73 1
+    100492: pCylinder74
+    100494: pCylinder74 1
+    100496: pCylinder75
+    100498: pCylinder75 1
+    100500: polySurface1
+    100502: transform1
+    100504: upward_stairs
+    100506: upward_stairs1
+    100508: basementWall
+    100510: door
+    100512: door 1
+    100514: door 2
+    100516: door10
+    100518: door13
+    100520: door14
+    100522: door15
+    100524: door16
+    100526: door17
+    100528: door7
+    100530: door7 1
+    100532: door8
+    100534: door8 1
+    100536: door9
+    100538: door_frame11
+    100540: door_frame7
+    100542: door_frame8
+    100544: door_frame9
+    100546: door_group4
+    100548: door_group5
+    100550: doorFrame1
+    100552: doorFrame1 1
+    100554: doorFrame1 2
+    100556: doorFrame2
+    100558: doorWindow
+    100560: doorWindow 1
+    100562: doorWindow 2
+    100564: doorWindow 3
+    100566: doorWindow1
+    100568: doorWindow1 1
+    100570: doorWindow10
+    100572: doorWindow11
+    100574: doorWindow12
+    100576: doorWindow2
+    100578: doorWindow2 1
+    100580: doorWindow3
+    100582: doorWindow4
+    100584: doorWindow7
+    100586: doorWindow8
+    100588: doorWindow9
+    100590: doubleDoor
+    100592: doubleDoor1
+    100594: drFrame_window
+    100596: drFrame_window 1
+    100598: drFrame_window 2
+    100600: drFrame_window1
+    100602: drFrame_window1 1
+    100604: drFrame_window2
+    100606: drFrame_window2 1
+    100608: drFrame_window3
+    100610: drFrame_window4
+    100612: drFrame_window5
+    100614: drFrame_window6
+    100616: elevator1
+    100618: elevator4
+    100620: elevator_floorThing
+    100622: elevator_floorThing1
+    100624: elevatorDoor
+    100626: elevatorDoor 1
+    100628: elevatorFloor
+    100630: elevatorFloor 1
+    100632: elevatorWall
+    100634: entranceDoor_window5
+    100636: glass
+    100638: glass1
+    100640: glass2
+    100642: glass3
+    100644: glass4
+    100646: glass5
+    100648: glass6
+    100650: glass7
+    100652: group1
+    100654: group2
+    100656: group3
+    100658: group4
+    100660: group4 1
+    100662: group5
+    100664: group5 1
+    100666: group6
+    100668: hallway_light17
+    100670: hallway_light18
+    100672: hallway_light19
+    100674: hallway_light20
+    100676: hallway_light21
+    100678: hallway_light22
+    100680: hallway_light23
+    100682: hallway_window1
+    100684: main_bubbler1
+    100686: main_door
+    100688: main_door11
+    100690: main_door12
+    100692: main_entraStairs
+    100694: main_entreFloor
+    100696: main_exitSign4
+    100698: main_exitSign5
+    100700: main_exitSign6
+    100702: main_exitWalls
+    100704: main_exitWalls1
+    100706: main_exitWay
+    100708: main_floors
+    100710: main_radiator3
+    100712: main_radiator4
+    100714: main_railing5
+    100716: main_rtExitStairs
+    100718: main_sideDoor3
+    100720: main_stairRail2
+    100722: main_stairRoom6
+    100724: main_stairRoom7
+    100726: main_stairRoom8
+    100728: main_wallLamp11
+    100730: main_wallLamp12
+    100732: main_wallLamp13
+    100734: mainDoor
+    100736: mainDoor 1
+    100738: mainDoor1
+    100740: mainDoor10
+    100742: mainDoor11
+    100744: mainDoor12
+    100746: mainDoor13
+    100748: mainDoor14
+    100750: mainDoor15
+    100752: mainDoor16
+    100754: mainDoor17
+    100756: mainDoor18
+    100758: mainDoor2
+    100760: mainDoor3
+    100762: mainDoor4
+    100764: mainDoor5
+    100766: mainDoor6
+    100768: mainDoor7
+    100770: mainDoor8
+    100772: mainDoor9
+    100774: mainExitWall
+    100776: mainFloor1
+    100778: mainFloorDetail
+    100780: mainFloorDetail1
+    100782: mainFloorDetail10
+    100784: mainFloorDetail11
+    100786: mainFloorDetail12
+    100788: mainFloorDetail13
+    100790: mainFloorDetail14
+    100792: mainFloorDetail15
+    100794: mainFloorDetail16
+    100796: mainFloorDetail17
+    100798: mainFloorDetail18
+    100800: mainFloorDetail19
+    100802: mainFloorDetail2
+    100804: mainFloorDetail3
+    100806: mainFloorDetail4
+    100808: mainFloorDetail5
+    100810: mainFloorDetail6
+    100812: mainFloorDetail7
+    100814: mainFloorDetail8
+    100816: mainFloorDetail9
+    100818: mainStairs
+    100820: pCube45 2
+    100822: pCube46 2
+    100824: pCube47 2
+    100826: pCube48 2
+    100828: pCube49 2
+    100830: pCube50 2
+    100832: pCube51 2
+    100834: pCube52 2
+    100836: pCube53 2
+    100838: pCube54 2
+    100840: pCube55 2
+    100842: pCube56 2
+    100844: pCube57 2
+    100846: pCube58 2
+    100848: pCube59 2
+    100850: pCube60 2
+    100852: pCylinder73 2
+    100854: pCylinder74 2
+    100856: pCylinder75 2
+    100858: pointer
+    100860: pointer 1
+    100862: polySurface100
+    100864: polySurface101
+    100866: polySurface102
+    100868: polySurface103
+    100870: polySurface104
+    100872: polySurface104 1
+    100874: polySurface105
+    100876: polySurface106
+    100878: polySurface107
+    100880: polySurface108
+    100882: polySurface109
+    100884: polySurface110
+    100886: polySurface110 1
+    100888: polySurface111
+    100890: polySurface112
+    100892: polySurface113
+    100894: polySurface114
+    100896: polySurface115
+    100898: polySurface116
+    100900: polySurface118
+    100902: polySurface118 1
+    100904: polySurface121
+    100906: polySurface124
+    100908: polySurface125
+    100910: polySurface126
+    100912: polySurface127
+    100914: polySurface129
+    100916: polySurface129 1
+    100918: polySurface129 2
+    100920: polySurface146
+    100922: polySurface147
+    100924: polySurface148
+    100926: polySurface148 1
+    100928: polySurface149
+    100930: polySurface149 1
+    100932: polySurface150
+    100934: polySurface151
+    100936: polySurface152
+    100938: polySurface153
+    100940: polySurface154
+    100942: polySurface154 1
+    100944: polySurface155
+    100946: polySurface155 1
+    100948: polySurface156
+    100950: polySurface156 1
+    100952: polySurface157
+    100954: polySurface157 1
+    100956: polySurface158
+    100958: polySurface158 1
+    100960: polySurface159
+    100962: polySurface159 1
+    100964: polySurface160
+    100966: polySurface160 1
+    100968: polySurface161
+    100970: polySurface161 1
+    100972: polySurface162
+    100974: polySurface162 1
+    100976: polySurface163
+    100978: polySurface163 1
+    100980: polySurface164
+    100982: polySurface164 1
+    100984: polySurface165
+    100986: polySurface165 1
+    100988: polySurface166
+    100990: polySurface166 1
+    100992: polySurface167
+    100994: polySurface167 1
+    100996: polySurface168
+    100998: polySurface168 1
+    101000: polySurface169
+    101002: polySurface169 1
+    101004: polySurface170
+    101006: polySurface170 1
+    101008: polySurface171
+    101010: polySurface171 1
+    101012: polySurface172
+    101014: polySurface172 1
+    101016: polySurface173
+    101018: polySurface174
+    101020: polySurface175
+    101022: polySurface176
+    101024: polySurface177
+    101026: polySurface178
+    101028: polySurface179
+    101030: polySurface180
+    101032: polySurface181
+    101034: polySurface182
+    101036: polySurface183
+    101038: polySurface184
+    101040: polySurface185
+    101042: polySurface186
+    101044: polySurface187
+    101046: polySurface188
+    101048: polySurface189
+    101050: polySurface190
+    101052: polySurface191
+    101054: polySurface194
+    101056: polySurface194 1
+    101058: polySurface195
+    101060: polySurface195 1
+    101062: polySurface196
+    101064: polySurface196 1
+    101066: polySurface197
+    101068: polySurface197 1
+    101070: polySurface198
+    101072: polySurface208
+    101074: polySurface209
+    101076: polySurface210
+    101078: polySurface211
+    101080: polySurface213
+    101082: polySurface215
+    101084: polySurface3
+    101086: polySurface32
+    101088: polySurface4
+    101090: polySurface41
+    101092: polySurface45
+    101094: polySurface46
+    101096: polySurface46 1
+    101098: polySurface50
+    101100: polySurface51
+    101102: polySurface51 1
+    101104: polySurface60
+    101106: polySurface60 1
+    101108: polySurface63
+    101110: polySurface63 1
+    101112: polySurface70
+    101114: polySurface75
+    101116: polySurface76
+    101118: polySurface77
+    101120: polySurface78
+    101122: polySurface79
+    101124: polySurface80
+    101126: polySurface81
+    101128: polySurface82
+    101130: polySurface83
+    101132: polySurface84
+    101134: polySurface85
+    101136: polySurface86
+    101138: polySurface87
+    101140: polySurface88
+    101142: polySurface89
+    101144: polySurface90
+    101146: polySurface91
+    101148: polySurface92
+    101150: polySurface93
+    101152: polySurface94
+    101154: polySurface95
+    101156: polySurface96
+    101158: polySurface97
+    101160: polySurface98
+    101162: polySurface99
+    101164: transform10
+    101166: transform11
+    101168: transform12
+    101170: transform13
+    101172: transform14
+    101174: transform15
+    101176: transform16
+    101178: transform17
+    101180: transform18
+    101182: transform19
+    101184: transform2
+    101186: transform20
+    101188: transform20 1
+    101190: transform21
+    101192: transform22
+    101194: transform23
+    101196: transform24
+    101198: transform25
+    101200: transform26
+    101202: transform27
+    101204: transform29
+    101206: transform29 1
+    101208: transform3
+    101210: transform30
+    101212: transform30 1
+    101214: transform33
+    101216: transform4
+    101218: broom
+    101220: bubbler
+    101222: bubbler1
+    101224: bubblerKnob
+    101226: bubblerKnob 1
+    101228: bullBored3
+    101230: cage
+    101232: cage 1
+    101234: cage1
+    101236: cage2
+    101238: cage3
+    101240: cage4
+    101242: cage5
+    101244: cage6
+    101246: cage7
+    101248: cage8
+    101250: CIG
+    101252: cigLid
+    101254: cigPack
+    101256: cigPack 1
+    101258: closedRope
+    101260: closedRope 1
+    101262: closedRope1
+    101264: closedRope1 1
+    101266: closedRope1 2
+    101268: closedRope1 3
+    101270: closedRope1 4
+    101272: closedRope1 5
+    101274: closedRope2
+    101276: closedRope2 1
+    101278: closedRope2 2
+    101280: closedRope2 3
+    101282: closeSigns
+    101284: comb
+    101286: control1
+    101288: control1 1
+    101290: control2
+    101292: control2 1
+    101294: crumpledPaper
+    101296: crumpledPaper1
+    101298: decorativeGlass
+    101300: decorativeGlass1
+    101302: door_handle2
+    101304: door_handle3
+    101306: door_handle4
+    101308: door_handle5
+    101310: door_handle6
+    101312: door_handle7
+    101314: doorCage_1
+    101316: doorCage_1 1
+    101318: doorCage_2
+    101320: doorCage_2 1
+    101322: doorHand10
+    101324: doorHand11
+    101326: doorHand12
+    101328: doorHand13
+    101330: doorHand14
+    101332: doorHand15
+    101334: doorHand16
+    101336: doorHand17
+    101338: doorHand18
+    101340: doorHand19
+    101342: doorHand2
+    101344: doorHand20
+    101346: doorHand21
+    101348: doorHand3
+    101350: doorHand4
+    101352: doorHand5
+    101354: doorHand6
+    101356: doorHand7
+    101358: doorHand8
+    101360: doorHand9
+    101362: downward_stairs6
+    101364: dustPan
+    101366: e_doorCage1
+    101368: e_doorCage1 1
+    101370: e_doorCage10
+    101372: e_doorCage11
+    101374: e_doorCage11 1
+    101376: e_doorCage12
+    101378: e_doorCage12 1
+    101380: e_doorCage13
+    101382: e_doorCage14
+    101384: e_doorCage16
+    101386: e_doorCage3
+    101388: e_doorCage3 1
+    101390: e_doorCage4
+    101392: e_doorCage4 1
+    101394: e_doorCage5
+    101396: e_doorCage5 1
+    101398: e_doorCage6
+    101400: e_doorCage6 1
+    101402: e_doorCage7
+    101404: e_doorCage7 1
+    101406: e_doorCage8
+    101408: e_doorCage9
+    101410: e_doorCage9 1
+    101412: easalRope3
+    101414: easel_bolt
+    101416: easel_bolt1
+    101418: easel_pt3
+    101420: elev_bars10
+    101422: elev_bars10 1
+    101424: elev_bars10 10
+    101426: elev_bars10 11
+    101428: elev_bars10 2
+    101430: elev_bars10 3
+    101432: elev_bars10 4
+    101434: elev_bars10 5
+    101436: elev_bars10 6
+    101438: elev_bars10 7
+    101440: elev_bars10 8
+    101442: elev_bars10 9
+    101444: elev_bars11
+    101446: elev_bars11 1
+    101448: elev_bars11 10
+    101450: elev_bars11 11
+    101452: elev_bars11 2
+    101454: elev_bars11 3
+    101456: elev_bars11 4
+    101458: elev_bars11 5
+    101460: elev_bars11 6
+    101462: elev_bars11 7
+    101464: elev_bars11 8
+    101466: elev_bars11 9
+    101468: elev_bars12
+    101470: elev_bars12 1
+    101472: elev_bars12 10
+    101474: elev_bars12 11
+    101476: elev_bars12 2
+    101478: elev_bars12 3
+    101480: elev_bars12 4
+    101482: elev_bars12 5
+    101484: elev_bars12 6
+    101486: elev_bars12 7
+    101488: elev_bars12 8
+    101490: elev_bars12 9
+    101492: elev_bars13
+    101494: elev_bars13 1
+    101496: elev_bars13 10
+    101498: elev_bars13 11
+    101500: elev_bars13 2
+    101502: elev_bars13 3
+    101504: elev_bars13 4
+    101506: elev_bars13 5
+    101508: elev_bars13 6
+    101510: elev_bars13 7
+    101512: elev_bars13 8
+    101514: elev_bars13 9
+    101516: elev_bars14
+    101518: elev_bars14 1
+    101520: elev_bars14 10
+    101522: elev_bars14 11
+    101524: elev_bars14 2
+    101526: elev_bars14 3
+    101528: elev_bars14 4
+    101530: elev_bars14 5
+    101532: elev_bars14 6
+    101534: elev_bars14 7
+    101536: elev_bars14 8
+    101538: elev_bars14 9
+    101540: elev_bars15
+    101542: elev_bars15 1
+    101544: elev_bars15 10
+    101546: elev_bars15 11
+    101548: elev_bars15 2
+    101550: elev_bars15 3
+    101552: elev_bars15 4
+    101554: elev_bars15 5
+    101556: elev_bars15 6
+    101558: elev_bars15 7
+    101560: elev_bars15 8
+    101562: elev_bars15 9
+    101564: elev_bars16
+    101566: elev_bars16 1
+    101568: elev_bars16 10
+    101570: elev_bars16 11
+    101572: elev_bars16 2
+    101574: elev_bars16 3
+    101576: elev_bars16 4
+    101578: elev_bars16 5
+    101580: elev_bars16 6
+    101582: elev_bars16 7
+    101584: elev_bars16 8
+    101586: elev_bars16 9
+    101588: elev_bars17
+    101590: elev_bars17 1
+    101592: elev_bars17 10
+    101594: elev_bars17 11
+    101596: elev_bars17 2
+    101598: elev_bars17 3
+    101600: elev_bars17 4
+    101602: elev_bars17 5
+    101604: elev_bars17 6
+    101606: elev_bars17 7
+    101608: elev_bars17 8
+    101610: elev_bars17 9
+    101612: elev_bars18
+    101614: elev_bars18 1
+    101616: elev_bars18 10
+    101618: elev_bars18 11
+    101620: elev_bars18 2
+    101622: elev_bars18 3
+    101624: elev_bars18 4
+    101626: elev_bars18 5
+    101628: elev_bars18 6
+    101630: elev_bars18 7
+    101632: elev_bars18 8
+    101634: elev_bars18 9
+    101636: elev_bars19
+    101638: elev_bars19 1
+    101640: elev_bars19 10
+    101642: elev_bars19 11
+    101644: elev_bars19 2
+    101646: elev_bars19 3
+    101648: elev_bars19 4
+    101650: elev_bars19 5
+    101652: elev_bars19 6
+    101654: elev_bars19 7
+    101656: elev_bars19 8
+    101658: elev_bars19 9
+    101660: elev_bars20
+    101662: elev_bars20 1
+    101664: elev_bars20 2
+    101666: elev_bars20 3
+    101668: elev_bars21
+    101670: elev_bars21 1
+    101672: elev_bars21 2
+    101674: elev_bars21 3
+    101676: elev_bars22
+    101678: elev_bars22 1
+    101680: elev_bars22 2
+    101682: elev_bars22 3
+    101684: elev_bars23
+    101686: elev_bars23 1
+    101688: elev_bars23 2
+    101690: elev_bars23 3
+    101692: elev_bars3
+    101694: elev_bars3 1
+    101696: elev_bars3 10
+    101698: elev_bars3 11
+    101700: elev_bars3 2
+    101702: elev_bars3 3
+    101704: elev_bars3 4
+    101706: elev_bars3 5
+    101708: elev_bars3 6
+    101710: elev_bars3 7
+    101712: elev_bars3 8
+    101714: elev_bars3 9
+    101716: elev_bars9
+    101718: elev_bars9 1
+    101720: elev_bars9 10
+    101722: elev_bars9 11
+    101724: elev_bars9 2
+    101726: elev_bars9 3
+    101728: elev_bars9 4
+    101730: elev_bars9 5
+    101732: elev_bars9 6
+    101734: elev_bars9 7
+    101736: elev_bars9 8
+    101738: elev_bars9 9
+    101740: elevator5
+    101742: elevator_floorThing 1
+    101744: elevator_light
+    101746: elevator_light 1
+    101748: elevator_lightSwitch
+    101750: elevator_lightSwitch 1
+    101752: elevatorBell
+    101754: elevatorBell1
+    101756: elevatorCage
+    101758: elevatorCage 1
+    101760: elevatorContorls2
+    101762: elevatorContorls2 1
+    101764: elevatorControls1
+    101766: elevatorControls1 1
+    101768: elevatorFloorSignal
+    101770: elevatorFloorSignal1
+    101772: elevatorGroundPeice
+    101774: elevatorSign1
+    101776: elevatorSign1 1
+    101778: elevatorSign2
+    101780: elevatorSign2 1
+    101782: fancyElevator1
+    101784: fancyElevator2
+    101786: fire
+    101788: fireAlarm
+    101790: fireAlarm 1
+    101792: fireBell
+    101794: fireHose1
+    101796: fireHose2
+    101798: fireHose4
+    101800: fireKnob1
+    101802: fireKnob2
+    101804: fireKnob3
+    101806: gum
+    101808: hallway_light32
+    101810: handle
+    101812: handle 1
+    101814: main_basementStairs3
+    101816: main_blackCeilingTrim
+    101818: main_blackCeilingTrim1
+    101820: main_bubbler1 1
+    101822: main_ceilingLamp
+    101824: main_crownMolding
+    101826: main_crownMolding1
+    101828: main_elevatorDoor2 1
+    101830: main_elevatorRm1 1
+    101832: main_FloorTrim
+    101834: main_lightSwitch1
+    101836: main_radiator5
+    101838: main_railing10
+    101840: main_railing11
+    101842: main_railing12
+    101844: main_railing6
+    101846: main_railing7
+    101848: main_railing8
+    101850: main_railing9
+    101852: main_stairRoom10
+    101854: main_stairRoom11
+    101856: main_stairRoom9
+    101858: main_table
+    101860: main_wallTrim22
+    101862: main_wallTrim23
+    101864: mainCrownMolding
+    101866: mainFloorDetail20
+    101868: mainFloorTrim
+    101870: mainFloorTrim1
+    101872: mainFloorTrim10
+    101874: mainFloorTrim11
+    101876: mainFloorTrim12
+    101878: mainFloorTrim13
+    101880: mainFloorTrim14
+    101882: mainFloorTrim15
+    101884: mainFloorTrim16
+    101886: mainFloorTrim17
+    101888: mainFloorTrim18
+    101890: mainFloorTrim19
+    101892: mainFloorTrim2
+    101894: mainFloorTrim20
+    101896: mainFloorTrim21
+    101898: mainFloorTrim22
+    101900: mainFloorTrim23
+    101902: mainFloorTrim24
+    101904: mainFloorTrim25
+    101906: mainFloorTrim26
+    101908: mainFloorTrim27
+    101910: mainFloorTrim28
+    101912: mainFloorTrim3
+    101914: mainFloorTrim4
+    101916: mainFloorTrim5
+    101918: mainFloorTrim6
+    101920: mainFloorTrim7
+    101922: mainFloorTrim8
+    101924: mainFloorTrim9
+    101926: mainStairs1
+    101928: misc_things
+    101930: otisFloorDetail
+    101932: otisFloorDetail 1
+    101934: painting2
+    101936: paper
+    101938: paper1
+    101940: paper11
+    101942: paper12
+    101944: paper13
+    101946: paper14
+    101948: paper2
+    101950: paper7
+    101952: paper8
+    101954: paper9
+    101956: pCube45 3
+    101958: pCube46 3
+    101960: pCube47 3
+    101962: pCube48 3
+    101964: pCube49 3
+    101966: pCube50 3
+    101968: pCube51 3
+    101970: pCube52 3
+    101972: pCube53 3
+    101974: pCube54 3
+    101976: pCube55 3
+    101978: pCube56 3
+    101980: pCube57 3
+    101982: pCube58 3
+    101984: pCube59 3
+    101986: pCube60 3
+    101988: pCube87
+    101990: pCube87 1
+    101992: pCube88
+    101994: pCube89
+    101996: pCube90
+    101998: pCube91
+    102000: pCube92
+    102002: pCube92 1
+    102004: pCube93
+    102006: pCube94
+    102008: pCylinder73 3
+    102010: pCylinder74 3
+    102012: pCylinder75 3
+    102014: pCylinder78
+    102016: polySurface121 1
+    102018: polySurface217
+    102020: polySurface220
+    102022: polySurface221
+    102024: polySurface221 1
+    102026: polySurface222
+    102028: polySurface222 1
+    102030: polySurface223
+    102032: polySurface223 1
+    102034: polySurface224
+    102036: polySurface224 1
+    102038: polySurface225
+    102040: polySurface225 1
+    102042: polySurface226
+    102044: polySurface226 1
+    102046: polySurface227
+    102048: polySurface227 1
+    102050: polySurface228
+    102052: polySurface229
+    102054: polySurface230
+    102056: polySurface231
+    102058: polySurface50 1
+    102060: posterBoard
+    102062: pushDoor
+    102064: pushDoor1
+    102066: pushDoor10
+    102068: pushDoor2
+    102070: pushDoor3
+    102072: pushDoor4
+    102074: pushDoor5
+    102076: pushDoor6
+    102078: pushDoor7
+    102080: pushDoor8
+    102082: pushDoor9
+    102084: rug
+    102086: rug1
+    102088: rug2
+    102090: rug3
+    102092: rug4
+    102094: stairClosedSign
+    102096: stairClosedSign 1
+    102098: stairClosedSign 2
+    102100: stairClosedSign 3
+    102102: stairClosedSign 4
+    102104: stairClosedSign 5
+    102106: stairClosedSign1
+    102108: stairClosedSign2
+    102110: stairClosedSign3
+    102112: stairClosedSign4
+    102114: stairClosedSign5
+    102116: stairClosedSign6
+    102118: stairWindow
+    102120: stoutonia
+    102122: tape
+    102124: tape 1
+    102126: tape1
+    102128: tape1 1
+    102130: tape2
+    102132: tape2 1
+    102134: transform34
+    102136: transform35
+    102138: transform36
+    102140: transform37
+    102142: transform37 1
+    102144: transform38
+    102146: windowBars
+    102148: windowBars 1
+    102150: windowBars 10
+    102152: windowBars 11
+    102154: windowBars 12
+    102156: windowBars 13
+    102158: windowBars 2
+    102160: windowBars 3
+    102162: windowBars 4
+    102164: windowBars 5
+    102166: windowBars 6
+    102168: windowBars 7
+    102170: windowBars 8
+    102172: windowBars 9
+    102174: windowBars10
+    102176: windowBars10 1
+    102178: windowBars3
+    102180: windowBars3 1
+    102182: windowBars6
+    102184: windowBars6 1
+    102186: windowBars7
+    102188: windowBars7 1
+    102190: windowBars8
+    102192: windowBars8 1
+    102194: windowBars9
+    102196: windowBars9 1
+    102198: windowCage1
+    102200: windowCage1 1
+    102202: windowCage1 10
+    102204: windowCage1 11
+    102206: windowCage1 2
+    102208: windowCage1 3
+    102210: windowCage1 4
+    102212: windowCage1 5
+    102214: windowCage1 6
+    102216: windowCage1 7
+    102218: windowCage1 8
+    102220: windowCage1 9
+    400000: ceiling_structure1
+    400002: column
+    400004: column1
+    400006: column2
+    400008: column3
+    400010: column4
+    400012: column5
+    400014: column6
+    400016: column7
+    400018: door1
+    400020: door1 1
+    400022: door1 2
+    400024: door1 3
+    400026: door1 4
+    400028: door1 5
+    400030: door1 6
+    400032: door1 7
+    400034: door1 8
+    400036: door1 9
+    400038: door3
+    400040: door3 1
+    400042: door3 2
+    400044: door_10
+    400046: door_2
+    400048: door_2 1
+    400050: door_4
+    400052: door_4 1
+    400054: door_5
+    400056: door_6
+    400058: door_7
+    400060: door_8
+    400062: door_9
+    400064: door_enclosure
+    400066: door_enclosure 1
+    400068: door_enclosure3
+    400070: door_enclosure3 1
+    400072: door_frame
+    400074: door_frame 1
+    400076: door_frame 2
+    400078: door_frame 3
+    400080: door_frame 4
+    400082: door_frame 5
+    400084: door_frame 6
+    400086: door_frame 7
+    400088: door_frame1
+    400090: door_frame2
+    400092: door_frame3
+    400094: door_group2
+    400096: door_handle1
+    400098: door_window
+    400100: door_window 1
+    400102: door_window 2
+    400104: door_window 3
+    400106: door_window 4
+    400108: door_window 5
+    400110: door_window 6
+    400112: door_window 7
+    400114: door_window1
+    400116: door_window1 1
+    400118: door_window1 2
+    400120: downward_stairs
+    400122: downward_stairs1
+    400124: elevatorDoor1
+    400126: elevatorDoor1 1
+    400128: elevatorDoor2
+    400130: elevatorDoor2 1
+    400132: elevatorFrame
+    400134: elevatorFrame 1
+    400136: entranceDoor_1
+    400138: entranceDoor_2
+    400140: entranceDoor_3
+    400142: entranceDoor_4
+    400144: entranceDoor_5
+    400146: entranceDoor_6
+    400148: entranceDoor_7
+    400150: entranceDoor_7 1
+    400152: entranceDoor_8
+    400154: entranceDoor_8 1
+    400156: entranceDoor_window1
+    400158: entranceDoor_window2
+    400160: entranceDoor_window3
+    400162: entranceDoor_window4
+    400164: entranceDoor_window4 1
+    400166: entrancedoor_windows
+    400168: frontDoor_1
+    400170: frontDoor_2
+    400172: frontDoor_3
+    400174: frontDoor_4
+    400176: frontDoor_5
+    400178: frontDoor_6
+    400180: frontDoor_7
+    400182: frontDoor_7 1
+    400184: frontDoor_8
+    400186: frontDoor_8 1
+    400188: hallway_light1
+    400190: hallway_light11
+    400192: hallway_light12
+    400194: hallway_light13
+    400196: hallway_light14
+    400198: hallway_light15
+    400200: hallway_light16
+    400202: hallway_light2
+    400204: hallway_light3
+    400206: hallway_light4
+    400208: hallway_light5
+    400210: hallway_light6
+    400212: hallway_light7
+    400214: hallway_light8
+    400216: hallway_light9
+    400218: hallway_window
+    400220: hallway_window 1
+    400222: main_backWall
+    400224: main_basementStairs1
+    400226: main_basementStairs2
+    400228: main_basementWalls
+    400230: main_bubbler
+    400232: main_ceiling
+    400234: main_clock
+    400236: main_columns
+    400238: main_door1
+    400240: main_door10
+    400242: main_door2
+    400244: main_door3
+    400246: main_doors
+    400248: main_doors10
+    400250: main_doors11
+    400252: main_doors4
+    400254: main_doors5
+    400256: main_doors6
+    400258: main_doors8
+    400260: main_doors9
+    400262: main_doosr7
+    400264: main_elevatorDoor1
+    400266: main_elevatorDoor2
+    400268: main_elevatorRm
+    400270: main_elevatorRm1
+    400272: main_elevators
+    400274: main_enterWay
+    400276: main_entraceWall1
+    400278: main_entranceWayDoor
+    400280: main_exhibitRmDoors
+    400282: main_exitSign1
+    400284: main_exitSign2
+    400286: main_exitSign3
+    400288: main_exitSigns
+    400290: main_frontDoor
+    400292: main_hallwayLight
+    400294: main_lightSwitch
+    400296: main_radiator1
+    400298: main_radiator2
+    400300: main_radiators
+    400302: main_railing1
+    400304: main_railing2
+    400306: main_railing3
+    400308: main_railing4
+    400310: main_receptDoor1
+    400312: main_receptDoor2
+    400314: main_sideDoor1
+    400316: main_sideDoor2
+    400318: main_sideDoors1
+    400320: main_stairRail
+    400322: main_stairRail1
+    400324: main_stairRailings
+    400326: main_stairRoom1
+    400328: main_stairRoom2
+    400330: main_stairRoom3
+    400332: main_stairRoom4
+    400334: main_stairRoom5
+    400336: main_stairRooms
+    400338: main_stairs
+    400340: main_structure
+    400342: main_theatreDoors
+    400344: main_thing1
+    400346: main_wall1
+    400348: main_wall2
+    400350: main_wall4
+    400352: main_wall5
+    400354: main_wallLamp1
+    400356: main_wallLamp2
+    400358: main_wallLamp3
+    400360: main_wallLamp4
+    400362: main_wallLamps
+    400364: main_wallPoster
+    400366: main_walls
+    400368: main_wallTrim
+    400370: main_wallTrim1
+    400372: main_wallTrim10
+    400374: main_wallTrim11
+    400376: main_wallTrim12
+    400378: main_wallTrim13
+    400380: main_wallTrim14
+    400382: main_wallTrim15
+    400384: main_wallTrim16
+    400386: main_wallTrim17
+    400388: main_wallTrim18
+    400390: main_wallTrim19
+    400392: main_wallTrim2
+    400394: main_wallTrim20
+    400396: main_wallTrim21
+    400398: main_wallTrim3
+    400400: main_wallTrim4
+    400402: main_wallTrim5
+    400404: main_wallTrim6
+    400406: main_wallTrim7
+    400408: main_wallTrim8
+    400410: main_wallTrim9
+    400412: main_windowDoor
+    400414: main_windowDoor1
+    400416: main_windowDoor2
+    400418: main_windowSill
+    400420: //RootNode
+    400422: pCube15
+    400424: pCube45
+    400426: pCube45 1
+    400428: pCube46
+    400430: pCube46 1
+    400432: pCube47
+    400434: pCube47 1
+    400436: pCube48
+    400438: pCube48 1
+    400440: pCube49
+    400442: pCube49 1
+    400444: pCube50
+    400446: pCube50 1
+    400448: pCube51
+    400450: pCube51 1
+    400452: pCube52
+    400454: pCube52 1
+    400456: pCube53
+    400458: pCube53 1
+    400460: pCube54
+    400462: pCube54 1
+    400464: pCube55
+    400466: pCube55 1
+    400468: pCube56
+    400470: pCube56 1
+    400472: pCube57
+    400474: pCube57 1
+    400476: pCube58
+    400478: pCube58 1
+    400480: pCube59
+    400482: pCube59 1
+    400484: pCube60
+    400486: pCube60 1
+    400488: pCylinder73
+    400490: pCylinder73 1
+    400492: pCylinder74
+    400494: pCylinder74 1
+    400496: pCylinder75
+    400498: pCylinder75 1
+    400500: polySurface1
+    400502: transform1
+    400504: upward_stairs
+    400506: upward_stairs1
+    400508: basementWall
+    400510: door
+    400512: door 1
+    400514: door 2
+    400516: door10
+    400518: door13
+    400520: door14
+    400522: door15
+    400524: door16
+    400526: door17
+    400528: door7
+    400530: door7 1
+    400532: door8
+    400534: door8 1
+    400536: door9
+    400538: door_frame11
+    400540: door_frame7
+    400542: door_frame8
+    400544: door_frame9
+    400546: door_group4
+    400548: door_group5
+    400550: doorFrame1
+    400552: doorFrame1 1
+    400554: doorFrame1 2
+    400556: doorFrame2
+    400558: doorWindow
+    400560: doorWindow 1
+    400562: doorWindow 2
+    400564: doorWindow 3
+    400566: doorWindow1
+    400568: doorWindow1 1
+    400570: doorWindow10
+    400572: doorWindow11
+    400574: doorWindow12
+    400576: doorWindow2
+    400578: doorWindow2 1
+    400580: doorWindow3
+    400582: doorWindow4
+    400584: doorWindow7
+    400586: doorWindow8
+    400588: doorWindow9
+    400590: doubleDoor
+    400592: doubleDoor1
+    400594: drFrame_window
+    400596: drFrame_window 1
+    400598: drFrame_window 2
+    400600: drFrame_window1
+    400602: drFrame_window1 1
+    400604: drFrame_window2
+    400606: drFrame_window2 1
+    400608: drFrame_window3
+    400610: drFrame_window4
+    400612: drFrame_window5
+    400614: drFrame_window6
+    400616: elevator1
+    400618: elevator4
+    400620: elevator_floorThing
+    400622: elevator_floorThing1
+    400624: elevatorDoor
+    400626: elevatorDoor 1
+    400628: elevatorFloor
+    400630: elevatorFloor 1
+    400632: elevatorWall
+    400634: entranceDoor_window5
+    400636: glass
+    400638: glass1
+    400640: glass2
+    400642: glass3
+    400644: glass4
+    400646: glass5
+    400648: glass6
+    400650: glass7
+    400652: group1
+    400654: group2
+    400656: group3
+    400658: group4
+    400660: group4 1
+    400662: group5
+    400664: group5 1
+    400666: group6
+    400668: hallway_light17
+    400670: hallway_light18
+    400672: hallway_light19
+    400674: hallway_light20
+    400676: hallway_light21
+    400678: hallway_light22
+    400680: hallway_light23
+    400682: hallway_window1
+    400684: main_bubbler1
+    400686: main_door
+    400688: main_door11
+    400690: main_door12
+    400692: main_entraStairs
+    400694: main_entreFloor
+    400696: main_exitSign4
+    400698: main_exitSign5
+    400700: main_exitSign6
+    400702: main_exitWalls
+    400704: main_exitWalls1
+    400706: main_exitWay
+    400708: main_floors
+    400710: main_radiator3
+    400712: main_radiator4
+    400714: main_railing5
+    400716: main_rtExitStairs
+    400718: main_sideDoor3
+    400720: main_stairRail2
+    400722: main_stairRoom6
+    400724: main_stairRoom7
+    400726: main_stairRoom8
+    400728: main_wallLamp11
+    400730: main_wallLamp12
+    400732: main_wallLamp13
+    400734: mainDoor
+    400736: mainDoor 1
+    400738: mainDoor1
+    400740: mainDoor10
+    400742: mainDoor11
+    400744: mainDoor12
+    400746: mainDoor13
+    400748: mainDoor14
+    400750: mainDoor15
+    400752: mainDoor16
+    400754: mainDoor17
+    400756: mainDoor18
+    400758: mainDoor2
+    400760: mainDoor3
+    400762: mainDoor4
+    400764: mainDoor5
+    400766: mainDoor6
+    400768: mainDoor7
+    400770: mainDoor8
+    400772: mainDoor9
+    400774: mainExitWall
+    400776: mainFloor1
+    400778: mainFloorDetail
+    400780: mainFloorDetail1
+    400782: mainFloorDetail10
+    400784: mainFloorDetail11
+    400786: mainFloorDetail12
+    400788: mainFloorDetail13
+    400790: mainFloorDetail14
+    400792: mainFloorDetail15
+    400794: mainFloorDetail16
+    400796: mainFloorDetail17
+    400798: mainFloorDetail18
+    400800: mainFloorDetail19
+    400802: mainFloorDetail2
+    400804: mainFloorDetail3
+    400806: mainFloorDetail4
+    400808: mainFloorDetail5
+    400810: mainFloorDetail6
+    400812: mainFloorDetail7
+    400814: mainFloorDetail8
+    400816: mainFloorDetail9
+    400818: mainStairs
+    400820: pCube45 2
+    400822: pCube46 2
+    400824: pCube47 2
+    400826: pCube48 2
+    400828: pCube49 2
+    400830: pCube50 2
+    400832: pCube51 2
+    400834: pCube52 2
+    400836: pCube53 2
+    400838: pCube54 2
+    400840: pCube55 2
+    400842: pCube56 2
+    400844: pCube57 2
+    400846: pCube58 2
+    400848: pCube59 2
+    400850: pCube60 2
+    400852: pCylinder73 2
+    400854: pCylinder74 2
+    400856: pCylinder75 2
+    400858: pointer
+    400860: pointer 1
+    400862: polySurface100
+    400864: polySurface101
+    400866: polySurface102
+    400868: polySurface103
+    400870: polySurface104
+    400872: polySurface104 1
+    400874: polySurface105
+    400876: polySurface106
+    400878: polySurface107
+    400880: polySurface108
+    400882: polySurface109
+    400884: polySurface110
+    400886: polySurface110 1
+    400888: polySurface111
+    400890: polySurface112
+    400892: polySurface113
+    400894: polySurface114
+    400896: polySurface115
+    400898: polySurface116
+    400900: polySurface118
+    400902: polySurface118 1
+    400904: polySurface121
+    400906: polySurface124
+    400908: polySurface125
+    400910: polySurface126
+    400912: polySurface127
+    400914: polySurface129
+    400916: polySurface129 1
+    400918: polySurface129 2
+    400920: polySurface146
+    400922: polySurface147
+    400924: polySurface148
+    400926: polySurface148 1
+    400928: polySurface149
+    400930: polySurface149 1
+    400932: polySurface150
+    400934: polySurface151
+    400936: polySurface152
+    400938: polySurface153
+    400940: polySurface154
+    400942: polySurface154 1
+    400944: polySurface155
+    400946: polySurface155 1
+    400948: polySurface156
+    400950: polySurface156 1
+    400952: polySurface157
+    400954: polySurface157 1
+    400956: polySurface158
+    400958: polySurface158 1
+    400960: polySurface159
+    400962: polySurface159 1
+    400964: polySurface160
+    400966: polySurface160 1
+    400968: polySurface161
+    400970: polySurface161 1
+    400972: polySurface162
+    400974: polySurface162 1
+    400976: polySurface163
+    400978: polySurface163 1
+    400980: polySurface164
+    400982: polySurface164 1
+    400984: polySurface165
+    400986: polySurface165 1
+    400988: polySurface166
+    400990: polySurface166 1
+    400992: polySurface167
+    400994: polySurface167 1
+    400996: polySurface168
+    400998: polySurface168 1
+    401000: polySurface169
+    401002: polySurface169 1
+    401004: polySurface170
+    401006: polySurface170 1
+    401008: polySurface171
+    401010: polySurface171 1
+    401012: polySurface172
+    401014: polySurface172 1
+    401016: polySurface173
+    401018: polySurface174
+    401020: polySurface175
+    401022: polySurface176
+    401024: polySurface177
+    401026: polySurface178
+    401028: polySurface179
+    401030: polySurface180
+    401032: polySurface181
+    401034: polySurface182
+    401036: polySurface183
+    401038: polySurface184
+    401040: polySurface185
+    401042: polySurface186
+    401044: polySurface187
+    401046: polySurface188
+    401048: polySurface189
+    401050: polySurface190
+    401052: polySurface191
+    401054: polySurface194
+    401056: polySurface194 1
+    401058: polySurface195
+    401060: polySurface195 1
+    401062: polySurface196
+    401064: polySurface196 1
+    401066: polySurface197
+    401068: polySurface197 1
+    401070: polySurface198
+    401072: polySurface208
+    401074: polySurface209
+    401076: polySurface210
+    401078: polySurface211
+    401080: polySurface213
+    401082: polySurface215
+    401084: polySurface3
+    401086: polySurface32
+    401088: polySurface4
+    401090: polySurface41
+    401092: polySurface45
+    401094: polySurface46
+    401096: polySurface46 1
+    401098: polySurface50
+    401100: polySurface51
+    401102: polySurface51 1
+    401104: polySurface60
+    401106: polySurface60 1
+    401108: polySurface63
+    401110: polySurface63 1
+    401112: polySurface70
+    401114: polySurface75
+    401116: polySurface76
+    401118: polySurface77
+    401120: polySurface78
+    401122: polySurface79
+    401124: polySurface80
+    401126: polySurface81
+    401128: polySurface82
+    401130: polySurface83
+    401132: polySurface84
+    401134: polySurface85
+    401136: polySurface86
+    401138: polySurface87
+    401140: polySurface88
+    401142: polySurface89
+    401144: polySurface90
+    401146: polySurface91
+    401148: polySurface92
+    401150: polySurface93
+    401152: polySurface94
+    401154: polySurface95
+    401156: polySurface96
+    401158: polySurface97
+    401160: polySurface98
+    401162: polySurface99
+    401164: transform10
+    401166: transform11
+    401168: transform12
+    401170: transform13
+    401172: transform14
+    401174: transform15
+    401176: transform16
+    401178: transform17
+    401180: transform18
+    401182: transform19
+    401184: transform2
+    401186: transform20
+    401188: transform20 1
+    401190: transform21
+    401192: transform22
+    401194: transform23
+    401196: transform24
+    401198: transform25
+    401200: transform26
+    401202: transform27
+    401204: transform29
+    401206: transform29 1
+    401208: transform3
+    401210: transform30
+    401212: transform30 1
+    401214: transform33
+    401216: transform4
+    401218: broom
+    401220: bubbler
+    401222: bubbler1
+    401224: bubblerKnob
+    401226: bubblerKnob 1
+    401228: bullBored3
+    401230: cage
+    401232: cage 1
+    401234: cage1
+    401236: cage2
+    401238: cage3
+    401240: cage4
+    401242: cage5
+    401244: cage6
+    401246: cage7
+    401248: cage8
+    401250: CIG
+    401252: cigLid
+    401254: cigPack
+    401256: cigPack 1
+    401258: closedRope
+    401260: closedRope 1
+    401262: closedRope1
+    401264: closedRope1 1
+    401266: closedRope1 2
+    401268: closedRope1 3
+    401270: closedRope1 4
+    401272: closedRope1 5
+    401274: closedRope2
+    401276: closedRope2 1
+    401278: closedRope2 2
+    401280: closedRope2 3
+    401282: closeSigns
+    401284: comb
+    401286: control1
+    401288: control1 1
+    401290: control2
+    401292: control2 1
+    401294: crumpledPaper
+    401296: crumpledPaper1
+    401298: decorativeGlass
+    401300: decorativeGlass1
+    401302: door_handle2
+    401304: door_handle3
+    401306: door_handle4
+    401308: door_handle5
+    401310: door_handle6
+    401312: door_handle7
+    401314: doorCage_1
+    401316: doorCage_1 1
+    401318: doorCage_2
+    401320: doorCage_2 1
+    401322: doorHand10
+    401324: doorHand11
+    401326: doorHand12
+    401328: doorHand13
+    401330: doorHand14
+    401332: doorHand15
+    401334: doorHand16
+    401336: doorHand17
+    401338: doorHand18
+    401340: doorHand19
+    401342: doorHand2
+    401344: doorHand20
+    401346: doorHand21
+    401348: doorHand3
+    401350: doorHand4
+    401352: doorHand5
+    401354: doorHand6
+    401356: doorHand7
+    401358: doorHand8
+    401360: doorHand9
+    401362: downward_stairs6
+    401364: dustPan
+    401366: e_doorCage1
+    401368: e_doorCage1 1
+    401370: e_doorCage10
+    401372: e_doorCage11
+    401374: e_doorCage11 1
+    401376: e_doorCage12
+    401378: e_doorCage12 1
+    401380: e_doorCage13
+    401382: e_doorCage14
+    401384: e_doorCage16
+    401386: e_doorCage3
+    401388: e_doorCage3 1
+    401390: e_doorCage4
+    401392: e_doorCage4 1
+    401394: e_doorCage5
+    401396: e_doorCage5 1
+    401398: e_doorCage6
+    401400: e_doorCage6 1
+    401402: e_doorCage7
+    401404: e_doorCage7 1
+    401406: e_doorCage8
+    401408: e_doorCage9
+    401410: e_doorCage9 1
+    401412: easalRope3
+    401414: easel_bolt
+    401416: easel_bolt1
+    401418: easel_pt3
+    401420: elev_bars10
+    401422: elev_bars10 1
+    401424: elev_bars10 10
+    401426: elev_bars10 11
+    401428: elev_bars10 2
+    401430: elev_bars10 3
+    401432: elev_bars10 4
+    401434: elev_bars10 5
+    401436: elev_bars10 6
+    401438: elev_bars10 7
+    401440: elev_bars10 8
+    401442: elev_bars10 9
+    401444: elev_bars11
+    401446: elev_bars11 1
+    401448: elev_bars11 10
+    401450: elev_bars11 11
+    401452: elev_bars11 2
+    401454: elev_bars11 3
+    401456: elev_bars11 4
+    401458: elev_bars11 5
+    401460: elev_bars11 6
+    401462: elev_bars11 7
+    401464: elev_bars11 8
+    401466: elev_bars11 9
+    401468: elev_bars12
+    401470: elev_bars12 1
+    401472: elev_bars12 10
+    401474: elev_bars12 11
+    401476: elev_bars12 2
+    401478: elev_bars12 3
+    401480: elev_bars12 4
+    401482: elev_bars12 5
+    401484: elev_bars12 6
+    401486: elev_bars12 7
+    401488: elev_bars12 8
+    401490: elev_bars12 9
+    401492: elev_bars13
+    401494: elev_bars13 1
+    401496: elev_bars13 10
+    401498: elev_bars13 11
+    401500: elev_bars13 2
+    401502: elev_bars13 3
+    401504: elev_bars13 4
+    401506: elev_bars13 5
+    401508: elev_bars13 6
+    401510: elev_bars13 7
+    401512: elev_bars13 8
+    401514: elev_bars13 9
+    401516: elev_bars14
+    401518: elev_bars14 1
+    401520: elev_bars14 10
+    401522: elev_bars14 11
+    401524: elev_bars14 2
+    401526: elev_bars14 3
+    401528: elev_bars14 4
+    401530: elev_bars14 5
+    401532: elev_bars14 6
+    401534: elev_bars14 7
+    401536: elev_bars14 8
+    401538: elev_bars14 9
+    401540: elev_bars15
+    401542: elev_bars15 1
+    401544: elev_bars15 10
+    401546: elev_bars15 11
+    401548: elev_bars15 2
+    401550: elev_bars15 3
+    401552: elev_bars15 4
+    401554: elev_bars15 5
+    401556: elev_bars15 6
+    401558: elev_bars15 7
+    401560: elev_bars15 8
+    401562: elev_bars15 9
+    401564: elev_bars16
+    401566: elev_bars16 1
+    401568: elev_bars16 10
+    401570: elev_bars16 11
+    401572: elev_bars16 2
+    401574: elev_bars16 3
+    401576: elev_bars16 4
+    401578: elev_bars16 5
+    401580: elev_bars16 6
+    401582: elev_bars16 7
+    401584: elev_bars16 8
+    401586: elev_bars16 9
+    401588: elev_bars17
+    401590: elev_bars17 1
+    401592: elev_bars17 10
+    401594: elev_bars17 11
+    401596: elev_bars17 2
+    401598: elev_bars17 3
+    401600: elev_bars17 4
+    401602: elev_bars17 5
+    401604: elev_bars17 6
+    401606: elev_bars17 7
+    401608: elev_bars17 8
+    401610: elev_bars17 9
+    401612: elev_bars18
+    401614: elev_bars18 1
+    401616: elev_bars18 10
+    401618: elev_bars18 11
+    401620: elev_bars18 2
+    401622: elev_bars18 3
+    401624: elev_bars18 4
+    401626: elev_bars18 5
+    401628: elev_bars18 6
+    401630: elev_bars18 7
+    401632: elev_bars18 8
+    401634: elev_bars18 9
+    401636: elev_bars19
+    401638: elev_bars19 1
+    401640: elev_bars19 10
+    401642: elev_bars19 11
+    401644: elev_bars19 2
+    401646: elev_bars19 3
+    401648: elev_bars19 4
+    401650: elev_bars19 5
+    401652: elev_bars19 6
+    401654: elev_bars19 7
+    401656: elev_bars19 8
+    401658: elev_bars19 9
+    401660: elev_bars20
+    401662: elev_bars20 1
+    401664: elev_bars20 2
+    401666: elev_bars20 3
+    401668: elev_bars21
+    401670: elev_bars21 1
+    401672: elev_bars21 2
+    401674: elev_bars21 3
+    401676: elev_bars22
+    401678: elev_bars22 1
+    401680: elev_bars22 2
+    401682: elev_bars22 3
+    401684: elev_bars23
+    401686: elev_bars23 1
+    401688: elev_bars23 2
+    401690: elev_bars23 3
+    401692: elev_bars3
+    401694: elev_bars3 1
+    401696: elev_bars3 10
+    401698: elev_bars3 11
+    401700: elev_bars3 2
+    401702: elev_bars3 3
+    401704: elev_bars3 4
+    401706: elev_bars3 5
+    401708: elev_bars3 6
+    401710: elev_bars3 7
+    401712: elev_bars3 8
+    401714: elev_bars3 9
+    401716: elev_bars9
+    401718: elev_bars9 1
+    401720: elev_bars9 10
+    401722: elev_bars9 11
+    401724: elev_bars9 2
+    401726: elev_bars9 3
+    401728: elev_bars9 4
+    401730: elev_bars9 5
+    401732: elev_bars9 6
+    401734: elev_bars9 7
+    401736: elev_bars9 8
+    401738: elev_bars9 9
+    401740: elevator5
+    401742: elevator_floorThing 1
+    401744: elevator_light
+    401746: elevator_light 1
+    401748: elevator_lightSwitch
+    401750: elevator_lightSwitch 1
+    401752: elevatorBell
+    401754: elevatorBell1
+    401756: elevatorCage
+    401758: elevatorCage 1
+    401760: elevatorContorls2
+    401762: elevatorContorls2 1
+    401764: elevatorControls1
+    401766: elevatorControls1 1
+    401768: elevatorFloorSignal
+    401770: elevatorFloorSignal1
+    401772: elevatorGroundPeice
+    401774: elevatorSign1
+    401776: elevatorSign1 1
+    401778: elevatorSign2
+    401780: elevatorSign2 1
+    401782: fancyElevator1
+    401784: fancyElevator2
+    401786: fire
+    401788: fireAlarm
+    401790: fireAlarm 1
+    401792: fireBell
+    401794: fireHose1
+    401796: fireHose2
+    401798: fireHose4
+    401800: fireKnob1
+    401802: fireKnob2
+    401804: fireKnob3
+    401806: gum
+    401808: hallway_light32
+    401810: handle
+    401812: handle 1
+    401814: main_basementStairs3
+    401816: main_blackCeilingTrim
+    401818: main_blackCeilingTrim1
+    401820: main_bubbler1 1
+    401822: main_ceilingLamp
+    401824: main_crownMolding
+    401826: main_crownMolding1
+    401828: main_elevatorDoor2 1
+    401830: main_elevatorRm1 1
+    401832: main_FloorTrim
+    401834: main_lightSwitch1
+    401836: main_radiator5
+    401838: main_railing10
+    401840: main_railing11
+    401842: main_railing12
+    401844: main_railing6
+    401846: main_railing7
+    401848: main_railing8
+    401850: main_railing9
+    401852: main_stairRoom10
+    401854: main_stairRoom11
+    401856: main_stairRoom9
+    401858: main_table
+    401860: main_wallTrim22
+    401862: main_wallTrim23
+    401864: mainCrownMolding
+    401866: mainFloorDetail20
+    401868: mainFloorTrim
+    401870: mainFloorTrim1
+    401872: mainFloorTrim10
+    401874: mainFloorTrim11
+    401876: mainFloorTrim12
+    401878: mainFloorTrim13
+    401880: mainFloorTrim14
+    401882: mainFloorTrim15
+    401884: mainFloorTrim16
+    401886: mainFloorTrim17
+    401888: mainFloorTrim18
+    401890: mainFloorTrim19
+    401892: mainFloorTrim2
+    401894: mainFloorTrim20
+    401896: mainFloorTrim21
+    401898: mainFloorTrim22
+    401900: mainFloorTrim23
+    401902: mainFloorTrim24
+    401904: mainFloorTrim25
+    401906: mainFloorTrim26
+    401908: mainFloorTrim27
+    401910: mainFloorTrim28
+    401912: mainFloorTrim3
+    401914: mainFloorTrim4
+    401916: mainFloorTrim5
+    401918: mainFloorTrim6
+    401920: mainFloorTrim7
+    401922: mainFloorTrim8
+    401924: mainFloorTrim9
+    401926: mainStairs1
+    401928: misc_things
+    401930: otisFloorDetail
+    401932: otisFloorDetail 1
+    401934: painting2
+    401936: paper
+    401938: paper1
+    401940: paper11
+    401942: paper12
+    401944: paper13
+    401946: paper14
+    401948: paper2
+    401950: paper7
+    401952: paper8
+    401954: paper9
+    401956: pCube45 3
+    401958: pCube46 3
+    401960: pCube47 3
+    401962: pCube48 3
+    401964: pCube49 3
+    401966: pCube50 3
+    401968: pCube51 3
+    401970: pCube52 3
+    401972: pCube53 3
+    401974: pCube54 3
+    401976: pCube55 3
+    401978: pCube56 3
+    401980: pCube57 3
+    401982: pCube58 3
+    401984: pCube59 3
+    401986: pCube60 3
+    401988: pCube87
+    401990: pCube87 1
+    401992: pCube88
+    401994: pCube89
+    401996: pCube90
+    401998: pCube91
+    402000: pCube92
+    402002: pCube92 1
+    402004: pCube93
+    402006: pCube94
+    402008: pCylinder73 3
+    402010: pCylinder74 3
+    402012: pCylinder75 3
+    402014: pCylinder78
+    402016: polySurface121 1
+    402018: polySurface217
+    402020: polySurface220
+    402022: polySurface221
+    402024: polySurface221 1
+    402026: polySurface222
+    402028: polySurface222 1
+    402030: polySurface223
+    402032: polySurface223 1
+    402034: polySurface224
+    402036: polySurface224 1
+    402038: polySurface225
+    402040: polySurface225 1
+    402042: polySurface226
+    402044: polySurface226 1
+    402046: polySurface227
+    402048: polySurface227 1
+    402050: polySurface228
+    402052: polySurface229
+    402054: polySurface230
+    402056: polySurface231
+    402058: polySurface50 1
+    402060: posterBoard
+    402062: pushDoor
+    402064: pushDoor1
+    402066: pushDoor10
+    402068: pushDoor2
+    402070: pushDoor3
+    402072: pushDoor4
+    402074: pushDoor5
+    402076: pushDoor6
+    402078: pushDoor7
+    402080: pushDoor8
+    402082: pushDoor9
+    402084: rug
+    402086: rug1
+    402088: rug2
+    402090: rug3
+    402092: rug4
+    402094: stairClosedSign
+    402096: stairClosedSign 1
+    402098: stairClosedSign 2
+    402100: stairClosedSign 3
+    402102: stairClosedSign 4
+    402104: stairClosedSign 5
+    402106: stairClosedSign1
+    402108: stairClosedSign2
+    402110: stairClosedSign3
+    402112: stairClosedSign4
+    402114: stairClosedSign5
+    402116: stairClosedSign6
+    402118: stairWindow
+    402120: stoutonia
+    402122: tape
+    402124: tape 1
+    402126: tape1
+    402128: tape1 1
+    402130: tape2
+    402132: tape2 1
+    402134: transform34
+    402136: transform35
+    402138: transform36
+    402140: transform37
+    402142: transform37 1
+    402144: transform38
+    402146: windowBars
+    402148: windowBars 1
+    402150: windowBars 10
+    402152: windowBars 11
+    402154: windowBars 12
+    402156: windowBars 13
+    402158: windowBars 2
+    402160: windowBars 3
+    402162: windowBars 4
+    402164: windowBars 5
+    402166: windowBars 6
+    402168: windowBars 7
+    402170: windowBars 8
+    402172: windowBars 9
+    402174: windowBars10
+    402176: windowBars10 1
+    402178: windowBars3
+    402180: windowBars3 1
+    402182: windowBars6
+    402184: windowBars6 1
+    402186: windowBars7
+    402188: windowBars7 1
+    402190: windowBars8
+    402192: windowBars8 1
+    402194: windowBars9
+    402196: windowBars9 1
+    402198: windowCage1
+    402200: windowCage1 1
+    402202: windowCage1 10
+    402204: windowCage1 11
+    402206: windowCage1 2
+    402208: windowCage1 3
+    402210: windowCage1 4
+    402212: windowCage1 5
+    402214: windowCage1 6
+    402216: windowCage1 7
+    402218: windowCage1 8
+    402220: windowCage1 9
+    2300000: ceiling_structure1
+    2300002: column
+    2300004: column1
+    2300006: column2
+    2300008: column3
+    2300010: column4
+    2300012: column5
+    2300014: column6
+    2300016: column7
+    2300018: door1
+    2300020: door1 1
+    2300022: door1 2
+    2300024: door1 3
+    2300026: door1 4
+    2300028: door1 5
+    2300030: door1 6
+    2300032: door1 7
+    2300034: door1 8
+    2300036: door1 9
+    2300038: door3
+    2300040: door3 1
+    2300042: door3 2
+    2300044: door_10
+    2300046: door_2
+    2300048: door_2 1
+    2300050: door_4
+    2300052: door_4 1
+    2300054: door_5
+    2300056: door_6
+    2300058: door_7
+    2300060: door_8
+    2300062: door_9
+    2300064: door_enclosure
+    2300066: door_enclosure 1
+    2300068: door_enclosure3
+    2300070: door_enclosure3 1
+    2300072: door_frame
+    2300074: door_frame 1
+    2300076: door_frame 2
+    2300078: door_frame 3
+    2300080: door_frame 4
+    2300082: door_frame 5
+    2300084: door_frame 6
+    2300086: door_frame 7
+    2300088: door_frame1
+    2300090: door_frame2
+    2300092: door_frame3
+    2300094: door_handle1
+    2300096: door_window
+    2300098: door_window 1
+    2300100: door_window 2
+    2300102: door_window 3
+    2300104: door_window 4
+    2300106: door_window 5
+    2300108: door_window 6
+    2300110: door_window 7
+    2300112: door_window1
+    2300114: door_window1 1
+    2300116: door_window1 2
+    2300118: downward_stairs
+    2300120: downward_stairs1
+    2300122: elevatorDoor1
+    2300124: elevatorDoor1 1
+    2300126: elevatorDoor2
+    2300128: elevatorDoor2 1
+    2300130: elevatorFrame
+    2300132: elevatorFrame 1
+    2300134: entranceDoor_1
+    2300136: entranceDoor_2
+    2300138: entranceDoor_3
+    2300140: entranceDoor_4
+    2300142: entranceDoor_5
+    2300144: entranceDoor_6
+    2300146: entranceDoor_7
+    2300148: entranceDoor_7 1
+    2300150: entranceDoor_8
+    2300152: entranceDoor_8 1
+    2300154: entranceDoor_window1
+    2300156: entranceDoor_window2
+    2300158: entranceDoor_window3
+    2300160: entranceDoor_window4
+    2300162: entranceDoor_window4 1
+    2300164: frontDoor_1
+    2300166: frontDoor_2
+    2300168: frontDoor_3
+    2300170: frontDoor_4
+    2300172: frontDoor_5
+    2300174: frontDoor_6
+    2300176: frontDoor_7
+    2300178: frontDoor_7 1
+    2300180: frontDoor_8
+    2300182: frontDoor_8 1
+    2300184: hallway_light1
+    2300186: hallway_light11
+    2300188: hallway_light12
+    2300190: hallway_light13
+    2300192: hallway_light14
+    2300194: hallway_light15
+    2300196: hallway_light16
+    2300198: hallway_light2
+    2300200: hallway_light3
+    2300202: hallway_light4
+    2300204: hallway_light5
+    2300206: hallway_light6
+    2300208: hallway_light7
+    2300210: hallway_light8
+    2300212: hallway_light9
+    2300214: hallway_window
+    2300216: hallway_window 1
+    2300218: main_backWall
+    2300220: main_basementStairs1
+    2300222: main_basementStairs2
+    2300224: main_basementWalls
+    2300226: main_bubbler
+    2300228: main_ceiling
+    2300230: main_clock
+    2300232: main_door2
+    2300234: main_elevatorRm
+    2300236: main_elevatorRm1
+    2300238: main_enterWay
+    2300240: main_entraceWall1
+    2300242: main_exitSign1
+    2300244: main_exitSign2
+    2300246: main_exitSign3
+    2300248: main_lightSwitch
+    2300250: main_railing1
+    2300252: main_railing2
+    2300254: main_railing3
+    2300256: main_railing4
+    2300258: main_stairRail
+    2300260: main_stairRail1
+    2300262: main_stairRoom1
+    2300264: main_stairRoom2
+    2300266: main_stairRoom3
+    2300268: main_stairRoom4
+    2300270: main_stairRoom5
+    2300272: main_thing1
+    2300274: main_wall1
+    2300276: main_wall2
+    2300278: main_wall4
+    2300280: main_wall5
+    2300282: main_wallLamp1
+    2300284: main_wallLamp2
+    2300286: main_wallLamp3
+    2300288: main_wallLamp4
+    2300290: main_wallPoster
+    2300292: main_wallTrim1
+    2300294: main_wallTrim10
+    2300296: main_wallTrim11
+    2300298: main_wallTrim12
+    2300300: main_wallTrim13
+    2300302: main_wallTrim14
+    2300304: main_wallTrim15
+    2300306: main_wallTrim16
+    2300308: main_wallTrim17
+    2300310: main_wallTrim18
+    2300312: main_wallTrim19
+    2300314: main_wallTrim2
+    2300316: main_wallTrim20
+    2300318: main_wallTrim21
+    2300320: main_wallTrim3
+    2300322: main_wallTrim4
+    2300324: main_wallTrim5
+    2300326: main_wallTrim6
+    2300328: main_wallTrim7
+    2300330: main_wallTrim8
+    2300332: main_wallTrim9
+    2300334: main_windowDoor1
+    2300336: main_windowDoor2
+    2300338: main_windowSill
+    2300340: pCube15
+    2300342: pCube45
+    2300344: pCube45 1
+    2300346: pCube46
+    2300348: pCube46 1
+    2300350: pCube47
+    2300352: pCube47 1
+    2300354: pCube48
+    2300356: pCube48 1
+    2300358: pCube49
+    2300360: pCube49 1
+    2300362: pCube50
+    2300364: pCube50 1
+    2300366: pCube51
+    2300368: pCube51 1
+    2300370: pCube52
+    2300372: pCube52 1
+    2300374: pCube53
+    2300376: pCube53 1
+    2300378: pCube54
+    2300380: pCube54 1
+    2300382: pCube55
+    2300384: pCube55 1
+    2300386: pCube56
+    2300388: pCube56 1
+    2300390: pCube57
+    2300392: pCube57 1
+    2300394: pCube58
+    2300396: pCube58 1
+    2300398: pCube59
+    2300400: pCube59 1
+    2300402: pCube60
+    2300404: pCube60 1
+    2300406: pCylinder73
+    2300408: pCylinder73 1
+    2300410: pCylinder74
+    2300412: pCylinder74 1
+    2300414: pCylinder75
+    2300416: pCylinder75 1
+    2300418: polySurface1
+    2300420: upward_stairs
+    2300422: upward_stairs1
+    2300424: basementWall
+    2300426: door
+    2300428: door 1
+    2300430: door 2
+    2300432: door10
+    2300434: door13
+    2300436: door14
+    2300438: door15
+    2300440: door16
+    2300442: door17
+    2300444: door7
+    2300446: door7 1
+    2300448: door8
+    2300450: door8 1
+    2300452: door9
+    2300454: door_frame11
+    2300456: door_frame7
+    2300458: door_frame8
+    2300460: door_frame9
+    2300462: doorFrame1
+    2300464: doorFrame1 1
+    2300466: doorFrame1 2
+    2300468: doorFrame2
+    2300470: doorWindow
+    2300472: doorWindow 1
+    2300474: doorWindow 2
+    2300476: doorWindow1
+    2300478: doorWindow1 1
+    2300480: doorWindow10
+    2300482: doorWindow2
+    2300484: doorWindow2 1
+    2300486: doorWindow3
+    2300488: doorWindow4
+    2300490: doorWindow7
+    2300492: doorWindow8
+    2300494: doorWindow9
+    2300496: drFrame_window
+    2300498: drFrame_window 1
+    2300500: drFrame_window 2
+    2300502: drFrame_window1
+    2300504: drFrame_window1 1
+    2300506: drFrame_window2
+    2300508: drFrame_window2 1
+    2300510: drFrame_window3
+    2300512: drFrame_window4
+    2300514: drFrame_window5
+    2300516: drFrame_window6
+    2300518: elevatorFloor
+    2300520: elevatorFloor 1
+    2300522: elevatorWall
+    2300524: glass
+    2300526: glass1
+    2300528: glass2
+    2300530: glass3
+    2300532: glass4
+    2300534: glass5
+    2300536: glass6
+    2300538: glass7
+    2300540: hallway_light17
+    2300542: hallway_light18
+    2300544: hallway_light19
+    2300546: hallway_light20
+    2300548: hallway_light21
+    2300550: hallway_light22
+    2300552: hallway_light23
+    2300554: main_bubbler1
+    2300556: main_entraStairs
+    2300558: main_entreFloor
+    2300560: main_exitSign4
+    2300562: main_exitSign5
+    2300564: main_exitSign6
+    2300566: main_exitWalls
+    2300568: main_exitWalls1
+    2300570: main_exitWay
+    2300572: main_railing5
+    2300574: main_rtExitStairs
+    2300576: main_stairRail2
+    2300578: main_stairRoom6
+    2300580: main_stairRoom7
+    2300582: main_stairRoom8
+    2300584: main_wallLamp11
+    2300586: main_wallLamp12
+    2300588: main_wallLamp13
+    2300590: mainDoor 1
+    2300592: mainDoor1
+    2300594: mainDoor2
+    2300596: mainDoor3
+    2300598: mainDoor4
+    2300600: mainDoor5
+    2300602: mainDoor6
+    2300604: mainDoor7
+    2300606: mainDoor8
+    2300608: mainDoor9
+    2300610: mainExitWall
+    2300612: mainFloor1
+    2300614: mainFloorDetail
+    2300616: mainFloorDetail1
+    2300618: mainFloorDetail10
+    2300620: mainFloorDetail11
+    2300622: mainFloorDetail12
+    2300624: mainFloorDetail13
+    2300626: mainFloorDetail14
+    2300628: mainFloorDetail15
+    2300630: mainFloorDetail16
+    2300632: mainFloorDetail17
+    2300634: mainFloorDetail18
+    2300636: mainFloorDetail19
+    2300638: mainFloorDetail2
+    2300640: mainFloorDetail3
+    2300642: mainFloorDetail4
+    2300644: mainFloorDetail5
+    2300646: mainFloorDetail6
+    2300648: mainFloorDetail7
+    2300650: mainFloorDetail8
+    2300652: mainFloorDetail9
+    2300654: mainStairs
+    2300656: pCube45 2
+    2300658: pCube46 2
+    2300660: pCube47 2
+    2300662: pCube48 2
+    2300664: pCube49 2
+    2300666: pCube50 2
+    2300668: pCube51 2
+    2300670: pCube52 2
+    2300672: pCube53 2
+    2300674: pCube54 2
+    2300676: pCube55 2
+    2300678: pCube56 2
+    2300680: pCube57 2
+    2300682: pCube58 2
+    2300684: pCube59 2
+    2300686: pCube60 2
+    2300688: pCylinder73 2
+    2300690: pCylinder74 2
+    2300692: pCylinder75 2
+    2300694: pointer
+    2300696: pointer 1
+    2300698: polySurface100
+    2300700: polySurface101
+    2300702: polySurface102
+    2300704: polySurface103
+    2300706: polySurface104
+    2300708: polySurface104 1
+    2300710: polySurface105
+    2300712: polySurface106
+    2300714: polySurface107
+    2300716: polySurface108
+    2300718: polySurface109
+    2300720: polySurface110
+    2300722: polySurface110 1
+    2300724: polySurface111
+    2300726: polySurface112
+    2300728: polySurface113
+    2300730: polySurface114
+    2300732: polySurface115
+    2300734: polySurface116
+    2300736: polySurface118
+    2300738: polySurface118 1
+    2300740: polySurface121
+    2300742: polySurface124
+    2300744: polySurface125
+    2300746: polySurface126
+    2300748: polySurface127
+    2300750: polySurface129
+    2300752: polySurface129 1
+    2300754: polySurface129 2
+    2300756: polySurface147
+    2300758: polySurface148
+    2300760: polySurface148 1
+    2300762: polySurface149
+    2300764: polySurface149 1
+    2300766: polySurface151
+    2300768: polySurface152
+    2300770: polySurface153
+    2300772: polySurface154
+    2300774: polySurface154 1
+    2300776: polySurface155
+    2300778: polySurface155 1
+    2300780: polySurface156
+    2300782: polySurface156 1
+    2300784: polySurface157
+    2300786: polySurface157 1
+    2300788: polySurface158
+    2300790: polySurface158 1
+    2300792: polySurface159
+    2300794: polySurface159 1
+    2300796: polySurface160
+    2300798: polySurface160 1
+    2300800: polySurface161
+    2300802: polySurface161 1
+    2300804: polySurface162
+    2300806: polySurface162 1
+    2300808: polySurface163
+    2300810: polySurface163 1
+    2300812: polySurface164
+    2300814: polySurface164 1
+    2300816: polySurface165
+    2300818: polySurface165 1
+    2300820: polySurface166
+    2300822: polySurface166 1
+    2300824: polySurface167
+    2300826: polySurface167 1
+    2300828: polySurface168
+    2300830: polySurface168 1
+    2300832: polySurface169
+    2300834: polySurface169 1
+    2300836: polySurface170
+    2300838: polySurface170 1
+    2300840: polySurface171
+    2300842: polySurface171 1
+    2300844: polySurface172
+    2300846: polySurface172 1
+    2300848: polySurface173
+    2300850: polySurface174
+    2300852: polySurface175
+    2300854: polySurface176
+    2300856: polySurface177
+    2300858: polySurface178
+    2300860: polySurface179
+    2300862: polySurface180
+    2300864: polySurface181
+    2300866: polySurface182
+    2300868: polySurface183
+    2300870: polySurface184
+    2300872: polySurface185
+    2300874: polySurface186
+    2300876: polySurface187
+    2300878: polySurface188
+    2300880: polySurface189
+    2300882: polySurface190
+    2300884: polySurface191
+    2300886: polySurface194
+    2300888: polySurface194 1
+    2300890: polySurface195
+    2300892: polySurface195 1
+    2300894: polySurface196
+    2300896: polySurface196 1
+    2300898: polySurface197
+    2300900: polySurface197 1
+    2300902: polySurface198
+    2300904: polySurface208
+    2300906: polySurface209
+    2300908: polySurface210
+    2300910: polySurface211
+    2300912: polySurface213
+    2300914: polySurface215
+    2300916: polySurface45
+    2300918: polySurface46
+    2300920: polySurface46 1
+    2300922: polySurface50
+    2300924: polySurface51
+    2300926: polySurface51 1
+    2300928: polySurface60
+    2300930: polySurface60 1
+    2300932: polySurface63
+    2300934: polySurface63 1
+    2300936: polySurface75
+    2300938: polySurface76
+    2300940: polySurface77
+    2300942: polySurface78
+    2300944: polySurface79
+    2300946: polySurface80
+    2300948: polySurface81
+    2300950: polySurface82
+    2300952: polySurface83
+    2300954: polySurface84
+    2300956: polySurface85
+    2300958: polySurface86
+    2300960: polySurface87
+    2300962: polySurface88
+    2300964: polySurface89
+    2300966: polySurface90
+    2300968: polySurface91
+    2300970: polySurface92
+    2300972: polySurface93
+    2300974: polySurface94
+    2300976: polySurface95
+    2300978: polySurface96
+    2300980: polySurface97
+    2300982: polySurface98
+    2300984: polySurface99
+    2300986: broom
+    2300988: bubblerKnob
+    2300990: bubblerKnob 1
+    2300992: bullBored3
+    2300994: cage
+    2300996: cage 1
+    2300998: cage1
+    2301000: cage2
+    2301002: cage3
+    2301004: cage4
+    2301006: cage5
+    2301008: cage6
+    2301010: cage7
+    2301012: cage8
+    2301014: CIG
+    2301016: cigLid
+    2301018: cigPack 1
+    2301020: closedRope
+    2301022: closedRope 1
+    2301024: closedRope1
+    2301026: closedRope1 1
+    2301028: closedRope1 2
+    2301030: closedRope1 3
+    2301032: closedRope1 4
+    2301034: closedRope1 5
+    2301036: closedRope2
+    2301038: closedRope2 1
+    2301040: closedRope2 2
+    2301042: closedRope2 3
+    2301044: comb
+    2301046: control1
+    2301048: control1 1
+    2301050: control2
+    2301052: control2 1
+    2301054: crumpledPaper
+    2301056: crumpledPaper1
+    2301058: decorativeGlass
+    2301060: decorativeGlass1
+    2301062: door_handle2
+    2301064: door_handle3
+    2301066: door_handle4
+    2301068: door_handle5
+    2301070: door_handle6
+    2301072: door_handle7
+    2301074: doorHand10
+    2301076: doorHand11
+    2301078: doorHand12
+    2301080: doorHand13
+    2301082: doorHand14
+    2301084: doorHand15
+    2301086: doorHand16
+    2301088: doorHand17
+    2301090: doorHand18
+    2301092: doorHand19
+    2301094: doorHand2
+    2301096: doorHand20
+    2301098: doorHand21
+    2301100: doorHand3
+    2301102: doorHand4
+    2301104: doorHand5
+    2301106: doorHand6
+    2301108: doorHand7
+    2301110: doorHand8
+    2301112: doorHand9
+    2301114: downward_stairs6
+    2301116: dustPan
+    2301118: e_doorCage1
+    2301120: e_doorCage1 1
+    2301122: e_doorCage10
+    2301124: e_doorCage11
+    2301126: e_doorCage11 1
+    2301128: e_doorCage12
+    2301130: e_doorCage12 1
+    2301132: e_doorCage13
+    2301134: e_doorCage14
+    2301136: e_doorCage16
+    2301138: e_doorCage3
+    2301140: e_doorCage3 1
+    2301142: e_doorCage4
+    2301144: e_doorCage4 1
+    2301146: e_doorCage5
+    2301148: e_doorCage5 1
+    2301150: e_doorCage6
+    2301152: e_doorCage6 1
+    2301154: e_doorCage7
+    2301156: e_doorCage7 1
+    2301158: e_doorCage8
+    2301160: e_doorCage9
+    2301162: e_doorCage9 1
+    2301164: easalRope3
+    2301166: easel_bolt
+    2301168: easel_bolt1
+    2301170: easel_pt3
+    2301172: elev_bars10
+    2301174: elev_bars10 1
+    2301176: elev_bars10 10
+    2301178: elev_bars10 11
+    2301180: elev_bars10 2
+    2301182: elev_bars10 3
+    2301184: elev_bars10 4
+    2301186: elev_bars10 5
+    2301188: elev_bars10 6
+    2301190: elev_bars10 7
+    2301192: elev_bars10 8
+    2301194: elev_bars10 9
+    2301196: elev_bars11
+    2301198: elev_bars11 1
+    2301200: elev_bars11 10
+    2301202: elev_bars11 11
+    2301204: elev_bars11 2
+    2301206: elev_bars11 3
+    2301208: elev_bars11 4
+    2301210: elev_bars11 5
+    2301212: elev_bars11 6
+    2301214: elev_bars11 7
+    2301216: elev_bars11 8
+    2301218: elev_bars11 9
+    2301220: elev_bars12
+    2301222: elev_bars12 1
+    2301224: elev_bars12 10
+    2301226: elev_bars12 11
+    2301228: elev_bars12 2
+    2301230: elev_bars12 3
+    2301232: elev_bars12 4
+    2301234: elev_bars12 5
+    2301236: elev_bars12 6
+    2301238: elev_bars12 7
+    2301240: elev_bars12 8
+    2301242: elev_bars12 9
+    2301244: elev_bars13
+    2301246: elev_bars13 1
+    2301248: elev_bars13 10
+    2301250: elev_bars13 11
+    2301252: elev_bars13 2
+    2301254: elev_bars13 3
+    2301256: elev_bars13 4
+    2301258: elev_bars13 5
+    2301260: elev_bars13 6
+    2301262: elev_bars13 7
+    2301264: elev_bars13 8
+    2301266: elev_bars13 9
+    2301268: elev_bars14
+    2301270: elev_bars14 1
+    2301272: elev_bars14 10
+    2301274: elev_bars14 11
+    2301276: elev_bars14 2
+    2301278: elev_bars14 3
+    2301280: elev_bars14 4
+    2301282: elev_bars14 5
+    2301284: elev_bars14 6
+    2301286: elev_bars14 7
+    2301288: elev_bars14 8
+    2301290: elev_bars14 9
+    2301292: elev_bars15
+    2301294: elev_bars15 1
+    2301296: elev_bars15 10
+    2301298: elev_bars15 11
+    2301300: elev_bars15 2
+    2301302: elev_bars15 3
+    2301304: elev_bars15 4
+    2301306: elev_bars15 5
+    2301308: elev_bars15 6
+    2301310: elev_bars15 7
+    2301312: elev_bars15 8
+    2301314: elev_bars15 9
+    2301316: elev_bars16
+    2301318: elev_bars16 1
+    2301320: elev_bars16 10
+    2301322: elev_bars16 11
+    2301324: elev_bars16 2
+    2301326: elev_bars16 3
+    2301328: elev_bars16 4
+    2301330: elev_bars16 5
+    2301332: elev_bars16 6
+    2301334: elev_bars16 7
+    2301336: elev_bars16 8
+    2301338: elev_bars16 9
+    2301340: elev_bars17
+    2301342: elev_bars17 1
+    2301344: elev_bars17 10
+    2301346: elev_bars17 11
+    2301348: elev_bars17 2
+    2301350: elev_bars17 3
+    2301352: elev_bars17 4
+    2301354: elev_bars17 5
+    2301356: elev_bars17 6
+    2301358: elev_bars17 7
+    2301360: elev_bars17 8
+    2301362: elev_bars17 9
+    2301364: elev_bars18
+    2301366: elev_bars18 1
+    2301368: elev_bars18 10
+    2301370: elev_bars18 11
+    2301372: elev_bars18 2
+    2301374: elev_bars18 3
+    2301376: elev_bars18 4
+    2301378: elev_bars18 5
+    2301380: elev_bars18 6
+    2301382: elev_bars18 7
+    2301384: elev_bars18 8
+    2301386: elev_bars18 9
+    2301388: elev_bars19
+    2301390: elev_bars19 1
+    2301392: elev_bars19 10
+    2301394: elev_bars19 11
+    2301396: elev_bars19 2
+    2301398: elev_bars19 3
+    2301400: elev_bars19 4
+    2301402: elev_bars19 5
+    2301404: elev_bars19 6
+    2301406: elev_bars19 7
+    2301408: elev_bars19 8
+    2301410: elev_bars19 9
+    2301412: elev_bars20
+    2301414: elev_bars20 1
+    2301416: elev_bars20 2
+    2301418: elev_bars20 3
+    2301420: elev_bars21
+    2301422: elev_bars21 1
+    2301424: elev_bars21 2
+    2301426: elev_bars21 3
+    2301428: elev_bars22
+    2301430: elev_bars22 1
+    2301432: elev_bars22 2
+    2301434: elev_bars22 3
+    2301436: elev_bars23
+    2301438: elev_bars23 1
+    2301440: elev_bars23 2
+    2301442: elev_bars23 3
+    2301444: elev_bars3
+    2301446: elev_bars3 1
+    2301448: elev_bars3 10
+    2301450: elev_bars3 11
+    2301452: elev_bars3 2
+    2301454: elev_bars3 3
+    2301456: elev_bars3 4
+    2301458: elev_bars3 5
+    2301460: elev_bars3 6
+    2301462: elev_bars3 7
+    2301464: elev_bars3 8
+    2301466: elev_bars3 9
+    2301468: elev_bars9
+    2301470: elev_bars9 1
+    2301472: elev_bars9 10
+    2301474: elev_bars9 11
+    2301476: elev_bars9 2
+    2301478: elev_bars9 3
+    2301480: elev_bars9 4
+    2301482: elev_bars9 5
+    2301484: elev_bars9 6
+    2301486: elev_bars9 7
+    2301488: elev_bars9 8
+    2301490: elev_bars9 9
+    2301492: elevator_light
+    2301494: elevator_light 1
+    2301496: elevator_lightSwitch
+    2301498: elevator_lightSwitch 1
+    2301500: elevatorBell
+    2301502: elevatorBell1
+    2301504: elevatorContorls2
+    2301506: elevatorContorls2 1
+    2301508: elevatorControls1
+    2301510: elevatorControls1 1
+    2301512: elevatorFloorSignal
+    2301514: elevatorFloorSignal1
+    2301516: elevatorGroundPeice
+    2301518: elevatorSign1
+    2301520: elevatorSign1 1
+    2301522: elevatorSign2
+    2301524: elevatorSign2 1
+    2301526: fireAlarm 1
+    2301528: fireBell
+    2301530: fireHose1
+    2301532: fireHose2
+    2301534: fireHose4
+    2301536: fireKnob1
+    2301538: fireKnob2
+    2301540: fireKnob3
+    2301542: gum
+    2301544: hallway_light32
+    2301546: handle
+    2301548: handle 1
+    2301550: main_basementStairs3
+    2301552: main_blackCeilingTrim
+    2301554: main_blackCeilingTrim1
+    2301556: main_bubbler1 1
+    2301558: main_ceilingLamp
+    2301560: main_crownMolding
+    2301562: main_crownMolding1
+    2301564: main_lightSwitch1
+    2301566: main_railing10
+    2301568: main_railing11
+    2301570: main_railing12
+    2301572: main_railing6
+    2301574: main_railing7
+    2301576: main_railing8
+    2301578: main_railing9
+    2301580: main_stairRoom10
+    2301582: main_stairRoom11
+    2301584: main_stairRoom9
+    2301586: main_table
+    2301588: main_wallTrim22
+    2301590: main_wallTrim23
+    2301592: mainFloorDetail20
+    2301594: mainFloorTrim
+    2301596: mainFloorTrim1
+    2301598: mainFloorTrim10
+    2301600: mainFloorTrim11
+    2301602: mainFloorTrim12
+    2301604: mainFloorTrim13
+    2301606: mainFloorTrim14
+    2301608: mainFloorTrim15
+    2301610: mainFloorTrim16
+    2301612: mainFloorTrim17
+    2301614: mainFloorTrim18
+    2301616: mainFloorTrim19
+    2301618: mainFloorTrim2
+    2301620: mainFloorTrim20
+    2301622: mainFloorTrim21
+    2301624: mainFloorTrim22
+    2301626: mainFloorTrim23
+    2301628: mainFloorTrim26
+    2301630: mainFloorTrim27
+    2301632: mainFloorTrim28
+    2301634: mainFloorTrim3
+    2301636: mainFloorTrim4
+    2301638: mainFloorTrim5
+    2301640: mainFloorTrim6
+    2301642: mainFloorTrim7
+    2301644: mainFloorTrim8
+    2301646: mainFloorTrim9
+    2301648: mainStairs1
+    2301650: otisFloorDetail
+    2301652: otisFloorDetail 1
+    2301654: painting2
+    2301656: paper
+    2301658: paper1
+    2301660: paper11
+    2301662: paper12
+    2301664: paper13
+    2301666: paper14
+    2301668: paper2
+    2301670: paper7
+    2301672: paper8
+    2301674: paper9
+    2301676: pCube45 3
+    2301678: pCube46 3
+    2301680: pCube47 3
+    2301682: pCube48 3
+    2301684: pCube49 3
+    2301686: pCube50 3
+    2301688: pCube51 3
+    2301690: pCube52 3
+    2301692: pCube53 3
+    2301694: pCube54 3
+    2301696: pCube55 3
+    2301698: pCube56 3
+    2301700: pCube57 3
+    2301702: pCube58 3
+    2301704: pCube59 3
+    2301706: pCube60 3
+    2301708: pCube87
+    2301710: pCube87 1
+    2301712: pCube88
+    2301714: pCube89
+    2301716: pCube90
+    2301718: pCube91
+    2301720: pCube92
+    2301722: pCube92 1
+    2301724: pCube93
+    2301726: pCube94
+    2301728: pCylinder73 3
+    2301730: pCylinder74 3
+    2301732: pCylinder75 3
+    2301734: pCylinder78
+    2301736: polySurface121 1
+    2301738: polySurface217
+    2301740: polySurface220
+    2301742: polySurface221
+    2301744: polySurface221 1
+    2301746: polySurface222
+    2301748: polySurface222 1
+    2301750: polySurface223
+    2301752: polySurface223 1
+    2301754: polySurface224
+    2301756: polySurface224 1
+    2301758: polySurface225
+    2301760: polySurface225 1
+    2301762: polySurface226
+    2301764: polySurface226 1
+    2301766: polySurface227
+    2301768: polySurface227 1
+    2301770: polySurface228
+    2301772: polySurface229
+    2301774: polySurface230
+    2301776: polySurface231
+    2301778: polySurface50 1
+    2301780: posterBoard
+    2301782: pushDoor
+    2301784: pushDoor1
+    2301786: pushDoor10
+    2301788: pushDoor2
+    2301790: pushDoor3
+    2301792: pushDoor5
+    2301794: pushDoor6
+    2301796: pushDoor7
+    2301798: pushDoor8
+    2301800: pushDoor9
+    2301802: rug
+    2301804: rug1
+    2301806: rug2
+    2301808: rug3
+    2301810: rug4
+    2301812: stairClosedSign 1
+    2301814: stairClosedSign 2
+    2301816: stairClosedSign 3
+    2301818: stairClosedSign 4
+    2301820: stairClosedSign 5
+    2301822: stairClosedSign6
+    2301824: stairWindow
+    2301826: stoutonia
+    2301828: tape
+    2301830: tape 1
+    2301832: tape1
+    2301834: tape1 1
+    2301836: tape2
+    2301838: tape2 1
+    2301840: windowCage1
+    2301842: windowCage1 1
+    2301844: windowCage1 10
+    2301846: windowCage1 11
+    2301848: windowCage1 2
+    2301850: windowCage1 3
+    2301852: windowCage1 4
+    2301854: windowCage1 5
+    2301856: windowCage1 6
+    2301858: windowCage1 7
+    2301860: windowCage1 8
+    2301862: windowCage1 9
+    3300000: ceiling_structure1
+    3300002: column
+    3300004: column1
+    3300006: column2
+    3300008: column3
+    3300010: column4
+    3300012: column5
+    3300014: column6
+    3300016: column7
+    3300018: door1
+    3300020: door1 1
+    3300022: door1 2
+    3300024: door1 3
+    3300026: door1 4
+    3300028: door1 5
+    3300030: door1 6
+    3300032: door1 7
+    3300034: door1 8
+    3300036: door1 9
+    3300038: door3
+    3300040: door3 1
+    3300042: door3 2
+    3300044: door_10
+    3300046: door_2
+    3300048: door_2 1
+    3300050: door_4
+    3300052: door_4 1
+    3300054: door_5
+    3300056: door_6
+    3300058: door_7
+    3300060: door_8
+    3300062: door_9
+    3300064: door_enclosure
+    3300066: door_enclosure 1
+    3300068: door_enclosure3
+    3300070: door_enclosure3 1
+    3300072: door_frame
+    3300074: door_frame 1
+    3300076: door_frame 2
+    3300078: door_frame 3
+    3300080: door_frame 4
+    3300082: door_frame 5
+    3300084: door_frame 6
+    3300086: door_frame 7
+    3300088: door_frame1
+    3300090: door_frame2
+    3300092: door_frame3
+    3300094: door_handle1
+    3300096: door_window
+    3300098: door_window 1
+    3300100: door_window 2
+    3300102: door_window 3
+    3300104: door_window 4
+    3300106: door_window 5
+    3300108: door_window 6
+    3300110: door_window 7
+    3300112: door_window1
+    3300114: door_window1 1
+    3300116: door_window1 2
+    3300118: downward_stairs
+    3300120: downward_stairs1
+    3300122: elevatorDoor1
+    3300124: elevatorDoor1 1
+    3300126: elevatorDoor2
+    3300128: elevatorDoor2 1
+    3300130: elevatorFrame
+    3300132: elevatorFrame 1
+    3300134: entranceDoor_1
+    3300136: entranceDoor_2
+    3300138: entranceDoor_3
+    3300140: entranceDoor_4
+    3300142: entranceDoor_5
+    3300144: entranceDoor_6
+    3300146: entranceDoor_7
+    3300148: entranceDoor_7 1
+    3300150: entranceDoor_8
+    3300152: entranceDoor_8 1
+    3300154: entranceDoor_window1
+    3300156: entranceDoor_window2
+    3300158: entranceDoor_window3
+    3300160: entranceDoor_window4
+    3300162: entranceDoor_window4 1
+    3300164: frontDoor_1
+    3300166: frontDoor_2
+    3300168: frontDoor_3
+    3300170: frontDoor_4
+    3300172: frontDoor_5
+    3300174: frontDoor_6
+    3300176: frontDoor_7
+    3300178: frontDoor_7 1
+    3300180: frontDoor_8
+    3300182: frontDoor_8 1
+    3300184: hallway_light1
+    3300186: hallway_light11
+    3300188: hallway_light12
+    3300190: hallway_light13
+    3300192: hallway_light14
+    3300194: hallway_light15
+    3300196: hallway_light16
+    3300198: hallway_light2
+    3300200: hallway_light3
+    3300202: hallway_light4
+    3300204: hallway_light5
+    3300206: hallway_light6
+    3300208: hallway_light7
+    3300210: hallway_light8
+    3300212: hallway_light9
+    3300214: hallway_window
+    3300216: hallway_window 1
+    3300218: main_backWall
+    3300220: main_basementStairs1
+    3300222: main_basementStairs2
+    3300224: main_basementWalls
+    3300226: main_bubbler
+    3300228: main_ceiling
+    3300230: main_clock
+    3300232: main_door2
+    3300234: main_elevatorRm
+    3300236: main_elevatorRm1
+    3300238: main_enterWay
+    3300240: main_entraceWall1
+    3300242: main_exitSign1
+    3300244: main_exitSign2
+    3300246: main_exitSign3
+    3300248: main_lightSwitch
+    3300250: main_railing1
+    3300252: main_railing2
+    3300254: main_railing3
+    3300256: main_railing4
+    3300258: main_stairRail
+    3300260: main_stairRail1
+    3300262: main_stairRoom1
+    3300264: main_stairRoom2
+    3300266: main_stairRoom3
+    3300268: main_stairRoom4
+    3300270: main_stairRoom5
+    3300272: main_thing1
+    3300274: main_wall1
+    3300276: main_wall2
+    3300278: main_wall4
+    3300280: main_wall5
+    3300282: main_wallLamp1
+    3300284: main_wallLamp2
+    3300286: main_wallLamp3
+    3300288: main_wallLamp4
+    3300290: main_wallPoster
+    3300292: main_wallTrim1
+    3300294: main_wallTrim10
+    3300296: main_wallTrim11
+    3300298: main_wallTrim12
+    3300300: main_wallTrim13
+    3300302: main_wallTrim14
+    3300304: main_wallTrim15
+    3300306: main_wallTrim16
+    3300308: main_wallTrim17
+    3300310: main_wallTrim18
+    3300312: main_wallTrim19
+    3300314: main_wallTrim2
+    3300316: main_wallTrim20
+    3300318: main_wallTrim21
+    3300320: main_wallTrim3
+    3300322: main_wallTrim4
+    3300324: main_wallTrim5
+    3300326: main_wallTrim6
+    3300328: main_wallTrim7
+    3300330: main_wallTrim8
+    3300332: main_wallTrim9
+    3300334: main_windowDoor1
+    3300336: main_windowDoor2
+    3300338: main_windowSill
+    3300340: pCube15
+    3300342: pCube45
+    3300344: pCube45 1
+    3300346: pCube46
+    3300348: pCube46 1
+    3300350: pCube47
+    3300352: pCube47 1
+    3300354: pCube48
+    3300356: pCube48 1
+    3300358: pCube49
+    3300360: pCube49 1
+    3300362: pCube50
+    3300364: pCube50 1
+    3300366: pCube51
+    3300368: pCube51 1
+    3300370: pCube52
+    3300372: pCube52 1
+    3300374: pCube53
+    3300376: pCube53 1
+    3300378: pCube54
+    3300380: pCube54 1
+    3300382: pCube55
+    3300384: pCube55 1
+    3300386: pCube56
+    3300388: pCube56 1
+    3300390: pCube57
+    3300392: pCube57 1
+    3300394: pCube58
+    3300396: pCube58 1
+    3300398: pCube59
+    3300400: pCube59 1
+    3300402: pCube60
+    3300404: pCube60 1
+    3300406: pCylinder73
+    3300408: pCylinder73 1
+    3300410: pCylinder74
+    3300412: pCylinder74 1
+    3300414: pCylinder75
+    3300416: pCylinder75 1
+    3300418: polySurface1
+    3300420: upward_stairs
+    3300422: upward_stairs1
+    3300424: basementWall
+    3300426: door
+    3300428: door 1
+    3300430: door 2
+    3300432: door10
+    3300434: door13
+    3300436: door14
+    3300438: door15
+    3300440: door16
+    3300442: door17
+    3300444: door7
+    3300446: door7 1
+    3300448: door8
+    3300450: door8 1
+    3300452: door9
+    3300454: door_frame11
+    3300456: door_frame7
+    3300458: door_frame8
+    3300460: door_frame9
+    3300462: doorFrame1
+    3300464: doorFrame1 1
+    3300466: doorFrame1 2
+    3300468: doorFrame2
+    3300470: doorWindow
+    3300472: doorWindow 1
+    3300474: doorWindow 2
+    3300476: doorWindow1
+    3300478: doorWindow1 1
+    3300480: doorWindow10
+    3300482: doorWindow2
+    3300484: doorWindow2 1
+    3300486: doorWindow3
+    3300488: doorWindow4
+    3300490: doorWindow7
+    3300492: doorWindow8
+    3300494: doorWindow9
+    3300496: drFrame_window
+    3300498: drFrame_window 1
+    3300500: drFrame_window 2
+    3300502: drFrame_window1
+    3300504: drFrame_window1 1
+    3300506: drFrame_window2
+    3300508: drFrame_window2 1
+    3300510: drFrame_window3
+    3300512: drFrame_window4
+    3300514: drFrame_window5
+    3300516: drFrame_window6
+    3300518: elevatorFloor
+    3300520: elevatorFloor 1
+    3300522: elevatorWall
+    3300524: glass
+    3300526: glass1
+    3300528: glass2
+    3300530: glass3
+    3300532: glass4
+    3300534: glass5
+    3300536: glass6
+    3300538: glass7
+    3300540: hallway_light17
+    3300542: hallway_light18
+    3300544: hallway_light19
+    3300546: hallway_light20
+    3300548: hallway_light21
+    3300550: hallway_light22
+    3300552: hallway_light23
+    3300554: main_bubbler1
+    3300556: main_entraStairs
+    3300558: main_entreFloor
+    3300560: main_exitSign4
+    3300562: main_exitSign5
+    3300564: main_exitSign6
+    3300566: main_exitWalls
+    3300568: main_exitWalls1
+    3300570: main_exitWay
+    3300572: main_railing5
+    3300574: main_rtExitStairs
+    3300576: main_stairRail2
+    3300578: main_stairRoom6
+    3300580: main_stairRoom7
+    3300582: main_stairRoom8
+    3300584: main_wallLamp11
+    3300586: main_wallLamp12
+    3300588: main_wallLamp13
+    3300590: mainDoor 1
+    3300592: mainDoor1
+    3300594: mainDoor2
+    3300596: mainDoor3
+    3300598: mainDoor4
+    3300600: mainDoor5
+    3300602: mainDoor6
+    3300604: mainDoor7
+    3300606: mainDoor8
+    3300608: mainDoor9
+    3300610: mainExitWall
+    3300612: mainFloor1
+    3300614: mainFloorDetail
+    3300616: mainFloorDetail1
+    3300618: mainFloorDetail10
+    3300620: mainFloorDetail11
+    3300622: mainFloorDetail12
+    3300624: mainFloorDetail13
+    3300626: mainFloorDetail14
+    3300628: mainFloorDetail15
+    3300630: mainFloorDetail16
+    3300632: mainFloorDetail17
+    3300634: mainFloorDetail18
+    3300636: mainFloorDetail19
+    3300638: mainFloorDetail2
+    3300640: mainFloorDetail3
+    3300642: mainFloorDetail4
+    3300644: mainFloorDetail5
+    3300646: mainFloorDetail6
+    3300648: mainFloorDetail7
+    3300650: mainFloorDetail8
+    3300652: mainFloorDetail9
+    3300654: mainStairs
+    3300656: pCube45 2
+    3300658: pCube46 2
+    3300660: pCube47 2
+    3300662: pCube48 2
+    3300664: pCube49 2
+    3300666: pCube50 2
+    3300668: pCube51 2
+    3300670: pCube52 2
+    3300672: pCube53 2
+    3300674: pCube54 2
+    3300676: pCube55 2
+    3300678: pCube56 2
+    3300680: pCube57 2
+    3300682: pCube58 2
+    3300684: pCube59 2
+    3300686: pCube60 2
+    3300688: pCylinder73 2
+    3300690: pCylinder74 2
+    3300692: pCylinder75 2
+    3300694: pointer
+    3300696: pointer 1
+    3300698: polySurface100
+    3300700: polySurface101
+    3300702: polySurface102
+    3300704: polySurface103
+    3300706: polySurface104
+    3300708: polySurface104 1
+    3300710: polySurface105
+    3300712: polySurface106
+    3300714: polySurface107
+    3300716: polySurface108
+    3300718: polySurface109
+    3300720: polySurface110
+    3300722: polySurface110 1
+    3300724: polySurface111
+    3300726: polySurface112
+    3300728: polySurface113
+    3300730: polySurface114
+    3300732: polySurface115
+    3300734: polySurface116
+    3300736: polySurface118
+    3300738: polySurface118 1
+    3300740: polySurface121
+    3300742: polySurface124
+    3300744: polySurface125
+    3300746: polySurface126
+    3300748: polySurface127
+    3300750: polySurface129
+    3300752: polySurface129 1
+    3300754: polySurface129 2
+    3300756: polySurface147
+    3300758: polySurface148
+    3300760: polySurface148 1
+    3300762: polySurface149
+    3300764: polySurface149 1
+    3300766: polySurface151
+    3300768: polySurface152
+    3300770: polySurface153
+    3300772: polySurface154
+    3300774: polySurface154 1
+    3300776: polySurface155
+    3300778: polySurface155 1
+    3300780: polySurface156
+    3300782: polySurface156 1
+    3300784: polySurface157
+    3300786: polySurface157 1
+    3300788: polySurface158
+    3300790: polySurface158 1
+    3300792: polySurface159
+    3300794: polySurface159 1
+    3300796: polySurface160
+    3300798: polySurface160 1
+    3300800: polySurface161
+    3300802: polySurface161 1
+    3300804: polySurface162
+    3300806: polySurface162 1
+    3300808: polySurface163
+    3300810: polySurface163 1
+    3300812: polySurface164
+    3300814: polySurface164 1
+    3300816: polySurface165
+    3300818: polySurface165 1
+    3300820: polySurface166
+    3300822: polySurface166 1
+    3300824: polySurface167
+    3300826: polySurface167 1
+    3300828: polySurface168
+    3300830: polySurface168 1
+    3300832: polySurface169
+    3300834: polySurface169 1
+    3300836: polySurface170
+    3300838: polySurface170 1
+    3300840: polySurface171
+    3300842: polySurface171 1
+    3300844: polySurface172
+    3300846: polySurface172 1
+    3300848: polySurface173
+    3300850: polySurface174
+    3300852: polySurface175
+    3300854: polySurface176
+    3300856: polySurface177
+    3300858: polySurface178
+    3300860: polySurface179
+    3300862: polySurface180
+    3300864: polySurface181
+    3300866: polySurface182
+    3300868: polySurface183
+    3300870: polySurface184
+    3300872: polySurface185
+    3300874: polySurface186
+    3300876: polySurface187
+    3300878: polySurface188
+    3300880: polySurface189
+    3300882: polySurface190
+    3300884: polySurface191
+    3300886: polySurface194
+    3300888: polySurface194 1
+    3300890: polySurface195
+    3300892: polySurface195 1
+    3300894: polySurface196
+    3300896: polySurface196 1
+    3300898: polySurface197
+    3300900: polySurface197 1
+    3300902: polySurface198
+    3300904: polySurface208
+    3300906: polySurface209
+    3300908: polySurface210
+    3300910: polySurface211
+    3300912: polySurface213
+    3300914: polySurface215
+    3300916: polySurface45
+    3300918: polySurface46
+    3300920: polySurface46 1
+    3300922: polySurface50
+    3300924: polySurface51
+    3300926: polySurface51 1
+    3300928: polySurface60
+    3300930: polySurface60 1
+    3300932: polySurface63
+    3300934: polySurface63 1
+    3300936: polySurface75
+    3300938: polySurface76
+    3300940: polySurface77
+    3300942: polySurface78
+    3300944: polySurface79
+    3300946: polySurface80
+    3300948: polySurface81
+    3300950: polySurface82
+    3300952: polySurface83
+    3300954: polySurface84
+    3300956: polySurface85
+    3300958: polySurface86
+    3300960: polySurface87
+    3300962: polySurface88
+    3300964: polySurface89
+    3300966: polySurface90
+    3300968: polySurface91
+    3300970: polySurface92
+    3300972: polySurface93
+    3300974: polySurface94
+    3300976: polySurface95
+    3300978: polySurface96
+    3300980: polySurface97
+    3300982: polySurface98
+    3300984: polySurface99
+    3300986: broom
+    3300988: bubblerKnob
+    3300990: bubblerKnob 1
+    3300992: bullBored3
+    3300994: cage
+    3300996: cage 1
+    3300998: cage1
+    3301000: cage2
+    3301002: cage3
+    3301004: cage4
+    3301006: cage5
+    3301008: cage6
+    3301010: cage7
+    3301012: cage8
+    3301014: CIG
+    3301016: cigLid
+    3301018: cigPack 1
+    3301020: closedRope
+    3301022: closedRope 1
+    3301024: closedRope1
+    3301026: closedRope1 1
+    3301028: closedRope1 2
+    3301030: closedRope1 3
+    3301032: closedRope1 4
+    3301034: closedRope1 5
+    3301036: closedRope2
+    3301038: closedRope2 1
+    3301040: closedRope2 2
+    3301042: closedRope2 3
+    3301044: comb
+    3301046: control1
+    3301048: control1 1
+    3301050: control2
+    3301052: control2 1
+    3301054: crumpledPaper
+    3301056: crumpledPaper1
+    3301058: decorativeGlass
+    3301060: decorativeGlass1
+    3301062: door_handle2
+    3301064: door_handle3
+    3301066: door_handle4
+    3301068: door_handle5
+    3301070: door_handle6
+    3301072: door_handle7
+    3301074: doorHand10
+    3301076: doorHand11
+    3301078: doorHand12
+    3301080: doorHand13
+    3301082: doorHand14
+    3301084: doorHand15
+    3301086: doorHand16
+    3301088: doorHand17
+    3301090: doorHand18
+    3301092: doorHand19
+    3301094: doorHand2
+    3301096: doorHand20
+    3301098: doorHand21
+    3301100: doorHand3
+    3301102: doorHand4
+    3301104: doorHand5
+    3301106: doorHand6
+    3301108: doorHand7
+    3301110: doorHand8
+    3301112: doorHand9
+    3301114: downward_stairs6
+    3301116: dustPan
+    3301118: e_doorCage1
+    3301120: e_doorCage1 1
+    3301122: e_doorCage10
+    3301124: e_doorCage11
+    3301126: e_doorCage11 1
+    3301128: e_doorCage12
+    3301130: e_doorCage12 1
+    3301132: e_doorCage13
+    3301134: e_doorCage14
+    3301136: e_doorCage16
+    3301138: e_doorCage3
+    3301140: e_doorCage3 1
+    3301142: e_doorCage4
+    3301144: e_doorCage4 1
+    3301146: e_doorCage5
+    3301148: e_doorCage5 1
+    3301150: e_doorCage6
+    3301152: e_doorCage6 1
+    3301154: e_doorCage7
+    3301156: e_doorCage7 1
+    3301158: e_doorCage8
+    3301160: e_doorCage9
+    3301162: e_doorCage9 1
+    3301164: easalRope3
+    3301166: easel_bolt
+    3301168: easel_bolt1
+    3301170: easel_pt3
+    3301172: elev_bars10
+    3301174: elev_bars10 1
+    3301176: elev_bars10 10
+    3301178: elev_bars10 11
+    3301180: elev_bars10 2
+    3301182: elev_bars10 3
+    3301184: elev_bars10 4
+    3301186: elev_bars10 5
+    3301188: elev_bars10 6
+    3301190: elev_bars10 7
+    3301192: elev_bars10 8
+    3301194: elev_bars10 9
+    3301196: elev_bars11
+    3301198: elev_bars11 1
+    3301200: elev_bars11 10
+    3301202: elev_bars11 11
+    3301204: elev_bars11 2
+    3301206: elev_bars11 3
+    3301208: elev_bars11 4
+    3301210: elev_bars11 5
+    3301212: elev_bars11 6
+    3301214: elev_bars11 7
+    3301216: elev_bars11 8
+    3301218: elev_bars11 9
+    3301220: elev_bars12
+    3301222: elev_bars12 1
+    3301224: elev_bars12 10
+    3301226: elev_bars12 11
+    3301228: elev_bars12 2
+    3301230: elev_bars12 3
+    3301232: elev_bars12 4
+    3301234: elev_bars12 5
+    3301236: elev_bars12 6
+    3301238: elev_bars12 7
+    3301240: elev_bars12 8
+    3301242: elev_bars12 9
+    3301244: elev_bars13
+    3301246: elev_bars13 1
+    3301248: elev_bars13 10
+    3301250: elev_bars13 11
+    3301252: elev_bars13 2
+    3301254: elev_bars13 3
+    3301256: elev_bars13 4
+    3301258: elev_bars13 5
+    3301260: elev_bars13 6
+    3301262: elev_bars13 7
+    3301264: elev_bars13 8
+    3301266: elev_bars13 9
+    3301268: elev_bars14
+    3301270: elev_bars14 1
+    3301272: elev_bars14 10
+    3301274: elev_bars14 11
+    3301276: elev_bars14 2
+    3301278: elev_bars14 3
+    3301280: elev_bars14 4
+    3301282: elev_bars14 5
+    3301284: elev_bars14 6
+    3301286: elev_bars14 7
+    3301288: elev_bars14 8
+    3301290: elev_bars14 9
+    3301292: elev_bars15
+    3301294: elev_bars15 1
+    3301296: elev_bars15 10
+    3301298: elev_bars15 11
+    3301300: elev_bars15 2
+    3301302: elev_bars15 3
+    3301304: elev_bars15 4
+    3301306: elev_bars15 5
+    3301308: elev_bars15 6
+    3301310: elev_bars15 7
+    3301312: elev_bars15 8
+    3301314: elev_bars15 9
+    3301316: elev_bars16
+    3301318: elev_bars16 1
+    3301320: elev_bars16 10
+    3301322: elev_bars16 11
+    3301324: elev_bars16 2
+    3301326: elev_bars16 3
+    3301328: elev_bars16 4
+    3301330: elev_bars16 5
+    3301332: elev_bars16 6
+    3301334: elev_bars16 7
+    3301336: elev_bars16 8
+    3301338: elev_bars16 9
+    3301340: elev_bars17
+    3301342: elev_bars17 1
+    3301344: elev_bars17 10
+    3301346: elev_bars17 11
+    3301348: elev_bars17 2
+    3301350: elev_bars17 3
+    3301352: elev_bars17 4
+    3301354: elev_bars17 5
+    3301356: elev_bars17 6
+    3301358: elev_bars17 7
+    3301360: elev_bars17 8
+    3301362: elev_bars17 9
+    3301364: elev_bars18
+    3301366: elev_bars18 1
+    3301368: elev_bars18 10
+    3301370: elev_bars18 11
+    3301372: elev_bars18 2
+    3301374: elev_bars18 3
+    3301376: elev_bars18 4
+    3301378: elev_bars18 5
+    3301380: elev_bars18 6
+    3301382: elev_bars18 7
+    3301384: elev_bars18 8
+    3301386: elev_bars18 9
+    3301388: elev_bars19
+    3301390: elev_bars19 1
+    3301392: elev_bars19 10
+    3301394: elev_bars19 11
+    3301396: elev_bars19 2
+    3301398: elev_bars19 3
+    3301400: elev_bars19 4
+    3301402: elev_bars19 5
+    3301404: elev_bars19 6
+    3301406: elev_bars19 7
+    3301408: elev_bars19 8
+    3301410: elev_bars19 9
+    3301412: elev_bars20
+    3301414: elev_bars20 1
+    3301416: elev_bars20 2
+    3301418: elev_bars20 3
+    3301420: elev_bars21
+    3301422: elev_bars21 1
+    3301424: elev_bars21 2
+    3301426: elev_bars21 3
+    3301428: elev_bars22
+    3301430: elev_bars22 1
+    3301432: elev_bars22 2
+    3301434: elev_bars22 3
+    3301436: elev_bars23
+    3301438: elev_bars23 1
+    3301440: elev_bars23 2
+    3301442: elev_bars23 3
+    3301444: elev_bars3
+    3301446: elev_bars3 1
+    3301448: elev_bars3 10
+    3301450: elev_bars3 11
+    3301452: elev_bars3 2
+    3301454: elev_bars3 3
+    3301456: elev_bars3 4
+    3301458: elev_bars3 5
+    3301460: elev_bars3 6
+    3301462: elev_bars3 7
+    3301464: elev_bars3 8
+    3301466: elev_bars3 9
+    3301468: elev_bars9
+    3301470: elev_bars9 1
+    3301472: elev_bars9 10
+    3301474: elev_bars9 11
+    3301476: elev_bars9 2
+    3301478: elev_bars9 3
+    3301480: elev_bars9 4
+    3301482: elev_bars9 5
+    3301484: elev_bars9 6
+    3301486: elev_bars9 7
+    3301488: elev_bars9 8
+    3301490: elev_bars9 9
+    3301492: elevator_light
+    3301494: elevator_light 1
+    3301496: elevator_lightSwitch
+    3301498: elevator_lightSwitch 1
+    3301500: elevatorBell
+    3301502: elevatorBell1
+    3301504: elevatorContorls2
+    3301506: elevatorContorls2 1
+    3301508: elevatorControls1
+    3301510: elevatorControls1 1
+    3301512: elevatorFloorSignal
+    3301514: elevatorFloorSignal1
+    3301516: elevatorGroundPeice
+    3301518: elevatorSign1
+    3301520: elevatorSign1 1
+    3301522: elevatorSign2
+    3301524: elevatorSign2 1
+    3301526: fireAlarm 1
+    3301528: fireBell
+    3301530: fireHose1
+    3301532: fireHose2
+    3301534: fireHose4
+    3301536: fireKnob1
+    3301538: fireKnob2
+    3301540: fireKnob3
+    3301542: gum
+    3301544: hallway_light32
+    3301546: handle
+    3301548: handle 1
+    3301550: main_basementStairs3
+    3301552: main_blackCeilingTrim
+    3301554: main_blackCeilingTrim1
+    3301556: main_bubbler1 1
+    3301558: main_ceilingLamp
+    3301560: main_crownMolding
+    3301562: main_crownMolding1
+    3301564: main_lightSwitch1
+    3301566: main_railing10
+    3301568: main_railing11
+    3301570: main_railing12
+    3301572: main_railing6
+    3301574: main_railing7
+    3301576: main_railing8
+    3301578: main_railing9
+    3301580: main_stairRoom10
+    3301582: main_stairRoom11
+    3301584: main_stairRoom9
+    3301586: main_table
+    3301588: main_wallTrim22
+    3301590: main_wallTrim23
+    3301592: mainFloorDetail20
+    3301594: mainFloorTrim
+    3301596: mainFloorTrim1
+    3301598: mainFloorTrim10
+    3301600: mainFloorTrim11
+    3301602: mainFloorTrim12
+    3301604: mainFloorTrim13
+    3301606: mainFloorTrim14
+    3301608: mainFloorTrim15
+    3301610: mainFloorTrim16
+    3301612: mainFloorTrim17
+    3301614: mainFloorTrim18
+    3301616: mainFloorTrim19
+    3301618: mainFloorTrim2
+    3301620: mainFloorTrim20
+    3301622: mainFloorTrim21
+    3301624: mainFloorTrim22
+    3301626: mainFloorTrim23
+    3301628: mainFloorTrim26
+    3301630: mainFloorTrim27
+    3301632: mainFloorTrim28
+    3301634: mainFloorTrim3
+    3301636: mainFloorTrim4
+    3301638: mainFloorTrim5
+    3301640: mainFloorTrim6
+    3301642: mainFloorTrim7
+    3301644: mainFloorTrim8
+    3301646: mainFloorTrim9
+    3301648: mainStairs1
+    3301650: otisFloorDetail
+    3301652: otisFloorDetail 1
+    3301654: painting2
+    3301656: paper
+    3301658: paper1
+    3301660: paper11
+    3301662: paper12
+    3301664: paper13
+    3301666: paper14
+    3301668: paper2
+    3301670: paper7
+    3301672: paper8
+    3301674: paper9
+    3301676: pCube45 3
+    3301678: pCube46 3
+    3301680: pCube47 3
+    3301682: pCube48 3
+    3301684: pCube49 3
+    3301686: pCube50 3
+    3301688: pCube51 3
+    3301690: pCube52 3
+    3301692: pCube53 3
+    3301694: pCube54 3
+    3301696: pCube55 3
+    3301698: pCube56 3
+    3301700: pCube57 3
+    3301702: pCube58 3
+    3301704: pCube59 3
+    3301706: pCube60 3
+    3301708: pCube87
+    3301710: pCube87 1
+    3301712: pCube88
+    3301714: pCube89
+    3301716: pCube90
+    3301718: pCube91
+    3301720: pCube92
+    3301722: pCube92 1
+    3301724: pCube93
+    3301726: pCube94
+    3301728: pCylinder73 3
+    3301730: pCylinder74 3
+    3301732: pCylinder75 3
+    3301734: pCylinder78
+    3301736: polySurface121 1
+    3301738: polySurface217
+    3301740: polySurface220
+    3301742: polySurface221
+    3301744: polySurface221 1
+    3301746: polySurface222
+    3301748: polySurface222 1
+    3301750: polySurface223
+    3301752: polySurface223 1
+    3301754: polySurface224
+    3301756: polySurface224 1
+    3301758: polySurface225
+    3301760: polySurface225 1
+    3301762: polySurface226
+    3301764: polySurface226 1
+    3301766: polySurface227
+    3301768: polySurface227 1
+    3301770: polySurface228
+    3301772: polySurface229
+    3301774: polySurface230
+    3301776: polySurface231
+    3301778: polySurface50 1
+    3301780: posterBoard
+    3301782: pushDoor
+    3301784: pushDoor1
+    3301786: pushDoor10
+    3301788: pushDoor2
+    3301790: pushDoor3
+    3301792: pushDoor5
+    3301794: pushDoor6
+    3301796: pushDoor7
+    3301798: pushDoor8
+    3301800: pushDoor9
+    3301802: rug
+    3301804: rug1
+    3301806: rug2
+    3301808: rug3
+    3301810: rug4
+    3301812: stairClosedSign 1
+    3301814: stairClosedSign 2
+    3301816: stairClosedSign 3
+    3301818: stairClosedSign 4
+    3301820: stairClosedSign 5
+    3301822: stairClosedSign6
+    3301824: stairWindow
+    3301826: stoutonia
+    3301828: tape
+    3301830: tape 1
+    3301832: tape1
+    3301834: tape1 1
+    3301836: tape2
+    3301838: tape2 1
+    3301840: windowCage1
+    3301842: windowCage1 1
+    3301844: windowCage1 10
+    3301846: windowCage1 11
+    3301848: windowCage1 2
+    3301850: windowCage1 3
+    3301852: windowCage1 4
+    3301854: windowCage1 5
+    3301856: windowCage1 6
+    3301858: windowCage1 7
+    3301860: windowCage1 8
+    3301862: windowCage1 9
+    4300000: column3
+    4300002: column1
+    4300004: column
+    4300006: column2
+    4300008: column7
+    4300010: column6
+    4300012: column4
+    4300014: column5
+    4300016: ceiling_structure1
+    4300018: elevatorFrame
+    4300020: elevatorDoor2
+    4300022: elevatorDoor1
+    4300024: main_elevatorRm1
+    4300026: elevatorFrame
+    4300028: elevatorDoor2
+    4300030: elevatorDoor1
+    4300032: main_elevatorRm
+    4300034: main_wallLamp3
+    4300036: main_wallLamp2
+    4300038: main_wallLamp1
+    4300040: main_wallLamp4
+    4300042: hallway_light2
+    4300044: hallway_light3
+    4300046: hallway_light4
+    4300048: hallway_light5
+    4300050: hallway_light6
+    4300052: hallway_light7
+    4300054: hallway_light8
+    4300056: hallway_light9
+    4300058: hallway_light1
+    4300060: hallway_light11
+    4300062: hallway_light12
+    4300064: hallway_light13
+    4300066: hallway_light14
+    4300068: hallway_light15
+    4300070: hallway_light16
+    4300072: entranceDoor_5
+    4300074: entranceDoor_6
+    4300076: entranceDoor_4
+    4300078: entranceDoor_3
+    4300080: entranceDoor_2
+    4300082: entranceDoor_1
+    4300084: entranceDoor_window1
+    4300086: entranceDoor_window2
+    4300088: entranceDoor_window3
+    4300090: main_enterWay
+    4300092: frontDoor_1
+    4300094: frontDoor_2
+    4300096: frontDoor_3
+    4300098: frontDoor_4
+    4300100: frontDoor_5
+    4300102: frontDoor_6
+    4300104: main_entraceWall1
+    4300106: door_enclosure
+    4300108: door_4
+    4300110: door_2
+    4300112: door1
+    4300114: door_frame3
+    4300116: door1
+    4300118: door_frame1
+    4300120: door_8
+    4300122: door_7
+    4300124: door_9
+    4300126: door_10
+    4300128: door_6
+    4300130: door_5
+    4300132: pCube15
+    4300134: door_frame
+    4300136: door_window
+    4300138: door1
+    4300140: door1
+    4300142: door_frame
+    4300144: door_window
+    4300146: main_door2
+    4300148: door_handle1
+    4300150: door_frame2
+    4300152: door_enclosure
+    4300154: door_4
+    4300156: door_2
+    4300158: door_frame
+    4300160: door_window
+    4300162: door1
+    4300164: door_frame
+    4300166: door_window
+    4300168: door1
+    4300170: door_frame
+    4300172: door_window
+    4300174: door1
+    4300176: door1
+    4300178: door_frame
+    4300180: door_window
+    4300182: door_window1
+    4300184: door3
+    4300186: door1
+    4300188: door_frame
+    4300190: door_window
+    4300192: door_window1
+    4300194: door3
+    4300196: entranceDoor_window4
+    4300198: entranceDoor_7
+    4300200: entranceDoor_8
+    4300202: entranceDoor_window4
+    4300204: entranceDoor_7
+    4300206: entranceDoor_8
+    4300208: door1
+    4300210: door_frame
+    4300212: door_window
+    4300214: door_window1
+    4300216: door3
+    4300218: door_enclosure3
+    4300220: frontDoor_8
+    4300222: frontDoor_7
+    4300224: hallway_window
+    4300226: main_windowDoor1
+    4300228: main_windowDoor2
+    4300230: main_windowSill
+    4300232: door_enclosure3
+    4300234: frontDoor_8
+    4300236: frontDoor_7
+    4300238: hallway_window
+    4300240: upward_stairs1
+    4300242: downward_stairs1
+    4300244: downward_stairs
+    4300246: upward_stairs
+    4300248: main_stairRoom4
+    4300250: main_stairRoom3
+    4300252: main_stairRoom2
+    4300254: polySurface60
+    4300256: main_stairRoom5
+    4300258: main_railing4
+    4300260: main_railing3
+    4300262: main_railing2
+    4300264: main_railing1
+    4300266: main_stairRail
+    4300268: main_stairRail1
+    4300270: main_basementStairs2
+    4300272: main_basementStairs1
+    4300274: main_ceiling
+    4300276: main_backWall
+    4300278: main_wall1
+    4300280: polySurface1
+    4300282: main_wall2
+    4300284: main_wall5
+    4300286: main_wall4
+    4300288: main_basementWalls
+    4300290: pCube45
+    4300292: pCylinder73
+    4300294: pCube46
+    4300296: pCube47
+    4300298: pCube48
+    4300300: pCube49
+    4300302: pCube50
+    4300304: pCube51
+    4300306: pCube52
+    4300308: pCube53
+    4300310: pCube54
+    4300312: pCube55
+    4300314: pCube56
+    4300316: pCube57
+    4300318: pCube58
+    4300320: pCube59
+    4300322: pCube60
+    4300324: pCylinder74
+    4300326: pCylinder75
+    4300328: pCube45
+    4300330: pCylinder73
+    4300332: pCube46
+    4300334: pCube47
+    4300336: pCube48
+    4300338: pCube49
+    4300340: pCube50
+    4300342: pCube51
+    4300344: pCube52
+    4300346: pCube53
+    4300348: pCube54
+    4300350: pCube55
+    4300352: pCube56
+    4300354: pCube57
+    4300356: pCube58
+    4300358: pCube59
+    4300360: pCube60
+    4300362: pCylinder74
+    4300364: pCylinder75
+    4300366: main_wallTrim2
+    4300368: main_wallTrim3
+    4300370: main_wallTrim4
+    4300372: main_wallTrim5
+    4300374: main_wallTrim6
+    4300376: main_wallTrim7
+    4300378: main_wallTrim8
+    4300380: main_wallTrim9
+    4300382: main_wallTrim10
+    4300384: main_wallTrim11
+    4300386: main_wallTrim12
+    4300388: main_wallTrim13
+    4300390: main_wallTrim14
+    4300392: main_wallTrim15
+    4300394: main_wallTrim16
+    4300396: main_wallTrim17
+    4300398: main_wallTrim18
+    4300400: main_wallTrim19
+    4300402: main_wallTrim20
+    4300404: main_wallTrim21
+    4300406: main_wallTrim1
+    4300408: main_exitSign1
+    4300410: main_exitSign2
+    4300412: main_exitSign3
+    4300414: main_wallPoster
+    4300416: main_lightSwitch
+    4300418: main_bubbler
+    4300420: main_thing1
+    4300422: main_clock
+    4300424: polySurface63
+    4300426: polySurface46
+    4300428: polySurface50
+    4300430: pointer
+    4300432: elevatorFloor
+    4300434: polySurface121
+    4300436: polySurface118
+    4300438: polySurface51
+    4300440: polySurface60
+    4300442: polySurface63
+    4300444: polySurface46
+    4300446: polySurface45
+    4300448: pointer
+    4300450: elevatorFloor
+    4300452: polySurface118
+    4300454: polySurface51
+    4300456: main_wallLamp11
+    4300458: main_wallLamp12
+    4300460: main_wallLamp13
+    4300462: hallway_light17
+    4300464: hallway_light18
+    4300466: hallway_light19
+    4300468: hallway_light20
+    4300470: hallway_light21
+    4300472: hallway_light22
+    4300474: hallway_light23
+    4300476: polySurface148
+    4300478: polySurface171
+    4300480: polySurface149
+    4300482: polySurface172
+    4300484: polySurface148
+    4300486: polySurface171
+    4300488: polySurface149
+    4300490: polySurface172
+    4300492: polySurface173
+    4300494: polySurface174
+    4300496: polySurface175
+    4300498: polySurface176
+    4300500: polySurface147
+    4300502: polySurface129
+    4300504: polySurface129
+    4300506: polySurface129
+    4300508: polySurface152
+    4300510: polySurface153
+    4300512: polySurface178
+    4300514: polySurface179
+    4300516: polySurface181
+    4300518: polySurface182
+    4300520: polySurface184
+    4300522: polySurface185
+    4300524: polySurface187
+    4300526: polySurface188
+    4300528: polySurface190
+    4300530: polySurface191
+    4300532: polySurface151
+    4300534: polySurface177
+    4300536: polySurface180
+    4300538: polySurface183
+    4300540: polySurface186
+    4300542: polySurface189
+    4300544: polySurface91
+    4300546: polySurface92
+    4300548: polySurface93
+    4300550: polySurface94
+    4300552: polySurface95
+    4300554: polySurface96
+    4300556: polySurface97
+    4300558: polySurface98
+    4300560: polySurface99
+    4300562: polySurface100
+    4300564: polySurface101
+    4300566: polySurface102
+    4300568: polySurface208
+    4300570: polySurface209
+    4300572: polySurface210
+    4300574: polySurface81
+    4300576: polySurface82
+    4300578: polySurface83
+    4300580: polySurface84
+    4300582: polySurface85
+    4300584: polySurface86
+    4300586: polySurface87
+    4300588: polySurface88
+    4300590: polySurface89
+    4300592: polySurface90
+    4300594: door_frame8
+    4300596: door_frame9
+    4300598: door_frame11
+    4300600: polySurface75
+    4300602: polySurface76
+    4300604: polySurface77
+    4300606: polySurface78
+    4300608: polySurface79
+    4300610: polySurface80
+    4300612: polySurface211
+    4300614: polySurface213
+    4300616: polySurface215
+    4300618: polySurface103
+    4300620: polySurface194
+    4300622: polySurface195
+    4300624: polySurface196
+    4300626: polySurface197
+    4300628: polySurface111
+    4300630: polySurface112
+    4300632: polySurface113
+    4300634: polySurface114
+    4300636: polySurface115
+    4300638: polySurface116
+    4300640: polySurface124
+    4300642: polySurface125
+    4300644: polySurface126
+    4300646: polySurface127
+    4300648: polySurface198
+    4300650: polySurface104
+    4300652: polySurface105
+    4300654: polySurface106
+    4300656: polySurface107
+    4300658: polySurface108
+    4300660: polySurface109
+    4300662: polySurface110
+    4300664: polySurface104
+    4300666: polySurface110
+    4300668: polySurface194
+    4300670: polySurface195
+    4300672: polySurface196
+    4300674: polySurface197
+    4300676: polySurface166
+    4300678: polySurface158
+    4300680: polySurface167
+    4300682: polySurface168
+    4300684: polySurface169
+    4300686: polySurface170
+    4300688: polySurface165
+    4300690: polySurface155
+    4300692: polySurface163
+    4300694: polySurface157
+    4300696: polySurface161
+    4300698: polySurface156
+    4300700: polySurface162
+    4300702: polySurface160
+    4300704: polySurface159
+    4300706: polySurface164
+    4300708: polySurface154
+    4300710: polySurface166
+    4300712: polySurface158
+    4300714: polySurface167
+    4300716: polySurface168
+    4300718: polySurface169
+    4300720: polySurface170
+    4300722: polySurface165
+    4300724: polySurface155
+    4300726: polySurface163
+    4300728: polySurface157
+    4300730: polySurface161
+    4300732: polySurface156
+    4300734: polySurface162
+    4300736: polySurface160
+    4300738: polySurface159
+    4300740: polySurface164
+    4300742: polySurface154
+    4300744: mainDoor8
+    4300746: mainDoor9
+    4300748: doorWindow
+    4300750: door
+    4300752: doorFrame1
+    4300754: drFrame_window
+    4300756: door15
+    4300758: doorWindow9
+    4300760: door16
+    4300762: doorWindow10
+    4300764: doorWindow
+    4300766: door
+    4300768: doorFrame1
+    4300770: drFrame_window
+    4300772: doorWindow1
+    4300774: door7
+    4300776: door8
+    4300778: doorWindow2
+    4300780: drFrame_window1
+    4300782: drFrame_window2
+    4300784: doorWindow1
+    4300786: door7
+    4300788: door8
+    4300790: doorWindow2
+    4300792: drFrame_window1
+    4300794: drFrame_window2
+    4300796: glass2
+    4300798: mainDoor2
+    4300800: glass3
+    4300802: mainDoor3
+    4300804: mainDoor4
+    4300806: glass4
+    4300808: mainDoor5
+    4300810: glass5
+    4300812: mainDoor6
+    4300814: glass6
+    4300816: mainDoor7
+    4300818: glass7
+    4300820: glass1
+    4300822: mainDoor1
+    4300824: mainDoor
+    4300826: glass
+    4300828: doorWindow7
+    4300830: door13
+    4300832: drFrame_window5
+    4300834: door17
+    4300836: doorFrame2
+    4300838: drFrame_window6
+    4300840: door9
+    4300842: doorWindow3
+    4300844: door_frame7
+    4300846: drFrame_window3
+    4300848: door10
+    4300850: doorWindow4
+    4300852: drFrame_window4
+    4300854: door14
+    4300856: doorWindow8
+    4300858: door
+    4300860: doorWindow
+    4300862: drFrame_window
+    4300864: doorFrame1
+    4300866: polySurface223
+    4300868: main_stairRoom6
+    4300870: main_stairRoom7
+    4300872: main_stairRoom8
+    4300874: main_railing5
+    4300876: main_stairRail2
+    4300878: main_entraStairs
+    4300880: main_rtExitStairs
+    4300882: mainStairs
+    4300884: mainFloor1
+    4300886: main_entreFloor
+    4300888: mainFloorDetail
+    4300890: mainFloorDetail1
+    4300892: mainFloorDetail2
+    4300894: mainFloorDetail3
+    4300896: mainFloorDetail4
+    4300898: mainFloorDetail5
+    4300900: mainFloorDetail6
+    4300902: mainFloorDetail7
+    4300904: mainFloorDetail8
+    4300906: mainFloorDetail9
+    4300908: mainFloorDetail10
+    4300910: mainFloorDetail11
+    4300912: mainFloorDetail12
+    4300914: mainFloorDetail13
+    4300916: mainFloorDetail14
+    4300918: mainFloorDetail15
+    4300920: mainFloorDetail16
+    4300922: mainFloorDetail17
+    4300924: mainFloorDetail18
+    4300926: mainFloorDetail19
+    4300928: main_exitWay
+    4300930: main_exitWalls
+    4300932: main_exitWalls1
+    4300934: mainExitWall
+    4300936: elevatorWall
+    4300938: basementWall
+    4300940: pCube45
+    4300942: pCylinder73
+    4300944: pCube46
+    4300946: pCube47
+    4300948: pCube48
+    4300950: pCube49
+    4300952: pCube50
+    4300954: pCube51
+    4300956: pCube52
+    4300958: pCube53
+    4300960: pCube54
+    4300962: pCube55
+    4300964: pCube56
+    4300966: pCube57
+    4300968: pCube58
+    4300970: pCube59
+    4300972: pCube60
+    4300974: pCylinder74
+    4300976: pCylinder75
+    4300978: main_exitSign4
+    4300980: main_exitSign5
+    4300982: main_exitSign6
+    4300984: main_bubbler1
+    4300986: polySurface224
+    4300988: polySurface225
+    4300990: polySurface226
+    4300992: polySurface227
+    4300994: polySurface222
+    4300996: elev_bars19
+    4300998: windowCage1
+    4301000: elev_bars18
+    4301002: elev_bars17
+    4301004: elev_bars16
+    4301006: elev_bars15
+    4301008: elev_bars14
+    4301010: elev_bars13
+    4301012: elev_bars12
+    4301014: elev_bars11
+    4301016: elev_bars10
+    4301018: elev_bars9
+    4301020: elev_bars3
+    4301022: elev_bars19
+    4301024: windowCage1
+    4301026: elev_bars18
+    4301028: elev_bars17
+    4301030: elev_bars16
+    4301032: elev_bars15
+    4301034: elev_bars14
+    4301036: elev_bars13
+    4301038: elev_bars12
+    4301040: elev_bars11
+    4301042: elev_bars10
+    4301044: elev_bars9
+    4301046: elev_bars3
+    4301048: elev_bars19
+    4301050: windowCage1
+    4301052: elev_bars18
+    4301054: elev_bars17
+    4301056: elev_bars16
+    4301058: elev_bars15
+    4301060: elev_bars14
+    4301062: elev_bars13
+    4301064: elev_bars12
+    4301066: elev_bars11
+    4301068: elev_bars10
+    4301070: elev_bars9
+    4301072: elev_bars3
+    4301074: elev_bars19
+    4301076: elev_bars20
+    4301078: elev_bars21
+    4301080: elev_bars22
+    4301082: elev_bars23
+    4301084: windowCage1
+    4301086: elev_bars18
+    4301088: elev_bars17
+    4301090: elev_bars16
+    4301092: elev_bars15
+    4301094: elev_bars14
+    4301096: elev_bars13
+    4301098: elev_bars12
+    4301100: elev_bars11
+    4301102: elev_bars10
+    4301104: elev_bars9
+    4301106: elev_bars3
+    4301108: elev_bars19
+    4301110: elev_bars20
+    4301112: elev_bars21
+    4301114: elev_bars22
+    4301116: elev_bars23
+    4301118: windowCage1
+    4301120: elev_bars18
+    4301122: elev_bars17
+    4301124: elev_bars16
+    4301126: elev_bars15
+    4301128: elev_bars14
+    4301130: elev_bars13
+    4301132: elev_bars12
+    4301134: elev_bars11
+    4301136: elev_bars10
+    4301138: elev_bars9
+    4301140: elev_bars3
+    4301142: elev_bars19
+    4301144: windowCage1
+    4301146: elev_bars18
+    4301148: elev_bars17
+    4301150: elev_bars16
+    4301152: elev_bars15
+    4301154: elev_bars14
+    4301156: elev_bars13
+    4301158: elev_bars12
+    4301160: elev_bars11
+    4301162: elev_bars10
+    4301164: elev_bars9
+    4301166: elev_bars3
+    4301168: elevatorSign1
+    4301170: elevatorSign2
+    4301172: polySurface221
+    4301174: elevator_lightSwitch
+    4301176: elevatorControls1
+    4301178: control1
+    4301180: control2
+    4301182: elevatorContorls2
+    4301184: pCube91
+    4301186: pCube88
+    4301188: handle
+    4301190: pCube94
+    4301192: pCube87
+    4301194: pCube93
+    4301196: pCube89
+    4301198: pCube92
+    4301200: pCube90
+    4301202: pCube87
+    4301204: pCube92
+    4301206: e_doorCage11
+    4301208: e_doorCage10
+    4301210: e_doorCage9
+    4301212: e_doorCage8
+    4301214: e_doorCage7
+    4301216: e_doorCage6
+    4301218: e_doorCage5
+    4301220: e_doorCage4
+    4301222: e_doorCage3
+    4301224: e_doorCage1
+    4301226: e_doorCage12
+    4301228: otisFloorDetail
+    4301230: elevator_light
+    4301232: elevatorBell
+    4301234: elevatorFloorSignal
+    4301236: polySurface50
+    4301238: polySurface121
+    4301240: polySurface223
+    4301242: polySurface224
+    4301244: polySurface225
+    4301246: polySurface226
+    4301248: polySurface227
+    4301250: polySurface222
+    4301252: elev_bars19
+    4301254: windowCage1
+    4301256: elev_bars18
+    4301258: elev_bars17
+    4301260: elev_bars16
+    4301262: elev_bars15
+    4301264: elev_bars14
+    4301266: elev_bars13
+    4301268: elev_bars12
+    4301270: elev_bars11
+    4301272: elev_bars10
+    4301274: elev_bars9
+    4301276: elev_bars3
+    4301278: elev_bars19
+    4301280: windowCage1
+    4301282: elev_bars18
+    4301284: elev_bars17
+    4301286: elev_bars16
+    4301288: elev_bars15
+    4301290: elev_bars14
+    4301292: elev_bars13
+    4301294: elev_bars12
+    4301296: elev_bars11
+    4301298: elev_bars10
+    4301300: elev_bars9
+    4301302: elev_bars3
+    4301304: elev_bars19
+    4301306: windowCage1
+    4301308: elev_bars18
+    4301310: elev_bars17
+    4301312: elev_bars16
+    4301314: elev_bars15
+    4301316: elev_bars14
+    4301318: elev_bars13
+    4301320: elev_bars12
+    4301322: elev_bars11
+    4301324: elev_bars10
+    4301326: elev_bars9
+    4301328: elev_bars3
+    4301330: elev_bars19
+    4301332: elev_bars20
+    4301334: elev_bars21
+    4301336: elev_bars22
+    4301338: elev_bars23
+    4301340: windowCage1
+    4301342: elev_bars18
+    4301344: elev_bars17
+    4301346: elev_bars16
+    4301348: elev_bars15
+    4301350: elev_bars14
+    4301352: elev_bars13
+    4301354: elev_bars12
+    4301356: elev_bars11
+    4301358: elev_bars10
+    4301360: elev_bars9
+    4301362: elev_bars3
+    4301364: elev_bars19
+    4301366: elev_bars20
+    4301368: elev_bars21
+    4301370: elev_bars22
+    4301372: elev_bars23
+    4301374: windowCage1
+    4301376: elev_bars18
+    4301378: elev_bars17
+    4301380: elev_bars16
+    4301382: elev_bars15
+    4301384: elev_bars14
+    4301386: elev_bars13
+    4301388: elev_bars12
+    4301390: elev_bars11
+    4301392: elev_bars10
+    4301394: elev_bars9
+    4301396: elev_bars3
+    4301398: elev_bars19
+    4301400: windowCage1
+    4301402: elev_bars18
+    4301404: elev_bars17
+    4301406: elev_bars16
+    4301408: elev_bars15
+    4301410: elev_bars14
+    4301412: elev_bars13
+    4301414: elev_bars12
+    4301416: elev_bars11
+    4301418: elev_bars10
+    4301420: elev_bars9
+    4301422: elev_bars3
+    4301424: elevatorSign1
+    4301426: elevatorSign2
+    4301428: polySurface221
+    4301430: elevator_lightSwitch
+    4301432: elevatorControls1
+    4301434: control1
+    4301436: control2
+    4301438: elevatorContorls2
+    4301440: handle
+    4301442: cage
+    4301444: cage1
+    4301446: cage2
+    4301448: cage3
+    4301450: cage4
+    4301452: cage5
+    4301454: cage
+    4301456: cage6
+    4301458: cage8
+    4301460: cage7
+    4301462: e_doorCage11
+    4301464: e_doorCage9
+    4301466: e_doorCage7
+    4301468: e_doorCage6
+    4301470: e_doorCage5
+    4301472: e_doorCage4
+    4301474: e_doorCage3
+    4301476: e_doorCage1
+    4301478: e_doorCage12
+    4301480: e_doorCage13
+    4301482: e_doorCage14
+    4301484: e_doorCage16
+    4301486: otisFloorDetail
+    4301488: elevator_light
+    4301490: elevatorBell1
+    4301492: elevatorFloorSignal1
+    4301494: hallway_light32
+    4301496: main_ceilingLamp
+    4301498: polySurface220
+    4301500: polySurface230
+    4301502: polySurface231
+    4301504: polySurface217
+    4301506: doorHand3
+    4301508: doorHand2
+    4301510: door_handle2
+    4301512: door_handle3
+    4301514: door_handle4
+    4301516: door_handle5
+    4301518: door_handle6
+    4301520: door_handle7
+    4301522: doorHand4
+    4301524: doorHand5
+    4301526: doorHand6
+    4301528: doorHand7
+    4301530: doorHand8
+    4301532: doorHand9
+    4301534: doorHand10
+    4301536: doorHand11
+    4301538: doorHand12
+    4301540: doorHand13
+    4301542: doorHand14
+    4301544: doorHand15
+    4301546: doorHand16
+    4301548: doorHand17
+    4301550: doorHand18
+    4301552: doorHand19
+    4301554: doorHand20
+    4301556: doorHand21
+    4301558: pushDoor
+    4301560: decorativeGlass1
+    4301562: decorativeGlass
+    4301564: pushDoor2
+    4301566: pushDoor3
+    4301568: pushDoor1
+    4301570: polySurface228
+    4301572: pushDoor5
+    4301574: pushDoor6
+    4301576: pushDoor7
+    4301578: pushDoor8
+    4301580: pushDoor9
+    4301582: pushDoor10
+    4301586: main_stairRoom9
+    4301588: main_stairRoom10
+    4301590: main_stairRoom11
+    4301592: main_railing6
+    4301594: main_railing7
+    4301596: main_railing8
+    4301598: main_railing9
+    4301600: main_railing10
+    4301602: main_railing11
+    4301604: main_railing12
+    4301606: main_basementStairs3
+    4301608: mainStairs1
+    4301610: downward_stairs6
+    4301612: mainFloorDetail20
+    4301614: elevatorGroundPeice
+    4301616: polySurface229
+    4301618: pCube45
+    4301620: pCylinder73
+    4301622: pCube46
+    4301624: pCube47
+    4301626: pCube48
+    4301628: pCube49
+    4301630: pCube50
+    4301632: pCube51
+    4301634: pCube52
+    4301636: pCube53
+    4301638: pCube54
+    4301640: pCube55
+    4301642: pCube56
+    4301644: pCube57
+    4301646: pCube58
+    4301648: pCube59
+    4301650: pCube60
+    4301652: pCylinder74
+    4301654: pCylinder75
+    4301656: main_wallTrim22
+    4301658: main_wallTrim23
+    4301660: main_lightSwitch1
+    4301662: fireHose2
+    4301664: fireHose1
+    4301666: fireHose4
+    4301668: closedRope1
+    4301670: stairClosedSign
+    4301672: closedRope
+    4301674: closedRope1
+    4301676: stairClosedSign
+    4301678: closedRope2
+    4301680: closedRope1
+    4301682: stairClosedSign
+    4301684: closedRope2
+    4301686: closedRope1
+    4301688: stairClosedSign
+    4301690: closedRope
+    4301692: closedRope1
+    4301694: stairClosedSign
+    4301696: closedRope2
+    4301698: tape
+    4301700: tape1
+    4301702: tape2
+    4301704: stairClosedSign6
+    4301706: closedRope1
+    4301708: closedRope2
+    4301710: tape
+    4301712: tape1
+    4301714: tape2
+    4301716: fireBell
+    4301718: fireAlarm
+    4301720: fireKnob1
+    4301722: fireKnob3
+    4301724: fireKnob2
+    4301726: stoutonia
+    4301728: paper13
+    4301730: paper12
+    4301732: paper14
+    4301734: paper
+    4301736: main_table
+    4301738: pCylinder78
+    4301740: crumpledPaper
+    4301742: paper1
+    4301744: paper2
+    4301746: painting2
+    4301748: gum
+    4301750: comb
+    4301752: posterBoard
+    4301754: easel_pt3
+    4301756: easel_bolt1
+    4301758: easel_bolt
+    4301760: crumpledPaper1
+    4301762: broom
+    4301764: dustPan
+    4301766: bullBored3
+    4301768: paper9
+    4301770: paper7
+    4301772: paper8
+    4301774: rug1
+    4301776: rug2
+    4301778: rug3
+    4301780: rug4
+    4301782: paper11
+    4301784: easalRope3
+    4301786: bubblerKnob
+    4301788: bubblerKnob
+    4301790: main_bubbler1
+    4301792: cigPack
+    4301794: cigLid
+    4301796: CIG
+    4301798: stairWindow
+    4301800: rug
+    4301802: main_blackCeilingTrim
+    4301804: main_crownMolding
+    4301806: main_crownMolding1
+    4301808: main_blackCeilingTrim1
+    4301810: mainFloorTrim
+    4301812: mainFloorTrim1
+    4301814: mainFloorTrim2
+    4301816: mainFloorTrim3
+    4301818: mainFloorTrim4
+    4301820: mainFloorTrim5
+    4301822: mainFloorTrim6
+    4301824: mainFloorTrim7
+    4301826: mainFloorTrim8
+    4301828: mainFloorTrim9
+    4301830: mainFloorTrim10
+    4301832: mainFloorTrim11
+    4301834: mainFloorTrim12
+    4301836: mainFloorTrim13
+    4301838: mainFloorTrim14
+    4301840: mainFloorTrim16
+    4301842: mainFloorTrim15
+    4301844: mainFloorTrim21
+    4301846: mainFloorTrim18
+    4301848: mainFloorTrim19
+    4301850: mainFloorTrim20
+    4301852: mainFloorTrim22
+    4301854: mainFloorTrim23
+    4301856: mainFloorTrim26
+    4301858: mainFloorTrim17
+    4301860: mainFloorTrim27
+    4301862: mainFloorTrim28
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

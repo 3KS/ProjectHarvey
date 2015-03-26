@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: fd2d20b3a69247c4eba00596439f4e02
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bind_Core_01
+    100002: bind_l_arm_01
+    100004: bind_l_leg_01
+    100006: bind_neck_01
+    100008: bind_r_arm_01
+    100010: bind_r_leg_01
+    100012: Bone_controls
+    100014: boneCharacter
+    100016: control_core_01
+    100018: //RootNode
+    100020: handle_core_02
+    100022: pCube2
+    400000: bind_Core_01
+    400002: bind_l_arm_01
+    400004: bind_l_leg_01
+    400006: bind_neck_01
+    400008: bind_r_arm_01
+    400010: bind_r_leg_01
+    400012: Bone_controls
+    400014: boneCharacter
+    400016: control_core_01
+    400018: //RootNode
+    400020: handle_core_02
+    400022: pCube2
+    4300000: pCube2
+    7400000: walkLoop
+    7400002: sitDown
+    7400004: StandStill
+    9500000: //RootNode
+    13700000: pCube2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walkLoop
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boneCharacter
+        weight: 1
+      - path: boneCharacter/bind_Core_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_l_arm_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_l_leg_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_neck_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_r_arm_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_r_leg_01
+        weight: 1
+      - path: boneCharacter/Bone_controls
+        weight: 1
+      - path: boneCharacter/Bone_controls/handle_core_02
+        weight: 1
+      - path: boneCharacter/control_core_01
+        weight: 1
+      - path: pCube2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: sitDown
+      takeName: Take 001
+      firstFrame: 79
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boneCharacter
+        weight: 1
+      - path: boneCharacter/bind_Core_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_l_arm_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_l_leg_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_neck_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_r_arm_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_r_leg_01
+        weight: 1
+      - path: boneCharacter/Bone_controls
+        weight: 1
+      - path: boneCharacter/Bone_controls/handle_core_02
+        weight: 1
+      - path: boneCharacter/control_core_01
+        weight: 1
+      - path: pCube2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: StandStill
+      takeName: Take 001
+      firstFrame: 72
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boneCharacter
+        weight: 1
+      - path: boneCharacter/bind_Core_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_l_arm_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_l_leg_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_neck_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_r_arm_01
+        weight: 1
+      - path: boneCharacter/bind_Core_01/bind_r_leg_01
+        weight: 1
+      - path: boneCharacter/Bone_controls
+        weight: 1
+      - path: boneCharacter/Bone_controls/handle_core_02
+        weight: 1
+      - path: boneCharacter/control_core_01
+        weight: 1
+      - path: pCube2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

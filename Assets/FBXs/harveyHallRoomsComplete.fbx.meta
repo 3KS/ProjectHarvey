@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 126c29eb7c4824f45a8d606df3a573b1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: hhframe
+    100004: polySurface59
+    100006: polySurface61
+    100008: polySurface62
+    100010: polySurface63
+    100012: polySurface64
+    100014: polySurface65
+    100016: polySurface66
+    100018: polySurface67
+    100020: polySurface68
+    100022: polySurface69
+    100024: polySurface70
+    100026: polySurface71
+    100028: polySurface72
+    100030: polySurface73
+    100032: polySurface74
+    100034: polySurface75
+    100036: polySurface77
+    100038: polySurface78
+    100040: polySurface79
+    100042: polySurface80
+    100044: polySurface81
+    100046: polySurface82
+    100048: polySurface83
+    100050: polySurface84
+    100052: polySurface85
+    100054: polySurface86
+    100056: polySurface87
+    100058: polySurface88
+    100060: polySurface89
+    100062: polySurface90
+    100064: polySurface91
+    100066: polySurface92
+    100068: room01
+    100070: room02
+    100072: room03
+    100074: room04
+    100076: room05
+    100078: room06
+    100080: room07
+    100082: room08
+    100084: room09
+    100086: room10
+    100088: room11
+    100090: room12
+    100092: room13
+    100094: room14
+    100096: room15
+    100098: roomCover
+    100100: roomCover 1
+    100102: roomCover 10
+    100104: roomCover 11
+    100106: roomCover 12
+    100108: roomCover 13
+    100110: roomCover 14
+    100112: roomCover 15
+    100114: roomCover 16
+    100116: roomCover 17
+    100118: roomCover 18
+    100120: roomCover 19
+    100122: roomCover 2
+    100124: roomCover 20
+    100126: roomCover 21
+    100128: roomCover 22
+    100130: roomCover 23
+    100132: roomCover 24
+    100134: roomCover 25
+    100136: roomCover 26
+    100138: roomCover 27
+    100140: roomCover 28
+    100142: roomCover 29
+    100144: roomCover 3
+    100146: roomCover 30
+    100148: roomCover 31
+    100150: roomCover 32
+    100152: roomCover 33
+    100154: roomCover 34
+    100156: roomCover 35
+    100158: roomCover 36
+    100160: roomCover 37
+    100162: roomCover 38
+    100164: roomCover 39
+    100166: roomCover 4
+    100168: roomCover 40
+    100170: roomCover 41
+    100172: roomCover 42
+    100174: roomCover 43
+    100176: roomCover 44
+    100178: roomCover 45
+    100180: roomCover 46
+    100182: roomCover 5
+    100184: roomCover 6
+    100186: roomCover 7
+    100188: roomCover 8
+    100190: roomCover 9
+    100192: roomsFront
+    100194: roomsSides
+    400000: //RootNode
+    400002: hhframe
+    400004: polySurface59
+    400006: polySurface61
+    400008: polySurface62
+    400010: polySurface63
+    400012: polySurface64
+    400014: polySurface65
+    400016: polySurface66
+    400018: polySurface67
+    400020: polySurface68
+    400022: polySurface69
+    400024: polySurface70
+    400026: polySurface71
+    400028: polySurface72
+    400030: polySurface73
+    400032: polySurface74
+    400034: polySurface75
+    400036: polySurface77
+    400038: polySurface78
+    400040: polySurface79
+    400042: polySurface80
+    400044: polySurface81
+    400046: polySurface82
+    400048: polySurface83
+    400050: polySurface84
+    400052: polySurface85
+    400054: polySurface86
+    400056: polySurface87
+    400058: polySurface88
+    400060: polySurface89
+    400062: polySurface90
+    400064: polySurface91
+    400066: polySurface92
+    400068: room01
+    400070: room02
+    400072: room03
+    400074: room04
+    400076: room05
+    400078: room06
+    400080: room07
+    400082: room08
+    400084: room09
+    400086: room10
+    400088: room11
+    400090: room12
+    400092: room13
+    400094: room14
+    400096: room15
+    400098: roomCover
+    400100: roomCover 1
+    400102: roomCover 10
+    400104: roomCover 11
+    400106: roomCover 12
+    400108: roomCover 13
+    400110: roomCover 14
+    400112: roomCover 15
+    400114: roomCover 16
+    400116: roomCover 17
+    400118: roomCover 18
+    400120: roomCover 19
+    400122: roomCover 2
+    400124: roomCover 20
+    400126: roomCover 21
+    400128: roomCover 22
+    400130: roomCover 23
+    400132: roomCover 24
+    400134: roomCover 25
+    400136: roomCover 26
+    400138: roomCover 27
+    400140: roomCover 28
+    400142: roomCover 29
+    400144: roomCover 3
+    400146: roomCover 30
+    400148: roomCover 31
+    400150: roomCover 32
+    400152: roomCover 33
+    400154: roomCover 34
+    400156: roomCover 35
+    400158: roomCover 36
+    400160: roomCover 37
+    400162: roomCover 38
+    400164: roomCover 39
+    400166: roomCover 4
+    400168: roomCover 40
+    400170: roomCover 41
+    400172: roomCover 42
+    400174: roomCover 43
+    400176: roomCover 44
+    400178: roomCover 45
+    400180: roomCover 46
+    400182: roomCover 5
+    400184: roomCover 6
+    400186: roomCover 7
+    400188: roomCover 8
+    400190: roomCover 9
+    400192: roomsFront
+    400194: roomsSides
+    2300000: hhframe
+    2300002: polySurface59
+    2300004: polySurface61
+    2300006: polySurface62
+    2300008: polySurface63
+    2300010: polySurface64
+    2300012: polySurface65
+    2300014: polySurface66
+    2300016: polySurface67
+    2300018: polySurface68
+    2300020: polySurface69
+    2300022: polySurface70
+    2300024: polySurface71
+    2300026: polySurface72
+    2300028: polySurface73
+    2300030: polySurface74
+    2300032: polySurface75
+    2300034: polySurface77
+    2300036: polySurface78
+    2300038: polySurface79
+    2300040: polySurface80
+    2300042: polySurface81
+    2300044: polySurface82
+    2300046: polySurface83
+    2300048: polySurface84
+    2300050: polySurface85
+    2300052: polySurface86
+    2300054: polySurface87
+    2300056: polySurface88
+    2300058: polySurface89
+    2300060: polySurface90
+    2300062: polySurface91
+    2300064: polySurface92
+    2300066: room01
+    2300068: room02
+    2300070: room03
+    2300072: room04
+    2300074: room05
+    2300076: room06
+    2300078: room07
+    2300080: room08
+    2300082: room09
+    2300084: room10
+    2300086: room11
+    2300088: room12
+    2300090: room13
+    2300092: room14
+    2300094: room15
+    2300096: roomCover
+    2300098: roomCover 1
+    2300100: roomCover 10
+    2300102: roomCover 11
+    2300104: roomCover 12
+    2300106: roomCover 13
+    2300108: roomCover 14
+    2300110: roomCover 15
+    2300112: roomCover 16
+    2300114: roomCover 17
+    2300116: roomCover 18
+    2300118: roomCover 19
+    2300120: roomCover 2
+    2300122: roomCover 20
+    2300124: roomCover 21
+    2300126: roomCover 22
+    2300128: roomCover 23
+    2300130: roomCover 24
+    2300132: roomCover 25
+    2300134: roomCover 26
+    2300136: roomCover 27
+    2300138: roomCover 28
+    2300140: roomCover 29
+    2300142: roomCover 3
+    2300144: roomCover 30
+    2300146: roomCover 31
+    2300148: roomCover 32
+    2300150: roomCover 33
+    2300152: roomCover 34
+    2300154: roomCover 35
+    2300156: roomCover 36
+    2300158: roomCover 37
+    2300160: roomCover 38
+    2300162: roomCover 39
+    2300164: roomCover 4
+    2300166: roomCover 40
+    2300168: roomCover 41
+    2300170: roomCover 42
+    2300172: roomCover 43
+    2300174: roomCover 44
+    2300176: roomCover 45
+    2300178: roomCover 46
+    2300180: roomCover 5
+    2300182: roomCover 6
+    2300184: roomCover 7
+    2300186: roomCover 8
+    2300188: roomCover 9
+    3300000: hhframe
+    3300002: polySurface59
+    3300004: polySurface61
+    3300006: polySurface62
+    3300008: polySurface63
+    3300010: polySurface64
+    3300012: polySurface65
+    3300014: polySurface66
+    3300016: polySurface67
+    3300018: polySurface68
+    3300020: polySurface69
+    3300022: polySurface70
+    3300024: polySurface71
+    3300026: polySurface72
+    3300028: polySurface73
+    3300030: polySurface74
+    3300032: polySurface75
+    3300034: polySurface77
+    3300036: polySurface78
+    3300038: polySurface79
+    3300040: polySurface80
+    3300042: polySurface81
+    3300044: polySurface82
+    3300046: polySurface83
+    3300048: polySurface84
+    3300050: polySurface85
+    3300052: polySurface86
+    3300054: polySurface87
+    3300056: polySurface88
+    3300058: polySurface89
+    3300060: polySurface90
+    3300062: polySurface91
+    3300064: polySurface92
+    3300066: room01
+    3300068: room02
+    3300070: room03
+    3300072: room04
+    3300074: room05
+    3300076: room06
+    3300078: room07
+    3300080: room08
+    3300082: room09
+    3300084: room10
+    3300086: room11
+    3300088: room12
+    3300090: room13
+    3300092: room14
+    3300094: room15
+    3300096: roomCover
+    3300098: roomCover 1
+    3300100: roomCover 10
+    3300102: roomCover 11
+    3300104: roomCover 12
+    3300106: roomCover 13
+    3300108: roomCover 14
+    3300110: roomCover 15
+    3300112: roomCover 16
+    3300114: roomCover 17
+    3300116: roomCover 18
+    3300118: roomCover 19
+    3300120: roomCover 2
+    3300122: roomCover 20
+    3300124: roomCover 21
+    3300126: roomCover 22
+    3300128: roomCover 23
+    3300130: roomCover 24
+    3300132: roomCover 25
+    3300134: roomCover 26
+    3300136: roomCover 27
+    3300138: roomCover 28
+    3300140: roomCover 29
+    3300142: roomCover 3
+    3300144: roomCover 30
+    3300146: roomCover 31
+    3300148: roomCover 32
+    3300150: roomCover 33
+    3300152: roomCover 34
+    3300154: roomCover 35
+    3300156: roomCover 36
+    3300158: roomCover 37
+    3300160: roomCover 38
+    3300162: roomCover 39
+    3300164: roomCover 4
+    3300166: roomCover 40
+    3300168: roomCover 41
+    3300170: roomCover 42
+    3300172: roomCover 43
+    3300174: roomCover 44
+    3300176: roomCover 45
+    3300178: roomCover 46
+    3300180: roomCover 5
+    3300182: roomCover 6
+    3300184: roomCover 7
+    3300186: roomCover 8
+    3300188: roomCover 9
+    4300000: polySurface61
+    4300002: roomCover
+    4300004: polySurface62
+    4300006: roomCover
+    4300008: polySurface63
+    4300010: roomCover
+    4300012: polySurface64
+    4300014: roomCover
+    4300016: polySurface65
+    4300018: roomCover
+    4300020: polySurface66
+    4300022: roomCover
+    4300024: polySurface67
+    4300026: roomCover
+    4300028: polySurface68
+    4300030: roomCover
+    4300032: polySurface69
+    4300034: roomCover
+    4300036: polySurface70
+    4300038: roomCover
+    4300040: polySurface71
+    4300042: roomCover
+    4300044: polySurface72
+    4300046: roomCover
+    4300048: polySurface73
+    4300050: roomCover
+    4300052: polySurface74
+    4300054: roomCover
+    4300056: polySurface75
+    4300058: roomCover
+    4300060: polySurface59
+    4300062: roomCover
+    4300064: polySurface92
+    4300066: roomCover
+    4300068: polySurface91
+    4300070: roomCover
+    4300072: polySurface90
+    4300074: roomCover
+    4300076: polySurface89
+    4300078: roomCover
+    4300080: polySurface88
+    4300082: roomCover
+    4300084: polySurface87
+    4300086: roomCover
+    4300088: polySurface86
+    4300090: roomCover
+    4300092: polySurface85
+    4300094: roomCover
+    4300096: polySurface84
+    4300098: roomCover
+    4300100: polySurface83
+    4300102: roomCover
+    4300104: polySurface82
+    4300106: roomCover
+    4300108: polySurface81
+    4300110: roomCover
+    4300112: polySurface80
+    4300114: roomCover
+    4300116: polySurface79
+    4300118: roomCover
+    4300120: polySurface78
+    4300122: roomCover
+    4300124: polySurface77
+    4300126: roomCover
+    4300128: room01
+    4300130: roomCover
+    4300132: room02
+    4300134: roomCover
+    4300136: room03
+    4300138: roomCover
+    4300140: room15
+    4300142: roomCover
+    4300144: room14
+    4300146: roomCover
+    4300148: room13
+    4300150: roomCover
+    4300152: room12
+    4300154: roomCover
+    4300156: room11
+    4300158: roomCover
+    4300160: room10
+    4300162: roomCover
+    4300164: room09
+    4300166: roomCover
+    4300168: room08
+    4300170: roomCover
+    4300172: room07
+    4300174: roomCover
+    4300176: room06
+    4300178: roomCover
+    4300180: room05
+    4300182: roomCover
+    4300184: room04
+    4300186: roomCover
+    4300188: hhframe
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

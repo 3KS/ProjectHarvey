@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 86781ca2112a56a428d18006e4aa8247
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bowman_Hall
+    100004: BowmanTower
+    100006: BowmanWindow
+    100008: BowmanWindow1
+    100010: BowmanWindow2
+    100012: BowmanWindow3
+    100014: Chimneys
+    100016: Clip
+    100018: DoorRoof
+    100020: Ground
+    100022: Gymnasium
+    100024: Gynnasium
+    100026: Trades_Building
+    100028: Unknown2
+    400000: //RootNode
+    400002: Bowman_Hall
+    400004: BowmanTower
+    400006: BowmanWindow
+    400008: BowmanWindow1
+    400010: BowmanWindow2
+    400012: BowmanWindow3
+    400014: Chimneys
+    400016: Clip
+    400018: DoorRoof
+    400020: Ground
+    400022: Gymnasium
+    400024: Gynnasium
+    400026: Trades_Building
+    400028: Unknown2
+    2300000: BowmanTower
+    2300002: BowmanWindow
+    2300004: BowmanWindow1
+    2300006: BowmanWindow2
+    2300008: BowmanWindow3
+    2300010: Chimneys
+    2300012: Clip
+    2300014: DoorRoof
+    2300016: Ground
+    2300018: Gymnasium
+    2300020: Trades_Building
+    2300022: Unknown2
+    3300000: BowmanTower
+    3300002: BowmanWindow
+    3300004: BowmanWindow1
+    3300006: BowmanWindow2
+    3300008: BowmanWindow3
+    3300010: Chimneys
+    3300012: Clip
+    3300014: DoorRoof
+    3300016: Ground
+    3300018: Gymnasium
+    3300020: Trades_Building
+    3300022: Unknown2
+    4300000: Ground
+    4300002: Unknown2
+    4300004: BowmanWindow3
+    4300006: BowmanWindow
+    4300008: BowmanWindow1
+    4300010: BowmanWindow2
+    4300012: BowmanTower
+    4300014: Clip
+    4300016: Trades_Building
+    4300018: Gymnasium
+    4300020: Chimneys
+    4300022: DoorRoof
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
