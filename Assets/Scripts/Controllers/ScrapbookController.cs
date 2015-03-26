@@ -2,7 +2,6 @@ using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Windows.Forms;
 
 
 public class ScrapbookController : MonoBehaviour {
@@ -48,7 +47,6 @@ public class ScrapbookController : MonoBehaviour {
         Debug.Log(isActive &&  !GameController.GetPauseState());
         if (isActive && (Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Book"))&& !GameController.GetPauseState())
         {
-			Input.m
             state = BookState.Missions;
             isOpen = isOpen ? false : true;
             if (isOpen)

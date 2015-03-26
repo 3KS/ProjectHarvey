@@ -8,7 +8,12 @@ using UnityEngine;
 public class AchievementController : MonoBehaviour {
 
     public static List<FindableObject> hatList;
+	//The list of books is a findable object
+	public static List<FindableObject> bookList;
+	//The list of mural is a findable object
+	public static List<FindableObject> muralList;
 
+	private static bool libraryIsLoaded = false;
 	private static bool isDisplay = false;
 	private static Achievements toDisplay;
     private static bool isProgressDisplay = false;
@@ -19,11 +24,16 @@ public class AchievementController : MonoBehaviour {
 	public AudioClip achieved;
 	private static GameObject controllerObject;
     private static int hatCount;
+	//set to true after you talk to Cal
+	public static bool calsMuralStart = false;
+	public static int muralCount;
+	private static int bookCount;
     public GUIText textDisplay;
     private static AudioSource objectSound;
     private static AudioSource achievementSound;
     public AudioSource objectSoundTemp;
     public AudioSource achievementSoundTemp;
+
 
     public static int displayedAchievements = 3;
 
@@ -31,7 +41,14 @@ public class AchievementController : MonoBehaviour {
         HatWhite,
         HatBlack,
         HatGray,
-        HatGold
+        HatGold,
+		UniversityOfHardKnocks,
+		PicadillyJim,
+		SigmundFreud,
+		AnnesHouseOfDreams,
+		SummerEdith,
+		CalsMural
+		//Added each book that can be found
 	};
 
     public enum VisitableRooms {
@@ -51,7 +68,10 @@ public class AchievementController : MonoBehaviour {
         FiveMinutes,
 		SwatTeam,
 		ObjectCollection,
-        Fadeometer
+        Fadeometer,
+		//Add Cal's Mural once we have that achivement
+		FindCalsMural
+
     };
 
     void Start () {
@@ -60,19 +80,58 @@ public class AchievementController : MonoBehaviour {
         textDisplay.enabled = false;
         objectSound = objectSoundTemp;
         achievementSound = achievementSoundTemp;
-    }
-     
-    private static void PrepQuests() {
-        hatList = new List<FindableObject>();
-        hatList.Add(FindableObject.HatWhite);
-        hatList.Add(FindableObject.HatBlack);
-        hatList.Add(FindableObject.HatGray);
-        hatList.Add(FindableObject.HatGold);
-        hatCount = PlayerPrefs.HasKey(SaveController.GetPrefix() + "hatCount") ? PlayerPrefs.GetInt(SaveController.GetPrefix() + "hatCount") : 0;
+		//LevelWasLoaded(Application.loadedLevel);
     }
 
+	/*void ToggleLabel()
+	{
+		libraryIsLoaded = !libraryIsLoaded;
+	}
+
+	void OnLevelWasLoaded(int level)
+	{
+		if(level == 5)
+		{
+			libraryIsLoaded = true;
+		}
+	}*/
+     
+    private static void PrepQuests() {
+		//call to prompt the user to start the quest
+		PrepHatQuest();
+		//Prepare the book quest
+		PrepBookQuest();
+		PrepMuralQuest();
+    }
+
+	private static void PrepBookQuest() {
+		bookList = new List<FindableObject>();
+		bookList.Add(FindableObject.UniversityOfHardKnocks); //Adding the books to the list of findable objects
+		bookList.Add(FindableObject.PicadillyJim);
+		bookList.Add(FindableObject.SigmundFreud);
+		bookList.Add(FindableObject.AnnesHouseOfDreams);
+		bookList.Add(FindableObject.SummerEdith);
+		bookCount = PlayerPrefs.HasKey(SaveController.GetPrefix() + "bookCount") ? PlayerPrefs.GetInt(SaveController.GetPrefix() + "bookCount") : 0;
+	}
+
+	private static void PrepHatQuest() {
+		hatList = new List<FindableObject>();
+		hatList.Add(FindableObject.HatWhite);
+		hatList.Add(FindableObject.HatBlack);
+		hatList.Add(FindableObject.HatGray);
+		hatList.Add(FindableObject.HatGold);
+		hatCount = PlayerPrefs.HasKey(SaveController.GetPrefix() + "hatCount") ? PlayerPrefs.GetInt(SaveController.GetPrefix() + "hatCount") : 0;
+	}
+
+	private static void PrepMuralQuest(){
+		muralList = new List<FindableObject> ();
+		muralList.Add(FindableObject.CalsMural);
+		muralCount = PlayerPrefs.HasKey (SaveController.GetPrefix () + "muralCount") ? PlayerPrefs.GetInt (SaveController.GetPrefix () + "muralCount") : 0;
+	}
     private static void UpdateAchievements() {
         UpdateHatQuest();
+		UpdateBookQuest();
+		UpdateCalsMuralQuest();
     }
 
     private static void UpdateHatQuest() {
@@ -99,6 +158,69 @@ public class AchievementController : MonoBehaviour {
         }
     }
 
+	//Book quest function
+	private static void UpdateBookQuest() {
+		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.ObjectCollection.ToString()) == 0)
+		{
+			bool achievementEarned = true;
+			int tempCount = 0;
+			int maxCount = 0;
+			foreach(FindableObject book in bookList) {
+				achievementEarned = PlayerPrefs.GetInt(SaveController.GetPrefix() + book.ToString()) == 0 ? false : achievementEarned;
+				tempCount = PlayerPrefs.GetInt(SaveController.GetPrefix() + book.ToString()) == 1 ? tempCount+1 : tempCount;
+				maxCount += 1;
+				Debug.Log(tempCount);
+				Debug.Log (SaveController.GetPrefix());
+			}
+			if(achievementEarned) {
+				UnlockAchievement(Achievements.ObjectCollection);
+			} 
+			else 
+			{
+				//HOW TO GET TEXT TO SHOW UP HERE
+				if(tempCount > PlayerPrefs.GetInt(SaveController.GetPrefix() + "bookCount")) 
+				{
+					PlayerPrefs.SetInt(SaveController.GetPrefix() + "bookCount", tempCount);
+					progressToDisplay = (tempCount + " of " + maxCount + " books found.");
+					timeLeft = displayTime;
+					isProgressDisplay = true;
+				}
+			}
+		}
+	}
+
+	public static void UpdateCalsMuralQuest()
+	{
+		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
+		{
+			bool achievementEarned = true;
+			int tempCount = 0;
+			int maxCount = 0;
+			foreach(FindableObject mural in muralList) {
+				achievementEarned = PlayerPrefs.GetInt(SaveController.GetPrefix() + mural.ToString()) == 0 ? false : achievementEarned;
+				tempCount = PlayerPrefs.GetInt(SaveController.GetPrefix() + mural.ToString()) == 1 ? tempCount+1 : tempCount;
+				maxCount += 1;
+				Debug.Log(tempCount);
+				Debug.Log (SaveController.GetPrefix());
+			}
+			if(achievementEarned) {
+				//CHANGE THIS WHEN I CAN
+				UnlockAchievement(Achievements.FindCalsMural);
+			} 
+			else 
+			{
+				//HOW TO GET TEXT TO SHOW UP HERE
+				if(tempCount > PlayerPrefs.GetInt(SaveController.GetPrefix() + "muralCount")) 
+				{
+					PlayerPrefs.SetInt(SaveController.GetPrefix() + "muralCount", tempCount);
+					progressToDisplay = (tempCount + " of " + maxCount + " murals found.");
+					timeLeft = displayTime;
+					isProgressDisplay = true;
+				}
+			}
+		}	
+	}
+
     public static void ResetAchievements() 
 	{
         //Debug.Log("Reset achievements");
@@ -110,10 +232,13 @@ public class AchievementController : MonoBehaviour {
             PlayerPrefs.SetInt(SaveController.GetPrefix() + achieve.ToString(), 0);
         }
         PlayerPrefs.SetInt(SaveController.GetPrefix() + "hatCount", 0);
+		PlayerPrefs.SetInt(SaveController.GetPrefix() + "bookCount", 0);
+		PlayerPrefs.SetInt(SaveController.GetPrefix() + "muralCount", 0);
+
     }
 
 	void OnGUI() {
-				if (isDisplay)
+		if (isDisplay)
         {
             timeLeft -= Time.deltaTime;
             if (timeLeft <= 0)
@@ -130,16 +255,19 @@ public class AchievementController : MonoBehaviour {
                     case "SwatTeam":
                         textNum = 1;
                         break;
-				case "ObjectCollection":
-					textNum = 2;
-					break;
+					case "ObjectCollection":
+						textNum = 2;
+						break;
                     case "Fadeometer":
                         textNum = 3;
                         break;
+					/*case "CalsMurals"
+						textNum = 4;
+						break;*/
                 }
                 GUI.DrawTexture(new Rect(Screen.width/2 -  popupTextures [textNum].width/2, Screen.height/2 - popupTextures [textNum].height/2, popupTextures [textNum].width, popupTextures [textNum].height), popupTextures [textNum]);
             }
-        } else if (isProgressDisplay)
+	        } else if (isProgressDisplay)
         {
             timeLeft -= Time.deltaTime;
             if (timeLeft <= 0)
@@ -152,6 +280,11 @@ public class AchievementController : MonoBehaviour {
                 textDisplay.enabled = true;
             }
         }
+		/*if (libraryIsLoaded) 
+		{
+			Debug.Log ("Library loaded");
+			GUI.Label(new Rect(Screen.width/2, Screen.height/2, 400, 400), "You have entered the library and unlocked the ability to collect 5 hidden books."); 
+		}*/
                 
 	}
 
