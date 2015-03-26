@@ -8800,6 +8800,14 @@ ModelImporter:
     2305048: windowCurtain6
     2305050: windowCurtain8
     2305052: windowCurtain9
+    2305054: chairCombined19 37
+    2305056: chairCombined19 38
+    2305058: chairCombined22 17
+    2305060: chairCombined22 18
+    2305062: chairCombined23 35
+    2305064: chairCombined23 36
+    2305066: chairCombined24 31
+    2305068: chairCombined24 32
     3300000: anklung
     3300002: anklung1
     3300004: anklung2
@@ -11327,6 +11335,14 @@ ModelImporter:
     3305048: windowCurtain6
     3305050: windowCurtain8
     3305052: windowCurtain9
+    3305054: chairCombined19 37
+    3305056: chairCombined19 38
+    3305058: chairCombined22 17
+    3305060: chairCombined22 18
+    3305062: chairCombined23 35
+    3305064: chairCombined23 36
+    3305066: chairCombined24 31
+    3305068: chairCombined24 32
     4300000: floor
     4300002: ceiling
     4300004: stage
@@ -13879,7 +13895,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     weldVertices: 1
