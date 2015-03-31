@@ -35,6 +35,7 @@ public class AchievementController : MonoBehaviour {
     public AudioSource achievementSoundTemp;
 
 
+
     public static int displayedAchievements = 3;
 
     public enum FindableObject {
@@ -87,19 +88,6 @@ public class AchievementController : MonoBehaviour {
 		//LevelWasLoaded(Application.loadedLevel);
     }
 
-	/*void ToggleLabel()
-	{
-		libraryIsLoaded = !libraryIsLoaded;
-	}
-
-	void OnLevelWasLoaded(int level)
-	{
-		if(level == 5)
-		{
-			libraryIsLoaded = true;
-		}
-	}*/
-     
     private static void PrepQuests() {
 		//call to prompt the user to start the quest
 		PrepHatQuest();
@@ -108,7 +96,8 @@ public class AchievementController : MonoBehaviour {
 		PrepMuralQuest();
     }
 
-	private static void PrepBookQuest() {
+	private static void PrepBookQuest() 
+	{
 		bookList = new List<FindableObject>();
 		bookList.Add(FindableObject.UniversityOfHardKnocks); //Adding the books to the list of findable objects
 		bookList.Add(FindableObject.PicadillyJim);
@@ -164,7 +153,7 @@ public class AchievementController : MonoBehaviour {
 
 	//Book quest function
 	private static void UpdateBookQuest() {
-		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.ObjectCollection.ToString()) == 0)
+		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.ObjectCollection.ToString()) == 0 && StartBookCollectionScript.canStartBookQuest)
 		{
 			bool achievementEarned = true;
 			int tempCount = 0;
