@@ -14,6 +14,7 @@ public class SetTableGame : MonoBehaviour
 	public bool objectIsSelected;
 	public bool canClearTable;
 	public static bool gameIsOver;
+	public static bool showPlacements;
 
 	public float menuSpace;
 	public float menuHeight;
@@ -21,7 +22,9 @@ public class SetTableGame : MonoBehaviour
 	public int numberOfObjectsToPlace;
 
 	public GameObject selectedObject;
+	public static GameObject staticSelectedObject;
 	public GameObject selectedPlacement;
+	public static GameObject staticSelectedPlacement;
 	public GameObject gameOver;
 	public GameObject firstPersonItemContainer;
 
@@ -32,11 +35,14 @@ public class SetTableGame : MonoBehaviour
 	public Material wrongPlacementGlow;
 	public Material correctPlacementGlow;
 
+// This Ray information is for hovering
 	private Ray ray;
 	private RaycastHit hit;
 
+//This ray is for selecting the placement
 	private Ray placementRay;
 	private RaycastHit placementHit;
+
 
 	void Start ()
 	{
@@ -95,17 +101,19 @@ public class SetTableGame : MonoBehaviour
 			Invoke ("GameOver", 1);
 		}
 
-		/*
-		if (tablePiecesSet == 9)
-		{
-			gameIsOver = true;
-		}
-		*/
-
 		if (SetTableTrigger.gameIsPlaying == true)
 		{
 			ChangeToGameCam ();
+			showPlacements = true;
 		}
+
+		if (SetTableTrigger.gameIsPlaying == false)
+		{
+			showPlacements = false;
+		}
+
+		staticSelectedObject = selectedObject;
+		staticSelectedPlacement = selectedPlacement;
 	}
 
 
@@ -172,64 +180,4 @@ public class SetTableGame : MonoBehaviour
 		gameCamera.camera.active = true;
 		playerCamera.camera.active = false;
 	}
-
-
-
-		/*
-			ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-			Debug.DrawLine (ray.origin, hit.point);
-			
-			if (Physics.Raycast (ray, out hit, 20))
-			{
-				selectedObject = hit.collider.gameObject;
-			}
-			
-			if (Input.GetMouseButtonDown (0))
-			{
-				objectMoving = true;
-			}
-		}
-
-		if (objectMoving == true)
-		{
-			selectedObject.transform.position = new Vector3(Input.mousePosition.x, selectedObject.transform.position.y, Input.mousePosition.y);
-		}
-		*/
-	
-	/*
-	public void MoveObjects ()
-	{
-		if (lockObject == false)
-		{
-			if (Input.GetMouseButtonDown (0))
-			{
-				ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-				Debug.DrawLine(ray.origin, hit.point);
-				
-				if (Physics.Raycast(ray, out hit, 20))
-				{
-					selectedObject = hit.collider.gameObject;
-					lockObject = true;
-					Debug.Log ("Object is locked in");
-				}
-				
-				Debug.Log ("You have selected the " + selectedObject.name);
-			}
-		}
-
-		if (lockObject == true)
-		{
-			if (Input.GetMouseButton (0))
-			{
-				unlockRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-				Debug.DrawLine(unlockRay.origin, unlockHit.point);
-				
-				if (Physics.Raycast(unlockRay, out unlockHit, 20))
-				{
-					unlockSelectedObject = unlockHit.collider.gameObject;
-				}
-			}
-		}
-	}
-	*/
 }

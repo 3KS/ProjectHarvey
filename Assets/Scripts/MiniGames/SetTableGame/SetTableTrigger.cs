@@ -25,21 +25,10 @@ public class SetTableTrigger : MonoBehaviour
 		menuIsShowing = false;
 	}
 
-	/*
-	void Update ()
-	{
-		if (SetTableGame.gameIsOver == true)
-		{
-			gameIsPlaying = false;
-		}
-	}
-	*/
-
 	void OnGUI ()
 	{
 		if (menuIsShowing == true)
 		{
-			MovementFreeze.FreezePlayer ();
 
 			// This option enters the minigame
 			if (GUI.Button (new Rect (Screen.width / 2 - 90 + menuSpace, Screen.height / 2 - menuHeight, 200, 50), "Help set the table"))
@@ -62,6 +51,8 @@ public class SetTableTrigger : MonoBehaviour
 
 	void OnTriggerEnter (Collider player)
 	{
+		MovementFreeze.FreezePlayer ();
+		Screen.lockCursor = false;
 		menuIsShowing = true;
 	}
 }

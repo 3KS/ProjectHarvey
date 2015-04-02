@@ -15,13 +15,31 @@ public class SetTableGamePlacementLock : MonoBehaviour
 {
 	public GameObject dropPlacementHere;
 
-	//public Material normalPlacementMaterial;
+	public bool show;
+
+	public Material normal;
+	public Material hoverCorrect;
+	public Material hoverWrong;
+
+	void Awake ()
+	{
+		dropPlacementHere.renderer.enabled = false;
+	}
 
 	void Update ()
 	{
 		if (SetTableGameObjectControl.reset == true)
 		{
 			ResetPlacement ();
+		}
+
+		if (SetTableGame.showPlacements == true)
+		{
+			dropPlacementHere.renderer.enabled = true;
+		}
+		else
+		{
+			dropPlacementHere.renderer.enabled = false;
 		}
 	}
 
@@ -38,7 +56,46 @@ public class SetTableGamePlacementLock : MonoBehaviour
 	void ResetPlacement ()
 	{
 		dropPlacementHere.renderer.enabled = true;
-		//dropPlacementHere.renderer.material = normalPlacementMaterial;
 		dropPlacementHere.tag = "TableSetPlacement";
+	}
+
+	void OnMouseEnter ()
+	{
+		if (SetTableGame.staticSelectedObject.name == "Plate" && dropPlacementHere.name == "PlatePlacement")
+		{
+			dropPlacementHere.renderer.material = hoverCorrect;
+			Debug.Log(SetTableGame.staticSelectedObject.name);
+		}
+
+		if (SetTableGame.staticSelectedObject.name == "Plate" && dropPlacementHere.name == "CupPlacement")
+		{
+			dropPlacementHere.renderer.material = hoverWrong;
+			
+			Debug.Log(SetTableGame.staticSelectedObject.name);
+		}
+
+		if (SetTableGame.staticSelectedObject.name == "Cup" && dropPlacementHere.name == "PlatePlacement")
+		{
+			dropPlacementHere.renderer.material = hoverCorrect;
+			
+			Debug.Log(SetTableGame.staticSelectedObject.name);
+		}
+
+		if (SetTableGame.staticSelectedObject.name == "Cup" && dropPlacementHere.name == "CupPlacement")
+		{
+			dropPlacementHere.renderer.material = hoverWrong;
+			
+			Debug.Log(SetTableGame.staticSelectedObject.name);
+		}
+	}
+
+	void OnMouseExit ()
+	{
+		dropPlacementHere.renderer.material = normal;
+	}
+
+	void HoverColor ()
+	{
+
 	}
 }

@@ -21,9 +21,9 @@ public class SetTableGameObjectInfo : MonoBehaviour
 
 	public static bool reset;
 
-//	public Material normal;
-//	public Material hover;
-//	public Material selected;
+	public Material normal;
+	public Material hover;
+	public Material selected;
 
 
 	void Start ()
@@ -31,6 +31,7 @@ public class SetTableGameObjectInfo : MonoBehaviour
 		thisObject = dropObjectHere;
 		originalPosition = thisObject.transform.position;
 		originalRotation = thisObject.transform.rotation;
+		thisObject.renderer.material = normal;
 	}
 
 	void Update ()
@@ -47,57 +48,17 @@ public class SetTableGameObjectInfo : MonoBehaviour
 		thisObject.transform.position = originalPosition;
 	}
 
-}
-
-	/*
-
-	void Update ()
+	void OnMouseEnter ()
 	{
-		if (reset == true)
+		thisObject.renderer.material = hover;
+		if (Input.GetMouseButtonDown (0))
 		{
-			MoveObjects ();
+			thisObject.renderer.material = selected;
 		}
 	}
 
-	public static void ResetTable ()
+	void OnMouseExit ()
 	{
-		Debug.Log ("You have talked to this many objects: ");
-		//Debug.Log ("object name: " + thisObject.name);
-		//Debug.Log ("object new location: " + thisObject.transform.position);
-
-		reset = true;
-		//Debug.Log ("object new location: " + thisObject.transform.position);
-	}
-
-	void MoveObjects ()
-	{
-		Debug.Log ("reset has been set to true");
-		thisObject.tag = "TableSetObject";
-
-		thisObject.transform.position = originalPosition;
-		thisObject.transform.rotation = originalRotation;
-
-		reset = false;
+		thisObject.renderer.material = normal;
 	}
 }
-*/
-
-
-// Crap for later
-
-/*
-	public void NormalMaterial ()
-	{
-
-	}
-
-	public void HoverMaterial ()
-	{
-
-	}
-
-	public void SelectedMaterial ()
-	{
-
-	}
-	*/

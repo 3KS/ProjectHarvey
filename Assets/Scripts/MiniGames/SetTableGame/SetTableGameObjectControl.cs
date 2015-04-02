@@ -23,7 +23,6 @@ public class SetTableGameObjectControl : MonoBehaviour
 
 	void Update ()
 	{
-		//Debug.Log ("reset is : " + reset);
 
 		if (reset == true)
 		{
