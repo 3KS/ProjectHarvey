@@ -19,7 +19,10 @@ public class GameController : MonoBehaviour
 		public Texture[] lockedTextures;
 		public Texture[] unlockedTextures;
 		private Texture2D blackTexture;
-		
+		private static float delay = 0;
+
+
+
 		private static string outsideMenuID;
 
 		public enum MenuState
@@ -180,6 +183,7 @@ public class GameController : MonoBehaviour
 			if (outsideMenuID.Equals (menuID)) {
 				menuState = MenuState.None;
 				outsideMenuID = "";
+				delay = .4f;
 				return true;
 			}
 			Debug.Log ("ClearOutsideMenuState(string menuID): An outside source tried clearing a menu that it does not own.");
@@ -219,6 +223,7 @@ public class GameController : MonoBehaviour
 										menuState = MenuState.None;
 										isPaused = false;
 								} else { //If nothing is open, open the pause menu
+					Debug.Log("open pause diorama");		
 										menuState = MenuState.Pause;
 										isPaused = true;
 								}
@@ -236,7 +241,8 @@ public class GameController : MonoBehaviour
 								if (menuState != MenuState.None && menuState != MenuState.Game) { //If something is open, close it
 										menuState = MenuState.None;
 										isPaused = false;
-								} else { //If nothing is open, open the pause menu
+								} else if(menuState == MenuState.None) { //If nothing is open, open the pause menu
+										Debug.Log("open pause");
 										menuState = MenuState.Pause;
 										isPaused = true;
 								}
@@ -261,7 +267,11 @@ public class GameController : MonoBehaviour
 		void Update ()
 		{
 				isPausedOutput = isPaused; //for debugging purposes
-				UpdateMenuState (); //Updates the state of the menus
+				if (delay <= 0) {
+					UpdateMenuState (); //Updates the state of the menus
+				}			
+
+				delay = delay > 0 ? delay - Time.unscaledDeltaTime : delay;
 
 				if (isPaused) {
 						Time.timeScale = 0;

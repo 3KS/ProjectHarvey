@@ -77,7 +77,7 @@ public class DioramaRotation : MonoBehaviour
             SaveController.CacheDiorama();
             //PlayerPrefs.SetString("currentView", currentView.ToString());
         }
-        Debug.Log( currentView.ToString());
+        //Debug.Log( currentView.ToString());
 
     }
     
