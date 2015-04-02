@@ -47,37 +47,57 @@ public class StartBookCollectionScript : MonoBehaviour
 		//not colliding with the collider, don't let the librarian talk to you!!
 		labelText = "";
 		Debug.Log ("we out");
+		weInBusiness = false;
 	}
 
 	void OnGUI()
 	{
 		if (weInBusiness == true) 
 		{
-			if(!bookQuestIsStarted)
 			MovementFreeze.FreezePlayer ();
 			Screen.lockCursor = false;
 
-			//if we havent started the quest put the buttons up
-			//set boolean to true or false within each of the following statemetns
-			if (GUI.Button(new Rect(Screen.width / 2 + 90 + menuSpace, Screen.height / 2 - menuHeight, 200, 50), "Start book quest"))
+			if(!bookQuestIsStarted)
 			{
-				bookQuestIsStarted = true;
-				canStartBookQuest = true;
-				weInBusiness = false;
-				Screen.lockCursor = true;
-				MovementFreeze.UnFreezePlayer ();
-				labelText = "I need you to help me find my five missing books! They're hidden around the library.";
-				GUILayout.Label(labelText);
-			}
+				//if we havent started the quest put the buttons up
+				//set boolean to true or false within each of the following statemetns
+				if (GUI.Button(new Rect(Screen.width / 2 + 90 + menuSpace, Screen.height / 2 - menuHeight, 200, 50), "Start book quest"))
+				{
+					bookQuestIsStarted = true;
+					canStartBookQuest = true;
+					weInBusiness = true;
+					Screen.lockCursor = true;
+					//hide the mouse
+					Screen.showCursor = false;
+					MovementFreeze.UnFreezePlayer ();
 
-			else if (GUI.Button(new Rect(Screen.width / 2 - 190 - menuSpace, Screen.height / 2 - menuHeight, 200, 50), "Walk away"))
+				}
+
+				else if (GUI.Button(new Rect(Screen.width / 2 - 250 - menuSpace, Screen.height / 2 - menuHeight, 200, 50), "Walk away"))
+				{
+					bookQuestIsStarted = false;
+					canStartBookQuest = false;
+					weInBusiness = false;
+					Screen.lockCursor = true;
+					MovementFreeze.UnFreezePlayer ();
+				}
+			}
+			else
 			{
-				bookQuestIsStarted = false;
-				canStartBookQuest = false;
-				weInBusiness = false;
 				Screen.lockCursor = true;
 				MovementFreeze.UnFreezePlayer ();
 			}
+		}
+
+		if(bookQuestIsStarted && weInBusiness)
+		{
+			//DISPLAY TEXT TO THE PLAYER TO PICK UP THE BOOKS
+			labelText = "I need you to help me find my five missing books! They're hidden around the library. The titles of the five books are: Anne's House of Dreams, Summer, Piccadilly Jim, Introductory Lectures on Psychoanalysis, and the University of Hard Knocks";
+			GUILayout.Label(labelText);
+		}
+		else if(bookQuestIsStarted && !weInBusiness)
+		{
+			labelText = "";
 		}
 	}
 }
