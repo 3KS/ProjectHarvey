@@ -69,7 +69,7 @@ public class MenuTools : MonoBehaviour {
             buttonLight[i] = buttonLightTex[i];
         }
 
-        Debug.Log("loaded");
+        //Debug.Log("loaded");
         background = backgroundTex;
         top = topTex;
         bottom = bottomTex;

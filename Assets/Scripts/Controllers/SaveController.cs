@@ -6,10 +6,22 @@ public class SaveController : MonoBehaviour
 
     private static string prefix;
 
-
+	//********************************************
+	// GetPrefix()
+	// returns the saved game prefix 
+	//********************************************
     public static string GetPrefix() {
         return prefix;
     }
+
+	//********************************************
+	// GetRoomPrefix()
+	// returns the saved game prefix with the current room
+	//********************************************
+	public static string GetRoomPrefix() {
+		return prefix + Application.loadedLevelName + "_";
+	}
+
     public static void CreateProfile(string name, int saveSlot)
     {
         //Debug.Log("Created profile");
@@ -69,6 +81,60 @@ public class SaveController : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+	//********************************************
+	// SaveCurrentFPC()
+	// saves the position of the first person controller in the current room
+	//********************************************
+	public static bool SaveCurrentFPC() {
+		if (GameObject.Find("First Person Controller") != null) {
+			Transform fpcTransform = GameObject.Find("First Person Controller").transform;
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerPosX", fpcTransform.position.x);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerPosY", fpcTransform.position.y);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerPosZ", fpcTransform.position.z);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerRotX", fpcTransform.eulerAngles.x);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerRotY", fpcTransform.eulerAngles.y);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerRotZ", fpcTransform.eulerAngles.z);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerScaleX", fpcTransform.localScale.x);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerScaleY", fpcTransform.localScale.y);
+			PlayerPrefs.SetFloat(GetRoomPrefix() + "playerScaleZ", fpcTransform.localScale.z);
+			return true;
+		} 
+		Debug.Log("SaveController.SaveCurrentFPC() could not find a First Person Controller in the current scene");
+		return false;
+	}
+
+	//********************************************
+	// LoadCurrentFPC()
+	// loads the position of the first person controller in the current room
+	//********************************************
+	public static bool LoadCurrentFPC() {
+		if (GameObject.Find("First Person Controller") != null) { //Checks if there is a first person controller
+			if (PlayerPrefs.HasKey(SaveController.GetRoomPrefix() + "playerPosX")) { //Checks if there is save data for the first person controller
+				GameObject.Find("First Person Controller").transform.position = new Vector3(
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerPosX"), 
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerPosY"), 
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerPosZ"));
+				GameObject.Find("First Person Controller").transform.rotation = Quaternion.Euler(
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerRotX"), 
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerRotY"), 
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerRotZ"));
+				GameObject.Find("First Person Controller").transform.localScale = new Vector3(
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerScaleX"), 
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerScaleY"), 
+					PlayerPrefs.GetFloat(GetRoomPrefix() + "playerScaleZ"));
+				return true;
+			}
+			Debug.Log("SaveController.LoadCurrentFPC() could not find save data for the current scene");
+			return false;
+		}
+		Debug.Log("SaveController.LoadCurrentFPC() could not find a First Person Controller in the current scene");
+		return false;
+	}
+
+	//********************************************
+	// ResetFPC()
+	// saves the position of the first person controller in the current room
+	//********************************************
     public static void ResetFPC() {
         PlayerPrefs.DeleteKey(prefix + "playerPosX");
         PlayerPrefs.DeleteKey(prefix + "playerPosY");

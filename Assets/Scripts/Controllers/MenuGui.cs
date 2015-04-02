@@ -59,7 +59,7 @@ public class MenuGui : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Menu Updating");
+        //Debug.Log("Menu Updating");
         /**Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit = new RaycastHit();
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))

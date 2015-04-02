@@ -8,7 +8,6 @@ public class ScrapbookController : MonoBehaviour {
 
     private bool isActive = false;
     public static bool isOpen = false;
-    private float delay = 0;
     public Texture[] lockedTextures;
     public Texture[] unlockedTextures;
 
@@ -40,36 +39,21 @@ public class ScrapbookController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (!Application.loadedLevelName.Equals("MainMenu") && !Application.loadedLevelName.Equals("LogoSplash"))
-        {
-            isActive = true;
-        }
-        Debug.Log(isActive &&  !GameController.GetPauseState());
-        if (isActive && (Input.GetKeyUp(KeyCode.Space) || Input.GetButtonUp("Book"))&& !GameController.GetPauseState())
+		if (!isOpen && GameController.GetMenuState() == GameController.MenuState.Scrapbook)
         {
             state = BookState.Missions;
-            isOpen = isOpen ? false : true;
-            if (isOpen)
-            {
-                scrapBook.SetActive(true);
-                MovementFreeze.FreezePlayer();
-				Screen.lockCursor = false;
-            } else
-            {
-                scrapBook.SetActive(false);
-                MovementFreeze.UnFreezePlayer();
-				Screen.lockCursor = true;
-            }
-            delay = .2f;
-        } else if (isOpen && (Input.GetKeyUp(KeyCode.Escape) || Input.GetButtonUp("Pause")))
-        {
+            isOpen = true;
+            scrapBook.SetActive(true);
+            MovementFreeze.FreezePlayer();
+		    Screen.lockCursor = false;
+        } else if (isOpen && GameController.GetMenuState() != GameController.MenuState.Scrapbook) {
             isOpen = false;
             scrapBook.SetActive(false);
-			Screen.lockCursor = true;
             MovementFreeze.UnFreezePlayer();
-            delay = .2f;
+			if(GameController.GetGameState() != GameController.GameState.Diorama) {
+				Screen.lockCursor = true;
+			}
         }
-        delay = delay > 0 ? delay - Time.deltaTime : 0;
 
         if (isOpen)
         {
