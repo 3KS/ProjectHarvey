@@ -133,8 +133,8 @@ public class Fadeometer : MonoBehaviour
 	public void SetSelectingState() {
 		state = MeterState.Selecting;
 		infoCanvas.SetActive (false);
-		selectionCanvas.SetActive (false);
-		atlasCanvas.SetActive(true);
+		selectionCanvas.SetActive (true);
+		atlasCanvas.SetActive(false);
 		resultCanvas.SetActive (false);
 	}
 
