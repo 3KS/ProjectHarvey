@@ -48,7 +48,9 @@ public class AchievementController : MonoBehaviour {
 		SigmundFreud,
 		AnnesHouseOfDreams,
 		SummerEdith,
-		CalsMural
+		CalsMural,
+		Imposter1,
+		Imposter2
 		//Added each book that can be found
 	};
 
@@ -88,6 +90,12 @@ public class AchievementController : MonoBehaviour {
 		//LevelWasLoaded(Application.loadedLevel);
     }
 
+	void Update()
+	{
+		//if the boolean from the other script is true
+		//instantiate the objects
+	}
+
     private static void PrepQuests() {
 		//call to prompt the user to start the quest
 		PrepHatQuest();
@@ -119,6 +127,8 @@ public class AchievementController : MonoBehaviour {
 	private static void PrepMuralQuest(){
 		muralList = new List<FindableObject> ();
 		muralList.Add(FindableObject.CalsMural);
+		muralList.Add(FindableObject.Imposter1);
+		muralList.Add(FindableObject.Imposter2);
 		muralCount = PlayerPrefs.HasKey (SaveController.GetPrefix () + "muralCount") ? PlayerPrefs.GetInt (SaveController.GetPrefix () + "muralCount") : 0;
 	}
     private static void UpdateAchievements() {
