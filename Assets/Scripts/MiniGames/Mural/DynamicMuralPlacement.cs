@@ -1,11 +1,13 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class DynamicMuralPlacement : MonoBehaviour 
 {
 	public GameObject CalsMural;
-	public GameObject ImposterMural1;
-	public GameObject ImposterMural2;
+	public GameObject Imposter1;
+	public GameObject Imposter2;
+
+	private bool muralsAreAdded = false;
 
 	// Use this for initialization
 	void Start () 
@@ -16,12 +18,12 @@ public class DynamicMuralPlacement : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-
+		AddMuralsToScene ();
 	}
 	
-	public static void AddMuralsToScene()
+	void AddMuralsToScene()
 	{
-		if(MuralCollection.muralQuestIsStarted)
+		if(MuralCollection.muralQuestIsStarted == true && muralsAreAdded == false)
 		{
 			//mural1
 			Vector3 position = new Vector3(-10.56F , 43.46F , -70.236F);
@@ -31,13 +33,14 @@ public class DynamicMuralPlacement : MonoBehaviour
 			//mural2
 			Vector3 position2 = new Vector3(-10.429F , 43.535F , -72.41F);
 			Quaternion rotation2 = Quaternion.Euler(0, 0, 0);
-			GameObject mural2 = Instantiate(ImposterMural1, position2, rotation2) as GameObject;
+			GameObject mural2 = Instantiate(Imposter1, position2, rotation2) as GameObject;
 			
 			//mural3
 			Vector3 position3 = new Vector3(-10.641F , 43.535F , -72.41F);
 			Quaternion rotation3 = Quaternion.Euler(0, 0, 0);
-			GameObject mural3 = Instantiate(ImposterMural2, position3, rotation3) as GameObject;
+			GameObject mural3 = Instantiate(Imposter2, position3, rotation3) as GameObject;
+
+			muralsAreAdded = true;
 		}
 	}
 }
-*/

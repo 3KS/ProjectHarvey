@@ -14,7 +14,7 @@ public class MuralCollection : MonoBehaviour
 	public GameObject player;
 	public GameObject muralMiniGameTrigger;
 
-	public static bool muralQuestIsStarted = true;
+	public static bool muralQuestIsStarted = false;
 	public static bool weInBusiness = false;
 
 	public static bool mural1Found = false;
@@ -24,9 +24,9 @@ public class MuralCollection : MonoBehaviour
 	public float menuHeight;
 	public float menuSpace;
 
-	public GameObject CalsMural;
-	public GameObject ImposterMural1;
-	public GameObject ImposterMural2;
+	/*public GameObject CalsMural;
+	public GameObject Imposter1;
+	public GameObject Imposter2;*/
 
 	public string labelText = "";
 
@@ -45,7 +45,6 @@ public class MuralCollection : MonoBehaviour
 		//If we already haven the achievement, don't let any text pop up
 		if (AchievementController.CheckAchievement (AchievementController.Achievements.FindCalsMural)) 
 		{
-			//labelText = "";
 			Debug.Log ("We out");
 			weInBusiness = false;
 		} 
@@ -54,8 +53,6 @@ public class MuralCollection : MonoBehaviour
 		{
 			Debug.Log("We in this");
 			weInBusiness = true;
-			//MovementFreeze.FreezePlayer ();
-			//Screen.lockCursor = false;
 		}
 	}
 
@@ -65,27 +62,6 @@ public class MuralCollection : MonoBehaviour
 		//labelText = "";
 		Debug.Log ("we out");
 		weInBusiness = false;
-	}
-
-	public static void AddMuralsToScene()
-	{
-		if(MuralCollection.muralQuestIsStarted)
-		{
-			//mural1
-			Vector3 position = new Vector3(-10.56F , 43.46F , -70.236F);
-			Quaternion rotation = Quaternion.Euler(0, 82.75108F, 0);
-			GameObject mural1 = Instantiate(CalsMural, position, rotation) as GameObject;
-			
-			//mural2
-			Vector3 position2 = new Vector3(-10.429F , 43.535F , -72.41F);
-			Quaternion rotation2 = Quaternion.Euler(0, 0, 0);
-			GameObject mural2 = Instantiate(ImposterMural1, position2, rotation2) as GameObject;
-			
-			//mural3
-			Vector3 position3 = new Vector3(-10.641F , 43.535F , -72.41F);
-			Quaternion rotation3 = Quaternion.Euler(0, 0, 0);
-			GameObject mural3 = Instantiate(ImposterMural2, position3, rotation3) as GameObject;
-		}
 	}
 
 	void OnGUI()
