@@ -87,6 +87,7 @@ public class Fadeometer : MonoBehaviour
 					//If you press e and no other menus are open, it opens the fadeometer
 					if (Input.GetButtonUp("Select") && !isPlaying && delay <= 0)
                     {
+						GameController.ClearNotification("fadeNotification");
 						if(GameController.SetOutsideMenuState(GameController.MenuState.Game, gameID)) {
                         	MovementFreeze.FreezePlayer();
                         	isPlaying = true;
@@ -95,17 +96,31 @@ public class Fadeometer : MonoBehaviour
                         	Screen.lockCursor = false;
                         	delay = .4f;
 						}
-                    } else if (!isPlaying)
+                    } else if (!isPlaying && !isHitting)
                     {
                         isHitting = true;
+						GameController.DisplayNotification("fadeNotification", "Press 'E' to interact with the Fade-O-Meter");
                     }
                 } else if (isHitting)
                 {
                     isHitting = false;
+					GameController.ClearNotification("fadeNotification");
                 }
-            }
+            } else if(isHitting) {
+				isHitting = false;
+				GameController.ClearNotification("fadeNotification");
+			}
         }
     }
+
+	void OnTriggerExit(Collider other) {
+		if (other.tag.Equals ("Player")) {
+			if(isHitting) {
+				isHitting = false;
+				GameController.ClearNotification("fadeNotification");
+			}
+		}
+	}
 
 	public void CloseAtlasFade() {
 		infoCanvas.SetActive (false);

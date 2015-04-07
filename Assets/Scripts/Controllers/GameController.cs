@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class GameController : MonoBehaviour
 {
+		public static GameController instance;
+
 		public string splashSceneName;
 		public string menuSceneName;
 		public string dioramaSceneName;
@@ -21,6 +24,7 @@ public class GameController : MonoBehaviour
 		private Texture2D blackTexture;
 		private static float delay = 0;
 
+		public GameObject notificationMenu;
 
 
 		private static string outsideMenuID;
@@ -33,7 +37,8 @@ public class GameController : MonoBehaviour
 				Scrapbook,
 				Dialog,
 				Inspector,
-				Game
+				Game,
+				Notification
 		};
 
 		public enum GameState
@@ -54,6 +59,7 @@ public class GameController : MonoBehaviour
 		//********************************************
 		void Start ()
 		{
+				instance = this;
 				blackTexture = new Texture2D (1, 1);
 				//renderer.material.mainTexture = blackTexture;
 				int y = 0;
@@ -187,6 +193,38 @@ public class GameController : MonoBehaviour
 				return true;
 			}
 			Debug.Log ("ClearOutsideMenuState(string menuID): An outside source tried clearing a menu that it does not own.");
+			return false;
+		}
+
+		//********************************************
+		// DisplayNotification()
+		// used for displaying game notifications
+		//********************************************
+		public static bool DisplayNotification(string notificationID, string notification) {
+			if(menuState == MenuState.None) {
+				menuState = MenuState.Notification;
+				outsideMenuID = notificationID;
+				instance.notificationMenu.SetActive(true);
+				instance.notificationMenu.transform.Find("Text").GetComponent<Text>().text = notification;
+				return true;
+			}
+			Debug.Log ("DisplayNotification(string notificationID, string notification): An outside source tried displaying a while a menu is already open.");
+			return false;
+		}
+
+		//********************************************
+		// ClearNotification()
+		// used for clearing game notifications
+		//********************************************
+		public static bool ClearNotification(string notificationID) {
+			if(outsideMenuID.Equals(notificationID)) {
+				menuState = MenuState.None;
+				outsideMenuID = "";
+				instance.notificationMenu.SetActive(false);
+				instance.notificationMenu.transform.Find("Text").GetComponent<Text>().text = "Notification";
+				return true;
+			}
+			Debug.Log ("ClearNotification(string notificationID): An outside source tried clearing a notificationthat it does not own.");
 			return false;
 		}
 
