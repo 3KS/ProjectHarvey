@@ -9,10 +9,12 @@ public class TheBeeGameController : MonoBehaviour
 	private bool playerCanSwing;
 
 	public GameObject player;
+	public GameObject directions;
 
 
 	void Start ()
 	{
+		directions.renderer.enabled = false;
 		canPlayGame = true;
 		playerCanSwing = false;
 		canSeeSwatter = true;
@@ -21,35 +23,53 @@ public class TheBeeGameController : MonoBehaviour
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (canPlayGame == true)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
 		{
-			player.GetComponent <TheBeeGame>().showMenu = true;
+			if (other.gameObject.tag == "Player")
+			{
+				if (canPlayGame == true)
+				{
+					player.GetComponent <TheBeeGame>().showMenu = true;
+				}
+				
+				if (canSeeSwatter == true)
+				{
+					player.GetComponent <TheBeeGame>().gameIsPlaying = true;
+				}
+				player.GetComponent <TheBeeGame>().SwatterVisible ();
+			}
 		}
-
-		if (canSeeSwatter == true)
-		{
-			player.GetComponent <TheBeeGame>().gameIsPlaying = true;
-		}
-		player.GetComponent <TheBeeGame>().SwatterVisible ();
 	}
 
 
 	void OnTriggerStay (Collider other)
 	{
-		//player.GetComponent <TheBeeGame>().gameIsPlaying = true;
-		player.GetComponent <TheBeeGame>().Swing ();
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
+		{
+			if (other.gameObject.tag == "Player")
+			{
+				//player.GetComponent <TheBeeGame>().gameIsPlaying = true;
+				directions.renderer.enabled = true;
+				player.GetComponent <TheBeeGame>().Swing ();
+			}
+		}
 	}
 
 
 	void OnTriggerExit (Collider other)
 	{
-		if (other.gameObject.tag == "Player");
-	   {
-			playerCanSwing = false;
+		directions.renderer.enabled = false;
 
-			player.GetComponent <TheBeeGame>().gameIsPlaying = false;
-			player.GetComponent <TheBeeGame>().SwatterVisible ();
-			player.GetComponent <TheBeeGame>().showMenu = false;
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
+		{
+			if (other.gameObject.tag == "Player");
+			{
+				playerCanSwing = false;
+
+				player.GetComponent <TheBeeGame>().gameIsPlaying = false;
+				player.GetComponent <TheBeeGame>().SwatterVisible ();
+				player.GetComponent <TheBeeGame>().showMenu = false;
+			}
 		}
 	}
 }

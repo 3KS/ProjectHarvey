@@ -69,6 +69,9 @@ public class SaveController : MonoBehaviour
         PlayerPrefs.SetFloat(prefix + "playTime", 0.0f);
         PlayerPrefs.SetString("temp_dioramRot", "Front");
         PlayerPrefs.SetInt("temp_dioramTime", 1);
+		PlayerPrefs.SetInt(prefix + "canPlayTheater", 0);
+		PlayerPrefs.SetInt (prefix + "canPlayWasps", 0);
+		PlayerPrefs.SetInt (prefix + "CanPlayTea", 0);
         ResetFPC();
         AchievementController.ResetAchievements();
         PlayerPrefs.Save();

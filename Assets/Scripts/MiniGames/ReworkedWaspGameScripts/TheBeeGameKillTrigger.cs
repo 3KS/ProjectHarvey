@@ -5,7 +5,7 @@ public class TheBeeGameKillTrigger : MonoBehaviour
 {
 	public GameObject player;
 	public bool beeDestroyed;
-
+	
 
 	void OnCollisionEnter (Collision other)
 	{

@@ -20,6 +20,18 @@ public class TheBeeGame : MonoBehaviour
 	public GameObject waspGameTrigger;
 	public GameObject killTrigger;
 
+	public GameObject waspkills0;
+	public GameObject waspkills1;
+	public GameObject waspkills2;
+	public GameObject waspkills3;
+	public GameObject waspkills4;
+	public GameObject waspkills5;
+	public GameObject waspkills6;
+	public GameObject waspkills7;
+	public GameObject waspkills8;
+	public GameObject waspkills9;
+	public GameObject waspkills10;
+
 
 	public AudioSource swatSound;
 	public bool playKillSound;
@@ -27,7 +39,123 @@ public class TheBeeGame : MonoBehaviour
 
 	void Update ()
 	{
+		//Debug.Log (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps"));
 		Debug.Log ("WaspKills : " + waspkills);
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 2)
+		{
+			gameIsPlaying = false;
+			playerSwatter.active = false;
+		}
+
+		
+		if (waspkills == 0 && gameIsPlaying == true)
+		{
+			waspkills0.renderer.enabled = true;
+		}
+		else if (waspkills == 1)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = true;
+		}
+		else if (waspkills == 2)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = true;
+		}
+		
+		else if (waspkills == 3)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = true;
+		}
+		else if (waspkills == 4)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = false;
+			waspkills4.renderer.enabled = true;
+		}
+		else if (waspkills == 5)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = false;
+			waspkills4.renderer.enabled = false;
+			waspkills5.renderer.enabled = true;
+		}
+		else if (waspkills == 6)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = false;
+			waspkills4.renderer.enabled = false;
+			waspkills5.renderer.enabled = false;
+			waspkills6.renderer.enabled = true;
+		}
+		else if (waspkills == 7)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = false;
+			waspkills4.renderer.enabled = false;
+			waspkills5.renderer.enabled = false;
+			waspkills6.renderer.enabled = false;
+			waspkills7.renderer.enabled = true;
+		}
+		else if (waspkills == 8)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = false;
+			waspkills4.renderer.enabled = false;
+			waspkills5.renderer.enabled = false;
+			waspkills6.renderer.enabled = false;
+			waspkills7.renderer.enabled = false;
+			waspkills8.renderer.enabled = true;
+		}
+		else if (waspkills == 9)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = false;
+			waspkills4.renderer.enabled = false;
+			waspkills5.renderer.enabled = false;
+			waspkills6.renderer.enabled = false;
+			waspkills7.renderer.enabled = false;
+			waspkills8.renderer.enabled = false;
+			waspkills9.renderer.enabled = true;
+		}
+		else if (waspkills == 10)
+		{
+			waspkills0.renderer.enabled = false;
+			waspkills1.renderer.enabled = false;
+			waspkills2.renderer.enabled = false;
+			waspkills3.renderer.enabled = false;
+			waspkills4.renderer.enabled = false;
+			waspkills5.renderer.enabled = false;
+			waspkills6.renderer.enabled = false;
+			waspkills7.renderer.enabled = false;
+			waspkills8.renderer.enabled = false;
+			waspkills9.renderer.enabled = false;
+			waspkills10.renderer.enabled = true;
+
+			Invoke ("WaspKillUp", 3.0f);
+
+		}
+		else if (waspkills == 11)
+		{
+			Debug.Log("wasp kills are at eleven");
+			waspkills10.renderer.enabled = false;
+		}
 	}
 
 // The Start function sets all bools to false, sets the number of dead wasps to 0 and sets the swatter's resting position and rotation
@@ -41,55 +169,70 @@ public class TheBeeGame : MonoBehaviour
 
 		playerSwatter.transform.position = swatterInitialPosition.transform.position;
 		playerSwatter.transform.rotation = swatterInitialPosition.transform.rotation;
+
+		waspkills0.renderer.enabled = false;
+		waspkills1.renderer.enabled = false;
+		waspkills2.renderer.enabled = false;
+		waspkills3.renderer.enabled = false;
+		waspkills4.renderer.enabled = false;
+		waspkills5.renderer.enabled = false;
+		waspkills6.renderer.enabled = false;
+		waspkills7.renderer.enabled = false;
+		waspkills8.renderer.enabled = false;
+		waspkills9.renderer.enabled = false;
+		waspkills10.renderer.enabled = false;
 	}
 
 
 	void OnGUI ()
 	{
-
-// This if statement controls the current menu for playing the wasp game
-// If the player walks into the game zone, the player is frozen and the menu appears
-// When the player chooses an option, the game is turned on or the game is turned off
-		if (showMenu == true)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
 		{
-			MovementFreeze.FreezePlayer();
-			Screen.lockCursor = false;
-
-			if (GUI.Button(new Rect(Screen.width / 2 - 90, Screen.height / 2 - 50, 200, 50), "Play Wasp Game"))
+			// This if statement controls the current menu for playing the wasp game
+			// If the player walks into the game zone, the player is frozen and the menu appears
+			// When the player chooses an option, the game is turned on or the game is turned off
+			if (showMenu == true)
 			{
-				playGame = true;
-				MovementFreeze.UnFreezePlayer ();
-				Screen.lockCursor = true;
-
-				waspGameTrigger.GetComponent<TheBeeGameController>().canPlayGame = false;
-				showMenu = false;
-			}
-			if (GUI.Button(new Rect(Screen.width / 2 - 90, Screen.height / 2 + 50, 200, 50), "Don't Play the Wasp Game"))
-			{
-				playGame = false;
-				MovementFreeze.UnFreezePlayer ();
-				Screen.lockCursor = true;
-				showMenu = false;
-			}
-		}
-
-// This if statement controls the GUI for number of wasps killed as well as telling the player when all wasps have been killed
-		if (gameIsPlaying == true)
-		{
-			if (waspkills <= 10)
-			{
-				GUILayout.Label ("Wasps Killed: " + waspkills + " / 10");
+				MovementFreeze.FreezePlayer();
+				Screen.lockCursor = false;
+				
+				if (GUI.Button(new Rect(Screen.width / 2 - 90, Screen.height / 2 - 50, 200, 50), "Play Wasp Game"))
+				{
+					playGame = true;
+					MovementFreeze.UnFreezePlayer ();
+					Screen.lockCursor = true;
+					
+					waspGameTrigger.GetComponent<TheBeeGameController>().canPlayGame = false;
+					showMenu = false;
+				}
+				if (GUI.Button(new Rect(Screen.width / 2 - 90, Screen.height / 2 + 50, 200, 50), "Don't Play the Wasp Game"))
+				{
+					playGame = false;
+					MovementFreeze.UnFreezePlayer ();
+					Screen.lockCursor = true;
+					showMenu = false;
+				}
 			}
 			
-			if (waspkills >= 10)
+			// This if statement controls the GUI for number of wasps killed as well as telling the player when all wasps have been killed
+			if (gameIsPlaying == true)
 			{
-				//if (!AchievementController.CheckAchievement(AchievementController.Achievements.SwatTeam))
-				//{
-				//	AchievementController.UnlockAchievement (AchievementController.Achievements.SwatTeam);
+				/*if (waspkills <= 10)
+				{
+					GUILayout.Label ("Wasps Killed: " + waspkills + " / 10");
+				}*/
+				
+				if (waspkills >= 10)
+				{
+					//if (!AchievementController.CheckAchievement(AchievementController.Achievements.SwatTeam))
+					//{
+					//	AchievementController.UnlockAchievement (AchievementController.Achievements.SwatTeam);
 					GUILayout.Label ("Wasps have been exterminated");
+					PlayerPrefs.SetInt (SaveController.GetPrefix () + "canPlayWasps", 2);
 					Invoke ("DisableWaspGame", 2.5f);
-				//}
-
+					//}
+					
+				}
 			}
 		}
 	}
@@ -99,15 +242,17 @@ public class TheBeeGame : MonoBehaviour
 // It is used to make the swatter invisible when the player isn't playing the game.
 	public void SwatterVisible ()
 	{
-
-		if (gameIsPlaying == true)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
 		{
-			Debug.Log ("Swatter should be visible");
-			playerSwatter.active = true;
-		} 
-		else
-		{
-			playerSwatter.active = false;
+			if (gameIsPlaying == true)
+			{
+				//Debug.Log ("Swatter should be visible");
+				playerSwatter.active = true;
+			} 
+			else
+			{
+				playerSwatter.active = false;
+			}
 		}
 	}
 
@@ -117,27 +262,30 @@ public class TheBeeGame : MonoBehaviour
 // The kill sound is played through the Invoke ("KillSound", .3f); where KillSound is the function that plays the sound and .3f is the delay before it plays
 	public void Swing ()
 	{
-		if (Input.GetMouseButton (0))
+		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + "canPlayWasps") == 1)
 		{
-			swatSound.Play ();
-
-			playerSwatter.transform.position = swatterSwatPosition.transform.position;
-			playerSwatter.transform.rotation = swatterSwatPosition.transform.rotation;
-
-			killTrigger.GetComponent <TheBeeGameKillTrigger>().beeDestroyed = true;
-
-			if (playKillSound == true)
+			if (Input.GetMouseButton (0))
 			{
-				Invoke ("KillSound", .3f);
-				playKillSound = false;
+				swatSound.Play ();
+				
+				playerSwatter.transform.position = swatterSwatPosition.transform.position;
+				playerSwatter.transform.rotation = swatterSwatPosition.transform.rotation;
+				
+				killTrigger.GetComponent <TheBeeGameKillTrigger>().beeDestroyed = true;
+				
+				if (playKillSound == true)
+				{
+					Invoke ("KillSound", .3f);
+					playKillSound = false;
+				}
 			}
-		}
-		else
-		{
-			playerSwatter.transform.position = swatterInitialPosition.transform.position;
-			playerSwatter.transform.rotation = swatterInitialPosition.transform.rotation;
-
-			killTrigger.GetComponent <TheBeeGameKillTrigger>().beeDestroyed = false;
+			else
+			{
+				playerSwatter.transform.position = swatterInitialPosition.transform.position;
+				playerSwatter.transform.rotation = swatterInitialPosition.transform.rotation;
+				
+				killTrigger.GetComponent <TheBeeGameKillTrigger>().beeDestroyed = false;
+			}
 		}
 	}
 
@@ -150,9 +298,16 @@ public class TheBeeGame : MonoBehaviour
 
 	void DisableWaspGame ()
 	{
+		Debug.Log ("disable has been called");
+		waspkills = 11;
 		waspGameTrigger.GetComponent <TheBeeGameController> ().canSeeSwatter = false;
 		waspGameTrigger.GetComponent <TheBeeGameController>().enabled = false;
 		killTrigger.GetComponent <TheBeeGameKillTrigger>().enabled = false;
 		player.GetComponent <TheBeeGame>().enabled = false;
+	}
+
+	void WaspKillUp()
+	{
+		waspkills10.renderer.enabled = false;
 	}
 }
