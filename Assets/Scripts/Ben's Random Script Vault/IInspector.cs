@@ -11,6 +11,7 @@ public class IInspector : MonoBehaviour
     private string objectTitle;
     private string objectDescription;
     public Texture2D crosshair;
+	private string menuID = "interactiveNote";
     // Use this for initialization
 
     void Start()
@@ -41,17 +42,19 @@ public class IInspector : MonoBehaviour
                     lastTransform = hit.transform;
                 }
 
-                if(!isViewing) {
+                if(!isViewing && !canInteract) {
                     canInteract = true;
+					GameController.DisplayNotification(menuID, "Press 'E' to view object");
                 }
                 //hit.transform.gameObject.renderer.material.SetColor("_RimColor", Color.cyan);
                 if ((Input.GetMouseButtonUp(0) || Input.GetKeyDown(KeyCode.E)) && !isViewing)
                 {
                     ViewObject(hit);
                 }
-            } else 
+            } else if(canInteract)
 			{
                 canInteract = false;
+				GameController.ClearNotification(menuID);
             }
             if (lastTransform != null && !lastTransform.Equals(hit.transform))
             {
@@ -64,10 +67,12 @@ public class IInspector : MonoBehaviour
             //lastTransform.gameObject.renderer.material.SetColor("_RimColor", Color.black);
             lastTransform = null;
             canInteract = false;
+			GameController.ClearNotification(menuID);
         }
-        else 
+        else if(canInteract)
 		{
             canInteract = false;
+			GameController.ClearNotification(menuID);
         }
        
     }
@@ -83,12 +88,7 @@ public class IInspector : MonoBehaviour
             MenuTools.DrawSmallMenu(50, 50, Screen.width / 2 - 100, Screen.height - 100);
             GUI.Label(new Rect(100, 100, 150, 50), objectTitle, MenuTools.dioramaLabel);
             GUI.Label(new Rect(100, 150, 150, 50), objectDescription, MenuTools.dioramaLabel);
-        } else if (canInteract)
-        {
-            Vector2 size = MenuTools.dioramaLabel.CalcSize(new GUIContent("Press 'E' to view object"));
-            MenuTools.DrawSmallMenu(Screen.width/2 - (int)size.x/2 + 10, Screen.height/2 - (int)size.y/2 + 10, (int)size.x + 20, (int)size.y + 20);
-            GUI.Label(new Rect(Screen.width/2 - (int)size.x/2 + 10 + 10, Screen.height/2 - (int)size.y/2 + 10 + 10, 150, 50), "Press 'E' to view object", MenuTools.dioramaLabel);
-        }
+        } 
     }
 
     private void ViewObject(RaycastHit hit) 

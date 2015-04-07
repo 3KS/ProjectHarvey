@@ -14,6 +14,7 @@ public class boxHover : MonoBehaviour
     public string roomName;
     public string roomInfo;
     public AchievementController.VisitableRooms room;
+	private string menuID = "hoverRoom";
 
     void Start()
     {
@@ -29,7 +30,10 @@ public class boxHover : MonoBehaviour
 			foreach (Light light in lights) {
 				light.enabled = false;
 			}
-			isHovered = false;
+			if(isHovered) {
+				isHovered = false;
+				GameController.ClearNotification(menuID);
+			}
 		}
         zoomRoom();    
     }
@@ -39,7 +43,10 @@ public class boxHover : MonoBehaviour
 		if (Time.timeScale == 1) {
 			if (this.enabled && !zoomingRoom && BeginFader.GetDoneLoad ()) {
 				Light[] lights = gameObject.GetComponentsInChildren<Light> (false);
-                isHovered = true;
+                if(!isHovered) {
+					isHovered = true;
+					GameController.DisplayFollowNotification(menuID, roomName);
+				}
 				foreach (Light light in lights) {
 					light.enabled = true;
 				}
@@ -54,17 +61,6 @@ public class boxHover : MonoBehaviour
 		}
     }
 
-    void OnGUI() {
-
-        if (isHovered)
-        {
-            Vector2 size = MenuTools.dioramaLabel.CalcSize(new GUIContent(roomName));
-            //GUI.Box(new Rect((int)Input.mousePosition.x, Screen.height-(int)Input.mousePosition.y, size.x, size.y), "");
-            MenuTools.DrawSmallMenu((int)Input.mousePosition.x, Screen.height-(int)Input.mousePosition.y, (int)size.x+50, (int)size.y+20);
-            GUI.Label(new Rect(Input.mousePosition.x+10, Screen.height-Input.mousePosition.y+10, 150, 50),roomName, MenuTools.dioramaLabel);
-
-        }
-    }
     void zoomRoom()
     {
         if (zoomingRoom)
@@ -80,7 +76,10 @@ public class boxHover : MonoBehaviour
 			foreach (Light light in lights) {
 				light.enabled = false;
 			}
-            isHovered = false;
+			if(isHovered) {
+	            isHovered = false;
+				GameController.ClearNotification(menuID);
+			}
 		}
     }
     
