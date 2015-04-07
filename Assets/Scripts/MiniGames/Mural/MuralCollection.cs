@@ -13,6 +13,7 @@ public class MuralCollection : MonoBehaviour
 {	
 	public GameObject player;
 	public GameObject muralMiniGameTrigger;
+
 	public static bool muralQuestIsStarted = false;
 	public static bool weInBusiness = false;
 
@@ -22,6 +23,10 @@ public class MuralCollection : MonoBehaviour
 
 	public float menuHeight;
 	public float menuSpace;
+
+	/*public GameObject CalsMural;
+	public GameObject Imposter1;
+	public GameObject Imposter2;*/
 
 	public string labelText = "";
 
@@ -40,7 +45,6 @@ public class MuralCollection : MonoBehaviour
 		//If we already haven the achievement, don't let any text pop up
 		if (AchievementController.CheckAchievement (AchievementController.Achievements.FindCalsMural)) 
 		{
-			//labelText = "";
 			Debug.Log ("We out");
 			weInBusiness = false;
 		} 
@@ -49,8 +53,6 @@ public class MuralCollection : MonoBehaviour
 		{
 			Debug.Log("We in this");
 			weInBusiness = true;
-			//MovementFreeze.FreezePlayer ();
-			//Screen.lockCursor = false;
 		}
 	}
 
@@ -112,7 +114,9 @@ public class MuralCollection : MonoBehaviour
 		}
 	}
 
-	public static void UpdateMuralsCollected()
+
+
+	/*public static void UpdateMuralsCollected()
 	{
 		//If Mural 1 is not in the scene
 		if(GameObject.Find("Mural 1") == null)
@@ -147,9 +151,9 @@ public class MuralCollection : MonoBehaviour
 		{
 			mural3Found = false;
 		}
-	}
+	}*/
 
-	public static void TurnInMurals()
+	/*public static void TurnInMurals()
 	{
 		//If mural1 is found and the player is within the hitbox
 		if (mural1Found && weInBusiness) 
@@ -157,8 +161,8 @@ public class MuralCollection : MonoBehaviour
 			/* player gets achievement
 			 * If mural 2 or 3 is still in the scene delete those
 			 * maybe add a boolean that's only true after you've gotten the achievement so you can't start quest again
-			 * */
-			if(mural3Found)
+			 */
+			/*if(mural3Found)
 			{
 				Destroy (GameObject.Find( "Mural 3" ));
 			}
@@ -179,5 +183,5 @@ public class MuralCollection : MonoBehaviour
 			//Cal says "WHAT IS THIS?! AN IMPOSTER? Nonono, this isn't my mural. Keep looking"
 				//Off of this, set count ++ and if count == 2 (or 1) then change what he says
 		}
-	}
+	}*/
 }

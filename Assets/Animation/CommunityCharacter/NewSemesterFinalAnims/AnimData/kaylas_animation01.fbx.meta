@@ -1,0 +1,1434 @@
+fileFormatVersion: 2
+guid: 8db1b032a18713d4192f9681ac2f7ef3
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BE_Foot_L_01
+    100002: BE_Foot_R_01
+    100004: be_head01
+    100006: be_l_eye01
+    100008: be_lowerJaw01
+    100010: BE_Middle_L_01
+    100012: BE_Middle_R_01
+    100014: BE_Pinky_L_01
+    100016: BE_Pinky_R_01
+    100018: BE_Pointer_L_01
+    100020: BE_Pointer_R_01
+    100022: be_r_eye01
+    100024: BE_Ring_L_01
+    100026: BE_Ring_R_01
+    100028: BE_Thumb_L_01
+    100030: BE_Thumb_R_01
+    100032: be_upperJaw01
+    100034: bind_head01
+    100036: bind_l_eye01
+    100038: bind_l_lowerLid01
+    100040: bind_l_upperLid01
+    100042: bind_lowerJaw01
+    100044: bind_neck01
+    100046: bind_r_eye01
+    100048: bind_r_lowerLid01
+    100050: bind_r_upperLid01
+    100052: bind_upperJaw01
+    100054: bowl
+    100056: eyelarge4
+    100058: eyelarge5
+    100060: group1
+    100062: group3
+    100064: group6
+    100066: jDrv_l_lowerLid01
+    100068: jDrv_l_upperLid01
+    100070: jDrv_r_lowerLid01
+    100072: jDrv_r_upperLid01
+    100074: Jnt_Ankle_L_01
+    100076: Jnt_Ankle_R_01
+    100078: Jnt_Chest_01
+    100080: Jnt_Clavicle_L_01
+    100082: Jnt_Clavicle_R_01
+    100084: Jnt_Elbow_L_01
+    100086: Jnt_Elbow_R_01
+    100088: Jnt_Foot_L_01
+    100090: Jnt_Foot_R_01
+    100092: Jnt_Hip_L_01
+    100094: Jnt_Hip_R_01
+    100096: Jnt_Knee_L_01
+    100098: Jnt_Knee_R_01
+    100100: Jnt_Middle_L_a01
+    100102: Jnt_Middle_L_b01
+    100104: Jnt_Middle_L_c01
+    100106: Jnt_Middle_R_a01
+    100108: Jnt_Middle_R_b01
+    100110: Jnt_Middle_R_c01
+    100112: Jnt_Palm_L_01
+    100114: Jnt_Palm_R_01
+    100116: Jnt_Pelvis_01
+    100118: Jnt_Pinky_L_a01
+    100120: Jnt_Pinky_L_b01
+    100122: Jnt_Pinky_L_c01
+    100124: Jnt_Pinky_R_a01
+    100126: Jnt_Pinky_R_b01
+    100128: Jnt_Pinky_R_c01
+    100130: Jnt_Pointer_L_a01
+    100132: Jnt_Pointer_L_b01
+    100134: Jnt_Pointer_L_c01
+    100136: Jnt_Pointer_R_a01
+    100138: Jnt_Pointer_R_b01
+    100140: Jnt_Pointer_R_c01
+    100142: Jnt_Ribcage_01
+    100144: Jnt_Ring_L_a01
+    100146: Jnt_Ring_L_b01
+    100148: Jnt_Ring_L_c01
+    100150: Jnt_Ring_R_a01
+    100152: Jnt_Ring_R_b01
+    100154: Jnt_Ring_R_c01
+    100156: Jnt_Shoulder_L_01
+    100158: Jnt_Shoulder_R_01
+    100160: Jnt_ShoulderRotator_L_01
+    100162: Jnt_ShoulderRotator_R_01
+    100164: Jnt_SpineBase_01
+    100166: Jnt_Thumb_L_a01
+    100168: Jnt_Thumb_L_b01
+    100170: Jnt_Thumb_R_a01
+    100172: Jnt_Thumb_R_b01
+    100174: Jnt_Wrist_L_01
+    100176: Jnt_Wrist_R_01
+    100178: //RootNode
+    100180: knob004
+    100182: Mesh
+    100184: oven
+    100186: pan
+    100188: pCube404
+    100190: pCube444
+    100192: pCube445
+    100194: pCube446
+    100196: pCube448
+    100198: pCube449
+    100200: pCube450
+    100202: pCube451
+    100204: pCube453
+    100206: pCube455
+    100208: pCube456
+    100210: pCube457
+    100212: pCube458
+    100214: pCube459
+    100216: pTorus14
+    100218: pTorus15
+    100220: pTorus16
+    100222: pTorus17
+    100224: rollingPin
+    100226: Root_01
+    100228: Root_Model_01
+    100230: SKELETON
+    100232: spoon
+    100234: sussie
+    100236: transform2
+    400000: BE_Foot_L_01
+    400002: BE_Foot_R_01
+    400004: be_head01
+    400006: be_l_eye01
+    400008: be_lowerJaw01
+    400010: BE_Middle_L_01
+    400012: BE_Middle_R_01
+    400014: BE_Pinky_L_01
+    400016: BE_Pinky_R_01
+    400018: BE_Pointer_L_01
+    400020: BE_Pointer_R_01
+    400022: be_r_eye01
+    400024: BE_Ring_L_01
+    400026: BE_Ring_R_01
+    400028: BE_Thumb_L_01
+    400030: BE_Thumb_R_01
+    400032: be_upperJaw01
+    400034: bind_head01
+    400036: bind_l_eye01
+    400038: bind_l_lowerLid01
+    400040: bind_l_upperLid01
+    400042: bind_lowerJaw01
+    400044: bind_neck01
+    400046: bind_r_eye01
+    400048: bind_r_lowerLid01
+    400050: bind_r_upperLid01
+    400052: bind_upperJaw01
+    400054: bowl
+    400056: eyelarge4
+    400058: eyelarge5
+    400060: group1
+    400062: group3
+    400064: group6
+    400066: jDrv_l_lowerLid01
+    400068: jDrv_l_upperLid01
+    400070: jDrv_r_lowerLid01
+    400072: jDrv_r_upperLid01
+    400074: Jnt_Ankle_L_01
+    400076: Jnt_Ankle_R_01
+    400078: Jnt_Chest_01
+    400080: Jnt_Clavicle_L_01
+    400082: Jnt_Clavicle_R_01
+    400084: Jnt_Elbow_L_01
+    400086: Jnt_Elbow_R_01
+    400088: Jnt_Foot_L_01
+    400090: Jnt_Foot_R_01
+    400092: Jnt_Hip_L_01
+    400094: Jnt_Hip_R_01
+    400096: Jnt_Knee_L_01
+    400098: Jnt_Knee_R_01
+    400100: Jnt_Middle_L_a01
+    400102: Jnt_Middle_L_b01
+    400104: Jnt_Middle_L_c01
+    400106: Jnt_Middle_R_a01
+    400108: Jnt_Middle_R_b01
+    400110: Jnt_Middle_R_c01
+    400112: Jnt_Palm_L_01
+    400114: Jnt_Palm_R_01
+    400116: Jnt_Pelvis_01
+    400118: Jnt_Pinky_L_a01
+    400120: Jnt_Pinky_L_b01
+    400122: Jnt_Pinky_L_c01
+    400124: Jnt_Pinky_R_a01
+    400126: Jnt_Pinky_R_b01
+    400128: Jnt_Pinky_R_c01
+    400130: Jnt_Pointer_L_a01
+    400132: Jnt_Pointer_L_b01
+    400134: Jnt_Pointer_L_c01
+    400136: Jnt_Pointer_R_a01
+    400138: Jnt_Pointer_R_b01
+    400140: Jnt_Pointer_R_c01
+    400142: Jnt_Ribcage_01
+    400144: Jnt_Ring_L_a01
+    400146: Jnt_Ring_L_b01
+    400148: Jnt_Ring_L_c01
+    400150: Jnt_Ring_R_a01
+    400152: Jnt_Ring_R_b01
+    400154: Jnt_Ring_R_c01
+    400156: Jnt_Shoulder_L_01
+    400158: Jnt_Shoulder_R_01
+    400160: Jnt_ShoulderRotator_L_01
+    400162: Jnt_ShoulderRotator_R_01
+    400164: Jnt_SpineBase_01
+    400166: Jnt_Thumb_L_a01
+    400168: Jnt_Thumb_L_b01
+    400170: Jnt_Thumb_R_a01
+    400172: Jnt_Thumb_R_b01
+    400174: Jnt_Wrist_L_01
+    400176: Jnt_Wrist_R_01
+    400178: //RootNode
+    400180: knob004
+    400182: Mesh
+    400184: oven
+    400186: pan
+    400188: pCube404
+    400190: pCube444
+    400192: pCube445
+    400194: pCube446
+    400196: pCube448
+    400198: pCube449
+    400200: pCube450
+    400202: pCube451
+    400204: pCube453
+    400206: pCube455
+    400208: pCube456
+    400210: pCube457
+    400212: pCube458
+    400214: pCube459
+    400216: pTorus14
+    400218: pTorus15
+    400220: pTorus16
+    400222: pTorus17
+    400224: rollingPin
+    400226: Root_01
+    400228: Root_Model_01
+    400230: SKELETON
+    400232: spoon
+    400234: sussie
+    400236: transform2
+    2300000: bowl
+    2300002: knob004
+    2300004: pan
+    2300006: pCube404
+    2300008: pCube444
+    2300010: pCube445
+    2300012: pCube446
+    2300014: pCube448
+    2300016: pCube449
+    2300018: pCube450
+    2300020: pCube451
+    2300022: pCube453
+    2300024: pCube455
+    2300026: pCube456
+    2300028: pCube457
+    2300030: pCube458
+    2300032: pCube459
+    2300034: pTorus14
+    2300036: pTorus15
+    2300038: pTorus16
+    2300040: pTorus17
+    2300042: rollingPin
+    2300044: spoon
+    3300000: bowl
+    3300002: knob004
+    3300004: pan
+    3300006: pCube404
+    3300008: pCube444
+    3300010: pCube445
+    3300012: pCube446
+    3300014: pCube448
+    3300016: pCube449
+    3300018: pCube450
+    3300020: pCube451
+    3300022: pCube453
+    3300024: pCube455
+    3300026: pCube456
+    3300028: pCube457
+    3300030: pCube458
+    3300032: pCube459
+    3300034: pTorus14
+    3300036: pTorus15
+    3300038: pTorus16
+    3300040: pTorus17
+    3300042: rollingPin
+    3300044: spoon
+    4300000: spoon
+    4300002: bowl
+    4300004: sussie
+    4300006: eyelarge4
+    4300008: eyelarge5
+    4300010: rollingPin
+    4300012: pan
+    4300014: knob004
+    4300016: pCube453
+    4300018: pCube446
+    4300020: pCube448
+    4300022: pCube449
+    4300024: pCube450
+    4300026: pCube456
+    4300028: pCube457
+    4300030: pCube458
+    4300032: pCube459
+    4300034: pCube451
+    4300036: pCube444
+    4300038: pCube455
+    4300040: pTorus17
+    4300042: pTorus16
+    4300044: pTorus15
+    4300046: pTorus14
+    4300048: pCube404
+    4300050: pCube445
+    7400000: FemaleStand
+    7400002: Mixing Bowl
+    7400004: Rolling Pin
+    7400006: Oven and Pan
+    9500000: //RootNode
+    13700000: eyelarge4
+    13700002: eyelarge5
+    13700004: sussie
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FemaleStand
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 412
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Mesh/eyelarge4
+        weight: 1
+      - path: Mesh/eyelarge5
+        weight: 1
+      - path: Mesh/sussie
+        weight: 1
+      - path: oven
+        weight: 1
+      - path: oven/group1
+        weight: 1
+      - path: oven/group3
+        weight: 1
+      - path: oven/group3/pCube444
+        weight: 1
+      - path: oven/group3/pCube455
+        weight: 1
+      - path: oven/group6
+        weight: 1
+      - path: oven/group6/pTorus14
+        weight: 1
+      - path: oven/group6/pTorus15
+        weight: 1
+      - path: oven/group6/pTorus16
+        weight: 1
+      - path: oven/group6/pTorus17
+        weight: 1
+      - path: oven/knob004
+        weight: 1
+      - path: oven/pCube404
+        weight: 1
+      - path: oven/pCube446
+        weight: 1
+      - path: oven/pCube448
+        weight: 1
+      - path: oven/pCube449
+        weight: 1
+      - path: oven/pCube450
+        weight: 1
+      - path: oven/pCube451
+        weight: 1
+      - path: oven/pCube453
+        weight: 1
+      - path: oven/pCube456
+        weight: 1
+      - path: oven/pCube457
+        weight: 1
+      - path: oven/pCube458
+        weight: 1
+      - path: oven/pCube459
+        weight: 1
+      - path: pan
+        weight: 1
+      - path: pCube445
+        weight: 1
+      - path: rollingPin
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/bowl
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/spoon
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Mixing Bowl
+      takeName: Take 001
+      firstFrame: 422
+      lastFrame: 640
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Mesh/eyelarge4
+        weight: 1
+      - path: Mesh/eyelarge5
+        weight: 1
+      - path: Mesh/sussie
+        weight: 1
+      - path: oven
+        weight: 1
+      - path: oven/group1
+        weight: 1
+      - path: oven/group3
+        weight: 1
+      - path: oven/group3/pCube444
+        weight: 1
+      - path: oven/group3/pCube455
+        weight: 1
+      - path: oven/group6
+        weight: 1
+      - path: oven/group6/pTorus14
+        weight: 1
+      - path: oven/group6/pTorus15
+        weight: 1
+      - path: oven/group6/pTorus16
+        weight: 1
+      - path: oven/group6/pTorus17
+        weight: 1
+      - path: oven/knob004
+        weight: 1
+      - path: oven/pCube404
+        weight: 1
+      - path: oven/pCube446
+        weight: 1
+      - path: oven/pCube448
+        weight: 1
+      - path: oven/pCube449
+        weight: 1
+      - path: oven/pCube450
+        weight: 1
+      - path: oven/pCube451
+        weight: 1
+      - path: oven/pCube453
+        weight: 1
+      - path: oven/pCube456
+        weight: 1
+      - path: oven/pCube457
+        weight: 1
+      - path: oven/pCube458
+        weight: 1
+      - path: oven/pCube459
+        weight: 1
+      - path: pan
+        weight: 1
+      - path: pCube445
+        weight: 1
+      - path: rollingPin
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/bowl
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/spoon
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rolling Pin
+      takeName: Take 001
+      firstFrame: 651
+      lastFrame: 973
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Mesh/eyelarge4
+        weight: 1
+      - path: Mesh/eyelarge5
+        weight: 1
+      - path: Mesh/sussie
+        weight: 1
+      - path: oven
+        weight: 1
+      - path: oven/group1
+        weight: 1
+      - path: oven/group3
+        weight: 1
+      - path: oven/group3/pCube444
+        weight: 1
+      - path: oven/group3/pCube455
+        weight: 1
+      - path: oven/group6
+        weight: 1
+      - path: oven/group6/pTorus14
+        weight: 1
+      - path: oven/group6/pTorus15
+        weight: 1
+      - path: oven/group6/pTorus16
+        weight: 1
+      - path: oven/group6/pTorus17
+        weight: 1
+      - path: oven/knob004
+        weight: 1
+      - path: oven/pCube404
+        weight: 1
+      - path: oven/pCube446
+        weight: 1
+      - path: oven/pCube448
+        weight: 1
+      - path: oven/pCube449
+        weight: 1
+      - path: oven/pCube450
+        weight: 1
+      - path: oven/pCube451
+        weight: 1
+      - path: oven/pCube453
+        weight: 1
+      - path: oven/pCube456
+        weight: 1
+      - path: oven/pCube457
+        weight: 1
+      - path: oven/pCube458
+        weight: 1
+      - path: oven/pCube459
+        weight: 1
+      - path: pan
+        weight: 1
+      - path: pCube445
+        weight: 1
+      - path: rollingPin
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/bowl
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/spoon
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Oven and Pan
+      takeName: Take 001
+      firstFrame: 983
+      lastFrame: 1444
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Mesh/eyelarge4
+        weight: 1
+      - path: Mesh/eyelarge5
+        weight: 1
+      - path: Mesh/sussie
+        weight: 1
+      - path: oven
+        weight: 1
+      - path: oven/group1
+        weight: 1
+      - path: oven/group3
+        weight: 1
+      - path: oven/group3/pCube444
+        weight: 1
+      - path: oven/group3/pCube455
+        weight: 1
+      - path: oven/group6
+        weight: 1
+      - path: oven/group6/pTorus14
+        weight: 1
+      - path: oven/group6/pTorus15
+        weight: 1
+      - path: oven/group6/pTorus16
+        weight: 1
+      - path: oven/group6/pTorus17
+        weight: 1
+      - path: oven/knob004
+        weight: 1
+      - path: oven/pCube404
+        weight: 1
+      - path: oven/pCube446
+        weight: 1
+      - path: oven/pCube448
+        weight: 1
+      - path: oven/pCube449
+        weight: 1
+      - path: oven/pCube450
+        weight: 1
+      - path: oven/pCube451
+        weight: 1
+      - path: oven/pCube453
+        weight: 1
+      - path: oven/pCube456
+        weight: 1
+      - path: oven/pCube457
+        weight: 1
+      - path: oven/pCube458
+        weight: 1
+      - path: oven/pCube459
+        weight: 1
+      - path: pan
+        weight: 1
+      - path: pCube445
+        weight: 1
+      - path: rollingPin
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/bowl
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/spoon
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Root_01
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e813396ebd99d014f9ac599a6f1c0c9b,
+    type: 3}
+  animationType: 2
+  additionalBone: 0
+  userData: 

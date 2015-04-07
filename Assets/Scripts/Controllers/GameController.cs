@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
 		private static float delay = 0;
 
 		public GameObject notificationMenu;
+		public GameObject hoverNotificationMenu;
+		private bool notificationFollow = false;
 
 
 		private static string outsideMenuID;
@@ -195,7 +197,23 @@ public class GameController : MonoBehaviour
 			Debug.Log ("ClearOutsideMenuState(string menuID): An outside source tried clearing a menu that it does not own.");
 			return false;
 		}
-
+		
+		//********************************************
+		// DisplayFollowNotification()
+		// used for displaying game notifications that follow the cursor
+		//********************************************
+		public static bool DisplayFollowNotification(string notificationID, string notification) {
+			if(menuState == MenuState.None) {
+				menuState = MenuState.Notification;
+				outsideMenuID = notificationID;
+				instance.hoverNotificationMenu.SetActive(true);
+				instance.hoverNotificationMenu.transform.Find("Text").GetComponent<Text>().text = notification;
+				instance.notificationFollow = true;
+				return true;
+			}
+			Debug.Log ("DisplayFollowNotification(string notificationID, string notification): An outside source tried displaying a while a menu is already open.");
+			return false;
+		}
 		//********************************************
 		// DisplayNotification()
 		// used for displaying game notifications
@@ -222,6 +240,9 @@ public class GameController : MonoBehaviour
 				outsideMenuID = "";
 				instance.notificationMenu.SetActive(false);
 				instance.notificationMenu.transform.Find("Text").GetComponent<Text>().text = "Notification";
+				instance.hoverNotificationMenu.SetActive(false);
+				instance.hoverNotificationMenu.transform.Find("Text").GetComponent<Text>().text = "Notification";
+				instance.notificationFollow = false;
 				return true;
 			}
 			Debug.Log ("ClearNotification(string notificationID): An outside source tried clearing a notificationthat it does not own.");
@@ -310,7 +331,11 @@ public class GameController : MonoBehaviour
 				}			
 
 				delay = delay > 0 ? delay - Time.unscaledDeltaTime : delay;
-
+				
+				if (notificationFollow) {
+					hoverNotificationMenu.transform.position = new Vector3(Input.mousePosition.x,Input.mousePosition.y, hoverNotificationMenu.transform.position.z);
+				}
+				
 				if (isPaused) {
 						Time.timeScale = 0;
 						GUI.enabled = false;
