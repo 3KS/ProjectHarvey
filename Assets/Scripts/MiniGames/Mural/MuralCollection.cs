@@ -15,18 +15,16 @@ public class MuralCollection : MonoBehaviour
 	public GameObject muralMiniGameTrigger;
 
 	public static bool muralQuestIsStarted = false;
-	public static bool weInBusiness = false;
+	public static bool weInBusiness = false; //checks for collision with hitbox the first time
 
 	public static bool mural1Found = false;
 	public static bool mural2Found = false;
 	public static bool mural3Found = false;
+	
+	public static int muralSwitch = 0;
 
 	public float menuHeight;
 	public float menuSpace;
-
-	/*public GameObject CalsMural;
-	public GameObject Imposter1;
-	public GameObject Imposter2;*/
 
 	public string labelText = "";
 
@@ -37,7 +35,81 @@ public class MuralCollection : MonoBehaviour
 
 	void Update () 
 	{
-	
+		switch(muralSwitch)
+		{
+			/*
+			 * Case 0
+			 * No murals have been collected, triggered after the player accepts the quest
+			 * dialogue trigger
+			 */
+		case 0:
+			if(muralSwitch == 1)
+			{
+				if(weInBusiness)
+				{
+					labelText = "My favorite mural went missing! Can you help me find it? I'm sure it's around here somewhere... Come back right away if you find it!";
+				}
+			}
+			break;
+			
+			/*
+			 * Case 1
+			 * if mural 1 has been collected
+			 * prompt user to go back to Cal
+			 * prevent the user to pick up any other murals
+			 * 
+			 * if player is talking to Cal
+			 * achievement earned
+			 * delete the other murals from the game
+			 */
+		case 1:
+			if(muralSwitch == 2)
+			{
+				if(weInBusiness)
+				{
+					labelText = "You collected the real mural, great job.";
+				}
+			}
+			break;
+			
+			/*
+			 * Case 2
+			 * if mural 2 has been collected
+			 * prompt the user to go back to Cal
+			 * prevent the user from picking up any other murals
+			 * 
+			 * if the player is talking to Cal
+			 * print "this isnt my mural, go look for the real one"
+			 */
+		case 2:
+			if(muralSwitch == 3)
+			{
+				if(weInBusiness)
+				{
+					labelText = "You collected mural2 which is an imposter.";
+				}
+			}
+			break;
+			
+			/*
+			 * Case 3
+			 * if mural 3 has been collected
+			 * prompt the user to go back to Cal
+			 * prevent the user from picking up any other murals
+			 * 
+			 * if the player is Talking to Cal
+			 * print "I didn't make this imposter!"
+			 */
+		case 3:
+			if(muralSwitch == 4)
+			{
+				if(weInBusiness)
+				{
+					labelText = "You collected mural3 which is an imposter.";
+				}
+			}
+			break;
+		}
 	}
 
 	void OnTriggerEnter(Collider other)
@@ -79,11 +151,9 @@ public class MuralCollection : MonoBehaviour
 				{
 					muralQuestIsStarted = true;
 					weInBusiness = true;
-					Screen.lockCursor = true;
 					//hide the mouse
 					Screen.showCursor = false;
-					MovementFreeze.UnFreezePlayer ();
-					
+					labelText = "YOU STARTED THE QUEST GOOD JOB YOU PRESSED A BUTTON";
 				}
 				
 				else if (GUI.Button(new Rect(Screen.width / 2 - 250 - menuSpace, Screen.height / 2 - menuHeight, 200, 50), "No one cares, walk away"))
@@ -94,15 +164,19 @@ public class MuralCollection : MonoBehaviour
 					MovementFreeze.UnFreezePlayer ();
 				}
 			}
-			else
+			else //If you choose to start the quest
 			{
 				Screen.lockCursor = true;
 				MovementFreeze.UnFreezePlayer ();
+				GUILayout.Label(labelText);
+				Debug.Log ("label text should appear now because quest is started");
 			}
 		}
 
+
+
 		//If the quest is started and you're colliding with the collider
-		if(muralQuestIsStarted && weInBusiness)
+		/*if(muralQuestIsStarted && weInBusiness)
 		{
 			//DISPLAY TEXT TO THE PLAYER TO PICK UP THE BOOKS
 			labelText = "My favorite mural went missing! Can you help me find it? I'm sure it's around here somewhere... Come back right away if you find it!";
@@ -111,18 +185,19 @@ public class MuralCollection : MonoBehaviour
 		else if(muralQuestIsStarted && !weInBusiness)
 		{
 			labelText = "";
-		}
+		}*/
 	}
 
 
 
-	/*public static void UpdateMuralsCollected()
+	public static void UpdateMuralsCollected()
 	{
 		//If Mural 1 is not in the scene
 		if(GameObject.Find("Mural 1") == null)
 		{
-			//You found the real mural\
+			//You found the real mural
 			mural1Found = true;
+			muralSwitch = 2;
 			//Debug.Log ("The mural 1 has been collected");
 		}
 		else
@@ -136,6 +211,7 @@ public class MuralCollection : MonoBehaviour
 		{
 			//You found an imposter
 			mural2Found = true;
+			muralSwitch = 3;
 		}
 		else
 		{
@@ -146,12 +222,13 @@ public class MuralCollection : MonoBehaviour
 		{
 			//You found an imposter
 			mural3Found = true;
+			muralSwitch = 4;
 		}
 		else
 		{
 			mural3Found = false;
 		}
-	}*/
+	}
 
 	/*public static void TurnInMurals()
 	{
@@ -162,7 +239,11 @@ public class MuralCollection : MonoBehaviour
 			 * If mural 2 or 3 is still in the scene delete those
 			 * maybe add a boolean that's only true after you've gotten the achievement so you can't start quest again
 			 */
-			/*if(mural3Found)
+			/*labelText = "You collected the real mural, great job.";
+			GUILayout.Label(labelText);
+
+			//If the first mural is the only one to be found, destroy the other 2
+			if(mural3Found)
 			{
 				Destroy (GameObject.Find( "Mural 3" ));
 			}
@@ -176,12 +257,15 @@ public class MuralCollection : MonoBehaviour
 		{
 			//Cal says "WHAT IS THIS?! AN IMPOSTER? Nonono, this isn't my mural. Keep looking"
 				//Off of this, set count ++ and if count == 2 (or 1) then change what he says
+
 		}
 		//ELSE IF mural3 is found and the player is within the hitbox of Cal
 		else if(mural3Found && weInBusiness)
 		{
 			//Cal says "WHAT IS THIS?! AN IMPOSTER? Nonono, this isn't my mural. Keep looking"
 				//Off of this, set count ++ and if count == 2 (or 1) then change what he says
+			labelText = "You collected mural3 which is an imposter.";
+			GUILayout.Label(labelText);
 		}
 	}*/
 }
