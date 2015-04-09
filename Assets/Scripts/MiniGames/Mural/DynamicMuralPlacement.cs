@@ -7,7 +7,7 @@ public class DynamicMuralPlacement : MonoBehaviour
 	public GameObject Imposter1;
 	public GameObject Imposter2;
 
-	private bool muralsAreAdded = false;
+	public static bool muralsAreAdded = false;
 
 	// Use this for initialization
 	void Start () 
@@ -19,6 +19,7 @@ public class DynamicMuralPlacement : MonoBehaviour
 	void Update () 
 	{
 		AddMuralsToScene ();
+		MuralCollection.muralSwitch = 1;
 	}
 	
 	void AddMuralsToScene()
@@ -36,10 +37,10 @@ public class DynamicMuralPlacement : MonoBehaviour
 			GameObject mural2 = Instantiate(Imposter1, position2, rotation2) as GameObject;
 			
 			//mural3
-			Vector3 position3 = new Vector3(-10.641F , 43.535F , -72.41F);
+			Vector3 position3 = new Vector3(-10.641F , 43.535F , -74.41F);
 			Quaternion rotation3 = Quaternion.Euler(0, 0, 0);
 			GameObject mural3 = Instantiate(Imposter2, position3, rotation3) as GameObject;
-
+		
 			muralsAreAdded = true;
 		}
 	}

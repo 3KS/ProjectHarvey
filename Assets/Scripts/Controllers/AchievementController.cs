@@ -194,6 +194,7 @@ public class AchievementController : MonoBehaviour {
 
 	public static void UpdateCalsMuralQuest()
 	{
+		//Change this so if mural 1 is collected AND the player's conversation with Cal has ended, then award the achievement
 		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
 		{
 			bool achievementEarned = true;
@@ -216,7 +217,10 @@ public class AchievementController : MonoBehaviour {
 				if(tempCount > PlayerPrefs.GetInt(SaveController.GetPrefix() + "muralCount")) 
 				{
 					PlayerPrefs.SetInt(SaveController.GetPrefix() + "muralCount", tempCount);
-					progressToDisplay = (tempCount + " of " + maxCount + " murals found.");
+					if(tempCount == 1 || tempCount == 2)
+					{
+						progressToDisplay = ("You found a mural! Head back to Cal's Studio to turn it in.");
+					}
 					timeLeft = displayTime;
 					isProgressDisplay = true;
 				}

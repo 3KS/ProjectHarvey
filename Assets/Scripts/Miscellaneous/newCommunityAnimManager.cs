@@ -95,7 +95,30 @@ public class newCommunityAnimManager : MonoBehaviour {
 			disagree = false;
 		}
 	}
+
+	void CharacterWalk() {
+		iswalk = true;
+		animator.SetBool ("IsWalk", iswalk);
+	}
 	
+	void CharacterWalk(int animation) {
+		iswalk = true;
+		walktype = animation;
+		animator.SetInteger ("WalkEnum", walktype);
+		animator.SetBool ("IsWalk", iswalk);
+	}
+
+	void SitDown() {
+		issit = true;
+		animator.SetBool ("IsSit", issit);
+	}
+
+	void SitDown(int animation) {
+		issit = true;
+		sittype = animation;
+		animator.SetInteger ("SitEnum", sittype);
+		animator.SetBool ("IsSit", issit);
+	}
 }
 
 
