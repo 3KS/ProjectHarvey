@@ -10,7 +10,7 @@ public class ScrapbookController : MonoBehaviour {
     public static bool isOpen = false;
     public Texture[] lockedTextures;
     public Texture[] unlockedTextures;
-
+	private GameObject scrapBookBackground;
 	public GameObject scrapBook;
 
     public GameObject taskPage;
@@ -32,6 +32,11 @@ public class ScrapbookController : MonoBehaviour {
 	void Start () {
 
 	}
+
+	void OnLevelWasLoaded (int level)
+	{
+
+	}
 	
     public void SetState(string newState) {
         state = (BookState) Enum.Parse( typeof(BookState), newState, true );
@@ -41,12 +46,18 @@ public class ScrapbookController : MonoBehaviour {
 	void Update () {
 		if (!isOpen && GameController.GetMenuState() == GameController.MenuState.Scrapbook)
         {
+			if (GameController.GetGameState () == GameController.GameState.Room) {
+				MovementFreeze.OpenBook();
+			}
             state = BookState.Missions;
             isOpen = true;
             scrapBook.SetActive(true);
             MovementFreeze.FreezePlayer();
 		    Screen.lockCursor = false;
         } else if (isOpen && GameController.GetMenuState() != GameController.MenuState.Scrapbook) {
+			if (GameController.GetGameState () == GameController.GameState.Room) {
+				MovementFreeze.CloseBook();
+			}
             isOpen = false;
             scrapBook.SetActive(false);
             MovementFreeze.UnFreezePlayer();

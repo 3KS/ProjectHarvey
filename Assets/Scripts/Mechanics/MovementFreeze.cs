@@ -6,15 +6,25 @@ public class MovementFreeze : MonoBehaviour
 	
     public GameObject player;
 	public GameObject playerCam;
+	public GameObject playerBook;
     private static GameObject statPlayer;
     private static GameObject statPlayerCam;
-
+	private static MovementFreeze instance;
 	public static bool playerFrozen = false;
 
 	void Start ()
 	{
+		instance = this;
         statPlayer = player;
         statPlayerCam = playerCam;
+	}
+
+	public static void OpenBook() {
+		instance.playerBook.SetActive (true);
+	}
+
+	public static void CloseBook() {
+		instance.playerBook.SetActive (false);
 	}
 
     public static bool FreezePlayer() {
