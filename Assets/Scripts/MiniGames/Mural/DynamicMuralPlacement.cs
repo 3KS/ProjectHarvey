@@ -19,7 +19,6 @@ public class DynamicMuralPlacement : MonoBehaviour
 	void Update () 
 	{
 		AddMuralsToScene ();
-		MuralCollection.muralSwitch = 1;
 	}
 	
 	void AddMuralsToScene()
@@ -30,6 +29,7 @@ public class DynamicMuralPlacement : MonoBehaviour
 			Vector3 position = new Vector3(-10.56F , 43.46F , -70.236F);
 			Quaternion rotation = Quaternion.Euler(0, 82.75108F, 0);
 			GameObject mural1 = Instantiate(CalsMural, position, rotation) as GameObject;
+			//var myScript = mural1.AddComponent<MyScript>();
 			
 			//mural2
 			Vector3 position2 = new Vector3(-10.429F , 43.535F , -72.41F);

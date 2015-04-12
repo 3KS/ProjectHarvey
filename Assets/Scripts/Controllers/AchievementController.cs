@@ -26,6 +26,7 @@ public class AchievementController : MonoBehaviour {
     private static int hatCount;
 	//set to true after you talk to Cal
 	public static bool calsMuralStart = false;
+	public static bool achievementEarned = false;
 	public static int muralCount;
 	private static int bookCount;
     public GUIText textDisplay;
@@ -48,9 +49,9 @@ public class AchievementController : MonoBehaviour {
 		SigmundFreud,
 		AnnesHouseOfDreams,
 		SummerEdith,
-		CalsMural,
-		Imposter1,
-		Imposter2
+		CalsMural, //"Mural 1(Clone)"
+		Imposter1, //"Mural 2(Clone)"
+		Imposter2 //"Mural 3(Clone)"
 		//Added each book that can be found
 	};
 
@@ -92,8 +93,6 @@ public class AchievementController : MonoBehaviour {
 
 	void Update()
 	{
-		//if the boolean from the other script is true
-		//instantiate the objects
 	}
 
     private static void PrepQuests() {
@@ -195,37 +194,33 @@ public class AchievementController : MonoBehaviour {
 	public static void UpdateCalsMuralQuest()
 	{
 		//Change this so if mural 1 is collected AND the player's conversation with Cal has ended, then award the achievement
+		//if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
 		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
 		{
 			bool achievementEarned = true;
 			int tempCount = 0;
 			int maxCount = 0;
-			foreach(FindableObject mural in muralList) {
+			foreach(FindableObject mural in muralList) 
+			{
 				achievementEarned = PlayerPrefs.GetInt(SaveController.GetPrefix() + mural.ToString()) == 0 ? false : achievementEarned;
 				tempCount = PlayerPrefs.GetInt(SaveController.GetPrefix() + mural.ToString()) == 1 ? tempCount+1 : tempCount;
 				maxCount += 1;
-				Debug.Log(tempCount);
-				Debug.Log (SaveController.GetPrefix());
 			}
-			if(achievementEarned) {
-				//CHANGE THIS WHEN I CAN
+			if(achievementEarned) 
+			{
 				UnlockAchievement(Achievements.FindCalsMural);
 			} 
 			else 
 			{
-				//HOW TO GET TEXT TO SHOW UP HERE
 				if(tempCount > PlayerPrefs.GetInt(SaveController.GetPrefix() + "muralCount")) 
 				{
 					PlayerPrefs.SetInt(SaveController.GetPrefix() + "muralCount", tempCount);
-					if(tempCount == 1 || tempCount == 2)
-					{
-						progressToDisplay = ("You found a mural! Head back to Cal's Studio to turn it in.");
-					}
+					progressToDisplay = ("You found a mural! Head back to Cal Peters in his studio");
 					timeLeft = displayTime;
 					isProgressDisplay = true;
 				}
 			}
-		}	
+		}
 	}
 
     public static void ResetAchievements() 
