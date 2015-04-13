@@ -49,9 +49,9 @@ public class AchievementController : MonoBehaviour {
 		SigmundFreud,
 		AnnesHouseOfDreams,
 		SummerEdith,
-		CalsMural, //"Mural 1(Clone)"
-		Imposter1, //"Mural 2(Clone)"
-		Imposter2 //"Mural 3(Clone)"
+		CalsMural, //"Mural 1 (Clone)(Clone)"
+		Imposter1, //"Mural 2 (Clone)(Clone)"
+		Imposter2 //"Mural 3 (Clone)(Clone)"
 		//Added each book that can be found
 	};
 
@@ -193,7 +193,7 @@ public class AchievementController : MonoBehaviour {
 
 	public static void UpdateCalsMuralQuest()
 	{
-		//Change this so if mural 1 is collected AND the player's conversation with Cal has ended, then award the achievement
+		//Change this so if Mural 1 (Clone) is collected AND the player's conversation with Cal has ended, then award the achievement
 		//if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
 		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
 		{
