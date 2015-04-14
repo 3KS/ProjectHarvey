@@ -194,7 +194,6 @@ public class AchievementController : MonoBehaviour {
 	public static void UpdateCalsMuralQuest()
 	{
 		//Change this so if Mural 1 (Clone) is collected AND the player's conversation with Cal has ended, then award the achievement
-		//if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
 		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + Achievements.FindCalsMural.ToString()) == 0)
 		{
 			bool achievementEarned = true;
@@ -208,7 +207,6 @@ public class AchievementController : MonoBehaviour {
 			}
 			if(achievementEarned) 
 			{
-				UnlockAchievement(Achievements.FindCalsMural);
 			} 
 			else 
 			{
@@ -263,9 +261,9 @@ public class AchievementController : MonoBehaviour {
                     case "Fadeometer":
                         textNum = 3;
                         break;
-					/*case "CalsMurals"
+					case "FindCalsMural":
 						textNum = 4;
-						break;*/
+						break;
                 }
                 GUI.DrawTexture(new Rect(Screen.width/2 -  popupTextures [textNum].width/2, Screen.height/2 - popupTextures [textNum].height/2, popupTextures [textNum].width, popupTextures [textNum].height), popupTextures [textNum]);
             }
