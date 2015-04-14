@@ -1,0 +1,2362 @@
+fileFormatVersion: 2
+guid: 19429091d8770d44f883ffdbb0cfa44e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BE_Foot_L_01
+    100002: BE_Foot_R_01
+    100004: be_head01
+    100006: be_l_eye01
+    100008: be_lowerJaw01
+    100010: BE_Middle_L_01
+    100012: BE_Middle_R_01
+    100014: BE_Pinky_L_01
+    100016: BE_Pinky_R_01
+    100018: BE_Pointer_L_01
+    100020: BE_Pointer_R_01
+    100022: be_r_eye01
+    100024: BE_Ring_L_01
+    100026: BE_Ring_R_01
+    100028: BE_Thumb_L_01
+    100030: BE_Thumb_R_01
+    100032: be_upperJaw01
+    100034: bind_head01
+    100036: bind_l_eye01
+    100038: bind_l_lowerLid01
+    100040: bind_l_upperLid01
+    100042: bind_lowerJaw01
+    100044: bind_neck01
+    100046: bind_r_eye01
+    100048: bind_r_lowerLid01
+    100050: bind_r_upperLid01
+    100052: bind_upperJaw01
+    100054: Character_Body1
+    100056: CTRL_Ankle_L_01
+    100058: CTRL_Ankle_R_01
+    100060: CTRL_BackBend_Lower_01
+    100062: CTRL_BackBend_Upper_01
+    100064: CTRL_Chest_01
+    100066: CTRL_COG_01
+    100068: CTRL_Foot_L_01
+    100070: CTRL_Foot_R_01
+    100072: CTRL_FootRoll_L_01
+    100074: CTRL_FootRoll_R_01
+    100076: CTRL_Global_01
+    100078: CTRL_Middle_L_01
+    100080: CTRL_Middle_L_a01
+    100082: CTRL_Middle_L_b01
+    100084: CTRL_Middle_L_c01
+    100086: CTRL_Middle_R_01
+    100088: CTRL_Middle_R_a01
+    100090: CTRL_Middle_R_b01
+    100092: CTRL_Middle_R_c01
+    100094: CTRL_Neck_01
+    100096: CTRL_Pelvis_01
+    100098: CTRL_Pinky_L_01
+    100100: CTRL_Pinky_L_a01
+    100102: CTRL_Pinky_L_b01
+    100104: CTRL_Pinky_L_c01
+    100106: CTRL_Pinky_R_01
+    100108: CTRL_Pinky_R_a01
+    100110: CTRL_Pinky_R_b01
+    100112: CTRL_Pinky_R_c01
+    100114: CTRL_Pointer_L_01
+    100116: CTRL_Pointer_L_a01
+    100118: CTRL_Pointer_L_b01
+    100120: CTRL_Pointer_L_c01
+    100122: CTRL_Pointer_R_01
+    100124: CTRL_Pointer_R_a01
+    100126: CTRL_Pointer_R_b01
+    100128: CTRL_Pointer_R_c01
+    100130: CTRL_Ring_L_01
+    100132: CTRL_Ring_L_a01
+    100134: CTRL_Ring_L_b01
+    100136: CTRL_Ring_L_c01
+    100138: CTRL_Ring_R_01
+    100140: CTRL_Ring_R_a01
+    100142: CTRL_Ring_R_b01
+    100144: CTRL_Ring_R_c01
+    100146: CTRL_ShoulderRotation_L_01
+    100148: CTRL_ShoulderRotation_R_01
+    100150: CTRL_Thumb_L_a01
+    100152: CTRL_Thumb_L_b01
+    100154: CTRL_Thumb_R_a01
+    100156: CTRL_Thumb_R_b01
+    100158: CTRL_Wrist_L_01
+    100160: CTRL_Wrist_R_01
+    100162: CTRLS
+    100164: eyelarge6
+    100166: Finger_L_CTRLs
+    100168: Finger_R_CTRLs
+    100170: group10
+    100172: group11
+    100174: group13
+    100176: group14
+    100178: group16
+    100180: group17
+    100182: group19
+    100184: group2
+    100186: group20
+    100188: group22
+    100190: group23
+    100192: group25
+    100194: group26
+    100196: group28
+    100198: group4
+    100200: group5
+    100202: group7
+    100204: group8
+    100206: jDrv_l_lowerLid01
+    100208: jDrv_l_upperLid01
+    100210: jDrv_r_lowerLid01
+    100212: jDrv_r_upperLid01
+    100214: Jnt_Ankle_L_01
+    100216: Jnt_Ankle_R_01
+    100218: Jnt_Chest_01
+    100220: Jnt_Clavicle_L_01
+    100222: Jnt_Clavicle_R_01
+    100224: Jnt_Elbow_L_01
+    100226: Jnt_Elbow_R_01
+    100228: Jnt_Foot_L_01
+    100230: Jnt_Foot_R_01
+    100232: Jnt_Hip_L_01
+    100234: Jnt_Hip_R_01
+    100236: Jnt_Knee_L_01
+    100238: Jnt_Knee_R_01
+    100240: Jnt_Middle_L_a01
+    100242: Jnt_Middle_L_b01
+    100244: Jnt_Middle_L_c01
+    100246: Jnt_Middle_R_a01
+    100248: Jnt_Middle_R_b01
+    100250: Jnt_Middle_R_c01
+    100252: Jnt_Palm_L_01
+    100254: Jnt_Palm_R_01
+    100256: Jnt_Pelvis_01
+    100258: Jnt_Pinky_L_a01
+    100260: Jnt_Pinky_L_b01
+    100262: Jnt_Pinky_L_c01
+    100264: Jnt_Pinky_R_a01
+    100266: Jnt_Pinky_R_b01
+    100268: Jnt_Pinky_R_c01
+    100270: Jnt_Pointer_L_a01
+    100272: Jnt_Pointer_L_b01
+    100274: Jnt_Pointer_L_c01
+    100276: Jnt_Pointer_R_a01
+    100278: Jnt_Pointer_R_b01
+    100280: Jnt_Pointer_R_c01
+    100282: Jnt_Ribcage_01
+    100284: Jnt_Ring_L_a01
+    100286: Jnt_Ring_L_b01
+    100288: Jnt_Ring_L_c01
+    100290: Jnt_Ring_R_a01
+    100292: Jnt_Ring_R_b01
+    100294: Jnt_Ring_R_c01
+    100296: Jnt_Shoulder_L_01
+    100298: Jnt_Shoulder_R_01
+    100300: Jnt_ShoulderRotator_L_01
+    100302: Jnt_ShoulderRotator_R_01
+    100304: Jnt_SpineBase_01
+    100306: Jnt_Thumb_L_a01
+    100308: Jnt_Thumb_L_b01
+    100310: Jnt_Thumb_R_a01
+    100312: Jnt_Thumb_R_b01
+    100314: Jnt_Wrist_L_01
+    100316: Jnt_Wrist_R_01
+    100318: LOC_COG_DVR_01
+    100320: LOC_DVRs
+    100322: LOC_FootDVR_L_01
+    100324: LOC_ToeDVR_L_01
+    100326: Middle_L_CTRLs
+    100328: Middle_R_CTRLs
+    100330: Pinky_L_CTRLs
+    100332: Pinky_R_CTRLs
+    100334: Pointer_L_CTRLs
+    100336: Pointer_R_CTRLs
+    100338: polySurface3
+    100340: polySurface4
+    100342: Ring_L_CTRLs
+    100344: Ring_R_CTRLs
+    100346: Root_01
+    100348: Root_Model_01
+    100350: SKELETON
+    100352: //RootNode
+    100354: Thumb_L_CTRLs
+    100356: Thumb_R_CTRLs
+    100358: transform2
+    400000: BE_Foot_L_01
+    400002: BE_Foot_R_01
+    400004: be_head01
+    400006: be_l_eye01
+    400008: be_lowerJaw01
+    400010: BE_Middle_L_01
+    400012: BE_Middle_R_01
+    400014: BE_Pinky_L_01
+    400016: BE_Pinky_R_01
+    400018: BE_Pointer_L_01
+    400020: BE_Pointer_R_01
+    400022: be_r_eye01
+    400024: BE_Ring_L_01
+    400026: BE_Ring_R_01
+    400028: BE_Thumb_L_01
+    400030: BE_Thumb_R_01
+    400032: be_upperJaw01
+    400034: bind_head01
+    400036: bind_l_eye01
+    400038: bind_l_lowerLid01
+    400040: bind_l_upperLid01
+    400042: bind_lowerJaw01
+    400044: bind_neck01
+    400046: bind_r_eye01
+    400048: bind_r_lowerLid01
+    400050: bind_r_upperLid01
+    400052: bind_upperJaw01
+    400054: Character_Body1
+    400056: CTRL_Ankle_L_01
+    400058: CTRL_Ankle_R_01
+    400060: CTRL_BackBend_Lower_01
+    400062: CTRL_BackBend_Upper_01
+    400064: CTRL_Chest_01
+    400066: CTRL_COG_01
+    400068: CTRL_Foot_L_01
+    400070: CTRL_Foot_R_01
+    400072: CTRL_FootRoll_L_01
+    400074: CTRL_FootRoll_R_01
+    400076: CTRL_Global_01
+    400078: CTRL_Middle_L_01
+    400080: CTRL_Middle_L_a01
+    400082: CTRL_Middle_L_b01
+    400084: CTRL_Middle_L_c01
+    400086: CTRL_Middle_R_01
+    400088: CTRL_Middle_R_a01
+    400090: CTRL_Middle_R_b01
+    400092: CTRL_Middle_R_c01
+    400094: CTRL_Neck_01
+    400096: CTRL_Pelvis_01
+    400098: CTRL_Pinky_L_01
+    400100: CTRL_Pinky_L_a01
+    400102: CTRL_Pinky_L_b01
+    400104: CTRL_Pinky_L_c01
+    400106: CTRL_Pinky_R_01
+    400108: CTRL_Pinky_R_a01
+    400110: CTRL_Pinky_R_b01
+    400112: CTRL_Pinky_R_c01
+    400114: CTRL_Pointer_L_01
+    400116: CTRL_Pointer_L_a01
+    400118: CTRL_Pointer_L_b01
+    400120: CTRL_Pointer_L_c01
+    400122: CTRL_Pointer_R_01
+    400124: CTRL_Pointer_R_a01
+    400126: CTRL_Pointer_R_b01
+    400128: CTRL_Pointer_R_c01
+    400130: CTRL_Ring_L_01
+    400132: CTRL_Ring_L_a01
+    400134: CTRL_Ring_L_b01
+    400136: CTRL_Ring_L_c01
+    400138: CTRL_Ring_R_01
+    400140: CTRL_Ring_R_a01
+    400142: CTRL_Ring_R_b01
+    400144: CTRL_Ring_R_c01
+    400146: CTRL_ShoulderRotation_L_01
+    400148: CTRL_ShoulderRotation_R_01
+    400150: CTRL_Thumb_L_a01
+    400152: CTRL_Thumb_L_b01
+    400154: CTRL_Thumb_R_a01
+    400156: CTRL_Thumb_R_b01
+    400158: CTRL_Wrist_L_01
+    400160: CTRL_Wrist_R_01
+    400162: CTRLS
+    400164: eyelarge6
+    400166: Finger_L_CTRLs
+    400168: Finger_R_CTRLs
+    400170: group10
+    400172: group11
+    400174: group13
+    400176: group14
+    400178: group16
+    400180: group17
+    400182: group19
+    400184: group2
+    400186: group20
+    400188: group22
+    400190: group23
+    400192: group25
+    400194: group26
+    400196: group28
+    400198: group4
+    400200: group5
+    400202: group7
+    400204: group8
+    400206: jDrv_l_lowerLid01
+    400208: jDrv_l_upperLid01
+    400210: jDrv_r_lowerLid01
+    400212: jDrv_r_upperLid01
+    400214: Jnt_Ankle_L_01
+    400216: Jnt_Ankle_R_01
+    400218: Jnt_Chest_01
+    400220: Jnt_Clavicle_L_01
+    400222: Jnt_Clavicle_R_01
+    400224: Jnt_Elbow_L_01
+    400226: Jnt_Elbow_R_01
+    400228: Jnt_Foot_L_01
+    400230: Jnt_Foot_R_01
+    400232: Jnt_Hip_L_01
+    400234: Jnt_Hip_R_01
+    400236: Jnt_Knee_L_01
+    400238: Jnt_Knee_R_01
+    400240: Jnt_Middle_L_a01
+    400242: Jnt_Middle_L_b01
+    400244: Jnt_Middle_L_c01
+    400246: Jnt_Middle_R_a01
+    400248: Jnt_Middle_R_b01
+    400250: Jnt_Middle_R_c01
+    400252: Jnt_Palm_L_01
+    400254: Jnt_Palm_R_01
+    400256: Jnt_Pelvis_01
+    400258: Jnt_Pinky_L_a01
+    400260: Jnt_Pinky_L_b01
+    400262: Jnt_Pinky_L_c01
+    400264: Jnt_Pinky_R_a01
+    400266: Jnt_Pinky_R_b01
+    400268: Jnt_Pinky_R_c01
+    400270: Jnt_Pointer_L_a01
+    400272: Jnt_Pointer_L_b01
+    400274: Jnt_Pointer_L_c01
+    400276: Jnt_Pointer_R_a01
+    400278: Jnt_Pointer_R_b01
+    400280: Jnt_Pointer_R_c01
+    400282: Jnt_Ribcage_01
+    400284: Jnt_Ring_L_a01
+    400286: Jnt_Ring_L_b01
+    400288: Jnt_Ring_L_c01
+    400290: Jnt_Ring_R_a01
+    400292: Jnt_Ring_R_b01
+    400294: Jnt_Ring_R_c01
+    400296: Jnt_Shoulder_L_01
+    400298: Jnt_Shoulder_R_01
+    400300: Jnt_ShoulderRotator_L_01
+    400302: Jnt_ShoulderRotator_R_01
+    400304: Jnt_SpineBase_01
+    400306: Jnt_Thumb_L_a01
+    400308: Jnt_Thumb_L_b01
+    400310: Jnt_Thumb_R_a01
+    400312: Jnt_Thumb_R_b01
+    400314: Jnt_Wrist_L_01
+    400316: Jnt_Wrist_R_01
+    400318: LOC_COG_DVR_01
+    400320: LOC_DVRs
+    400322: LOC_FootDVR_L_01
+    400324: LOC_ToeDVR_L_01
+    400326: Middle_L_CTRLs
+    400328: Middle_R_CTRLs
+    400330: Pinky_L_CTRLs
+    400332: Pinky_R_CTRLs
+    400334: Pointer_L_CTRLs
+    400336: Pointer_R_CTRLs
+    400338: polySurface3
+    400340: polySurface4
+    400342: Ring_L_CTRLs
+    400344: Ring_R_CTRLs
+    400346: Root_01
+    400348: Root_Model_01
+    400350: SKELETON
+    400352: //RootNode
+    400354: Thumb_L_CTRLs
+    400356: Thumb_R_CTRLs
+    400358: transform2
+    4300000: polySurface3
+    4300002: polySurface4
+    4300004: Character_Body1
+    7400000: lean_Read
+    7400002: Smoke_Read
+    7400004: stand_Idle
+    7400006: DeskWrite
+    7400008: AlexWalk
+    9500000: //RootNode
+    13700000: Character_Body1
+    13700002: polySurface3
+    13700004: polySurface4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: lean_Read
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Body1
+        weight: 1
+      - path: CTRLS
+        weight: 1
+      - path: CTRLS/CTRL_Global_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Chest_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Neck_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Middle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pinky_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pointer_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Ring_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8/CTRL_Middle_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14/CTRL_Pinky_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5/CTRL_Pointer_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11/CTRL_Ring_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2/CTRL_Thumb_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Middle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pinky_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pointer_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Ring_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23/CTRL_Middle_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17/CTRL_Pinky_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26/CTRL_Pointer_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20/CTRL_Ring_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28/CTRL_Thumb_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_Pelvis_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_Ankle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_FootRoll_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_Ankle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_FootRoll_R_01
+        weight: 1
+      - path: eyelarge6
+        weight: 1
+      - path: eyelarge6/polySurface3
+        weight: 1
+      - path: eyelarge6/polySurface4
+        weight: 1
+      - path: LOC_DVRs
+        weight: 1
+      - path: LOC_DVRs/LOC_COG_DVR_01
+        weight: 1
+      - path: LOC_DVRs/LOC_FootDVR_L_01
+        weight: 1
+      - path: LOC_DVRs/LOC_ToeDVR_L_01
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Smoke_Read
+      takeName: Take 001
+      firstFrame: 510
+      lastFrame: 900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Body1
+        weight: 1
+      - path: CTRLS
+        weight: 1
+      - path: CTRLS/CTRL_Global_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Chest_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Neck_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Middle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pinky_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pointer_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Ring_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8/CTRL_Middle_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14/CTRL_Pinky_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5/CTRL_Pointer_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11/CTRL_Ring_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2/CTRL_Thumb_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Middle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pinky_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pointer_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Ring_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23/CTRL_Middle_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17/CTRL_Pinky_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26/CTRL_Pointer_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20/CTRL_Ring_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28/CTRL_Thumb_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_Pelvis_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_Ankle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_FootRoll_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_Ankle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_FootRoll_R_01
+        weight: 1
+      - path: eyelarge6
+        weight: 1
+      - path: eyelarge6/polySurface3
+        weight: 1
+      - path: eyelarge6/polySurface4
+        weight: 1
+      - path: LOC_DVRs
+        weight: 1
+      - path: LOC_DVRs/LOC_COG_DVR_01
+        weight: 1
+      - path: LOC_DVRs/LOC_FootDVR_L_01
+        weight: 1
+      - path: LOC_DVRs/LOC_ToeDVR_L_01
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: stand_Idle
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Body1
+        weight: 1
+      - path: CTRLS
+        weight: 1
+      - path: CTRLS/CTRL_Global_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Chest_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Neck_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Middle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pinky_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pointer_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Ring_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8/CTRL_Middle_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14/CTRL_Pinky_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5/CTRL_Pointer_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11/CTRL_Ring_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2/CTRL_Thumb_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Middle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pinky_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pointer_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Ring_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23/CTRL_Middle_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17/CTRL_Pinky_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26/CTRL_Pointer_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20/CTRL_Ring_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28/CTRL_Thumb_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_Pelvis_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_Ankle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_FootRoll_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_Ankle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_FootRoll_R_01
+        weight: 1
+      - path: eyelarge6
+        weight: 1
+      - path: eyelarge6/polySurface3
+        weight: 1
+      - path: eyelarge6/polySurface4
+        weight: 1
+      - path: LOC_DVRs
+        weight: 1
+      - path: LOC_DVRs/LOC_COG_DVR_01
+        weight: 1
+      - path: LOC_DVRs/LOC_FootDVR_L_01
+        weight: 1
+      - path: LOC_DVRs/LOC_ToeDVR_L_01
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DeskWrite
+      takeName: Take 001
+      firstFrame: 905
+      lastFrame: 1250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Body1
+        weight: 1
+      - path: CTRLS
+        weight: 1
+      - path: CTRLS/CTRL_Global_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Chest_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Neck_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Middle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pinky_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pointer_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Ring_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8/CTRL_Middle_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14/CTRL_Pinky_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5/CTRL_Pointer_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11/CTRL_Ring_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2/CTRL_Thumb_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Middle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pinky_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pointer_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Ring_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23/CTRL_Middle_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17/CTRL_Pinky_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26/CTRL_Pointer_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20/CTRL_Ring_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28/CTRL_Thumb_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_Pelvis_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_Ankle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_FootRoll_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_Ankle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_FootRoll_R_01
+        weight: 1
+      - path: eyelarge6
+        weight: 1
+      - path: eyelarge6/polySurface3
+        weight: 1
+      - path: eyelarge6/polySurface4
+        weight: 1
+      - path: LOC_DVRs
+        weight: 1
+      - path: LOC_DVRs/LOC_COG_DVR_01
+        weight: 1
+      - path: LOC_DVRs/LOC_FootDVR_L_01
+        weight: 1
+      - path: LOC_DVRs/LOC_ToeDVR_L_01
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AlexWalk
+      takeName: Take 001
+      firstFrame: 1260
+      lastFrame: 1320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Body1
+        weight: 1
+      - path: CTRLS
+        weight: 1
+      - path: CTRLS/CTRL_Global_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Chest_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Neck_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_ShoulderRotation_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Middle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pinky_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Pointer_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/CTRL_Ring_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Middle_L_CTRLs/CTRL_Middle_L_a01/group7/CTRL_Middle_L_b01/group8/CTRL_Middle_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pinky_L_CTRLs/CTRL_Pinky_L_a01/group13/CTRL_Pinky_L_b01/group14/CTRL_Pinky_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Pointer_L_CTRLs/CTRL_Pointer_L_a01/group4/CTRL_Pointer_L_b01/group5/CTRL_Pointer_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Ring_L_CTRLs/CTRL_Ring_L_a01/group10/CTRL_Ring_L_b01/group11/CTRL_Ring_L_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_L_01/Finger_L_CTRLs/Thumb_L_CTRLs/CTRL_Thumb_L_a01/group2/CTRL_Thumb_L_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Middle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pinky_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Pointer_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/CTRL_Ring_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Middle_R_CTRLs/CTRL_Middle_R_a01/group22/CTRL_Middle_R_b01/group23/CTRL_Middle_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pinky_R_CTRLs/CTRL_Pinky_R_a01/group16/CTRL_Pinky_R_b01/group17/CTRL_Pinky_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Pointer_R_CTRLs/CTRL_Pointer_R_a01/group25/CTRL_Pointer_R_b01/group26/CTRL_Pointer_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Ring_R_CTRLs/CTRL_Ring_R_a01/group19/CTRL_Ring_R_b01/group20/CTRL_Ring_R_c01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_BackBend_Lower_01/CTRL_BackBend_Upper_01/CTRL_Wrist_R_01/Finger_R_CTRLs/Thumb_R_CTRLs/CTRL_Thumb_R_a01/group28/CTRL_Thumb_R_b01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_COG_01/CTRL_Pelvis_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_Ankle_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_L_01/CTRL_FootRoll_L_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_Ankle_R_01
+        weight: 1
+      - path: CTRLS/CTRL_Global_01/CTRL_Foot_R_01/CTRL_FootRoll_R_01
+        weight: 1
+      - path: eyelarge6
+        weight: 1
+      - path: eyelarge6/polySurface3
+        weight: 1
+      - path: eyelarge6/polySurface4
+        weight: 1
+      - path: LOC_DVRs
+        weight: 1
+      - path: LOC_DVRs/LOC_COG_DVR_01
+        weight: 1
+      - path: LOC_DVRs/LOC_FootDVR_L_01
+        weight: 1
+      - path: LOC_DVRs/LOC_ToeDVR_L_01
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_Model_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_L_01/Jnt_Knee_L_01/Jnt_Ankle_L_01/Jnt_Foot_L_01/BE_Foot_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_Pelvis_01/Jnt_Hip_R_01/Jnt_Knee_R_01/Jnt_Ankle_R_01/Jnt_Foot_R_01/BE_Foot_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Middle_L_a01/Jnt_Middle_L_b01/Jnt_Middle_L_c01/BE_Middle_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pinky_L_a01/Jnt_Pinky_L_b01/Jnt_Pinky_L_c01/BE_Pinky_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Pointer_L_a01/Jnt_Pointer_L_b01/Jnt_Pointer_L_c01/BE_Pointer_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Ring_L_a01/Jnt_Ring_L_b01/Jnt_Ring_L_c01/BE_Ring_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_L_01/Jnt_Clavicle_L_01/Jnt_Shoulder_L_01/Jnt_Elbow_L_01/Jnt_Wrist_L_01/Jnt_Palm_L_01/Jnt_Thumb_L_a01/Jnt_Thumb_L_b01/BE_Thumb_L_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Middle_R_a01/Jnt_Middle_R_b01/Jnt_Middle_R_c01/BE_Middle_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pinky_R_a01/Jnt_Pinky_R_b01/Jnt_Pinky_R_c01/BE_Pinky_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Pointer_R_a01/Jnt_Pointer_R_b01/Jnt_Pointer_R_c01/BE_Pointer_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Ring_R_a01/Jnt_Ring_R_b01/Jnt_Ring_R_c01/BE_Ring_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/Jnt_ShoulderRotator_R_01/Jnt_Clavicle_R_01/Jnt_Shoulder_R_01/Jnt_Elbow_R_01/Jnt_Wrist_R_01/Jnt_Palm_R_01/Jnt_Thumb_R_a01/Jnt_Thumb_R_b01/BE_Thumb_R_01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/be_head01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_lowerJaw01/be_lowerJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/be_upperJaw01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_l_eye01/be_l_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/bind_r_eye01/be_r_eye01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_lowerLid01/bind_l_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_l_upperLid01/bind_l_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_lowerLid01/bind_r_lowerLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01
+        weight: 1
+      - path: SKELETON/Root_Model_01/Root_01/Jnt_SpineBase_01/Jnt_Ribcage_01/Jnt_Chest_01/transform2/bind_neck01/bind_head01/bind_upperJaw01/jDrv_r_upperLid01/bind_r_upperLid01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Root_01
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e813396ebd99d014f9ac599a6f1c0c9b,
+    type: 3}
+  animationType: 2
+  additionalBone: 0
+  userData: 
