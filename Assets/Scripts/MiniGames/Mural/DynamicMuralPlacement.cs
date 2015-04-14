@@ -19,6 +19,7 @@ public class DynamicMuralPlacement : MonoBehaviour
 	void Update () 
 	{
 		AddMuralsToScene ();
+		//Debug.Log (PlayerPrefs.GetInt ("muralsAddedPrefs"));
 	}
 	
 	void AddMuralsToScene()
@@ -42,6 +43,7 @@ public class DynamicMuralPlacement : MonoBehaviour
 			GameObject mural3 = Instantiate(Imposter2, position3, rotation3) as GameObject;
 		
 			muralsAreAdded = true;
+			PlayerPrefs.SetInt ("muralsAddedPrefs", 1);
 		}
 	}
 }

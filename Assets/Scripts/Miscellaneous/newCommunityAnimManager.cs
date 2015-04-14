@@ -74,6 +74,7 @@ public class newCommunityAnimManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		if (Talk) {
 			animator.SetTrigger ("talk");
 			Talk = false;

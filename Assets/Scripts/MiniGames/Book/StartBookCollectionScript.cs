@@ -17,13 +17,29 @@ public class StartBookCollectionScript : MonoBehaviour
 	public GameObject SummerEdithBook;
 	public GameObject UniversityOfHardKnocksBook;
 	public GameObject SigmundFreudBook;
+
+	//private static int booksAddedPrefs = 0; //0 means they haven't been added yet, 1 means they have been added
 	
 
 	public string labelText = "";
 
 	void Start()
 	{
+		//Check if the player prefs variable is active or not
+		if(PlayerPrefs.GetInt ("booksAddedPrefs") == 0)
+		{
+			bookQuestIsStarted = false;
+		}
+		else if (PlayerPrefs.GetInt ("booksAddedPrefs") == 1)
+		{
+			//bookQuestIsStarted = true;
+			AddBooksToTheScene();
+		}
+	}
 
+	void Update()
+	{
+		//Debug.Log (PlayerPrefs.GetInt ("booksAddedPrefs"));
 	}
 
 	void OnTriggerEnter(Collider other)
@@ -75,6 +91,7 @@ public class StartBookCollectionScript : MonoBehaviour
 		Vector3 position5 = new Vector3(-68.942F , 1.327F , -15.968F);
 		Quaternion rotation5 = Quaternion.Euler(0, 226.1464F, 0);
 		GameObject book5 = Instantiate(SigmundFreudBook, position5, rotation5) as GameObject;
+		PlayerPrefs.SetInt ("booksAddedPrefs", 1);
 	}
 	                   
 
@@ -85,7 +102,7 @@ public class StartBookCollectionScript : MonoBehaviour
 			MovementFreeze.FreezePlayer ();
 			Screen.lockCursor = false;
 
-			if(!bookQuestIsStarted)
+			if(!bookQuestIsStarted && PlayerPrefs.GetInt ("booksAddedPrefs") == 0)
 			{
 				//if we havent started the quest put the buttons up
 				//set boolean to true or false within each of the following statemetns

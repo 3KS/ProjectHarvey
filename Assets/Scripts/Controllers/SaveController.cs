@@ -72,7 +72,9 @@ public class SaveController : MonoBehaviour
 		PlayerPrefs.SetInt(prefix + "canPlayTheater", 0);
 		PlayerPrefs.SetInt (prefix + "canPlayWasps", 0);
 		PlayerPrefs.SetInt (prefix + "CanPlayTea", 0);
-        ResetFPC();
+		PlayerPrefs.SetInt ("booksAddedPrefs", 0);
+		PlayerPrefs.SetInt ("muralsAddedPrefs", 0);
+		ResetFPC();
         AchievementController.ResetAchievements();
         PlayerPrefs.Save();
     }
