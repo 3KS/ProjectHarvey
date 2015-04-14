@@ -23,6 +23,7 @@ public class MuralCollection : MonoBehaviour
 
 	public static bool muralsFound = false; //checks to see if a mural is found
 	public static bool muralIsTurnedIn = false; //checks to see if you've gone back to Cal yet
+	public static bool muralIsTurnedInTwice = false;
 	public static bool buttonHit = false; //checks to see if you pressed the button after going back to Cal
 	public static bool multipleButtonsHit = false; //checks to see if you pressed the button after collecting murals 2 and 3 and going back to Cal
 	public static bool correctButtonHit = false;
@@ -37,7 +38,15 @@ public class MuralCollection : MonoBehaviour
 
 	void Start () 
 	{
-	
+		if(PlayerPrefs.GetInt ("muralsAddedPrefs") == 0)
+		{
+			MuralCollection.muralQuestIsStarted = false;
+		}
+		else if (PlayerPrefs.GetInt ("muralsAddedPrefs") == 1)
+		{
+			Debug.Log ("murals should be placed");
+			//DynamicMuralPlacement.
+		}
 	}
 
 	void Update () 
@@ -95,17 +104,17 @@ public class MuralCollection : MonoBehaviour
 				mural3Found = true;
 			}
 			//if mural 2 and 3 are out of the scene
-			else if(GameObject.Find("Mural 3(Clone)") == null && GameObject.Find ("Mural 2(Clone)") == null && !muralIsTurnedIn)
+			else if(GameObject.Find("Mural 3(Clone)") == null && GameObject.Find ("Mural 2(Clone)") == null && !muralIsTurnedInTwice)
 			{
-				mural2Found = true;
-				mural3Found = true;
 				GameObject.Find("Mural 1(Clone)").renderer.enabled = false;
-			}
-			else if(GameObject.Find("Mural 3(Clone)") == null && GameObject.Find ("Mural 2(Clone)") == null && muralIsTurnedIn)
-			{
 				mural2Found = true;
 				mural3Found = true;
+			}
+			else if(GameObject.Find("Mural 3(Clone)") == null && GameObject.Find ("Mural 2(Clone)") == null && muralIsTurnedInTwice)
+			{
 				GameObject.Find("Mural 1(Clone)").renderer.enabled = true;
+				mural2Found = true;
+				mural3Found = true;
 			}
 		}
 	}
@@ -134,7 +143,7 @@ public class MuralCollection : MonoBehaviour
 	{
 		if (weInBusiness == true) 
 		{
-			if(!muralQuestIsStarted)
+			if(!muralQuestIsStarted && PlayerPrefs.GetInt ("muralsAddedPrefs") == 0)
 			{
 				MovementFreeze.FreezePlayer ();
 				Screen.lockCursor = false;
@@ -247,7 +256,7 @@ public class MuralCollection : MonoBehaviour
 						Screen.showCursor = false;
 						Screen.lockCursor = true;
 						MovementFreeze.UnFreezePlayer ();
-						muralIsTurnedIn = true;
+						muralIsTurnedInTwice = true;
 					}
 				}
 			}
