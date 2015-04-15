@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: 1284fd47fd7aca74f9acf6abac968bc8
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - CalsMural: {fileID: 124524, guid: bed2ac54cfe90f8448e2e5baf8cfe03e, type: 2}
+  - Imposter1: {fileID: 167188, guid: aa18b5883ab2b9445970ea24be0167de, type: 2}
+  - Imposter2: {fileID: 145822, guid: 7ed90fa2720dad445b0ec127c3831684, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

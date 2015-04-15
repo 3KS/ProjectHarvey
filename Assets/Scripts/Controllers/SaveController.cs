@@ -74,6 +74,9 @@ public class SaveController : MonoBehaviour
 		PlayerPrefs.SetInt (prefix + "CanPlayTea", 0);
 		PlayerPrefs.SetInt ("booksAddedPrefs", 0);
 		PlayerPrefs.SetInt ("muralsAddedPrefs", 0);
+		PlayerPrefs.SetInt ("mural1Visible", 0);
+		PlayerPrefs.SetInt ("mural2Visible", 0);
+		PlayerPrefs.SetInt ("mural3Visible", 0);
 		ResetFPC();
         AchievementController.ResetAchievements();
         PlayerPrefs.Save();
