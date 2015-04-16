@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 
 public class ScrapbookController : MonoBehaviour {
-
+	public static ScrapbookController instance;
     private bool isActive = false;
     public static bool isOpen = false;
     public Texture[] lockedTextures;
@@ -29,8 +29,8 @@ public class ScrapbookController : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
-
+	void Awake () {
+		instance = this;
 	}
 
 	void OnLevelWasLoaded (int level)
@@ -58,8 +58,9 @@ public class ScrapbookController : MonoBehaviour {
 			if (GameController.GetGameState () == GameController.GameState.Room) {
 				MovementFreeze.CloseBook();
 			}
-            isOpen = false;
-            scrapBook.SetActive(false);
+			CloseScrapbook();
+            //isOpen = false;
+            //scrapBook.SetActive(false);
             MovementFreeze.UnFreezePlayer();
 			if(GameController.GetGameState() != GameController.GameState.Diorama) {
 				Screen.lockCursor = true;
@@ -98,12 +99,8 @@ public class ScrapbookController : MonoBehaviour {
 	}
 
     public void CloseScrapbook() {
+		isOpen = false;
         scrapBook.SetActive(false);
-        isOpen = false;
     }
 
-    void Awake()
-    {
-     
-    }
 }

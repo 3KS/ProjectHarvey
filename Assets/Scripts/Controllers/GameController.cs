@@ -369,9 +369,15 @@ public class GameController : MonoBehaviour
 				
 				if (isPaused) {
 						Time.timeScale = 0;
+						if(gameState == GameState.Room) {
+							MovementFreeze.FreezePlayer();
+						}
 						GUI.enabled = false;
 				} else {
 						Time.timeScale = 1;
+						if(gameState == GameState.Room) {
+							MovementFreeze.UnFreezePlayer();
+						}
 						GUI.enabled = true;
 				}
 		}
@@ -382,6 +388,9 @@ public class GameController : MonoBehaviour
 		//********************************************
 		public void ReturnToDiorama ()
 		{
+				isPaused = false;
+				menuState = MenuState.None;
+				ScrapbookController.instance.CloseScrapbook ();
 				SaveController.SaveCurrentFPC ();
 				Screen.lockCursor = false;
 				Application.LoadLevel ("HarveyWithLighting");
