@@ -1,0 +1,1615 @@
+fileFormatVersion: 2
+guid: 859a777e7391b244897b5ce5f566755f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: armRest
+    100002: armRest 1
+    100004: armRest 2
+    100006: armRest 3
+    100008: armRest 4
+    100010: armRest 5
+    100012: armRest 6
+    100014: armRest 7
+    100016: armRest 8
+    100018: bottom
+    100020: bottom 1
+    100022: bottom 2
+    100024: bottom 3
+    100026: bottom 4
+    100028: bottom 5
+    100030: bottom 6
+    100032: bottom 7
+    100034: bottom 8
+    100036: bottom_center_crossBar
+    100038: bottom_center_crossBar 1
+    100040: bottom_center_crossBar 2
+    100042: bottom_center_crossBar 3
+    100044: bottom_center_crossBar 4
+    100046: bottom_center_crossBar 5
+    100048: bottom_center_crossBar 6
+    100050: bottom_center_crossBar 7
+    100052: bottom_center_crossBar 8
+    100054: bottom_crossBar_L
+    100056: bottom_crossBar_L 1
+    100058: bottom_crossBar_L 2
+    100060: bottom_crossBar_L 3
+    100062: bottom_crossBar_L 4
+    100064: bottom_crossBar_L 5
+    100066: bottom_crossBar_L 6
+    100068: bottom_crossBar_L 7
+    100070: bottom_crossBar_L 8
+    100072: bottom_crossBar_L1
+    100074: bottom_crossBar_L1 1
+    100076: bottom_crossBar_L1 2
+    100078: bottom_crossBar_L1 3
+    100080: bottom_crossBar_L1 4
+    100082: bottom_crossBar_L1 5
+    100084: bottom_crossBar_L1 6
+    100086: bottom_crossBar_L1 7
+    100088: bottom_crossBar_L1 8
+    100090: carpet
+    100092: Ceiling_Light3
+    100094: Ceiling_Light4
+    100096: Celing
+    100098: centerBrace
+    100100: chair_1
+    100102: chair_2
+    100104: chair_3
+    100106: chair_4
+    100108: chair_5
+    100110: chair_6
+    100112: chair_7
+    100114: chair_8
+    100116: chair_9
+    100118: ComfyChair1
+    100120: ComfyChair2
+    100122: ComfyChair3
+    100124: Connector1
+    100126: Connector1 1
+    100128: Connector1 2
+    100130: Connector2
+    100132: Connector2 1
+    100134: Connector2 2
+    100136: Connector3
+    100138: Connector3 1
+    100140: Connector3 2
+    100142: Connectors
+    100144: Connectors 1
+    100146: Connectors 2
+    100148: Couch10
+    100150: Couch1_Couch
+    100152: Couch1_Couch 1
+    100154: Couch1_Couch 2
+    100156: Couch1_Couch1
+    100158: Couch1_Couch1 1
+    100160: Couch1_Couch1 2
+    100162: Couch9
+    100164: couch_cushion1
+    100166: couch_cushion1 1
+    100168: couch_cushion1 2
+    100170: cushion
+    100172: cushion 1
+    100174: cushion 2
+    100176: cushion 3
+    100178: cushion 4
+    100180: cushion 5
+    100182: cushion 6
+    100184: cushion 7
+    100186: cushion 8
+    100188: door18
+    100190: door19
+    100192: door20
+    100194: doorHand22
+    100196: doorHand23
+    100198: doorWindow13
+    100200: doorWindow14
+    100202: Faux_Wall1
+    100204: Faux_Wall1 1
+    100206: Faux_Wall1 2
+    100208: Faux_Wall1 3
+    100210: FauxWall1
+    100212: FauxWall2
+    100214: FauxWall3
+    100216: FauxWall4
+    100218: FauxWall5
+    100220: feet
+    100222: feet 1
+    100224: feet 2
+    100226: feet 3
+    100228: feet1
+    100230: feet1 1
+    100232: feet1 2
+    100234: feet1 3
+    100236: Floor
+    100238: foot
+    100240: foot 1
+    100242: foot 2
+    100244: foot10
+    100246: foot11
+    100248: foot12
+    100250: foot13
+    100252: foot4
+    100254: foot4 1
+    100256: foot4 2
+    100258: foot5
+    100260: foot5 1
+    100262: foot5 2
+    100264: foot6
+    100266: foot6 1
+    100268: foot6 2
+    100270: Foot_Pedals
+    100272: frame
+    100274: Grand_Piano1
+    100276: group2
+    100278: group3
+    100280: group4
+    100282: group5
+    100284: group6
+    100286: group7
+    100288: group8
+    100290: JukeBox
+    100292: leftBrace
+    100294: leftBrace1
+    100296: leg
+    100298: leg11
+    100300: leg12
+    100302: leg13
+    100304: leg14
+    100306: leg15
+    100308: leg4
+    100310: leg_F_L
+    100312: leg_F_L 1
+    100314: leg_F_L 2
+    100316: leg_F_L 3
+    100318: leg_F_L 4
+    100320: leg_F_L 5
+    100322: leg_F_L 6
+    100324: leg_F_L 7
+    100326: leg_F_L 8
+    100328: leg_F_L1
+    100330: leg_F_L1 1
+    100332: leg_F_L1 2
+    100334: leg_F_L1 3
+    100336: leg_F_L1 4
+    100338: leg_F_L1 5
+    100340: leg_F_L1 6
+    100342: leg_F_L1 7
+    100344: leg_F_L1 8
+    100346: leg_F_L2
+    100348: leg_F_L2 1
+    100350: leg_F_L2 2
+    100352: leg_F_L2 3
+    100354: leg_F_L2 4
+    100356: leg_F_L2 5
+    100358: leg_F_L2 6
+    100360: leg_F_L2 7
+    100362: leg_F_L2 8
+    100364: leg_F_L3
+    100366: leg_F_L3 1
+    100368: leg_F_L3 2
+    100370: leg_F_L3 3
+    100372: leg_F_L3 4
+    100374: leg_F_L3 5
+    100376: leg_F_L3 6
+    100378: leg_F_L3 7
+    100380: leg_F_L3 8
+    100382: legs
+    100384: legs 1
+    100386: legs 2
+    100388: legs 3
+    100390: legs 4
+    100392: legs 5
+    100394: legs 6
+    100396: legs 7
+    100398: legs 8
+    100400: Lid
+    100402: LightSwitch
+    100404: main_table1
+    100406: main_table1 1
+    100408: main_table1 2
+    100410: ornateCrossBar_L
+    100412: ornateCrossBar_L 1
+    100414: ornateCrossBar_L 2
+    100416: ornateCrossBar_L 3
+    100418: ornateCrossBar_L 4
+    100420: ornateCrossBar_L 5
+    100422: ornateCrossBar_L 6
+    100424: ornateCrossBar_L 7
+    100426: ornateCrossBar_L 8
+    100428: ornateCrossBar_R
+    100430: ornateCrossBar_R 1
+    100432: ornateCrossBar_R 2
+    100434: ornateCrossBar_R 3
+    100436: ornateCrossBar_R 4
+    100438: ornateCrossBar_R 5
+    100440: ornateCrossBar_R 6
+    100442: ornateCrossBar_R 7
+    100444: ornateCrossBar_R 8
+    100446: painting1
+    100448: painting3
+    100450: painting4
+    100452: paper15
+    100454: paper16
+    100456: paper17
+    100458: paper18
+    100460: paperHolder
+    100462: pCube106
+    100464: pCube106 1
+    100466: pCube106 2
+    100468: pCube107
+    100470: pCube108
+    100472: pCube113
+    100474: pCube121
+    100476: pCube122
+    100478: pCube123
+    100480: pCube96
+    100482: pCube96 1
+    100484: pCube96 2
+    100486: pCube96 3
+    100488: pCube97
+    100490: pCube97 1
+    100492: pCube97 2
+    100494: pCube97 3
+    100496: pCube97 4
+    100498: pCube97 5
+    100500: pCube97 6
+    100502: pCube97 7
+    100504: pCube97 8
+    100506: pCylinder81
+    100508: pCylinder81 1
+    100510: pCylinder81 2
+    100512: pCylinder81 3
+    100514: pCylinder81 4
+    100516: pCylinder81 5
+    100518: pCylinder81 6
+    100520: pCylinder81 7
+    100522: pCylinder81 8
+    100524: pCylinder86
+    100526: pCylinder87
+    100528: pCylinder88
+    100530: pCylinder89
+    100532: pCylinder90
+    100534: pCylinder90 1
+    100536: pCylinder90 2
+    100538: pCylinder91
+    100540: pCylinder91 1
+    100542: pCylinder92
+    100544: pCylinder92 1
+    100546: pCylinder93
+    100548: PianoBench
+    100550: pipeHolder
+    100552: pipeHolder 1
+    100554: pipeHolder2
+    100556: pipeHolder2 1
+    100558: pipes
+    100560: pipes1
+    100562: pipes2
+    100564: polySurface251
+    100566: polySurface257
+    100568: polySurface258
+    100570: polySurface262
+    100572: polySurface269
+    100574: polySurface270
+    100576: polySurface271
+    100578: polySurface272
+    100580: polySurface273
+    100582: polySurface274
+    100584: seat
+    100586: seat 1
+    100588: seat 2
+    100590: seat 3
+    100592: seat 4
+    100594: seat 5
+    100596: seat 6
+    100598: seat 7
+    100600: seat 8
+    100602: stand1
+    100604: stoutonia1
+    100606: Table3
+    100608: Table6
+    100610: Table7
+    100612: Table8
+    100614: TeaCup
+    100616: TeaCup1
+    100618: TeaCup2
+    100620: TeaCup3
+    100622: TeaCup4
+    100624: TeaCup5
+    100626: TeaCup5 1
+    100628: TeaCup5 2
+    100630: TeaCup5 3
+    100632: TeaCup5 4
+    100634: TeaCup5 5
+    100636: TeaPlate
+    100638: TeaPlate1
+    100640: TeaPlate2
+    100642: TeaPlate3
+    100644: TeaPlate4
+    100646: TeaPlate5
+    100648: TeaPlate6
+    100650: TeaPlate6 1
+    100652: TeaPlate6 2
+    100654: TeaPlate6 3
+    100656: TeaPlate6 4
+    100658: TeaPlate6 5
+    100660: TeaPot
+    100662: TeaPot1
+    100664: TeaSet1
+    100666: TeaTable
+    100668: TeaTable 1
+    100670: TeaThing
+    100672: TeaTray
+    100674: //RootNode
+    100676: topCrossBars
+    100678: topCrossBars 1
+    100680: topCrossBars 2
+    100682: topCrossBars 3
+    100684: topCrossBars 4
+    100686: topCrossBars 5
+    100688: topCrossBars 6
+    100690: topCrossBars 7
+    100692: topCrossBars 8
+    100694: Walls1
+    100696: window
+    100698: window1
+    100700: window2
+    100702: window3
+    100704: window4
+    100706: window5
+    100708: window6
+    100710: WindowWall
+    400000: armRest
+    400002: armRest 1
+    400004: armRest 2
+    400006: armRest 3
+    400008: armRest 4
+    400010: armRest 5
+    400012: armRest 6
+    400014: armRest 7
+    400016: armRest 8
+    400018: bottom
+    400020: bottom 1
+    400022: bottom 2
+    400024: bottom 3
+    400026: bottom 4
+    400028: bottom 5
+    400030: bottom 6
+    400032: bottom 7
+    400034: bottom 8
+    400036: bottom_center_crossBar
+    400038: bottom_center_crossBar 1
+    400040: bottom_center_crossBar 2
+    400042: bottom_center_crossBar 3
+    400044: bottom_center_crossBar 4
+    400046: bottom_center_crossBar 5
+    400048: bottom_center_crossBar 6
+    400050: bottom_center_crossBar 7
+    400052: bottom_center_crossBar 8
+    400054: bottom_crossBar_L
+    400056: bottom_crossBar_L 1
+    400058: bottom_crossBar_L 2
+    400060: bottom_crossBar_L 3
+    400062: bottom_crossBar_L 4
+    400064: bottom_crossBar_L 5
+    400066: bottom_crossBar_L 6
+    400068: bottom_crossBar_L 7
+    400070: bottom_crossBar_L 8
+    400072: bottom_crossBar_L1
+    400074: bottom_crossBar_L1 1
+    400076: bottom_crossBar_L1 2
+    400078: bottom_crossBar_L1 3
+    400080: bottom_crossBar_L1 4
+    400082: bottom_crossBar_L1 5
+    400084: bottom_crossBar_L1 6
+    400086: bottom_crossBar_L1 7
+    400088: bottom_crossBar_L1 8
+    400090: carpet
+    400092: Ceiling_Light3
+    400094: Ceiling_Light4
+    400096: Celing
+    400098: centerBrace
+    400100: chair_1
+    400102: chair_2
+    400104: chair_3
+    400106: chair_4
+    400108: chair_5
+    400110: chair_6
+    400112: chair_7
+    400114: chair_8
+    400116: chair_9
+    400118: ComfyChair1
+    400120: ComfyChair2
+    400122: ComfyChair3
+    400124: Connector1
+    400126: Connector1 1
+    400128: Connector1 2
+    400130: Connector2
+    400132: Connector2 1
+    400134: Connector2 2
+    400136: Connector3
+    400138: Connector3 1
+    400140: Connector3 2
+    400142: Connectors
+    400144: Connectors 1
+    400146: Connectors 2
+    400148: Couch10
+    400150: Couch1_Couch
+    400152: Couch1_Couch 1
+    400154: Couch1_Couch 2
+    400156: Couch1_Couch1
+    400158: Couch1_Couch1 1
+    400160: Couch1_Couch1 2
+    400162: Couch9
+    400164: couch_cushion1
+    400166: couch_cushion1 1
+    400168: couch_cushion1 2
+    400170: cushion
+    400172: cushion 1
+    400174: cushion 2
+    400176: cushion 3
+    400178: cushion 4
+    400180: cushion 5
+    400182: cushion 6
+    400184: cushion 7
+    400186: cushion 8
+    400188: door18
+    400190: door19
+    400192: door20
+    400194: doorHand22
+    400196: doorHand23
+    400198: doorWindow13
+    400200: doorWindow14
+    400202: Faux_Wall1
+    400204: Faux_Wall1 1
+    400206: Faux_Wall1 2
+    400208: Faux_Wall1 3
+    400210: FauxWall1
+    400212: FauxWall2
+    400214: FauxWall3
+    400216: FauxWall4
+    400218: FauxWall5
+    400220: feet
+    400222: feet 1
+    400224: feet 2
+    400226: feet 3
+    400228: feet1
+    400230: feet1 1
+    400232: feet1 2
+    400234: feet1 3
+    400236: Floor
+    400238: foot
+    400240: foot 1
+    400242: foot 2
+    400244: foot10
+    400246: foot11
+    400248: foot12
+    400250: foot13
+    400252: foot4
+    400254: foot4 1
+    400256: foot4 2
+    400258: foot5
+    400260: foot5 1
+    400262: foot5 2
+    400264: foot6
+    400266: foot6 1
+    400268: foot6 2
+    400270: Foot_Pedals
+    400272: frame
+    400274: Grand_Piano1
+    400276: group2
+    400278: group3
+    400280: group4
+    400282: group5
+    400284: group6
+    400286: group7
+    400288: group8
+    400290: JukeBox
+    400292: leftBrace
+    400294: leftBrace1
+    400296: leg
+    400298: leg11
+    400300: leg12
+    400302: leg13
+    400304: leg14
+    400306: leg15
+    400308: leg4
+    400310: leg_F_L
+    400312: leg_F_L 1
+    400314: leg_F_L 2
+    400316: leg_F_L 3
+    400318: leg_F_L 4
+    400320: leg_F_L 5
+    400322: leg_F_L 6
+    400324: leg_F_L 7
+    400326: leg_F_L 8
+    400328: leg_F_L1
+    400330: leg_F_L1 1
+    400332: leg_F_L1 2
+    400334: leg_F_L1 3
+    400336: leg_F_L1 4
+    400338: leg_F_L1 5
+    400340: leg_F_L1 6
+    400342: leg_F_L1 7
+    400344: leg_F_L1 8
+    400346: leg_F_L2
+    400348: leg_F_L2 1
+    400350: leg_F_L2 2
+    400352: leg_F_L2 3
+    400354: leg_F_L2 4
+    400356: leg_F_L2 5
+    400358: leg_F_L2 6
+    400360: leg_F_L2 7
+    400362: leg_F_L2 8
+    400364: leg_F_L3
+    400366: leg_F_L3 1
+    400368: leg_F_L3 2
+    400370: leg_F_L3 3
+    400372: leg_F_L3 4
+    400374: leg_F_L3 5
+    400376: leg_F_L3 6
+    400378: leg_F_L3 7
+    400380: leg_F_L3 8
+    400382: legs
+    400384: legs 1
+    400386: legs 2
+    400388: legs 3
+    400390: legs 4
+    400392: legs 5
+    400394: legs 6
+    400396: legs 7
+    400398: legs 8
+    400400: Lid
+    400402: LightSwitch
+    400404: main_table1
+    400406: main_table1 1
+    400408: main_table1 2
+    400410: ornateCrossBar_L
+    400412: ornateCrossBar_L 1
+    400414: ornateCrossBar_L 2
+    400416: ornateCrossBar_L 3
+    400418: ornateCrossBar_L 4
+    400420: ornateCrossBar_L 5
+    400422: ornateCrossBar_L 6
+    400424: ornateCrossBar_L 7
+    400426: ornateCrossBar_L 8
+    400428: ornateCrossBar_R
+    400430: ornateCrossBar_R 1
+    400432: ornateCrossBar_R 2
+    400434: ornateCrossBar_R 3
+    400436: ornateCrossBar_R 4
+    400438: ornateCrossBar_R 5
+    400440: ornateCrossBar_R 6
+    400442: ornateCrossBar_R 7
+    400444: ornateCrossBar_R 8
+    400446: painting1
+    400448: painting3
+    400450: painting4
+    400452: paper15
+    400454: paper16
+    400456: paper17
+    400458: paper18
+    400460: paperHolder
+    400462: pCube106
+    400464: pCube106 1
+    400466: pCube106 2
+    400468: pCube107
+    400470: pCube108
+    400472: pCube113
+    400474: pCube121
+    400476: pCube122
+    400478: pCube123
+    400480: pCube96
+    400482: pCube96 1
+    400484: pCube96 2
+    400486: pCube96 3
+    400488: pCube97
+    400490: pCube97 1
+    400492: pCube97 2
+    400494: pCube97 3
+    400496: pCube97 4
+    400498: pCube97 5
+    400500: pCube97 6
+    400502: pCube97 7
+    400504: pCube97 8
+    400506: pCylinder81
+    400508: pCylinder81 1
+    400510: pCylinder81 2
+    400512: pCylinder81 3
+    400514: pCylinder81 4
+    400516: pCylinder81 5
+    400518: pCylinder81 6
+    400520: pCylinder81 7
+    400522: pCylinder81 8
+    400524: pCylinder86
+    400526: pCylinder87
+    400528: pCylinder88
+    400530: pCylinder89
+    400532: pCylinder90
+    400534: pCylinder90 1
+    400536: pCylinder90 2
+    400538: pCylinder91
+    400540: pCylinder91 1
+    400542: pCylinder92
+    400544: pCylinder92 1
+    400546: pCylinder93
+    400548: PianoBench
+    400550: pipeHolder
+    400552: pipeHolder 1
+    400554: pipeHolder2
+    400556: pipeHolder2 1
+    400558: pipes
+    400560: pipes1
+    400562: pipes2
+    400564: polySurface251
+    400566: polySurface257
+    400568: polySurface258
+    400570: polySurface262
+    400572: polySurface269
+    400574: polySurface270
+    400576: polySurface271
+    400578: polySurface272
+    400580: polySurface273
+    400582: polySurface274
+    400584: seat
+    400586: seat 1
+    400588: seat 2
+    400590: seat 3
+    400592: seat 4
+    400594: seat 5
+    400596: seat 6
+    400598: seat 7
+    400600: seat 8
+    400602: stand1
+    400604: stoutonia1
+    400606: Table3
+    400608: Table6
+    400610: Table7
+    400612: Table8
+    400614: TeaCup
+    400616: TeaCup1
+    400618: TeaCup2
+    400620: TeaCup3
+    400622: TeaCup4
+    400624: TeaCup5
+    400626: TeaCup5 1
+    400628: TeaCup5 2
+    400630: TeaCup5 3
+    400632: TeaCup5 4
+    400634: TeaCup5 5
+    400636: TeaPlate
+    400638: TeaPlate1
+    400640: TeaPlate2
+    400642: TeaPlate3
+    400644: TeaPlate4
+    400646: TeaPlate5
+    400648: TeaPlate6
+    400650: TeaPlate6 1
+    400652: TeaPlate6 2
+    400654: TeaPlate6 3
+    400656: TeaPlate6 4
+    400658: TeaPlate6 5
+    400660: TeaPot
+    400662: TeaPot1
+    400664: TeaSet1
+    400666: TeaTable
+    400668: TeaTable 1
+    400670: TeaThing
+    400672: TeaTray
+    400674: //RootNode
+    400676: topCrossBars
+    400678: topCrossBars 1
+    400680: topCrossBars 2
+    400682: topCrossBars 3
+    400684: topCrossBars 4
+    400686: topCrossBars 5
+    400688: topCrossBars 6
+    400690: topCrossBars 7
+    400692: topCrossBars 8
+    400694: Walls1
+    400696: window
+    400698: window1
+    400700: window2
+    400702: window3
+    400704: window4
+    400706: window5
+    400708: window6
+    400710: WindowWall
+    2300000: armRest
+    2300002: armRest 1
+    2300004: armRest 2
+    2300006: armRest 3
+    2300008: armRest 4
+    2300010: armRest 5
+    2300012: armRest 6
+    2300014: armRest 7
+    2300016: armRest 8
+    2300018: bottom_center_crossBar
+    2300020: bottom_center_crossBar 1
+    2300022: bottom_center_crossBar 2
+    2300024: bottom_center_crossBar 3
+    2300026: bottom_center_crossBar 4
+    2300028: bottom_center_crossBar 5
+    2300030: bottom_center_crossBar 6
+    2300032: bottom_center_crossBar 7
+    2300034: bottom_center_crossBar 8
+    2300036: bottom_crossBar_L
+    2300038: bottom_crossBar_L 1
+    2300040: bottom_crossBar_L 2
+    2300042: bottom_crossBar_L 3
+    2300044: bottom_crossBar_L 4
+    2300046: bottom_crossBar_L 5
+    2300048: bottom_crossBar_L 6
+    2300050: bottom_crossBar_L 7
+    2300052: bottom_crossBar_L 8
+    2300054: bottom_crossBar_L1
+    2300056: bottom_crossBar_L1 1
+    2300058: bottom_crossBar_L1 2
+    2300060: bottom_crossBar_L1 3
+    2300062: bottom_crossBar_L1 4
+    2300064: bottom_crossBar_L1 5
+    2300066: bottom_crossBar_L1 6
+    2300068: bottom_crossBar_L1 7
+    2300070: bottom_crossBar_L1 8
+    2300072: carpet
+    2300074: Ceiling_Light3
+    2300076: Ceiling_Light4
+    2300078: Celing
+    2300080: centerBrace
+    2300082: Couch10
+    2300084: Couch1_Couch
+    2300086: Couch1_Couch 1
+    2300088: Couch1_Couch 2
+    2300090: Couch1_Couch1
+    2300092: Couch1_Couch1 1
+    2300094: Couch1_Couch1 2
+    2300096: Couch9
+    2300098: couch_cushion1
+    2300100: couch_cushion1 1
+    2300102: couch_cushion1 2
+    2300104: cushion
+    2300106: cushion 1
+    2300108: cushion 2
+    2300110: cushion 3
+    2300112: cushion 4
+    2300114: cushion 5
+    2300116: cushion 6
+    2300118: cushion 7
+    2300120: cushion 8
+    2300122: door18
+    2300124: door19
+    2300126: doorHand22
+    2300128: doorHand23
+    2300130: doorWindow13
+    2300132: doorWindow14
+    2300134: feet
+    2300136: feet 1
+    2300138: feet 2
+    2300140: feet 3
+    2300142: feet1
+    2300144: feet1 1
+    2300146: feet1 2
+    2300148: feet1 3
+    2300150: Floor
+    2300152: foot
+    2300154: foot 1
+    2300156: foot 2
+    2300158: foot10
+    2300160: foot11
+    2300162: foot12
+    2300164: foot13
+    2300166: foot4
+    2300168: foot4 1
+    2300170: foot4 2
+    2300172: foot5
+    2300174: foot5 1
+    2300176: foot5 2
+    2300178: foot6
+    2300180: foot6 1
+    2300182: foot6 2
+    2300184: frame
+    2300186: JukeBox
+    2300188: leftBrace
+    2300190: leftBrace1
+    2300192: leg
+    2300194: leg13
+    2300196: leg14
+    2300198: leg15
+    2300200: leg_F_L
+    2300202: leg_F_L 1
+    2300204: leg_F_L 2
+    2300206: leg_F_L 3
+    2300208: leg_F_L 4
+    2300210: leg_F_L 5
+    2300212: leg_F_L 6
+    2300214: leg_F_L 7
+    2300216: leg_F_L 8
+    2300218: leg_F_L1
+    2300220: leg_F_L1 1
+    2300222: leg_F_L1 2
+    2300224: leg_F_L1 3
+    2300226: leg_F_L1 4
+    2300228: leg_F_L1 5
+    2300230: leg_F_L1 6
+    2300232: leg_F_L1 7
+    2300234: leg_F_L1 8
+    2300236: leg_F_L2
+    2300238: leg_F_L2 1
+    2300240: leg_F_L2 2
+    2300242: leg_F_L2 3
+    2300244: leg_F_L2 4
+    2300246: leg_F_L2 5
+    2300248: leg_F_L2 6
+    2300250: leg_F_L2 7
+    2300252: leg_F_L2 8
+    2300254: leg_F_L3
+    2300256: leg_F_L3 1
+    2300258: leg_F_L3 2
+    2300260: leg_F_L3 3
+    2300262: leg_F_L3 4
+    2300264: leg_F_L3 5
+    2300266: leg_F_L3 6
+    2300268: leg_F_L3 7
+    2300270: leg_F_L3 8
+    2300272: Lid
+    2300274: LightSwitch
+    2300276: main_table1
+    2300278: main_table1 1
+    2300280: main_table1 2
+    2300282: ornateCrossBar_L
+    2300284: ornateCrossBar_L 1
+    2300286: ornateCrossBar_L 2
+    2300288: ornateCrossBar_L 3
+    2300290: ornateCrossBar_L 4
+    2300292: ornateCrossBar_L 5
+    2300294: ornateCrossBar_L 6
+    2300296: ornateCrossBar_L 7
+    2300298: ornateCrossBar_L 8
+    2300300: ornateCrossBar_R
+    2300302: ornateCrossBar_R 1
+    2300304: ornateCrossBar_R 2
+    2300306: ornateCrossBar_R 3
+    2300308: ornateCrossBar_R 4
+    2300310: ornateCrossBar_R 5
+    2300312: ornateCrossBar_R 6
+    2300314: ornateCrossBar_R 7
+    2300316: ornateCrossBar_R 8
+    2300318: painting1
+    2300320: painting3
+    2300322: painting4
+    2300324: paper15
+    2300326: paper16
+    2300328: paper17
+    2300330: paper18
+    2300332: paperHolder
+    2300334: pCube106
+    2300336: pCube106 1
+    2300338: pCube106 2
+    2300340: pCube107
+    2300342: pCube108
+    2300344: pCube113
+    2300346: pCube121
+    2300348: pCube122
+    2300350: pCube123
+    2300352: pCube96
+    2300354: pCube96 1
+    2300356: pCube96 2
+    2300358: pCube96 3
+    2300360: pCube97
+    2300362: pCube97 1
+    2300364: pCube97 2
+    2300366: pCube97 3
+    2300368: pCube97 4
+    2300370: pCube97 5
+    2300372: pCube97 6
+    2300374: pCube97 7
+    2300376: pCube97 8
+    2300378: pCylinder81
+    2300380: pCylinder81 1
+    2300382: pCylinder81 2
+    2300384: pCylinder81 3
+    2300386: pCylinder81 4
+    2300388: pCylinder81 5
+    2300390: pCylinder81 6
+    2300392: pCylinder81 7
+    2300394: pCylinder81 8
+    2300396: pCylinder86
+    2300398: pCylinder87
+    2300400: pCylinder88
+    2300402: pCylinder89
+    2300404: pCylinder90
+    2300406: pCylinder90 1
+    2300408: pCylinder90 2
+    2300410: pCylinder91
+    2300412: pCylinder91 1
+    2300414: pCylinder92
+    2300416: pCylinder92 1
+    2300418: pCylinder93
+    2300420: PianoBench
+    2300422: pipeHolder
+    2300424: pipeHolder 1
+    2300426: pipeHolder2
+    2300428: pipeHolder2 1
+    2300430: polySurface251
+    2300432: polySurface257
+    2300434: polySurface258
+    2300436: polySurface269
+    2300438: polySurface270
+    2300440: polySurface271
+    2300442: polySurface272
+    2300444: polySurface273
+    2300446: polySurface274
+    2300448: seat
+    2300450: seat 1
+    2300452: seat 2
+    2300454: seat 3
+    2300456: seat 4
+    2300458: seat 5
+    2300460: seat 6
+    2300462: seat 7
+    2300464: seat 8
+    2300466: stand1
+    2300468: stoutonia1
+    2300470: Table6
+    2300472: TeaCup
+    2300474: TeaCup1
+    2300476: TeaCup2
+    2300478: TeaCup3
+    2300480: TeaCup4
+    2300482: TeaCup5
+    2300484: TeaCup5 1
+    2300486: TeaCup5 2
+    2300488: TeaCup5 3
+    2300490: TeaCup5 4
+    2300492: TeaCup5 5
+    2300494: TeaPlate
+    2300496: TeaPlate1
+    2300498: TeaPlate2
+    2300500: TeaPlate3
+    2300502: TeaPlate4
+    2300504: TeaPlate5
+    2300506: TeaPlate6
+    2300508: TeaPlate6 1
+    2300510: TeaPlate6 2
+    2300512: TeaPlate6 3
+    2300514: TeaPlate6 4
+    2300516: TeaPlate6 5
+    2300518: TeaPot
+    2300520: TeaPot1
+    2300522: TeaTable 1
+    2300524: TeaThing
+    2300526: TeaTray
+    2300528: topCrossBars
+    2300530: topCrossBars 1
+    2300532: topCrossBars 2
+    2300534: topCrossBars 3
+    2300536: topCrossBars 4
+    2300538: topCrossBars 5
+    2300540: topCrossBars 6
+    2300542: topCrossBars 7
+    2300544: topCrossBars 8
+    2300546: window
+    2300548: window1
+    2300550: window2
+    2300552: window3
+    2300554: window4
+    2300556: window5
+    2300558: window6
+    2300560: WindowWall
+    3300000: armRest
+    3300002: armRest 1
+    3300004: armRest 2
+    3300006: armRest 3
+    3300008: armRest 4
+    3300010: armRest 5
+    3300012: armRest 6
+    3300014: armRest 7
+    3300016: armRest 8
+    3300018: bottom_center_crossBar
+    3300020: bottom_center_crossBar 1
+    3300022: bottom_center_crossBar 2
+    3300024: bottom_center_crossBar 3
+    3300026: bottom_center_crossBar 4
+    3300028: bottom_center_crossBar 5
+    3300030: bottom_center_crossBar 6
+    3300032: bottom_center_crossBar 7
+    3300034: bottom_center_crossBar 8
+    3300036: bottom_crossBar_L
+    3300038: bottom_crossBar_L 1
+    3300040: bottom_crossBar_L 2
+    3300042: bottom_crossBar_L 3
+    3300044: bottom_crossBar_L 4
+    3300046: bottom_crossBar_L 5
+    3300048: bottom_crossBar_L 6
+    3300050: bottom_crossBar_L 7
+    3300052: bottom_crossBar_L 8
+    3300054: bottom_crossBar_L1
+    3300056: bottom_crossBar_L1 1
+    3300058: bottom_crossBar_L1 2
+    3300060: bottom_crossBar_L1 3
+    3300062: bottom_crossBar_L1 4
+    3300064: bottom_crossBar_L1 5
+    3300066: bottom_crossBar_L1 6
+    3300068: bottom_crossBar_L1 7
+    3300070: bottom_crossBar_L1 8
+    3300072: carpet
+    3300074: Ceiling_Light3
+    3300076: Ceiling_Light4
+    3300078: Celing
+    3300080: centerBrace
+    3300082: Couch10
+    3300084: Couch1_Couch
+    3300086: Couch1_Couch 1
+    3300088: Couch1_Couch 2
+    3300090: Couch1_Couch1
+    3300092: Couch1_Couch1 1
+    3300094: Couch1_Couch1 2
+    3300096: Couch9
+    3300098: couch_cushion1
+    3300100: couch_cushion1 1
+    3300102: couch_cushion1 2
+    3300104: cushion
+    3300106: cushion 1
+    3300108: cushion 2
+    3300110: cushion 3
+    3300112: cushion 4
+    3300114: cushion 5
+    3300116: cushion 6
+    3300118: cushion 7
+    3300120: cushion 8
+    3300122: door18
+    3300124: door19
+    3300126: doorHand22
+    3300128: doorHand23
+    3300130: doorWindow13
+    3300132: doorWindow14
+    3300134: feet
+    3300136: feet 1
+    3300138: feet 2
+    3300140: feet 3
+    3300142: feet1
+    3300144: feet1 1
+    3300146: feet1 2
+    3300148: feet1 3
+    3300150: Floor
+    3300152: foot
+    3300154: foot 1
+    3300156: foot 2
+    3300158: foot10
+    3300160: foot11
+    3300162: foot12
+    3300164: foot13
+    3300166: foot4
+    3300168: foot4 1
+    3300170: foot4 2
+    3300172: foot5
+    3300174: foot5 1
+    3300176: foot5 2
+    3300178: foot6
+    3300180: foot6 1
+    3300182: foot6 2
+    3300184: frame
+    3300186: JukeBox
+    3300188: leftBrace
+    3300190: leftBrace1
+    3300192: leg
+    3300194: leg13
+    3300196: leg14
+    3300198: leg15
+    3300200: leg_F_L
+    3300202: leg_F_L 1
+    3300204: leg_F_L 2
+    3300206: leg_F_L 3
+    3300208: leg_F_L 4
+    3300210: leg_F_L 5
+    3300212: leg_F_L 6
+    3300214: leg_F_L 7
+    3300216: leg_F_L 8
+    3300218: leg_F_L1
+    3300220: leg_F_L1 1
+    3300222: leg_F_L1 2
+    3300224: leg_F_L1 3
+    3300226: leg_F_L1 4
+    3300228: leg_F_L1 5
+    3300230: leg_F_L1 6
+    3300232: leg_F_L1 7
+    3300234: leg_F_L1 8
+    3300236: leg_F_L2
+    3300238: leg_F_L2 1
+    3300240: leg_F_L2 2
+    3300242: leg_F_L2 3
+    3300244: leg_F_L2 4
+    3300246: leg_F_L2 5
+    3300248: leg_F_L2 6
+    3300250: leg_F_L2 7
+    3300252: leg_F_L2 8
+    3300254: leg_F_L3
+    3300256: leg_F_L3 1
+    3300258: leg_F_L3 2
+    3300260: leg_F_L3 3
+    3300262: leg_F_L3 4
+    3300264: leg_F_L3 5
+    3300266: leg_F_L3 6
+    3300268: leg_F_L3 7
+    3300270: leg_F_L3 8
+    3300272: Lid
+    3300274: LightSwitch
+    3300276: main_table1
+    3300278: main_table1 1
+    3300280: main_table1 2
+    3300282: ornateCrossBar_L
+    3300284: ornateCrossBar_L 1
+    3300286: ornateCrossBar_L 2
+    3300288: ornateCrossBar_L 3
+    3300290: ornateCrossBar_L 4
+    3300292: ornateCrossBar_L 5
+    3300294: ornateCrossBar_L 6
+    3300296: ornateCrossBar_L 7
+    3300298: ornateCrossBar_L 8
+    3300300: ornateCrossBar_R
+    3300302: ornateCrossBar_R 1
+    3300304: ornateCrossBar_R 2
+    3300306: ornateCrossBar_R 3
+    3300308: ornateCrossBar_R 4
+    3300310: ornateCrossBar_R 5
+    3300312: ornateCrossBar_R 6
+    3300314: ornateCrossBar_R 7
+    3300316: ornateCrossBar_R 8
+    3300318: painting1
+    3300320: painting3
+    3300322: painting4
+    3300324: paper15
+    3300326: paper16
+    3300328: paper17
+    3300330: paper18
+    3300332: paperHolder
+    3300334: pCube106
+    3300336: pCube106 1
+    3300338: pCube106 2
+    3300340: pCube107
+    3300342: pCube108
+    3300344: pCube113
+    3300346: pCube121
+    3300348: pCube122
+    3300350: pCube123
+    3300352: pCube96
+    3300354: pCube96 1
+    3300356: pCube96 2
+    3300358: pCube96 3
+    3300360: pCube97
+    3300362: pCube97 1
+    3300364: pCube97 2
+    3300366: pCube97 3
+    3300368: pCube97 4
+    3300370: pCube97 5
+    3300372: pCube97 6
+    3300374: pCube97 7
+    3300376: pCube97 8
+    3300378: pCylinder81
+    3300380: pCylinder81 1
+    3300382: pCylinder81 2
+    3300384: pCylinder81 3
+    3300386: pCylinder81 4
+    3300388: pCylinder81 5
+    3300390: pCylinder81 6
+    3300392: pCylinder81 7
+    3300394: pCylinder81 8
+    3300396: pCylinder86
+    3300398: pCylinder87
+    3300400: pCylinder88
+    3300402: pCylinder89
+    3300404: pCylinder90
+    3300406: pCylinder90 1
+    3300408: pCylinder90 2
+    3300410: pCylinder91
+    3300412: pCylinder91 1
+    3300414: pCylinder92
+    3300416: pCylinder92 1
+    3300418: pCylinder93
+    3300420: PianoBench
+    3300422: pipeHolder
+    3300424: pipeHolder 1
+    3300426: pipeHolder2
+    3300428: pipeHolder2 1
+    3300430: polySurface251
+    3300432: polySurface257
+    3300434: polySurface258
+    3300436: polySurface269
+    3300438: polySurface270
+    3300440: polySurface271
+    3300442: polySurface272
+    3300444: polySurface273
+    3300446: polySurface274
+    3300448: seat
+    3300450: seat 1
+    3300452: seat 2
+    3300454: seat 3
+    3300456: seat 4
+    3300458: seat 5
+    3300460: seat 6
+    3300462: seat 7
+    3300464: seat 8
+    3300466: stand1
+    3300468: stoutonia1
+    3300470: Table6
+    3300472: TeaCup
+    3300474: TeaCup1
+    3300476: TeaCup2
+    3300478: TeaCup3
+    3300480: TeaCup4
+    3300482: TeaCup5
+    3300484: TeaCup5 1
+    3300486: TeaCup5 2
+    3300488: TeaCup5 3
+    3300490: TeaCup5 4
+    3300492: TeaCup5 5
+    3300494: TeaPlate
+    3300496: TeaPlate1
+    3300498: TeaPlate2
+    3300500: TeaPlate3
+    3300502: TeaPlate4
+    3300504: TeaPlate5
+    3300506: TeaPlate6
+    3300508: TeaPlate6 1
+    3300510: TeaPlate6 2
+    3300512: TeaPlate6 3
+    3300514: TeaPlate6 4
+    3300516: TeaPlate6 5
+    3300518: TeaPot
+    3300520: TeaPot1
+    3300522: TeaTable 1
+    3300524: TeaThing
+    3300526: TeaTray
+    3300528: topCrossBars
+    3300530: topCrossBars 1
+    3300532: topCrossBars 2
+    3300534: topCrossBars 3
+    3300536: topCrossBars 4
+    3300538: topCrossBars 5
+    3300540: topCrossBars 6
+    3300542: topCrossBars 7
+    3300544: topCrossBars 8
+    3300546: window
+    3300548: window1
+    3300550: window2
+    3300552: window3
+    3300554: window4
+    3300556: window5
+    3300558: window6
+    3300560: WindowWall
+    4300000: painting1
+    4300002: carpet
+    4300004: JukeBox
+    4300006: painting3
+    4300008: painting4
+    4300010: centerBrace
+    4300012: leftBrace
+    4300014: TeaTable
+    4300016: leftBrace1
+    4300018: leg
+    4300020: foot10
+    4300022: foot11
+    4300024: leg13
+    4300026: foot12
+    4300028: foot13
+    4300030: leg14
+    4300032: leg15
+    4300034: PianoBench
+    4300036: Table6
+    4300038: pCylinder86
+    4300040: pCylinder87
+    4300042: pCylinder88
+    4300044: pCylinder89
+    4300046: pCylinder91
+    4300048: pCylinder92
+    4300050: pipeHolder
+    4300052: pipeHolder2
+    4300054: pCylinder91
+    4300056: pCylinder92
+    4300058: pipeHolder
+    4300060: pipeHolder2
+    4300062: window6
+    4300064: window5
+    4300066: window4
+    4300068: window3
+    4300070: window2
+    4300072: window1
+    4300074: window
+    4300076: polySurface258
+    4300078: WindowWall
+    4300080: Floor
+    4300082: Ceiling_Light3
+    4300084: Ceiling_Light4
+    4300086: Celing
+    4300088: Couch9
+    4300090: Couch10
+    4300092: frame
+    4300094: Lid
+    4300096: paperHolder
+    4300098: pCube106
+    4300100: pCylinder90
+    4300102: polySurface251
+    4300104: pCube107
+    4300106: pCube108
+    4300108: pCube113
+    4300110: pCube121
+    4300112: polySurface257
+    4300114: pCube122
+    4300116: pCube123
+    4300118: stand1
+    4300120: pCube106
+    4300122: pCylinder90
+    4300124: pCube106
+    4300126: pCylinder90
+    4300128: bottom_center_crossBar
+    4300130: leg_F_L
+    4300132: leg_F_L1
+    4300134: leg_F_L2
+    4300136: leg_F_L3
+    4300138: bottom_crossBar_L
+    4300140: bottom_crossBar_L1
+    4300142: ornateCrossBar_L
+    4300144: cushion
+    4300146: seat
+    4300148: armRest
+    4300150: topCrossBars
+    4300152: ornateCrossBar_R
+    4300154: bottom_center_crossBar
+    4300156: leg_F_L
+    4300158: leg_F_L1
+    4300160: leg_F_L2
+    4300162: leg_F_L3
+    4300164: bottom_crossBar_L
+    4300166: bottom_crossBar_L1
+    4300168: ornateCrossBar_L
+    4300170: cushion
+    4300172: seat
+    4300174: armRest
+    4300176: topCrossBars
+    4300178: ornateCrossBar_R
+    4300180: bottom_center_crossBar
+    4300182: leg_F_L
+    4300184: leg_F_L1
+    4300186: leg_F_L2
+    4300188: leg_F_L3
+    4300190: bottom_crossBar_L
+    4300192: bottom_crossBar_L1
+    4300194: ornateCrossBar_L
+    4300196: cushion
+    4300198: seat
+    4300200: armRest
+    4300202: topCrossBars
+    4300204: ornateCrossBar_R
+    4300206: bottom_center_crossBar
+    4300208: leg_F_L
+    4300210: leg_F_L1
+    4300212: leg_F_L2
+    4300214: leg_F_L3
+    4300216: bottom_crossBar_L
+    4300218: bottom_crossBar_L1
+    4300220: ornateCrossBar_L
+    4300222: cushion
+    4300224: seat
+    4300226: armRest
+    4300228: topCrossBars
+    4300230: ornateCrossBar_R
+    4300232: bottom_center_crossBar
+    4300234: leg_F_L
+    4300236: leg_F_L1
+    4300238: leg_F_L2
+    4300240: leg_F_L3
+    4300242: bottom_crossBar_L
+    4300244: bottom_crossBar_L1
+    4300246: ornateCrossBar_L
+    4300248: cushion
+    4300250: seat
+    4300252: armRest
+    4300254: topCrossBars
+    4300256: ornateCrossBar_R
+    4300258: bottom_center_crossBar
+    4300260: leg_F_L
+    4300262: leg_F_L1
+    4300264: leg_F_L2
+    4300266: leg_F_L3
+    4300268: bottom_crossBar_L
+    4300270: bottom_crossBar_L1
+    4300272: ornateCrossBar_L
+    4300274: cushion
+    4300276: seat
+    4300278: armRest
+    4300280: topCrossBars
+    4300282: ornateCrossBar_R
+    4300284: bottom_center_crossBar
+    4300286: leg_F_L
+    4300288: leg_F_L1
+    4300290: leg_F_L2
+    4300292: leg_F_L3
+    4300294: bottom_crossBar_L
+    4300296: bottom_crossBar_L1
+    4300298: ornateCrossBar_L
+    4300300: cushion
+    4300302: seat
+    4300304: armRest
+    4300306: topCrossBars
+    4300308: ornateCrossBar_R
+    4300310: bottom_center_crossBar
+    4300312: leg_F_L
+    4300314: leg_F_L1
+    4300316: leg_F_L2
+    4300318: leg_F_L3
+    4300320: bottom_crossBar_L
+    4300322: bottom_crossBar_L1
+    4300324: ornateCrossBar_L
+    4300326: cushion
+    4300328: seat
+    4300330: armRest
+    4300332: topCrossBars
+    4300334: ornateCrossBar_R
+    4300336: bottom_center_crossBar
+    4300338: leg_F_L
+    4300340: leg_F_L1
+    4300342: leg_F_L2
+    4300344: leg_F_L3
+    4300346: bottom_crossBar_L
+    4300348: bottom_crossBar_L1
+    4300350: ornateCrossBar_L
+    4300352: cushion
+    4300354: seat
+    4300356: armRest
+    4300358: topCrossBars
+    4300360: ornateCrossBar_R
+    4300362: couch_cushion1
+    4300364: Couch1_Couch
+    4300366: foot
+    4300368: foot4
+    4300370: foot5
+    4300372: foot6
+    4300374: Couch1_Couch1
+    4300376: couch_cushion1
+    4300378: Couch1_Couch
+    4300380: foot
+    4300382: foot4
+    4300384: foot5
+    4300386: foot6
+    4300388: Couch1_Couch1
+    4300390: couch_cushion1
+    4300392: Couch1_Couch
+    4300394: foot
+    4300396: foot4
+    4300398: foot5
+    4300400: foot6
+    4300402: Couch1_Couch1
+    4300404: main_table1
+    4300406: stoutonia1
+    4300408: paper15
+    4300410: paper16
+    4300412: paper17
+    4300414: paper18
+    4300416: pCylinder93
+    4300418: main_table1
+    4300420: main_table1
+    4300422: TeaThing
+    4300424: TeaPot
+    4300426: TeaCup
+    4300428: TeaTray
+    4300430: TeaPlate
+    4300432: TeaPot1
+    4300434: TeaCup1
+    4300436: TeaCup2
+    4300438: TeaCup3
+    4300440: TeaPlate1
+    4300442: TeaPlate2
+    4300444: TeaPlate3
+    4300446: TeaPlate4
+    4300448: TeaPlate5
+    4300450: TeaCup4
+    4300452: TeaCup5
+    4300454: TeaPlate6
+    4300456: TeaCup5
+    4300458: TeaPlate6
+    4300460: TeaCup5
+    4300462: TeaPlate6
+    4300464: TeaCup5
+    4300466: TeaPlate6
+    4300468: TeaCup5
+    4300470: TeaPlate6
+    4300472: TeaCup5
+    4300474: TeaPlate6
+    4300476: polySurface269
+    4300478: door18
+    4300480: door19
+    4300482: polySurface270
+    4300484: polySurface271
+    4300486: polySurface272
+    4300488: polySurface273
+    4300490: doorWindow13
+    4300492: doorWindow14
+    4300494: polySurface274
+    4300496: doorHand22
+    4300498: doorHand23
+    4300500: LightSwitch
+    4300502: pCube96
+    4300504: feet
+    4300506: pCube97
+    4300508: pCylinder81
+    4300510: pCube97
+    4300512: pCylinder81
+    4300514: pCube97
+    4300516: pCylinder81
+    4300518: feet1
+    4300520: pCube96
+    4300522: feet
+    4300524: pCube97
+    4300526: pCylinder81
+    4300528: pCube97
+    4300530: pCylinder81
+    4300532: pCube97
+    4300534: pCylinder81
+    4300536: feet1
+    4300538: pCube96
+    4300540: feet
+    4300542: pCube97
+    4300544: pCylinder81
+    4300546: pCube97
+    4300548: pCylinder81
+    4300550: pCube97
+    4300552: pCylinder81
+    4300554: feet1
+    4300556: pCube96
+    4300558: feet
+    4300560: feet1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
