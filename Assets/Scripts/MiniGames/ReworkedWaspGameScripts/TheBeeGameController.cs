@@ -23,13 +23,15 @@ public class TheBeeGameController : MonoBehaviour
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 2)
 		{
 			if (other.gameObject.tag == "Player")
 			{
 				if (canPlayGame == true)
 				{
-					player.GetComponent <TheBeeGame>().showMenu = true;
+					//player.GetComponent <TheBeeGame>().showMenu = true;
+					player.GetComponent<TheBeeGame> ().playGame = true;;
+					canPlayGame = false;
 				}
 				
 				if (canSeeSwatter == true)
@@ -44,7 +46,7 @@ public class TheBeeGameController : MonoBehaviour
 
 	void OnTriggerStay (Collider other)
 	{
-		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 2)
 		{
 			if (other.gameObject.tag == "Player")
 			{
@@ -60,7 +62,7 @@ public class TheBeeGameController : MonoBehaviour
 	{
 		directions.renderer.enabled = false;
 
-		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 2)
 		{
 			if (other.gameObject.tag == "Player");
 			{

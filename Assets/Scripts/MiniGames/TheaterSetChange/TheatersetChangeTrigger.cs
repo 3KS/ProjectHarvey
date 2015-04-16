@@ -18,10 +18,51 @@ public class TheatersetChangeTrigger : MonoBehaviour
 	public float menuHeight;
 	public float lightButtonPosX;
 	public float lightButtonPosY;
+	
+	// Look at the playbill variables
+	public GameObject playbill;
+	public GameObject playbillPickUp;
+	public GameObject playbillSetDown;
+	
+	private bool showPickup;
+	private bool showSetDown;
+	public float setDownDelay;
 
 	void Start ()
 	{
 		displayGameMenu = false;
+		
+		playbill.active = false;
+		playbillPickUp.active = false;
+		playbillSetDown.active = false;
+		showPickup = false;
+		showSetDown = false;
+	}
+	
+	void Update ()
+	{
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayTheater") == 1)
+		{
+			if (Input.GetButtonDown("Select") && showPickup == true)
+			{
+				Debug.Log("GotHere 2");
+				playbill.active = true;
+				playbillPickUp.active = false;
+				Invoke ("ShowSetDown", setDownDelay);
+			}
+			
+			if (Input.GetButtonDown("Select") && showSetDown == true)
+			{
+				Debug.Log("GotHere 4");
+				PlayerPrefs.SetInt(SaveController.GetPrefix () + "canPlayTheater", 2);
+				playbill.active = false;
+				playbillSetDown.active = false;
+				
+				displayCanvas = true;
+				GameControl ();
+				player.GetComponent <TheaterSetChange> ().SwitchToGameCam ();
+			}
+		}
 	}
 
 	void OnGUI ()
@@ -77,12 +118,39 @@ public class TheatersetChangeTrigger : MonoBehaviour
 
 	void OnTriggerEnter (Collider other)
 	{
-		if (other.gameObject.tag == "Player")
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayTheater") == 1)
 		{
-			gameInstructions.Play ();
-
-			displayGameMenu = true;
+			if (other.gameObject.tag == "Player")
+			{
+				//Debug.Log("Player entered trigger");
+				gameInstructions.Play ();
+				playbillPickUp.active = true;
+				showPickup = true;
+				
+				//displayGameMenu = true;
+			}
 		}
+	}
+	
+	void OnTriggerExit (Collider other)
+	{
+		if (other.collider.gameObject.tag == "Player")
+		{
+			displayGameMenu = false;
+			playbill.active = false;
+			playbillPickUp.active = false;
+			playbillSetDown.active = false;
+			showPickup = false;
+			showSetDown = false;
+		}
+	}
+	
+	void ShowSetDown ()
+	{
+		playbillSetDown.active = true;
+		Debug.Log("GotHere 3");
+		showSetDown = true;
+		showPickup = false;
 	}
 
 	public void GameControl ()

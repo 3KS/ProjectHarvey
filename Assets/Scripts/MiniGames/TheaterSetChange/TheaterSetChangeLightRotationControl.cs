@@ -23,8 +23,6 @@ public class TheaterSetChangeLightRotationControl : MonoBehaviour
 		light.transform.LookAt (lightControl.transform.position);
 		if (canMoveLights == true)
 		{
-
-			
 			if (Input.GetMouseButton (0))
 			{
 				ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -32,10 +30,8 @@ public class TheaterSetChangeLightRotationControl : MonoBehaviour
 				
 				if (Physics.Raycast(ray, out hit, 20))
 				{
-					lightControl.transform.position = new Vector3( hit.point.x, lightControl.transform.position.y, hit.point.y);
+					lightControl.transform.position = new Vector3( hit.point.x, lightControl.transform.position.y, -hit.point.y - 10);
 				}
-
-
 			}
 			if (Input.GetMouseButtonUp(0))
 			{

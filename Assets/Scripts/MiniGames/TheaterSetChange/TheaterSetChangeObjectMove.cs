@@ -12,20 +12,27 @@ public class TheaterSetChangeObjectMove : MonoBehaviour
 	public float sliderValue;
 
 // These objects are the object being moved, the objects start position and the objects end position (Could be changed to Vector3's later if need be).
-	public GameObject piano;
-	public GameObject pianoStart;
-	public GameObject pianoEnd;
+	public GameObject thisObject;
+	public GameObject thisObjectStart;
+	public GameObject thisObjectEnd;
 
 // These are used for getting the position of the start and end positions of an object (The piano in this case).
-	public Vector3 pianoInitialPosition;
-	public Vector3 pianoEndingPosition;
+	private Vector3 thisObjectInitialPosition;
+	private Vector3 thisObjectEndingPosition;
+	private Quaternion thisObjectInitialRotation;
+	private Quaternion thisObjectEndingRotation;
 
 
 	void Start ()
 	{
 // Start and end positions are set here.
-		pianoInitialPosition = pianoStart.transform.position;
-		pianoEndingPosition = pianoEnd.transform.position;
+		thisObjectInitialPosition = thisObjectStart.transform.position;
+		thisObjectEndingPosition = thisObjectEnd.transform.position;
+		thisObjectInitialRotation = thisObjectStart.transform.rotation;
+		thisObjectEndingRotation = thisObjectEnd.transform.rotation;
+
+		//thisObject.transform.position = thisObjectInitialPosition;
+		//thisObject.transform.rotation = thisObjectInitialRotation;
 	}
 
 	void Update ()
@@ -37,10 +44,11 @@ public class TheaterSetChangeObjectMove : MonoBehaviour
 	public void PianoPositionChange ()
 	{
 // Sets the movement of the object to equal the movement of the slider.
-		smooth = (sliderValue) / (1.0f);
+		smooth = (sliderValue) / (2.0f);
 
 // Creates an even sliding motion between the start and end position of a specified object.
-		piano.transform.position = Vector3.Lerp (pianoEndingPosition, pianoInitialPosition, smooth);
+		thisObject.transform.position = Vector3.Lerp (thisObjectInitialPosition, thisObjectEndingPosition, smooth);
+		thisObject.transform.rotation = Quaternion.Lerp (thisObjectInitialRotation, thisObjectEndingRotation, smooth);
 	}
 
 	public void GetSliderValueChanged ()

@@ -41,7 +41,7 @@ public class TheBeeGame : MonoBehaviour
 	{
 		//Debug.Log (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps"));
 		Debug.Log ("WaspKills : " + waspkills);
-		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 2)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 3)
 		{
 			gameIsPlaying = false;
 			playerSwatter.active = false;
@@ -186,7 +186,7 @@ public class TheBeeGame : MonoBehaviour
 
 	void OnGUI ()
 	{
-		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
+		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 2)
 		{
 			// This if statement controls the current menu for playing the wasp game
 			// If the player walks into the game zone, the player is frozen and the menu appears
@@ -228,7 +228,7 @@ public class TheBeeGame : MonoBehaviour
 					//{
 					//	AchievementController.UnlockAchievement (AchievementController.Achievements.SwatTeam);
 					GUILayout.Label ("Wasps have been exterminated");
-					PlayerPrefs.SetInt (SaveController.GetPrefix () + "canPlayWasps", 2);
+					PlayerPrefs.SetInt (SaveController.GetPrefix () + "canPlayWasps", 3);
 					Invoke ("DisableWaspGame", 2.5f);
 					//}
 					
@@ -242,7 +242,7 @@ public class TheBeeGame : MonoBehaviour
 // It is used to make the swatter invisible when the player isn't playing the game.
 	public void SwatterVisible ()
 	{
-		if (PlayerPrefs.GetInt (SaveController.GetPrefix () + "canPlayWasps") == 1)
+		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + "canPlayWasps") == 2)
 		{
 			if (gameIsPlaying == true)
 			{
@@ -262,7 +262,7 @@ public class TheBeeGame : MonoBehaviour
 // The kill sound is played through the Invoke ("KillSound", .3f); where KillSound is the function that plays the sound and .3f is the delay before it plays
 	public void Swing ()
 	{
-		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + "canPlayWasps") == 1)
+		if (PlayerPrefs.GetInt(SaveController.GetPrefix() + "canPlayWasps") == 2)
 		{
 			if (Input.GetMouseButton (0))
 			{
