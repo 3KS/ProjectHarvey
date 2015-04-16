@@ -66,6 +66,18 @@ ModelImporter:
     100120: wallLight1
     100122: wallLight2
     100124: walls
+    100126: backShelves
+    100128: bottles
+    100130: chalkBoard
+    100132: chemBook1
+    100134: doors
+    100136: drain
+    100138: drain2
+    100140: fumehoods
+    100142: glass
+    100144: lights1
+    100146: microscope
+    100148: shelf
     400000: blackBoard
     400002: booth3
     400004: booth4
@@ -129,6 +141,18 @@ ModelImporter:
     400120: wallLight1
     400122: wallLight2
     400124: walls
+    400126: backShelves
+    400128: bottles
+    400130: chalkBoard
+    400132: chemBook1
+    400134: doors
+    400136: drain
+    400138: drain2
+    400140: fumehoods
+    400142: glass
+    400144: lights1
+    400146: microscope
+    400148: shelf
     2300000: blackBoard
     2300002: booth3
     2300004: booth4
@@ -176,6 +200,22 @@ ModelImporter:
     2300088: wallLight1
     2300090: wallLight2
     2300092: walls
+    2300094: backShelves
+    2300096: bottles
+    2300098: chalkBoard
+    2300100: chemBook1
+    2300102: doorKnobs
+    2300104: doors
+    2300106: drain
+    2300108: drain2
+    2300110: fumehoods
+    2300112: glass
+    2300114: lights1
+    2300116: microscope
+    2300118: radiators
+    2300120: shelf
+    2300122: stools
+    2300124: tables
     3300000: blackBoard
     3300002: booth3
     3300004: booth4
@@ -223,6 +263,22 @@ ModelImporter:
     3300088: wallLight1
     3300090: wallLight2
     3300092: walls
+    3300094: backShelves
+    3300096: bottles
+    3300098: chalkBoard
+    3300100: chemBook1
+    3300102: doorKnobs
+    3300104: doors
+    3300106: drain
+    3300108: drain2
+    3300110: fumehoods
+    3300112: glass
+    3300114: lights1
+    3300116: microscope
+    3300118: radiators
+    3300120: shelf
+    3300122: stools
+    3300124: tables
     4300000: walls
     4300002: floor
     4300004: clock
@@ -270,6 +326,22 @@ ModelImporter:
     4300088: hangLight5
     4300090: hangLight6
     4300092: hangLight7
+    4300094: shelf
+    4300096: chalkBoard
+    4300098: chemBook1
+    4300100: microscope
+    4300102: fumehoods
+    4300104: stools
+    4300106: radiators
+    4300108: backShelves
+    4300110: glass
+    4300112: tables
+    4300114: doors
+    4300116: drain
+    4300118: drain2
+    4300120: bottles
+    4300122: doorKnobs
+    4300124: lights1
     9500000: //RootNode
   materials:
     importMaterials: 1
