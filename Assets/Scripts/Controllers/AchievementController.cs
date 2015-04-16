@@ -77,6 +77,7 @@ public class AchievementController : MonoBehaviour {
 		SwatTeam,
 		ObjectCollection,
         Fadeometer,
+        Theater,
 		//Add Cal's Mural once we have that achivement
 		FindCalsMural
 
@@ -263,6 +264,9 @@ public class AchievementController : MonoBehaviour {
                         break;
 					case "FindCalsMural":
 						textNum = 4;
+						break;
+					case "Theater":
+						textNum = 5;
 						break;
                 }
                 GUI.DrawTexture(new Rect(Screen.width/2 -  popupTextures [textNum].width/2, Screen.height/2 - popupTextures [textNum].height/2, popupTextures [textNum].width, popupTextures [textNum].height), popupTextures [textNum]);
