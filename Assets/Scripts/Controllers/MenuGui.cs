@@ -130,7 +130,7 @@ public class MenuGui : MonoBehaviour
 		if (MenuTools.DrawButton(Screen.width / 2 - 100, Screen.height / 2 -50, 200, 50, "New Game", MenuTools.buttonStyle))
         {
             SaveController.CreateProfile("BetaTestor", 0);
-            Application.LoadLevel("HarveyWithLighting");
+            Application.LoadLevel("Tutorial");
             //isCreatingProfile = true;
         }
 		if (MenuTools.DrawButton(Screen.width / 2 - 100, Screen.height / 2 + 20, 200, 50, "Load Game", MenuTools.buttonStyle))

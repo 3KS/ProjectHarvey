@@ -23,7 +23,10 @@ public class GameController : MonoBehaviour
 		public Texture[] unlockedTextures;
 		private Texture2D blackTexture;
 		private static float delay = 0;
-
+		private static float notificationTime = 0;
+		private static bool isTimedNotification = false;
+		private static string timedID = "";
+		
 		public GameObject notificationMenu;
 		public GameObject hoverNotificationMenu;
 		private bool notificationFollow = false;
@@ -231,6 +234,24 @@ public class GameController : MonoBehaviour
 		}
 
 		//********************************************
+		// DisplayTimedNotification()
+		// used for displaying timed game notifications
+		//********************************************
+		public static bool DisplayTimedNotification(string notificationID, string notification, float time) {
+			if(menuState == MenuState.None) {
+				menuState = MenuState.Notification;
+				outsideMenuID = notificationID;
+				timedID = notificationID;
+				instance.notificationMenu.SetActive(true);
+				instance.notificationMenu.transform.Find("Text").GetComponent<Text>().text = notification;
+				notificationTime  = time;
+				isTimedNotification = true;
+				return true;
+			}
+			Debug.Log ("DisplayTimedNotification(string notificationID, string notification, float time): An outside source tried displaying a while a menu is already open.");
+			return false;
+		}
+		//********************************************
 		// ClearNotification()
 		// used for clearing game notifications
 		//********************************************
@@ -314,7 +335,7 @@ public class GameController : MonoBehaviour
 										isPaused = false;
 								}
 						}
-				} else if (gameState == GameState.Cutscene && menuState != MenuState.None) { //If the scene is a cutscene
+				} else if (gameState == GameState.Cutscene && (menuState != MenuState.None || menuState != MenuState.Notification)) { //If the scene is a cutscene
 						menuState = MenuState.None;
 				}
 		}
@@ -329,7 +350,17 @@ public class GameController : MonoBehaviour
 				if (delay <= 0) {
 					UpdateMenuState (); //Updates the state of the menus
 				}			
-
+				
+				if (isTimedNotification) {
+					notificationTime -= Time.deltaTime;
+					if(notificationTime <= 0) {
+						notificationTime = 0;
+						isTimedNotification = false;
+						ClearNotification(timedID);
+						timedID = "";
+					}
+				}
+				
 				delay = delay > 0 ? delay - Time.unscaledDeltaTime : delay;
 				
 				if (notificationFollow) {

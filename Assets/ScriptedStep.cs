@@ -12,18 +12,25 @@ public class ScriptedStep {
 	public bool moveCameraRotation;
 	public bool enableFPC;
 	public bool lookAt;
+	public bool fadeFromColor;
+	public bool displayNotification;
 	public bool waitForTime;
 	public bool waitTillDone;
 
-	
+
 	public MovieTexture video;
 	public AudioSource audio;
 	public Animator animation;
-	public float waitTime;
 	public Vector3 newCameraPosition;
 	public Vector3 cameraRotationAmount;
 	public float cameraMoveTime;
 	public Transform objectLookingAt;
+	public Color fadeColor = Color.black;
+	public float fadeLength;
+	public string notificationText;
+	public float notificationTime;
+	public float waitTime;
+
 	private bool started = false;
 	private bool completed = false;
 

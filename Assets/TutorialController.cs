@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class TutorialController : MonoBehaviour {
@@ -18,12 +19,14 @@ public class TutorialController : MonoBehaviour {
 
 	public Transform playerCamera;
 	public Transform player;
-
+	public Image fillImage;
 	public int currentStep = 0;
 	private float waitedTime = 0;
 	private bool isRotating = false;
 	private bool isRotatingPlayer = false;
 	private bool isMovingPlayer = false;
+	private bool isFading = false;
+	private float timeFaded = 0;
 
 	private bool isDone = false;
 	// Use this for initialization
@@ -65,6 +68,9 @@ public class TutorialController : MonoBehaviour {
 						completed = false;
 					}
 				}
+				if(tutorialSteps[currentStep].fadeFromColor) {
+					completed = timeFaded > 0 ? false :completed;
+				}
 				if(tutorialSteps[currentStep].moveCameraPosition) {
 					completed = isMovingPlayer ? false : completed;
 				}
@@ -73,6 +79,11 @@ public class TutorialController : MonoBehaviour {
 				}
 			} else {
 				tutorialSteps[currentStep].SetCompleted();
+			}
+
+			if(tutorialSteps[currentStep].fadeFromColor) {
+				fillImage.color = new Color(fillImage.color.r, fillImage.color.g, fillImage.color.b, timeFaded/tutorialSteps[currentStep].fadeLength);
+				timeFaded -= Time.deltaTime;
 			}
 
 			if(tutorialSteps[currentStep].moveCameraRotation && (isRotating || isRotatingPlayer)) {
@@ -86,8 +97,12 @@ public class TutorialController : MonoBehaviour {
 	}
 
 	void OnGUI () {
+		try {
 		if (!isDone && tutorialSteps [currentStep].playVideo) {
 			GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), tutorialSteps [currentStep].video, ScaleMode.StretchToFill, false, 0.0f);
+		}
+		} catch {
+
 		}
 	}
 
@@ -131,10 +146,20 @@ public class TutorialController : MonoBehaviour {
 			tutorialSteps[currentStep].audio.Play();
 		}
 
+		if (tutorialSteps [currentStep].displayNotification) {
+			GameController.DisplayTimedNotification("tutorialMovement", tutorialSteps[currentStep].notificationText, tutorialSteps[currentStep].notificationTime);
+		}
+
 		if(tutorialSteps[currentStep].enableFPC) {//freeze or unfreeze the player
 			MovementFreeze.UnFreezePlayer();
 		} else {
 			MovementFreeze.FreezePlayer();
+		}
+
+		if(tutorialSteps[currentStep].fadeFromColor) {
+			fillImage.color = tutorialSteps[currentStep].fadeColor;
+			isFading = true;
+			timeFaded = tutorialSteps[currentStep].fadeLength;
 		}
 
 		if(tutorialSteps[currentStep].moveCameraRotation) {//Starts camera rotation
