@@ -412,7 +412,8 @@ public class GameController : MonoBehaviour
 		public static void QuitMenu ()
 		{
 				isPaused = true; 
-				isQuit = true;
+				menuState = MenuState.Quit;
+				//isQuit = true;
 		}
 
 		//********************************************
@@ -422,9 +423,11 @@ public class GameController : MonoBehaviour
 		void OnGUI ()
 		{
 				if (menuState == MenuState.Quit) {
-						DrawQuitMenu ();
+					DrawQuitMenu ();
+					Screen.lockCursor = false;
 				} else if (menuState == MenuState.Pause) {
-						DrawPauseMenu ();
+					DrawPauseMenu ();
+					Screen.lockCursor = false;
 				}
 
 				if (isPaused) {
@@ -434,6 +437,7 @@ public class GameController : MonoBehaviour
 				if (Application.loadedLevelName.Equals ("HarveyWithLighting")) {
 						if (MenuTools.DrawButton (Screen.width - 200, 0, 200, 50, "Menu", MenuTools.buttonStyle)) {
 								isPaused = true;
+								menuState = MenuState.Pause;
 								Screen.lockCursor = false;
 						}
 				}
@@ -467,6 +471,7 @@ public class GameController : MonoBehaviour
 		
 				if (MenuTools.DrawButton (Screen.width / 2 - 100, Screen.height / 2 - 150, 200, 50, "Resume Game", MenuTools.buttonStyle)) {
 						isPaused = false;
+						menuState = MenuState.None;
 						if (!Application.loadedLevelName.Equals ("HarveyWithLighting") && !Application.loadedLevelName.Equals ("MainMenu") && !Application.loadedLevelName.Equals ("LogoSplash")) {
 								Screen.lockCursor = true;
 						}
@@ -483,7 +488,9 @@ public class GameController : MonoBehaviour
 				}
 
 				if (MenuTools.DrawButton (Screen.width / 2 - 100, Screen.height / 2 + 50, 200, 50, "Quit to Desktop", MenuTools.buttonStyle)) {
-						isQuit = true;
+						isPaused = true;
+						menuState= MenuState.Quit;
+						//isQuit = true;
 				}
 		}
 
@@ -530,7 +537,12 @@ public class GameController : MonoBehaviour
 						Application.Quit ();
 				}
 				if (MenuTools.DrawButton (Screen.width / 2 - 100, Screen.height / 2 + 10, 200, 50, "No", MenuTools.buttonStyle)) {
-						menuState = MenuState.None;
+						if(gameState != GameState.MainMenu) {
+							menuState = MenuState.Pause;
+						} else {
+							menuState = MenuState.None;
+							isPaused = false;
+						}
 				}
 		}
 }
