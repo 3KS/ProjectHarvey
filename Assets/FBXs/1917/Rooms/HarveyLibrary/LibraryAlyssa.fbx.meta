@@ -1,0 +1,2878 @@
+fileFormatVersion: 2
+guid: 9b537e2a6cab9bb45bcbe8cd810accb5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: aFarewellToArms
+    100002: aFarewellToArms 1
+    100004: aFarewellToArms 2
+    100006: aFarewellToArms 3
+    100008: aFarewellToArms 4
+    100010: aFarewellToArms 5
+    100012: aFarewellToArms 6
+    100014: allQuietOnTheWesternFront
+    100016: allQuietOnTheWesternFront 1
+    100018: allQuietOnTheWesternFront 2
+    100020: allQuietOnTheWesternFront 3
+    100022: allQuietOnTheWesternFront 4
+    100024: allQuietOnTheWesternFront 5
+    100026: allQuietOnTheWesternFront2
+    100028: allQuietOnTheWesternFront2 1
+    100030: allQuietOnTheWesternFront2 2
+    100032: allQuietOnTheWesternFront2 3
+    100034: base
+    100036: base 1
+    100038: base 2
+    100040: base 3
+    100042: base 4
+    100044: base 5
+    100046: base 6
+    100048: base2
+    100050: base2 1
+    100052: base2 2
+    100054: base2 3
+    100056: base2 4
+    100058: base2 5
+    100060: base2 6
+    100062: bookCluster
+    100064: bookCluster 1
+    100066: bookCluster 2
+    100068: bookCluster 3
+    100070: bookCluster 4
+    100072: bookCluster 5
+    100074: bookCluster2
+    100076: bookCluster2 1
+    100078: bookCluster2 2
+    100080: bookCluster2 3
+    100082: bookCluster2 4
+    100084: bookCluster2 5
+    100086: bookCluster3
+    100088: bookCluster3 1
+    100090: bookCluster3 2
+    100092: bookCluster3 3
+    100094: bookCluster3 4
+    100096: bookCluster3 5
+    100098: bookCluster4
+    100100: bookCluster4 1
+    100102: bookCluster4 2
+    100104: bookCluster4 3
+    100106: bookCluster4 4
+    100108: bookCluster4 5
+    100110: bookCluster6
+    100112: bookCluster6 1
+    100114: bookCluster6 2
+    100116: bookCluster6 3
+    100118: bookCluster6 4
+    100120: bookCluster6 5
+    100122: bookCluster7
+    100124: bookCluster7 1
+    100126: bookCluster7 2
+    100128: bookCluster7 3
+    100130: bookCluster7 4
+    100132: bookCluster7 5
+    100134: bookFour
+    100136: bookFour2
+    100138: bookFour2 1
+    100140: bookFour2 2
+    100142: bookFour2 3
+    100144: bookFour2 4
+    100146: bookFour2 5
+    100148: bookFour3
+    100150: bookFour5
+    100152: bookFour5 1
+    100154: bookFour6
+    100156: bookFour6 1
+    100158: books
+    100160: bookshelf
+    100162: bookshelf 1
+    100164: bookshelf 2
+    100166: bookshelf 3
+    100168: bookshelf 4
+    100170: bookshelf 5
+    100172: bookshelf 6
+    100174: bookshelf1
+    100176: bookshelf2
+    100178: bookshelf2 1
+    100180: bookshelf3
+    100182: bookshelf3 1
+    100184: bookshelfs
+    100186: booksOne
+    100188: booksOne2
+    100190: booksOne4
+    100192: booksOne4 1
+    100194: booksOne4 2
+    100196: booksOne4 3
+    100198: booksOne6
+    100200: booksOne6 1
+    100202: booksOne7
+    100204: booksOne7 1
+    100206: booksOne8
+    100208: booksOne8 1
+    100210: booksOne9
+    100212: booksOne9 1
+    100214: booksTwo
+    100216: booksTwo2
+    100218: booksTwo3
+    100220: booksTwo3 1
+    100222: booksTwo4
+    100224: booksTwo4 1
+    100226: booksTwo5
+    100228: booksTwo5 1
+    100230: booksTwo6
+    100232: booksTwo6 1
+    100234: booksTwo7
+    100236: booksTwo7 1
+    100238: bookThree
+    100240: bookThree2
+    100242: bookThree2 1
+    100244: bookThree2 2
+    100246: bookThree2 3
+    100248: bookThree3
+    100250: bookThree4
+    100252: bookThree4 1
+    100254: bookThree5
+    100256: bookThree5 1
+    100258: building_side
+    100260: ceiling
+    100262: ceilingLights
+    100264: chair32
+    100266: chair33
+    100268: chair34
+    100270: chair35
+    100272: chair36
+    100274: chair37
+    100276: chair38
+    100278: chair39
+    100280: chair40
+    100282: chair41
+    100284: chair42
+    100286: chair43
+    100288: chair44
+    100290: chair45
+    100292: chair46
+    100294: chair47
+    100296: chair48
+    100298: chair49
+    100300: chair50
+    100302: chair51
+    100304: chair52
+    100306: chair53
+    100308: chair54
+    100310: chair55
+    100312: chair56
+    100314: chair58
+    100316: chair59
+    100318: chair61
+    100320: chair63
+    100322: chair64
+    100324: chair65
+    100326: chair66
+    100328: chair67
+    100330: chair68
+    100332: chairs
+    100334: chemistryBook1
+    100336: chemistryBook1 1
+    100338: chemistryBook1 2
+    100340: chemistryBook1 3
+    100342: chemistryBook1 4
+    100344: chemistryBook1 5
+    100346: chemistryBook2
+    100348: chemistryBook2 1
+    100350: chemistryBook2 2
+    100352: chemistryBook2 3
+    100354: chemistryBook3
+    100356: cookbook3
+    100358: cookbook3 1
+    100360: cookbook3 2
+    100362: cookbook3 3
+    100364: cookbook4
+    100366: cookbook4 1
+    100368: DeclineAndFall
+    100370: DeclineAndFall 1
+    100372: DeclineAndFall 2
+    100374: DeclineAndFall 3
+    100376: DeclineAndFall2
+    100378: DeclineAndFall2 1
+    100380: DeclineAndFall2 2
+    100382: DeclineAndFall2 3
+    100384: desk1
+    100386: door7
+    100388: door8
+    100390: door9
+    100392: door_frame
+    100394: door_glass
+    100396: doorHandle1
+    100398: doorHandle1 1
+    100400: doorHandle1 2
+    100402: doorHandleFrame1
+    100404: doorHandleFrame1 1
+    100406: doorHandleFrame1 2
+    100408: doorhandles
+    100410: doorhandles1
+    100412: doorhandles2
+    100414: doorLock1
+    100416: doorLock1 1
+    100418: doorLock1 2
+    100420: doors
+    100422: doorWindow1
+    100424: doorWindow2
+    100426: doubleBookshelf
+    100428: doubleBookshelf1
+    100430: drFrame_window1
+    100432: drFrame_window2
+    100434: filing_cabinet
+    100436: filing_cabinet2
+    100438: filing_cabinet_2
+    100440: filing_cabinet_3
+    100442: floor4
+    100444: furniture
+    100446: GentlemenPreferBlondes
+    100448: GentlemenPreferBlondes 1
+    100450: GentlemenPreferBlondes 2
+    100452: GentlemenPreferBlondes 3
+    100454: GentlemenPreferBlondes2
+    100456: GentlemenPreferBlondes2 1
+    100458: GentlemenPreferBlondes2 2
+    100460: GentlemenPreferBlondes2 3
+    100462: group4
+    100464: group4 1
+    100466: group5
+    100468: group5 1
+    100470: Interactive_Objects
+    100472: keys
+    100474: lamp10
+    100476: lamp3
+    100478: lamp4
+    100480: lamp5
+    100482: lamp6
+    100484: lamp7
+    100486: lamp8
+    100488: lamp9
+    100490: lamp_hanger25
+    100492: lamp_hanger26
+    100494: lamp_hanger27
+    100496: lamp_hanger28
+    100498: lamp_hanger29
+    100500: lamp_hanger30
+    100502: lamp_hanger31
+    100504: lamp_hanger32
+    100506: lamp_hanger33
+    100508: lamp_hanger34
+    100510: lamp_hanger35
+    100512: lamp_hanger36
+    100514: lamp_hanger37
+    100516: lamp_hanger38
+    100518: lamp_hanger39
+    100520: lamp_hanger40
+    100522: lamp_hanger41
+    100524: lamp_hanger42
+    100526: lamp_hanger43
+    100528: lamp_shade18
+    100530: lamp_shade19
+    100532: lamp_shade20
+    100534: lamp_shade21
+    100536: lamp_shade22
+    100538: lamp_shade23
+    100540: lamp_shade24
+    100542: lamp_shade25
+    100544: lamp_shade26
+    100546: lamp_shade27
+    100548: lamp_shade28
+    100550: lamp_shade29
+    100552: lamp_shade30
+    100554: lamp_shade31
+    100556: lamp_shade32
+    100558: lamp_shade33
+    100560: lamp_shade34
+    100562: lamp_shade35
+    100564: lamp_shade36
+    100566: leaves
+    100568: leaves 1
+    100570: leaves 2
+    100572: leaves 3
+    100574: leaves 4
+    100576: leaves 5
+    100578: leaves 6
+    100580: ledger
+    100582: //RootNode
+    100584: lightswitch1
+    100586: lightswitch2
+    100588: lightswitch3
+    100590: Metamorphasis
+    100592: metamorphasis
+    100594: metamorphasis 1
+    100596: metamorphasis 2
+    100598: metamorphasis 3
+    100600: mrsDalloway
+    100602: mrsDalloway 1
+    100604: mrsDalloway 2
+    100606: mrsDalloway 3
+    100608: open_book7
+    100610: open_book9
+    100612: open_book9 1
+    100614: open_book9 2
+    100616: open_book9 3
+    100618: pCube30
+    100620: pCube30 1
+    100622: pCube30 2
+    100624: pCube30 3
+    100626: pCube33
+    100628: pCube33 1
+    100630: pCube37
+    100632: pCube37 1
+    100634: pCube37 2
+    100636: pCube37 3
+    100638: pCube4
+    100640: pCube4 1
+    100642: pCube4 2
+    100644: pCube4 3
+    100646: pCube4 4
+    100648: pCube4 5
+    100650: pCube41
+    100652: pCube41 1
+    100654: pCube41 2
+    100656: pCube41 3
+    100658: pCube42
+    100660: pCube42 1
+    100662: pCube42 2
+    100664: pCube42 3
+    100666: pCube43
+    100668: pCube43 1
+    100670: pCube43 2
+    100672: pCube43 3
+    100674: pCube44
+    100676: pCube44 1
+    100678: pCube44 2
+    100680: pCube44 3
+    100682: pCube45
+    100684: pCube45 1
+    100686: pCube45 2
+    100688: pCube45 3
+    100690: pCube46
+    100692: pCube46 1
+    100694: pCube47
+    100696: pCube47 1
+    100698: pCube48
+    100700: pCube48 1
+    100702: pCube49
+    100704: pCube49 1
+    100706: pCube50
+    100708: pCube50 1
+    100710: pCube51
+    100712: pCube51 1
+    100714: pCube52
+    100716: pCube52 1
+    100718: pCube53
+    100720: pCube53 1
+    100722: pCube54
+    100724: pCube54 1
+    100726: pCube55
+    100728: pCube55 1
+    100730: pCylinder10
+    100732: pCylinder10 1
+    100734: pCylinder10 2
+    100736: pCylinder10 3
+    100738: pCylinder10 4
+    100740: pCylinder10 5
+    100742: pCylinder10 6
+    100744: pCylinder100
+    100746: pCylinder101
+    100748: pCylinder102
+    100750: pCylinder103
+    100752: pCylinder104
+    100754: pCylinder105
+    100756: pCylinder106
+    100758: pCylinder107
+    100760: pCylinder108
+    100762: pCylinder109
+    100764: pCylinder11
+    100766: pCylinder11 1
+    100768: pCylinder11 2
+    100770: pCylinder11 3
+    100772: pCylinder11 4
+    100774: pCylinder11 5
+    100776: pCylinder11 6
+    100778: pCylinder110
+    100780: pCylinder114
+    100782: pCylinder115
+    100784: pCylinder116
+    100786: pCylinder117
+    100788: pCylinder117 1
+    100790: pCylinder117 2
+    100792: pCylinder118
+    100794: pCylinder118 1
+    100796: pCylinder118 2
+    100798: pCylinder119
+    100800: pCylinder119 1
+    100802: pCylinder119 2
+    100804: pCylinder122
+    100806: pCylinder122 1
+    100808: pCylinder123
+    100810: pCylinder123 1
+    100812: pCylinder124
+    100814: pCylinder124 1
+    100816: pCylinder13
+    100818: pCylinder14
+    100820: pCylinder15
+    100822: pCylinder16
+    100824: pCylinder17
+    100826: pCylinder18
+    100828: pCylinder19
+    100830: pCylinder20
+    100832: pCylinder23
+    100834: pCylinder3
+    100836: pCylinder3 1
+    100838: pCylinder3 2
+    100840: pCylinder3 3
+    100842: pCylinder3 4
+    100844: pCylinder3 5
+    100846: pCylinder3 6
+    100848: pCylinder80
+    100850: pCylinder82
+    100852: pCylinder83
+    100854: pCylinder84
+    100856: pCylinder85
+    100858: pCylinder86
+    100860: pCylinder87
+    100862: pCylinder88
+    100864: pCylinder89
+    100866: pCylinder90
+    100868: pCylinder93
+    100870: pCylinder94
+    100872: pCylinder95
+    100874: pCylinder96
+    100876: pCylinder97
+    100878: pCylinder98
+    100880: pCylinder99
+    100882: photo
+    100884: pillar21
+    100886: pillar22
+    100888: pillar23
+    100890: pillar24
+    100892: pillar25
+    100894: pillar26
+    100896: pillar27
+    100898: pillar28
+    100900: pillars
+    100902: pipe_group2_1
+    100904: pipe_group2_2
+    100906: pipe_group_1
+    100908: pipe_group_2
+    100910: plant2
+    100912: plant3
+    100914: plant4
+    100916: plant5
+    100918: plant6
+    100920: plant7
+    100922: plant8
+    100924: Plants
+    100926: polySurface11
+    100928: polySurface13
+    100930: polySurface17
+    100932: polySurface205
+    100934: polySurface206
+    100936: polySurface207
+    100938: polySurface208
+    100940: polySurface209
+    100942: polySurface30
+    100944: polySurface32
+    100946: polySurface34
+    100948: polySurface36
+    100950: polySurface6
+    100952: polySurface9
+    100954: portrait
+    100956: project
+    100958: project1
+    100960: stoutonia
+    100962: stoutonia1
+    100964: stoutonia2
+    100966: table19
+    100968: table20
+    100970: table21
+    100972: table22
+    100974: table23
+    100976: table24
+    100978: table25
+    100980: table26
+    100982: table27
+    100984: table28
+    100986: table29
+    100988: table30
+    100990: table31
+    100992: table32
+    100994: table33
+    100996: table34
+    100998: table35
+    101000: table36
+    101002: table37
+    101004: table38
+    101006: table39
+    101008: table40
+    101010: tables2
+    101012: theAgeOfInnocence
+    101014: TheBeautifulAndTheDamned
+    101016: TheBeautifulAndTheDamned 1
+    101018: TheBeautifulAndTheDamned 2
+    101020: TheBeautifulAndTheDamned 3
+    101022: TheDiviners
+    101024: theDiviners
+    101026: thediviners
+    101028: TheDiviners 1
+    101030: theDiviners 1
+    101032: TheDiviners 2
+    101034: theDiviners 2
+    101036: TheDiviners 3
+    101038: theDiviners 3
+    101040: theDiviners 4
+    101042: theDiviners 5
+    101044: theDiviners1
+    101046: theDiviners1 1
+    101048: theSoundAndTheFiry
+    101050: theSoundAndTheFiry 1
+    101052: theSoundAndTheFiry 2
+    101054: theSoundAndTheFiry 3
+    101056: theSoundAndTheFiry 4
+    101058: theSoundAndTheFiry 5
+    101060: TheSoundAndTheFury
+    101062: TheSoundAndTheFury 1
+    101064: TheSoundAndTheFury 2
+    101066: TheSoundAndTheFury 3
+    101068: TheSunAlsoRises
+    101070: theSunAlsoRises
+    101072: TheSunAlsoRises 1
+    101074: theSunAlsoRises 1
+    101076: TheSunAlsoRises 2
+    101078: theSunAlsoRises 2
+    101080: TheSunAlsoRises 3
+    101082: theSunAlsoRises 3
+    101084: theSunAlsoRises 4
+    101086: theSunAlsoRises 5
+    101088: toTheLighthouse
+    101090: toTheLighthouse 1
+    101092: toTheLighthouse 2
+    101094: toTheLighthouse 3
+    101096: toTheLighthouse 4
+    101098: toTheLighthouse 5
+    101100: typewriter
+    101102: typewriter 1
+    101104: Ulysses
+    101106: Ulysses 1
+    101108: Ulysses 2
+    101110: Ulysses 3
+    101112: Ulysses1
+    101114: Ulysses1 1
+    101116: vent
+    101118: wall_frame
+    101120: walls
+    101122: walls1
+    101124: window_piece
+    101126: window_piece1
+    101128: window_piece10
+    101130: window_piece11
+    101132: window_piece12
+    101134: window_piece13
+    101136: window_piece14
+    101138: window_piece2
+    101140: window_piece3
+    101142: window_piece4
+    101144: window_piece5
+    101146: window_piece6
+    101148: window_piece7
+    101150: window_piece8
+    101152: window_piece9
+    101154: windowFrame
+    101156: windowFrame1
+    101158: windowFrame10
+    101160: windowFrame11
+    101162: windowFrame2
+    101164: windowFrame3
+    101166: windowFrame4
+    101168: windowFrame5
+    101170: windowFrame6
+    101172: windowFrame7
+    101174: windowFrame8
+    101176: windowFrame9
+    101178: windows
+    400000: aFarewellToArms
+    400002: aFarewellToArms 1
+    400004: aFarewellToArms 2
+    400006: aFarewellToArms 3
+    400008: aFarewellToArms 4
+    400010: aFarewellToArms 5
+    400012: aFarewellToArms 6
+    400014: allQuietOnTheWesternFront
+    400016: allQuietOnTheWesternFront 1
+    400018: allQuietOnTheWesternFront 2
+    400020: allQuietOnTheWesternFront 3
+    400022: allQuietOnTheWesternFront 4
+    400024: allQuietOnTheWesternFront 5
+    400026: allQuietOnTheWesternFront2
+    400028: allQuietOnTheWesternFront2 1
+    400030: allQuietOnTheWesternFront2 2
+    400032: allQuietOnTheWesternFront2 3
+    400034: base
+    400036: base 1
+    400038: base 2
+    400040: base 3
+    400042: base 4
+    400044: base 5
+    400046: base 6
+    400048: base2
+    400050: base2 1
+    400052: base2 2
+    400054: base2 3
+    400056: base2 4
+    400058: base2 5
+    400060: base2 6
+    400062: bookCluster
+    400064: bookCluster 1
+    400066: bookCluster 2
+    400068: bookCluster 3
+    400070: bookCluster 4
+    400072: bookCluster 5
+    400074: bookCluster2
+    400076: bookCluster2 1
+    400078: bookCluster2 2
+    400080: bookCluster2 3
+    400082: bookCluster2 4
+    400084: bookCluster2 5
+    400086: bookCluster3
+    400088: bookCluster3 1
+    400090: bookCluster3 2
+    400092: bookCluster3 3
+    400094: bookCluster3 4
+    400096: bookCluster3 5
+    400098: bookCluster4
+    400100: bookCluster4 1
+    400102: bookCluster4 2
+    400104: bookCluster4 3
+    400106: bookCluster4 4
+    400108: bookCluster4 5
+    400110: bookCluster6
+    400112: bookCluster6 1
+    400114: bookCluster6 2
+    400116: bookCluster6 3
+    400118: bookCluster6 4
+    400120: bookCluster6 5
+    400122: bookCluster7
+    400124: bookCluster7 1
+    400126: bookCluster7 2
+    400128: bookCluster7 3
+    400130: bookCluster7 4
+    400132: bookCluster7 5
+    400134: bookFour
+    400136: bookFour2
+    400138: bookFour2 1
+    400140: bookFour2 2
+    400142: bookFour2 3
+    400144: bookFour2 4
+    400146: bookFour2 5
+    400148: bookFour3
+    400150: bookFour5
+    400152: bookFour5 1
+    400154: bookFour6
+    400156: bookFour6 1
+    400158: books
+    400160: bookshelf
+    400162: bookshelf 1
+    400164: bookshelf 2
+    400166: bookshelf 3
+    400168: bookshelf 4
+    400170: bookshelf 5
+    400172: bookshelf 6
+    400174: bookshelf1
+    400176: bookshelf2
+    400178: bookshelf2 1
+    400180: bookshelf3
+    400182: bookshelf3 1
+    400184: bookshelfs
+    400186: booksOne
+    400188: booksOne2
+    400190: booksOne4
+    400192: booksOne4 1
+    400194: booksOne4 2
+    400196: booksOne4 3
+    400198: booksOne6
+    400200: booksOne6 1
+    400202: booksOne7
+    400204: booksOne7 1
+    400206: booksOne8
+    400208: booksOne8 1
+    400210: booksOne9
+    400212: booksOne9 1
+    400214: booksTwo
+    400216: booksTwo2
+    400218: booksTwo3
+    400220: booksTwo3 1
+    400222: booksTwo4
+    400224: booksTwo4 1
+    400226: booksTwo5
+    400228: booksTwo5 1
+    400230: booksTwo6
+    400232: booksTwo6 1
+    400234: booksTwo7
+    400236: booksTwo7 1
+    400238: bookThree
+    400240: bookThree2
+    400242: bookThree2 1
+    400244: bookThree2 2
+    400246: bookThree2 3
+    400248: bookThree3
+    400250: bookThree4
+    400252: bookThree4 1
+    400254: bookThree5
+    400256: bookThree5 1
+    400258: building_side
+    400260: ceiling
+    400262: ceilingLights
+    400264: chair32
+    400266: chair33
+    400268: chair34
+    400270: chair35
+    400272: chair36
+    400274: chair37
+    400276: chair38
+    400278: chair39
+    400280: chair40
+    400282: chair41
+    400284: chair42
+    400286: chair43
+    400288: chair44
+    400290: chair45
+    400292: chair46
+    400294: chair47
+    400296: chair48
+    400298: chair49
+    400300: chair50
+    400302: chair51
+    400304: chair52
+    400306: chair53
+    400308: chair54
+    400310: chair55
+    400312: chair56
+    400314: chair58
+    400316: chair59
+    400318: chair61
+    400320: chair63
+    400322: chair64
+    400324: chair65
+    400326: chair66
+    400328: chair67
+    400330: chair68
+    400332: chairs
+    400334: chemistryBook1
+    400336: chemistryBook1 1
+    400338: chemistryBook1 2
+    400340: chemistryBook1 3
+    400342: chemistryBook1 4
+    400344: chemistryBook1 5
+    400346: chemistryBook2
+    400348: chemistryBook2 1
+    400350: chemistryBook2 2
+    400352: chemistryBook2 3
+    400354: chemistryBook3
+    400356: cookbook3
+    400358: cookbook3 1
+    400360: cookbook3 2
+    400362: cookbook3 3
+    400364: cookbook4
+    400366: cookbook4 1
+    400368: DeclineAndFall
+    400370: DeclineAndFall 1
+    400372: DeclineAndFall 2
+    400374: DeclineAndFall 3
+    400376: DeclineAndFall2
+    400378: DeclineAndFall2 1
+    400380: DeclineAndFall2 2
+    400382: DeclineAndFall2 3
+    400384: desk1
+    400386: door7
+    400388: door8
+    400390: door9
+    400392: door_frame
+    400394: door_glass
+    400396: doorHandle1
+    400398: doorHandle1 1
+    400400: doorHandle1 2
+    400402: doorHandleFrame1
+    400404: doorHandleFrame1 1
+    400406: doorHandleFrame1 2
+    400408: doorhandles
+    400410: doorhandles1
+    400412: doorhandles2
+    400414: doorLock1
+    400416: doorLock1 1
+    400418: doorLock1 2
+    400420: doors
+    400422: doorWindow1
+    400424: doorWindow2
+    400426: doubleBookshelf
+    400428: doubleBookshelf1
+    400430: drFrame_window1
+    400432: drFrame_window2
+    400434: filing_cabinet
+    400436: filing_cabinet2
+    400438: filing_cabinet_2
+    400440: filing_cabinet_3
+    400442: floor4
+    400444: furniture
+    400446: GentlemenPreferBlondes
+    400448: GentlemenPreferBlondes 1
+    400450: GentlemenPreferBlondes 2
+    400452: GentlemenPreferBlondes 3
+    400454: GentlemenPreferBlondes2
+    400456: GentlemenPreferBlondes2 1
+    400458: GentlemenPreferBlondes2 2
+    400460: GentlemenPreferBlondes2 3
+    400462: group4
+    400464: group4 1
+    400466: group5
+    400468: group5 1
+    400470: Interactive_Objects
+    400472: keys
+    400474: lamp10
+    400476: lamp3
+    400478: lamp4
+    400480: lamp5
+    400482: lamp6
+    400484: lamp7
+    400486: lamp8
+    400488: lamp9
+    400490: lamp_hanger25
+    400492: lamp_hanger26
+    400494: lamp_hanger27
+    400496: lamp_hanger28
+    400498: lamp_hanger29
+    400500: lamp_hanger30
+    400502: lamp_hanger31
+    400504: lamp_hanger32
+    400506: lamp_hanger33
+    400508: lamp_hanger34
+    400510: lamp_hanger35
+    400512: lamp_hanger36
+    400514: lamp_hanger37
+    400516: lamp_hanger38
+    400518: lamp_hanger39
+    400520: lamp_hanger40
+    400522: lamp_hanger41
+    400524: lamp_hanger42
+    400526: lamp_hanger43
+    400528: lamp_shade18
+    400530: lamp_shade19
+    400532: lamp_shade20
+    400534: lamp_shade21
+    400536: lamp_shade22
+    400538: lamp_shade23
+    400540: lamp_shade24
+    400542: lamp_shade25
+    400544: lamp_shade26
+    400546: lamp_shade27
+    400548: lamp_shade28
+    400550: lamp_shade29
+    400552: lamp_shade30
+    400554: lamp_shade31
+    400556: lamp_shade32
+    400558: lamp_shade33
+    400560: lamp_shade34
+    400562: lamp_shade35
+    400564: lamp_shade36
+    400566: leaves
+    400568: leaves 1
+    400570: leaves 2
+    400572: leaves 3
+    400574: leaves 4
+    400576: leaves 5
+    400578: leaves 6
+    400580: ledger
+    400582: //RootNode
+    400584: lightswitch1
+    400586: lightswitch2
+    400588: lightswitch3
+    400590: Metamorphasis
+    400592: metamorphasis
+    400594: metamorphasis 1
+    400596: metamorphasis 2
+    400598: metamorphasis 3
+    400600: mrsDalloway
+    400602: mrsDalloway 1
+    400604: mrsDalloway 2
+    400606: mrsDalloway 3
+    400608: open_book7
+    400610: open_book9
+    400612: open_book9 1
+    400614: open_book9 2
+    400616: open_book9 3
+    400618: pCube30
+    400620: pCube30 1
+    400622: pCube30 2
+    400624: pCube30 3
+    400626: pCube33
+    400628: pCube33 1
+    400630: pCube37
+    400632: pCube37 1
+    400634: pCube37 2
+    400636: pCube37 3
+    400638: pCube4
+    400640: pCube4 1
+    400642: pCube4 2
+    400644: pCube4 3
+    400646: pCube4 4
+    400648: pCube4 5
+    400650: pCube41
+    400652: pCube41 1
+    400654: pCube41 2
+    400656: pCube41 3
+    400658: pCube42
+    400660: pCube42 1
+    400662: pCube42 2
+    400664: pCube42 3
+    400666: pCube43
+    400668: pCube43 1
+    400670: pCube43 2
+    400672: pCube43 3
+    400674: pCube44
+    400676: pCube44 1
+    400678: pCube44 2
+    400680: pCube44 3
+    400682: pCube45
+    400684: pCube45 1
+    400686: pCube45 2
+    400688: pCube45 3
+    400690: pCube46
+    400692: pCube46 1
+    400694: pCube47
+    400696: pCube47 1
+    400698: pCube48
+    400700: pCube48 1
+    400702: pCube49
+    400704: pCube49 1
+    400706: pCube50
+    400708: pCube50 1
+    400710: pCube51
+    400712: pCube51 1
+    400714: pCube52
+    400716: pCube52 1
+    400718: pCube53
+    400720: pCube53 1
+    400722: pCube54
+    400724: pCube54 1
+    400726: pCube55
+    400728: pCube55 1
+    400730: pCylinder10
+    400732: pCylinder10 1
+    400734: pCylinder10 2
+    400736: pCylinder10 3
+    400738: pCylinder10 4
+    400740: pCylinder10 5
+    400742: pCylinder10 6
+    400744: pCylinder100
+    400746: pCylinder101
+    400748: pCylinder102
+    400750: pCylinder103
+    400752: pCylinder104
+    400754: pCylinder105
+    400756: pCylinder106
+    400758: pCylinder107
+    400760: pCylinder108
+    400762: pCylinder109
+    400764: pCylinder11
+    400766: pCylinder11 1
+    400768: pCylinder11 2
+    400770: pCylinder11 3
+    400772: pCylinder11 4
+    400774: pCylinder11 5
+    400776: pCylinder11 6
+    400778: pCylinder110
+    400780: pCylinder114
+    400782: pCylinder115
+    400784: pCylinder116
+    400786: pCylinder117
+    400788: pCylinder117 1
+    400790: pCylinder117 2
+    400792: pCylinder118
+    400794: pCylinder118 1
+    400796: pCylinder118 2
+    400798: pCylinder119
+    400800: pCylinder119 1
+    400802: pCylinder119 2
+    400804: pCylinder122
+    400806: pCylinder122 1
+    400808: pCylinder123
+    400810: pCylinder123 1
+    400812: pCylinder124
+    400814: pCylinder124 1
+    400816: pCylinder13
+    400818: pCylinder14
+    400820: pCylinder15
+    400822: pCylinder16
+    400824: pCylinder17
+    400826: pCylinder18
+    400828: pCylinder19
+    400830: pCylinder20
+    400832: pCylinder23
+    400834: pCylinder3
+    400836: pCylinder3 1
+    400838: pCylinder3 2
+    400840: pCylinder3 3
+    400842: pCylinder3 4
+    400844: pCylinder3 5
+    400846: pCylinder3 6
+    400848: pCylinder80
+    400850: pCylinder82
+    400852: pCylinder83
+    400854: pCylinder84
+    400856: pCylinder85
+    400858: pCylinder86
+    400860: pCylinder87
+    400862: pCylinder88
+    400864: pCylinder89
+    400866: pCylinder90
+    400868: pCylinder93
+    400870: pCylinder94
+    400872: pCylinder95
+    400874: pCylinder96
+    400876: pCylinder97
+    400878: pCylinder98
+    400880: pCylinder99
+    400882: photo
+    400884: pillar21
+    400886: pillar22
+    400888: pillar23
+    400890: pillar24
+    400892: pillar25
+    400894: pillar26
+    400896: pillar27
+    400898: pillar28
+    400900: pillars
+    400902: pipe_group2_1
+    400904: pipe_group2_2
+    400906: pipe_group_1
+    400908: pipe_group_2
+    400910: plant2
+    400912: plant3
+    400914: plant4
+    400916: plant5
+    400918: plant6
+    400920: plant7
+    400922: plant8
+    400924: Plants
+    400926: polySurface11
+    400928: polySurface13
+    400930: polySurface17
+    400932: polySurface205
+    400934: polySurface206
+    400936: polySurface207
+    400938: polySurface208
+    400940: polySurface209
+    400942: polySurface30
+    400944: polySurface32
+    400946: polySurface34
+    400948: polySurface36
+    400950: polySurface6
+    400952: polySurface9
+    400954: portrait
+    400956: project
+    400958: project1
+    400960: stoutonia
+    400962: stoutonia1
+    400964: stoutonia2
+    400966: table19
+    400968: table20
+    400970: table21
+    400972: table22
+    400974: table23
+    400976: table24
+    400978: table25
+    400980: table26
+    400982: table27
+    400984: table28
+    400986: table29
+    400988: table30
+    400990: table31
+    400992: table32
+    400994: table33
+    400996: table34
+    400998: table35
+    401000: table36
+    401002: table37
+    401004: table38
+    401006: table39
+    401008: table40
+    401010: tables2
+    401012: theAgeOfInnocence
+    401014: TheBeautifulAndTheDamned
+    401016: TheBeautifulAndTheDamned 1
+    401018: TheBeautifulAndTheDamned 2
+    401020: TheBeautifulAndTheDamned 3
+    401022: TheDiviners
+    401024: theDiviners
+    401026: thediviners
+    401028: TheDiviners 1
+    401030: theDiviners 1
+    401032: TheDiviners 2
+    401034: theDiviners 2
+    401036: TheDiviners 3
+    401038: theDiviners 3
+    401040: theDiviners 4
+    401042: theDiviners 5
+    401044: theDiviners1
+    401046: theDiviners1 1
+    401048: theSoundAndTheFiry
+    401050: theSoundAndTheFiry 1
+    401052: theSoundAndTheFiry 2
+    401054: theSoundAndTheFiry 3
+    401056: theSoundAndTheFiry 4
+    401058: theSoundAndTheFiry 5
+    401060: TheSoundAndTheFury
+    401062: TheSoundAndTheFury 1
+    401064: TheSoundAndTheFury 2
+    401066: TheSoundAndTheFury 3
+    401068: TheSunAlsoRises
+    401070: theSunAlsoRises
+    401072: TheSunAlsoRises 1
+    401074: theSunAlsoRises 1
+    401076: TheSunAlsoRises 2
+    401078: theSunAlsoRises 2
+    401080: TheSunAlsoRises 3
+    401082: theSunAlsoRises 3
+    401084: theSunAlsoRises 4
+    401086: theSunAlsoRises 5
+    401088: toTheLighthouse
+    401090: toTheLighthouse 1
+    401092: toTheLighthouse 2
+    401094: toTheLighthouse 3
+    401096: toTheLighthouse 4
+    401098: toTheLighthouse 5
+    401100: typewriter
+    401102: typewriter 1
+    401104: Ulysses
+    401106: Ulysses 1
+    401108: Ulysses 2
+    401110: Ulysses 3
+    401112: Ulysses1
+    401114: Ulysses1 1
+    401116: vent
+    401118: wall_frame
+    401120: walls
+    401122: walls1
+    401124: window_piece
+    401126: window_piece1
+    401128: window_piece10
+    401130: window_piece11
+    401132: window_piece12
+    401134: window_piece13
+    401136: window_piece14
+    401138: window_piece2
+    401140: window_piece3
+    401142: window_piece4
+    401144: window_piece5
+    401146: window_piece6
+    401148: window_piece7
+    401150: window_piece8
+    401152: window_piece9
+    401154: windowFrame
+    401156: windowFrame1
+    401158: windowFrame10
+    401160: windowFrame11
+    401162: windowFrame2
+    401164: windowFrame3
+    401166: windowFrame4
+    401168: windowFrame5
+    401170: windowFrame6
+    401172: windowFrame7
+    401174: windowFrame8
+    401176: windowFrame9
+    401178: windows
+    2300000: aFarewellToArms
+    2300002: aFarewellToArms 1
+    2300004: aFarewellToArms 2
+    2300006: aFarewellToArms 3
+    2300008: aFarewellToArms 4
+    2300010: aFarewellToArms 5
+    2300012: aFarewellToArms 6
+    2300014: allQuietOnTheWesternFront
+    2300016: allQuietOnTheWesternFront 1
+    2300018: allQuietOnTheWesternFront 2
+    2300020: allQuietOnTheWesternFront 3
+    2300022: allQuietOnTheWesternFront 4
+    2300024: allQuietOnTheWesternFront 5
+    2300026: allQuietOnTheWesternFront2
+    2300028: allQuietOnTheWesternFront2 1
+    2300030: allQuietOnTheWesternFront2 2
+    2300032: allQuietOnTheWesternFront2 3
+    2300034: base
+    2300036: base 1
+    2300038: base 2
+    2300040: base 3
+    2300042: base 4
+    2300044: base 5
+    2300046: base 6
+    2300048: base2
+    2300050: base2 1
+    2300052: base2 2
+    2300054: base2 3
+    2300056: base2 4
+    2300058: base2 5
+    2300060: base2 6
+    2300062: bookCluster
+    2300064: bookCluster 1
+    2300066: bookCluster 2
+    2300068: bookCluster 3
+    2300070: bookCluster 4
+    2300072: bookCluster 5
+    2300074: bookCluster2
+    2300076: bookCluster2 1
+    2300078: bookCluster2 2
+    2300080: bookCluster2 3
+    2300082: bookCluster2 4
+    2300084: bookCluster2 5
+    2300086: bookCluster3
+    2300088: bookCluster3 1
+    2300090: bookCluster3 2
+    2300092: bookCluster3 3
+    2300094: bookCluster3 4
+    2300096: bookCluster3 5
+    2300098: bookCluster4
+    2300100: bookCluster4 1
+    2300102: bookCluster4 2
+    2300104: bookCluster4 3
+    2300106: bookCluster4 4
+    2300108: bookCluster4 5
+    2300110: bookCluster6
+    2300112: bookCluster6 1
+    2300114: bookCluster6 2
+    2300116: bookCluster6 3
+    2300118: bookCluster6 4
+    2300120: bookCluster6 5
+    2300122: bookCluster7
+    2300124: bookCluster7 1
+    2300126: bookCluster7 2
+    2300128: bookCluster7 3
+    2300130: bookCluster7 4
+    2300132: bookCluster7 5
+    2300134: bookFour
+    2300136: bookFour2
+    2300138: bookFour2 1
+    2300140: bookFour2 2
+    2300142: bookFour2 3
+    2300144: bookFour2 4
+    2300146: bookFour2 5
+    2300148: bookFour3
+    2300150: bookFour5
+    2300152: bookFour5 1
+    2300154: bookFour6
+    2300156: bookFour6 1
+    2300158: bookshelf 1
+    2300160: bookshelf 2
+    2300162: bookshelf 3
+    2300164: bookshelf 4
+    2300166: bookshelf 5
+    2300168: bookshelf 6
+    2300170: booksOne
+    2300172: booksOne2
+    2300174: booksOne4
+    2300176: booksOne4 1
+    2300178: booksOne4 2
+    2300180: booksOne4 3
+    2300182: booksOne6
+    2300184: booksOne6 1
+    2300186: booksOne7
+    2300188: booksOne7 1
+    2300190: booksOne8
+    2300192: booksOne8 1
+    2300194: booksOne9
+    2300196: booksOne9 1
+    2300198: booksTwo
+    2300200: booksTwo2
+    2300202: booksTwo3
+    2300204: booksTwo3 1
+    2300206: booksTwo4
+    2300208: booksTwo4 1
+    2300210: booksTwo5
+    2300212: booksTwo5 1
+    2300214: booksTwo6
+    2300216: booksTwo6 1
+    2300218: booksTwo7
+    2300220: booksTwo7 1
+    2300222: bookThree
+    2300224: bookThree2
+    2300226: bookThree2 1
+    2300228: bookThree2 2
+    2300230: bookThree2 3
+    2300232: bookThree3
+    2300234: bookThree4
+    2300236: bookThree4 1
+    2300238: bookThree5
+    2300240: bookThree5 1
+    2300242: building_side
+    2300244: ceiling
+    2300246: chair32
+    2300248: chair33
+    2300250: chair34
+    2300252: chair35
+    2300254: chair36
+    2300256: chair37
+    2300258: chair38
+    2300260: chair39
+    2300262: chair40
+    2300264: chair41
+    2300266: chair42
+    2300268: chair43
+    2300270: chair44
+    2300272: chair45
+    2300274: chair46
+    2300276: chair47
+    2300278: chair48
+    2300280: chair49
+    2300282: chair50
+    2300284: chair51
+    2300286: chair52
+    2300288: chair53
+    2300290: chair54
+    2300292: chair55
+    2300294: chair56
+    2300296: chair58
+    2300298: chair59
+    2300300: chair61
+    2300302: chair63
+    2300304: chair64
+    2300306: chair65
+    2300308: chair66
+    2300310: chair67
+    2300312: chair68
+    2300314: chemistryBook1
+    2300316: chemistryBook1 1
+    2300318: chemistryBook1 2
+    2300320: chemistryBook1 3
+    2300322: chemistryBook1 4
+    2300324: chemistryBook1 5
+    2300326: chemistryBook2
+    2300328: chemistryBook2 1
+    2300330: chemistryBook2 2
+    2300332: chemistryBook2 3
+    2300334: chemistryBook3
+    2300336: cookbook3
+    2300338: cookbook3 1
+    2300340: cookbook3 2
+    2300342: cookbook3 3
+    2300344: cookbook4
+    2300346: cookbook4 1
+    2300348: DeclineAndFall
+    2300350: DeclineAndFall 1
+    2300352: DeclineAndFall 2
+    2300354: DeclineAndFall 3
+    2300356: DeclineAndFall2
+    2300358: DeclineAndFall2 1
+    2300360: DeclineAndFall2 2
+    2300362: DeclineAndFall2 3
+    2300364: desk1
+    2300366: door7
+    2300368: door8
+    2300370: door9
+    2300372: door_frame
+    2300374: door_glass
+    2300376: doorHandle1
+    2300378: doorHandle1 1
+    2300380: doorHandle1 2
+    2300382: doorHandleFrame1
+    2300384: doorHandleFrame1 1
+    2300386: doorHandleFrame1 2
+    2300388: doorLock1
+    2300390: doorLock1 1
+    2300392: doorLock1 2
+    2300394: doorWindow1
+    2300396: doorWindow2
+    2300398: drFrame_window1
+    2300400: drFrame_window2
+    2300402: filing_cabinet
+    2300404: filing_cabinet2
+    2300406: filing_cabinet_2
+    2300408: filing_cabinet_3
+    2300410: floor4
+    2300412: GentlemenPreferBlondes
+    2300414: GentlemenPreferBlondes 1
+    2300416: GentlemenPreferBlondes 2
+    2300418: GentlemenPreferBlondes 3
+    2300420: GentlemenPreferBlondes2
+    2300422: GentlemenPreferBlondes2 1
+    2300424: GentlemenPreferBlondes2 2
+    2300426: GentlemenPreferBlondes2 3
+    2300428: lamp10
+    2300430: lamp3
+    2300432: lamp4
+    2300434: lamp5
+    2300436: lamp6
+    2300438: lamp7
+    2300440: lamp8
+    2300442: lamp9
+    2300444: lamp_hanger25
+    2300446: lamp_hanger26
+    2300448: lamp_hanger27
+    2300450: lamp_hanger28
+    2300452: lamp_hanger29
+    2300454: lamp_hanger30
+    2300456: lamp_hanger31
+    2300458: lamp_hanger32
+    2300460: lamp_hanger33
+    2300462: lamp_hanger34
+    2300464: lamp_hanger35
+    2300466: lamp_hanger36
+    2300468: lamp_hanger37
+    2300470: lamp_hanger38
+    2300472: lamp_hanger39
+    2300474: lamp_hanger40
+    2300476: lamp_hanger41
+    2300478: lamp_hanger42
+    2300480: lamp_hanger43
+    2300482: lamp_shade18
+    2300484: lamp_shade19
+    2300486: lamp_shade20
+    2300488: lamp_shade21
+    2300490: lamp_shade22
+    2300492: lamp_shade23
+    2300494: lamp_shade24
+    2300496: lamp_shade25
+    2300498: lamp_shade26
+    2300500: lamp_shade27
+    2300502: lamp_shade28
+    2300504: lamp_shade29
+    2300506: lamp_shade30
+    2300508: lamp_shade31
+    2300510: lamp_shade32
+    2300512: lamp_shade33
+    2300514: lamp_shade34
+    2300516: lamp_shade35
+    2300518: lamp_shade36
+    2300520: ledger
+    2300522: lightswitch1
+    2300524: lightswitch2
+    2300526: lightswitch3
+    2300528: Metamorphasis
+    2300530: metamorphasis
+    2300532: metamorphasis 1
+    2300534: metamorphasis 2
+    2300536: metamorphasis 3
+    2300538: mrsDalloway
+    2300540: mrsDalloway 1
+    2300542: mrsDalloway 2
+    2300544: mrsDalloway 3
+    2300546: open_book7
+    2300548: open_book9
+    2300550: open_book9 1
+    2300552: open_book9 2
+    2300554: open_book9 3
+    2300556: pCube30
+    2300558: pCube30 1
+    2300560: pCube30 2
+    2300562: pCube30 3
+    2300564: pCube33
+    2300566: pCube33 1
+    2300568: pCube37
+    2300570: pCube37 1
+    2300572: pCube37 2
+    2300574: pCube37 3
+    2300576: pCube4
+    2300578: pCube4 1
+    2300580: pCube4 2
+    2300582: pCube4 3
+    2300584: pCube4 4
+    2300586: pCube4 5
+    2300588: pCube41
+    2300590: pCube41 1
+    2300592: pCube41 2
+    2300594: pCube41 3
+    2300596: pCube42
+    2300598: pCube42 1
+    2300600: pCube42 2
+    2300602: pCube42 3
+    2300604: pCube43
+    2300606: pCube43 1
+    2300608: pCube43 2
+    2300610: pCube43 3
+    2300612: pCube44
+    2300614: pCube44 1
+    2300616: pCube44 2
+    2300618: pCube44 3
+    2300620: pCube45
+    2300622: pCube45 1
+    2300624: pCube45 2
+    2300626: pCube45 3
+    2300628: pCube46
+    2300630: pCube46 1
+    2300632: pCube47
+    2300634: pCube47 1
+    2300636: pCube48
+    2300638: pCube48 1
+    2300640: pCube49
+    2300642: pCube49 1
+    2300644: pCube50
+    2300646: pCube50 1
+    2300648: pCube51
+    2300650: pCube51 1
+    2300652: pCube52
+    2300654: pCube52 1
+    2300656: pCube53
+    2300658: pCube53 1
+    2300660: pCube54
+    2300662: pCube54 1
+    2300664: pCube55
+    2300666: pCube55 1
+    2300668: pCylinder10
+    2300670: pCylinder10 1
+    2300672: pCylinder10 2
+    2300674: pCylinder10 3
+    2300676: pCylinder10 4
+    2300678: pCylinder10 5
+    2300680: pCylinder10 6
+    2300682: pCylinder100
+    2300684: pCylinder101
+    2300686: pCylinder102
+    2300688: pCylinder103
+    2300690: pCylinder104
+    2300692: pCylinder105
+    2300694: pCylinder106
+    2300696: pCylinder107
+    2300698: pCylinder108
+    2300700: pCylinder109
+    2300702: pCylinder11
+    2300704: pCylinder11 1
+    2300706: pCylinder11 2
+    2300708: pCylinder11 3
+    2300710: pCylinder11 4
+    2300712: pCylinder11 5
+    2300714: pCylinder11 6
+    2300716: pCylinder110
+    2300718: pCylinder114
+    2300720: pCylinder115
+    2300722: pCylinder116
+    2300724: pCylinder117
+    2300726: pCylinder117 1
+    2300728: pCylinder117 2
+    2300730: pCylinder118
+    2300732: pCylinder118 1
+    2300734: pCylinder118 2
+    2300736: pCylinder119
+    2300738: pCylinder119 1
+    2300740: pCylinder119 2
+    2300742: pCylinder122
+    2300744: pCylinder122 1
+    2300746: pCylinder123
+    2300748: pCylinder123 1
+    2300750: pCylinder124
+    2300752: pCylinder124 1
+    2300754: pCylinder13
+    2300756: pCylinder14
+    2300758: pCylinder15
+    2300760: pCylinder16
+    2300762: pCylinder17
+    2300764: pCylinder18
+    2300766: pCylinder19
+    2300768: pCylinder20
+    2300770: pCylinder23
+    2300772: pCylinder3
+    2300774: pCylinder3 1
+    2300776: pCylinder3 2
+    2300778: pCylinder3 3
+    2300780: pCylinder3 4
+    2300782: pCylinder3 5
+    2300784: pCylinder3 6
+    2300786: pCylinder80
+    2300788: pCylinder82
+    2300790: pCylinder83
+    2300792: pCylinder84
+    2300794: pCylinder85
+    2300796: pCylinder86
+    2300798: pCylinder87
+    2300800: pCylinder88
+    2300802: pCylinder89
+    2300804: pCylinder90
+    2300806: pCylinder93
+    2300808: pCylinder94
+    2300810: pCylinder95
+    2300812: pCylinder96
+    2300814: pCylinder97
+    2300816: pCylinder98
+    2300818: pCylinder99
+    2300820: photo
+    2300822: pillar21
+    2300824: pillar22
+    2300826: pillar23
+    2300828: pillar24
+    2300830: pillar25
+    2300832: pillar26
+    2300834: pillar27
+    2300836: pillar28
+    2300838: pipe_group2_1
+    2300840: pipe_group2_2
+    2300842: pipe_group_1
+    2300844: pipe_group_2
+    2300846: polySurface11
+    2300848: polySurface13
+    2300850: polySurface17
+    2300852: polySurface205
+    2300854: polySurface206
+    2300856: polySurface207
+    2300858: polySurface208
+    2300860: polySurface209
+    2300862: polySurface30
+    2300864: polySurface32
+    2300866: polySurface34
+    2300868: polySurface36
+    2300870: polySurface6
+    2300872: polySurface9
+    2300874: portrait
+    2300876: project
+    2300878: project1
+    2300880: stoutonia
+    2300882: stoutonia1
+    2300884: stoutonia2
+    2300886: table19
+    2300888: table20
+    2300890: table21
+    2300892: table22
+    2300894: table23
+    2300896: table24
+    2300898: table25
+    2300900: table26
+    2300902: table27
+    2300904: table28
+    2300906: table29
+    2300908: table30
+    2300910: table31
+    2300912: table32
+    2300914: table33
+    2300916: table34
+    2300918: table35
+    2300920: table36
+    2300922: table37
+    2300924: table38
+    2300926: table39
+    2300928: table40
+    2300930: theAgeOfInnocence
+    2300932: TheBeautifulAndTheDamned
+    2300934: TheBeautifulAndTheDamned 1
+    2300936: TheBeautifulAndTheDamned 2
+    2300938: TheBeautifulAndTheDamned 3
+    2300940: TheDiviners
+    2300942: theDiviners
+    2300944: thediviners
+    2300946: TheDiviners 1
+    2300948: theDiviners 1
+    2300950: TheDiviners 2
+    2300952: theDiviners 2
+    2300954: TheDiviners 3
+    2300956: theDiviners 3
+    2300958: theDiviners 4
+    2300960: theDiviners 5
+    2300962: theDiviners1
+    2300964: theDiviners1 1
+    2300966: theSoundAndTheFiry
+    2300968: theSoundAndTheFiry 1
+    2300970: theSoundAndTheFiry 2
+    2300972: theSoundAndTheFiry 3
+    2300974: theSoundAndTheFiry 4
+    2300976: theSoundAndTheFiry 5
+    2300978: TheSoundAndTheFury
+    2300980: TheSoundAndTheFury 1
+    2300982: TheSoundAndTheFury 2
+    2300984: TheSoundAndTheFury 3
+    2300986: TheSunAlsoRises
+    2300988: theSunAlsoRises
+    2300990: TheSunAlsoRises 1
+    2300992: theSunAlsoRises 1
+    2300994: TheSunAlsoRises 2
+    2300996: theSunAlsoRises 2
+    2300998: TheSunAlsoRises 3
+    2301000: theSunAlsoRises 3
+    2301002: theSunAlsoRises 4
+    2301004: theSunAlsoRises 5
+    2301006: toTheLighthouse
+    2301008: toTheLighthouse 1
+    2301010: toTheLighthouse 2
+    2301012: toTheLighthouse 3
+    2301014: toTheLighthouse 4
+    2301016: toTheLighthouse 5
+    2301018: typewriter 1
+    2301020: Ulysses
+    2301022: Ulysses 1
+    2301024: Ulysses 2
+    2301026: Ulysses 3
+    2301028: Ulysses1
+    2301030: Ulysses1 1
+    2301032: vent
+    2301034: wall_frame
+    2301036: walls1
+    2301038: window_piece
+    2301040: window_piece1
+    2301042: window_piece10
+    2301044: window_piece11
+    2301046: window_piece12
+    2301048: window_piece13
+    2301050: window_piece14
+    2301052: window_piece2
+    2301054: window_piece3
+    2301056: window_piece4
+    2301058: window_piece5
+    2301060: window_piece6
+    2301062: window_piece7
+    2301064: window_piece8
+    2301066: window_piece9
+    2301068: windowFrame
+    2301070: windowFrame1
+    2301072: windowFrame10
+    2301074: windowFrame11
+    2301076: windowFrame2
+    2301078: windowFrame3
+    2301080: windowFrame4
+    2301082: windowFrame5
+    2301084: windowFrame6
+    2301086: windowFrame7
+    2301088: windowFrame8
+    2301090: windowFrame9
+    3300000: aFarewellToArms
+    3300002: aFarewellToArms 1
+    3300004: aFarewellToArms 2
+    3300006: aFarewellToArms 3
+    3300008: aFarewellToArms 4
+    3300010: aFarewellToArms 5
+    3300012: aFarewellToArms 6
+    3300014: allQuietOnTheWesternFront
+    3300016: allQuietOnTheWesternFront 1
+    3300018: allQuietOnTheWesternFront 2
+    3300020: allQuietOnTheWesternFront 3
+    3300022: allQuietOnTheWesternFront 4
+    3300024: allQuietOnTheWesternFront 5
+    3300026: allQuietOnTheWesternFront2
+    3300028: allQuietOnTheWesternFront2 1
+    3300030: allQuietOnTheWesternFront2 2
+    3300032: allQuietOnTheWesternFront2 3
+    3300034: base
+    3300036: base 1
+    3300038: base 2
+    3300040: base 3
+    3300042: base 4
+    3300044: base 5
+    3300046: base 6
+    3300048: base2
+    3300050: base2 1
+    3300052: base2 2
+    3300054: base2 3
+    3300056: base2 4
+    3300058: base2 5
+    3300060: base2 6
+    3300062: bookCluster
+    3300064: bookCluster 1
+    3300066: bookCluster 2
+    3300068: bookCluster 3
+    3300070: bookCluster 4
+    3300072: bookCluster 5
+    3300074: bookCluster2
+    3300076: bookCluster2 1
+    3300078: bookCluster2 2
+    3300080: bookCluster2 3
+    3300082: bookCluster2 4
+    3300084: bookCluster2 5
+    3300086: bookCluster3
+    3300088: bookCluster3 1
+    3300090: bookCluster3 2
+    3300092: bookCluster3 3
+    3300094: bookCluster3 4
+    3300096: bookCluster3 5
+    3300098: bookCluster4
+    3300100: bookCluster4 1
+    3300102: bookCluster4 2
+    3300104: bookCluster4 3
+    3300106: bookCluster4 4
+    3300108: bookCluster4 5
+    3300110: bookCluster6
+    3300112: bookCluster6 1
+    3300114: bookCluster6 2
+    3300116: bookCluster6 3
+    3300118: bookCluster6 4
+    3300120: bookCluster6 5
+    3300122: bookCluster7
+    3300124: bookCluster7 1
+    3300126: bookCluster7 2
+    3300128: bookCluster7 3
+    3300130: bookCluster7 4
+    3300132: bookCluster7 5
+    3300134: bookFour
+    3300136: bookFour2
+    3300138: bookFour2 1
+    3300140: bookFour2 2
+    3300142: bookFour2 3
+    3300144: bookFour2 4
+    3300146: bookFour2 5
+    3300148: bookFour3
+    3300150: bookFour5
+    3300152: bookFour5 1
+    3300154: bookFour6
+    3300156: bookFour6 1
+    3300158: bookshelf 1
+    3300160: bookshelf 2
+    3300162: bookshelf 3
+    3300164: bookshelf 4
+    3300166: bookshelf 5
+    3300168: bookshelf 6
+    3300170: booksOne
+    3300172: booksOne2
+    3300174: booksOne4
+    3300176: booksOne4 1
+    3300178: booksOne4 2
+    3300180: booksOne4 3
+    3300182: booksOne6
+    3300184: booksOne6 1
+    3300186: booksOne7
+    3300188: booksOne7 1
+    3300190: booksOne8
+    3300192: booksOne8 1
+    3300194: booksOne9
+    3300196: booksOne9 1
+    3300198: booksTwo
+    3300200: booksTwo2
+    3300202: booksTwo3
+    3300204: booksTwo3 1
+    3300206: booksTwo4
+    3300208: booksTwo4 1
+    3300210: booksTwo5
+    3300212: booksTwo5 1
+    3300214: booksTwo6
+    3300216: booksTwo6 1
+    3300218: booksTwo7
+    3300220: booksTwo7 1
+    3300222: bookThree
+    3300224: bookThree2
+    3300226: bookThree2 1
+    3300228: bookThree2 2
+    3300230: bookThree2 3
+    3300232: bookThree3
+    3300234: bookThree4
+    3300236: bookThree4 1
+    3300238: bookThree5
+    3300240: bookThree5 1
+    3300242: building_side
+    3300244: ceiling
+    3300246: chair32
+    3300248: chair33
+    3300250: chair34
+    3300252: chair35
+    3300254: chair36
+    3300256: chair37
+    3300258: chair38
+    3300260: chair39
+    3300262: chair40
+    3300264: chair41
+    3300266: chair42
+    3300268: chair43
+    3300270: chair44
+    3300272: chair45
+    3300274: chair46
+    3300276: chair47
+    3300278: chair48
+    3300280: chair49
+    3300282: chair50
+    3300284: chair51
+    3300286: chair52
+    3300288: chair53
+    3300290: chair54
+    3300292: chair55
+    3300294: chair56
+    3300296: chair58
+    3300298: chair59
+    3300300: chair61
+    3300302: chair63
+    3300304: chair64
+    3300306: chair65
+    3300308: chair66
+    3300310: chair67
+    3300312: chair68
+    3300314: chemistryBook1
+    3300316: chemistryBook1 1
+    3300318: chemistryBook1 2
+    3300320: chemistryBook1 3
+    3300322: chemistryBook1 4
+    3300324: chemistryBook1 5
+    3300326: chemistryBook2
+    3300328: chemistryBook2 1
+    3300330: chemistryBook2 2
+    3300332: chemistryBook2 3
+    3300334: chemistryBook3
+    3300336: cookbook3
+    3300338: cookbook3 1
+    3300340: cookbook3 2
+    3300342: cookbook3 3
+    3300344: cookbook4
+    3300346: cookbook4 1
+    3300348: DeclineAndFall
+    3300350: DeclineAndFall 1
+    3300352: DeclineAndFall 2
+    3300354: DeclineAndFall 3
+    3300356: DeclineAndFall2
+    3300358: DeclineAndFall2 1
+    3300360: DeclineAndFall2 2
+    3300362: DeclineAndFall2 3
+    3300364: desk1
+    3300366: door7
+    3300368: door8
+    3300370: door9
+    3300372: door_frame
+    3300374: door_glass
+    3300376: doorHandle1
+    3300378: doorHandle1 1
+    3300380: doorHandle1 2
+    3300382: doorHandleFrame1
+    3300384: doorHandleFrame1 1
+    3300386: doorHandleFrame1 2
+    3300388: doorLock1
+    3300390: doorLock1 1
+    3300392: doorLock1 2
+    3300394: doorWindow1
+    3300396: doorWindow2
+    3300398: drFrame_window1
+    3300400: drFrame_window2
+    3300402: filing_cabinet
+    3300404: filing_cabinet2
+    3300406: filing_cabinet_2
+    3300408: filing_cabinet_3
+    3300410: floor4
+    3300412: GentlemenPreferBlondes
+    3300414: GentlemenPreferBlondes 1
+    3300416: GentlemenPreferBlondes 2
+    3300418: GentlemenPreferBlondes 3
+    3300420: GentlemenPreferBlondes2
+    3300422: GentlemenPreferBlondes2 1
+    3300424: GentlemenPreferBlondes2 2
+    3300426: GentlemenPreferBlondes2 3
+    3300428: lamp10
+    3300430: lamp3
+    3300432: lamp4
+    3300434: lamp5
+    3300436: lamp6
+    3300438: lamp7
+    3300440: lamp8
+    3300442: lamp9
+    3300444: lamp_hanger25
+    3300446: lamp_hanger26
+    3300448: lamp_hanger27
+    3300450: lamp_hanger28
+    3300452: lamp_hanger29
+    3300454: lamp_hanger30
+    3300456: lamp_hanger31
+    3300458: lamp_hanger32
+    3300460: lamp_hanger33
+    3300462: lamp_hanger34
+    3300464: lamp_hanger35
+    3300466: lamp_hanger36
+    3300468: lamp_hanger37
+    3300470: lamp_hanger38
+    3300472: lamp_hanger39
+    3300474: lamp_hanger40
+    3300476: lamp_hanger41
+    3300478: lamp_hanger42
+    3300480: lamp_hanger43
+    3300482: lamp_shade18
+    3300484: lamp_shade19
+    3300486: lamp_shade20
+    3300488: lamp_shade21
+    3300490: lamp_shade22
+    3300492: lamp_shade23
+    3300494: lamp_shade24
+    3300496: lamp_shade25
+    3300498: lamp_shade26
+    3300500: lamp_shade27
+    3300502: lamp_shade28
+    3300504: lamp_shade29
+    3300506: lamp_shade30
+    3300508: lamp_shade31
+    3300510: lamp_shade32
+    3300512: lamp_shade33
+    3300514: lamp_shade34
+    3300516: lamp_shade35
+    3300518: lamp_shade36
+    3300520: ledger
+    3300522: lightswitch1
+    3300524: lightswitch2
+    3300526: lightswitch3
+    3300528: Metamorphasis
+    3300530: metamorphasis
+    3300532: metamorphasis 1
+    3300534: metamorphasis 2
+    3300536: metamorphasis 3
+    3300538: mrsDalloway
+    3300540: mrsDalloway 1
+    3300542: mrsDalloway 2
+    3300544: mrsDalloway 3
+    3300546: open_book7
+    3300548: open_book9
+    3300550: open_book9 1
+    3300552: open_book9 2
+    3300554: open_book9 3
+    3300556: pCube30
+    3300558: pCube30 1
+    3300560: pCube30 2
+    3300562: pCube30 3
+    3300564: pCube33
+    3300566: pCube33 1
+    3300568: pCube37
+    3300570: pCube37 1
+    3300572: pCube37 2
+    3300574: pCube37 3
+    3300576: pCube4
+    3300578: pCube4 1
+    3300580: pCube4 2
+    3300582: pCube4 3
+    3300584: pCube4 4
+    3300586: pCube4 5
+    3300588: pCube41
+    3300590: pCube41 1
+    3300592: pCube41 2
+    3300594: pCube41 3
+    3300596: pCube42
+    3300598: pCube42 1
+    3300600: pCube42 2
+    3300602: pCube42 3
+    3300604: pCube43
+    3300606: pCube43 1
+    3300608: pCube43 2
+    3300610: pCube43 3
+    3300612: pCube44
+    3300614: pCube44 1
+    3300616: pCube44 2
+    3300618: pCube44 3
+    3300620: pCube45
+    3300622: pCube45 1
+    3300624: pCube45 2
+    3300626: pCube45 3
+    3300628: pCube46
+    3300630: pCube46 1
+    3300632: pCube47
+    3300634: pCube47 1
+    3300636: pCube48
+    3300638: pCube48 1
+    3300640: pCube49
+    3300642: pCube49 1
+    3300644: pCube50
+    3300646: pCube50 1
+    3300648: pCube51
+    3300650: pCube51 1
+    3300652: pCube52
+    3300654: pCube52 1
+    3300656: pCube53
+    3300658: pCube53 1
+    3300660: pCube54
+    3300662: pCube54 1
+    3300664: pCube55
+    3300666: pCube55 1
+    3300668: pCylinder10
+    3300670: pCylinder10 1
+    3300672: pCylinder10 2
+    3300674: pCylinder10 3
+    3300676: pCylinder10 4
+    3300678: pCylinder10 5
+    3300680: pCylinder10 6
+    3300682: pCylinder100
+    3300684: pCylinder101
+    3300686: pCylinder102
+    3300688: pCylinder103
+    3300690: pCylinder104
+    3300692: pCylinder105
+    3300694: pCylinder106
+    3300696: pCylinder107
+    3300698: pCylinder108
+    3300700: pCylinder109
+    3300702: pCylinder11
+    3300704: pCylinder11 1
+    3300706: pCylinder11 2
+    3300708: pCylinder11 3
+    3300710: pCylinder11 4
+    3300712: pCylinder11 5
+    3300714: pCylinder11 6
+    3300716: pCylinder110
+    3300718: pCylinder114
+    3300720: pCylinder115
+    3300722: pCylinder116
+    3300724: pCylinder117
+    3300726: pCylinder117 1
+    3300728: pCylinder117 2
+    3300730: pCylinder118
+    3300732: pCylinder118 1
+    3300734: pCylinder118 2
+    3300736: pCylinder119
+    3300738: pCylinder119 1
+    3300740: pCylinder119 2
+    3300742: pCylinder122
+    3300744: pCylinder122 1
+    3300746: pCylinder123
+    3300748: pCylinder123 1
+    3300750: pCylinder124
+    3300752: pCylinder124 1
+    3300754: pCylinder13
+    3300756: pCylinder14
+    3300758: pCylinder15
+    3300760: pCylinder16
+    3300762: pCylinder17
+    3300764: pCylinder18
+    3300766: pCylinder19
+    3300768: pCylinder20
+    3300770: pCylinder23
+    3300772: pCylinder3
+    3300774: pCylinder3 1
+    3300776: pCylinder3 2
+    3300778: pCylinder3 3
+    3300780: pCylinder3 4
+    3300782: pCylinder3 5
+    3300784: pCylinder3 6
+    3300786: pCylinder80
+    3300788: pCylinder82
+    3300790: pCylinder83
+    3300792: pCylinder84
+    3300794: pCylinder85
+    3300796: pCylinder86
+    3300798: pCylinder87
+    3300800: pCylinder88
+    3300802: pCylinder89
+    3300804: pCylinder90
+    3300806: pCylinder93
+    3300808: pCylinder94
+    3300810: pCylinder95
+    3300812: pCylinder96
+    3300814: pCylinder97
+    3300816: pCylinder98
+    3300818: pCylinder99
+    3300820: photo
+    3300822: pillar21
+    3300824: pillar22
+    3300826: pillar23
+    3300828: pillar24
+    3300830: pillar25
+    3300832: pillar26
+    3300834: pillar27
+    3300836: pillar28
+    3300838: pipe_group2_1
+    3300840: pipe_group2_2
+    3300842: pipe_group_1
+    3300844: pipe_group_2
+    3300846: polySurface11
+    3300848: polySurface13
+    3300850: polySurface17
+    3300852: polySurface205
+    3300854: polySurface206
+    3300856: polySurface207
+    3300858: polySurface208
+    3300860: polySurface209
+    3300862: polySurface30
+    3300864: polySurface32
+    3300866: polySurface34
+    3300868: polySurface36
+    3300870: polySurface6
+    3300872: polySurface9
+    3300874: portrait
+    3300876: project
+    3300878: project1
+    3300880: stoutonia
+    3300882: stoutonia1
+    3300884: stoutonia2
+    3300886: table19
+    3300888: table20
+    3300890: table21
+    3300892: table22
+    3300894: table23
+    3300896: table24
+    3300898: table25
+    3300900: table26
+    3300902: table27
+    3300904: table28
+    3300906: table29
+    3300908: table30
+    3300910: table31
+    3300912: table32
+    3300914: table33
+    3300916: table34
+    3300918: table35
+    3300920: table36
+    3300922: table37
+    3300924: table38
+    3300926: table39
+    3300928: table40
+    3300930: theAgeOfInnocence
+    3300932: TheBeautifulAndTheDamned
+    3300934: TheBeautifulAndTheDamned 1
+    3300936: TheBeautifulAndTheDamned 2
+    3300938: TheBeautifulAndTheDamned 3
+    3300940: TheDiviners
+    3300942: theDiviners
+    3300944: thediviners
+    3300946: TheDiviners 1
+    3300948: theDiviners 1
+    3300950: TheDiviners 2
+    3300952: theDiviners 2
+    3300954: TheDiviners 3
+    3300956: theDiviners 3
+    3300958: theDiviners 4
+    3300960: theDiviners 5
+    3300962: theDiviners1
+    3300964: theDiviners1 1
+    3300966: theSoundAndTheFiry
+    3300968: theSoundAndTheFiry 1
+    3300970: theSoundAndTheFiry 2
+    3300972: theSoundAndTheFiry 3
+    3300974: theSoundAndTheFiry 4
+    3300976: theSoundAndTheFiry 5
+    3300978: TheSoundAndTheFury
+    3300980: TheSoundAndTheFury 1
+    3300982: TheSoundAndTheFury 2
+    3300984: TheSoundAndTheFury 3
+    3300986: TheSunAlsoRises
+    3300988: theSunAlsoRises
+    3300990: TheSunAlsoRises 1
+    3300992: theSunAlsoRises 1
+    3300994: TheSunAlsoRises 2
+    3300996: theSunAlsoRises 2
+    3300998: TheSunAlsoRises 3
+    3301000: theSunAlsoRises 3
+    3301002: theSunAlsoRises 4
+    3301004: theSunAlsoRises 5
+    3301006: toTheLighthouse
+    3301008: toTheLighthouse 1
+    3301010: toTheLighthouse 2
+    3301012: toTheLighthouse 3
+    3301014: toTheLighthouse 4
+    3301016: toTheLighthouse 5
+    3301018: typewriter 1
+    3301020: Ulysses
+    3301022: Ulysses 1
+    3301024: Ulysses 2
+    3301026: Ulysses 3
+    3301028: Ulysses1
+    3301030: Ulysses1 1
+    3301032: vent
+    3301034: wall_frame
+    3301036: walls1
+    3301038: window_piece
+    3301040: window_piece1
+    3301042: window_piece10
+    3301044: window_piece11
+    3301046: window_piece12
+    3301048: window_piece13
+    3301050: window_piece14
+    3301052: window_piece2
+    3301054: window_piece3
+    3301056: window_piece4
+    3301058: window_piece5
+    3301060: window_piece6
+    3301062: window_piece7
+    3301064: window_piece8
+    3301066: window_piece9
+    3301068: windowFrame
+    3301070: windowFrame1
+    3301072: windowFrame10
+    3301074: windowFrame11
+    3301076: windowFrame2
+    3301078: windowFrame3
+    3301080: windowFrame4
+    3301082: windowFrame5
+    3301084: windowFrame6
+    3301086: windowFrame7
+    3301088: windowFrame8
+    3301090: windowFrame9
+    4300000: desk1
+    4300002: filing_cabinet
+    4300004: filing_cabinet_3
+    4300006: filing_cabinet_2
+    4300008: portrait
+    4300010: lamp3
+    4300012: lamp4
+    4300014: lamp5
+    4300016: lamp6
+    4300018: lamp7
+    4300020: lamp8
+    4300022: lamp9
+    4300024: lamp10
+    4300026: filing_cabinet2
+    4300028: lamp_shade18
+    4300030: lamp_hanger25
+    4300032: lamp_shade19
+    4300034: lamp_hanger26
+    4300036: lamp_shade20
+    4300038: lamp_hanger27
+    4300040: lamp_shade21
+    4300042: lamp_hanger28
+    4300044: lamp_shade22
+    4300046: lamp_hanger29
+    4300048: lamp_shade23
+    4300050: lamp_hanger30
+    4300052: lamp_shade24
+    4300054: lamp_hanger31
+    4300056: lamp_shade25
+    4300058: lamp_hanger32
+    4300060: lamp_shade26
+    4300062: lamp_hanger33
+    4300064: lamp_shade27
+    4300066: lamp_hanger34
+    4300068: lamp_shade28
+    4300070: lamp_hanger35
+    4300072: lamp_shade29
+    4300074: lamp_hanger36
+    4300076: lamp_shade30
+    4300078: lamp_hanger37
+    4300080: lamp_shade31
+    4300082: lamp_hanger38
+    4300084: lamp_shade32
+    4300086: lamp_hanger39
+    4300088: lamp_shade33
+    4300090: lamp_hanger40
+    4300092: lamp_shade34
+    4300094: lamp_hanger41
+    4300096: lamp_shade35
+    4300098: lamp_hanger42
+    4300100: lamp_shade36
+    4300102: lamp_hanger43
+    4300104: chair32
+    4300106: chair33
+    4300108: chair34
+    4300110: chair35
+    4300112: chair36
+    4300114: chair37
+    4300116: chair38
+    4300118: chair39
+    4300120: chair40
+    4300122: chair41
+    4300124: chair42
+    4300126: chair43
+    4300128: chair44
+    4300130: chair45
+    4300132: chair46
+    4300134: chair47
+    4300136: chair48
+    4300138: chair49
+    4300140: chair50
+    4300142: chair51
+    4300144: chair52
+    4300146: chair53
+    4300148: chair54
+    4300150: chair55
+    4300152: chair56
+    4300154: chair58
+    4300156: chair59
+    4300158: chair61
+    4300160: chair63
+    4300162: chair64
+    4300164: chair65
+    4300166: chair66
+    4300168: chair67
+    4300170: chair68
+    4300172: pillar21
+    4300174: pillar22
+    4300176: pillar23
+    4300178: pillar24
+    4300180: pillar25
+    4300182: pillar26
+    4300184: pillar27
+    4300186: pillar28
+    4300188: pipe_group2_1
+    4300190: pipe_group2_2
+    4300192: floor4
+    4300194: ceiling
+    4300196: walls1
+    4300198: pipe_group_1
+    4300200: pipe_group_2
+    4300202: building_side
+    4300204: vent
+    4300206: lightswitch1
+    4300208: lightswitch3
+    4300210: lightswitch2
+    4300212: base
+    4300214: base2
+    4300216: pCylinder10
+    4300218: pCylinder3
+    4300220: pCylinder11
+    4300222: pCylinder122
+    4300224: pCylinder123
+    4300226: pCylinder124
+    4300228: base
+    4300230: base2
+    4300232: pCylinder10
+    4300234: pCylinder3
+    4300236: pCylinder11
+    4300238: base
+    4300240: base2
+    4300242: pCylinder10
+    4300244: pCylinder3
+    4300246: pCylinder11
+    4300248: pCylinder114
+    4300250: pCylinder115
+    4300252: pCylinder116
+    4300254: base
+    4300256: base2
+    4300258: pCylinder10
+    4300260: pCylinder3
+    4300262: pCylinder11
+    4300264: pCylinder117
+    4300266: pCylinder118
+    4300268: pCylinder119
+    4300270: base
+    4300272: base2
+    4300274: pCylinder10
+    4300276: pCylinder3
+    4300278: pCylinder11
+    4300280: pCylinder122
+    4300282: pCylinder123
+    4300284: pCylinder124
+    4300286: base
+    4300288: base2
+    4300290: pCylinder10
+    4300292: pCylinder3
+    4300294: pCylinder11
+    4300296: pCylinder117
+    4300298: pCylinder118
+    4300300: pCylinder119
+    4300302: base
+    4300304: base2
+    4300306: pCylinder10
+    4300308: pCylinder3
+    4300310: pCylinder11
+    4300312: pCylinder117
+    4300314: pCylinder118
+    4300316: pCylinder119
+    4300318: pCylinder82
+    4300320: pCylinder83
+    4300322: pCylinder84
+    4300324: pCylinder85
+    4300326: pCylinder86
+    4300328: pCylinder87
+    4300330: pCylinder88
+    4300332: pCylinder89
+    4300334: pCylinder90
+    4300336: pCylinder93
+    4300338: pCylinder94
+    4300340: pCylinder95
+    4300342: pCylinder96
+    4300344: pCylinder97
+    4300346: pCylinder98
+    4300348: pCylinder99
+    4300350: pCylinder100
+    4300352: pCylinder101
+    4300354: pCylinder13
+    4300356: pCylinder14
+    4300358: pCylinder15
+    4300360: pCylinder16
+    4300362: pCylinder17
+    4300364: pCylinder18
+    4300366: pCylinder19
+    4300368: pCylinder20
+    4300370: pCylinder23
+    4300372: pCylinder102
+    4300374: pCylinder103
+    4300376: pCylinder104
+    4300378: pCylinder105
+    4300380: pCylinder106
+    4300382: pCylinder107
+    4300384: pCylinder108
+    4300386: pCylinder109
+    4300388: pCylinder110
+    4300390: typewriter
+    4300392: pCylinder80
+    4300394: ledger
+    4300396: project
+    4300398: stoutonia
+    4300400: stoutonia1
+    4300402: project1
+    4300404: bookFour3
+    4300406: bookThree3
+    4300408: aFarewellToArms
+    4300410: Metamorphasis
+    4300412: chemistryBook3
+    4300414: bookFour
+    4300416: bookThree
+    4300418: booksTwo
+    4300420: booksOne
+    4300422: thediviners
+    4300424: booksTwo2
+    4300426: booksOne2
+    4300428: open_book7
+    4300430: stoutonia2
+    4300432: window_piece7
+    4300434: window_piece3
+    4300436: windowFrame
+    4300438: windowFrame1
+    4300440: window_piece8
+    4300442: window_piece2
+    4300444: window_piece4
+    4300446: window_piece6
+    4300448: window_piece5
+    4300450: window_piece9
+    4300452: window_piece1
+    4300454: window_piece14
+    4300456: polySurface32
+    4300458: wall_frame
+    4300460: window_piece12
+    4300462: window_piece13
+    4300464: polySurface208
+    4300466: window_piece
+    4300468: window_piece10
+    4300470: polySurface207
+    4300472: window_piece11
+    4300474: polySurface13
+    4300476: polySurface9
+    4300478: polySurface30
+    4300480: polySurface206
+    4300482: polySurface205
+    4300484: polySurface17
+    4300486: polySurface36
+    4300488: polySurface34
+    4300490: windowFrame2
+    4300492: windowFrame3
+    4300494: windowFrame4
+    4300496: windowFrame5
+    4300498: windowFrame6
+    4300500: windowFrame7
+    4300502: windowFrame8
+    4300504: windowFrame9
+    4300506: windowFrame10
+    4300508: windowFrame11
+    4300510: door_glass
+    4300512: polySurface11
+    4300514: polySurface6
+    4300516: polySurface209
+    4300518: table22
+    4300520: table21
+    4300522: table20
+    4300524: table19
+    4300526: table23
+    4300528: table24
+    4300530: table25
+    4300532: table26
+    4300534: table27
+    4300536: table28
+    4300538: table29
+    4300540: table30
+    4300542: table31
+    4300544: table32
+    4300546: table33
+    4300548: table34
+    4300550: table35
+    4300552: table36
+    4300554: table37
+    4300556: table38
+    4300558: table39
+    4300560: table40
+    4300562: photo
+    4300564: bookshelf
+    4300566: bookCluster4
+    4300568: bookCluster2
+    4300570: bookCluster6
+    4300572: bookCluster7
+    4300574: bookCluster3
+    4300576: TheSunAlsoRises
+    4300578: GentlemenPreferBlondes
+    4300580: DeclineAndFall
+    4300582: Ulysses
+    4300584: TheBeautifulAndTheDamned
+    4300586: bookCluster
+    4300588: DeclineAndFall2
+    4300590: GentlemenPreferBlondes2
+    4300592: open_book9
+    4300594: allQuietOnTheWesternFront2
+    4300596: chemistryBook2
+    4300598: TheSoundAndTheFury
+    4300600: TheDiviners
+    4300602: booksOne4
+    4300604: pCube45
+    4300606: pCube44
+    4300608: pCube43
+    4300610: pCube30
+    4300612: pCube42
+    4300614: pCube37
+    4300616: bookThree2
+    4300618: pCube41
+    4300620: mrsDalloway
+    4300622: metamorphasis
+    4300624: cookbook3
+    4300626: bookFour2
+    4300628: theDiviners
+    4300630: theSoundAndTheFiry
+    4300632: aFarewellToArms
+    4300634: chemistryBook1
+    4300636: allQuietOnTheWesternFront
+    4300638: toTheLighthouse
+    4300640: theSunAlsoRises
+    4300642: pCube4
+    4300644: bookFour2
+    4300646: theDiviners
+    4300648: theSoundAndTheFiry
+    4300650: aFarewellToArms
+    4300652: chemistryBook1
+    4300654: allQuietOnTheWesternFront
+    4300656: toTheLighthouse
+    4300658: theSunAlsoRises
+    4300660: pCube4
+    4300662: theDiviners1
+    4300664: bookFour6
+    4300666: booksOne9
+    4300668: pCube53
+    4300670: pCube54
+    4300672: pCube55
+    4300674: bookshelf
+    4300676: bookCluster4
+    4300678: bookCluster2
+    4300680: bookCluster6
+    4300682: bookCluster7
+    4300684: bookCluster3
+    4300686: bookCluster
+    4300688: pCube46
+    4300690: bookThree5
+    4300692: booksOne6
+    4300694: bookFour5
+    4300696: bookThree4
+    4300698: booksOne7
+    4300700: pCube49
+    4300702: pCube47
+    4300704: cookbook4
+    4300706: Ulysses1
+    4300708: booksOne8
+    4300710: pCube52
+    4300712: pCube51
+    4300714: pCube50
+    4300716: booksTwo5
+    4300718: booksTwo6
+    4300720: booksTwo7
+    4300722: pCube48
+    4300724: booksTwo4
+    4300726: booksTwo3
+    4300728: bookshelf
+    4300730: bookCluster4
+    4300732: bookCluster2
+    4300734: bookCluster6
+    4300736: bookCluster7
+    4300738: bookCluster3
+    4300740: TheSunAlsoRises
+    4300742: GentlemenPreferBlondes
+    4300744: DeclineAndFall
+    4300746: Ulysses
+    4300748: TheBeautifulAndTheDamned
+    4300750: bookCluster
+    4300752: DeclineAndFall2
+    4300754: GentlemenPreferBlondes2
+    4300756: open_book9
+    4300758: allQuietOnTheWesternFront2
+    4300760: chemistryBook2
+    4300762: TheSoundAndTheFury
+    4300764: TheDiviners
+    4300766: booksOne4
+    4300768: pCube45
+    4300770: pCube44
+    4300772: pCube43
+    4300774: pCube30
+    4300776: pCube42
+    4300778: pCube37
+    4300780: bookThree2
+    4300782: pCube41
+    4300784: mrsDalloway
+    4300786: metamorphasis
+    4300788: cookbook3
+    4300790: bookFour2
+    4300792: theDiviners
+    4300794: theSoundAndTheFiry
+    4300796: aFarewellToArms
+    4300798: chemistryBook1
+    4300800: allQuietOnTheWesternFront
+    4300802: toTheLighthouse
+    4300804: theSunAlsoRises
+    4300806: pCube4
+    4300808: bookFour2
+    4300810: theDiviners
+    4300812: theSoundAndTheFiry
+    4300814: aFarewellToArms
+    4300816: chemistryBook1
+    4300818: allQuietOnTheWesternFront
+    4300820: toTheLighthouse
+    4300822: theSunAlsoRises
+    4300824: pCube4
+    4300826: theDiviners1
+    4300828: bookFour6
+    4300830: booksOne9
+    4300832: pCube53
+    4300834: pCube54
+    4300836: pCube55
+    4300838: bookshelf
+    4300840: bookCluster4
+    4300842: bookCluster2
+    4300844: bookCluster6
+    4300846: bookCluster7
+    4300848: bookCluster3
+    4300850: bookCluster
+    4300852: pCube46
+    4300854: bookThree5
+    4300856: booksOne6
+    4300858: bookFour5
+    4300860: bookThree4
+    4300862: booksOne7
+    4300864: pCube49
+    4300866: pCube47
+    4300868: cookbook4
+    4300870: Ulysses1
+    4300872: booksOne8
+    4300874: pCube52
+    4300876: pCube51
+    4300878: pCube50
+    4300880: booksTwo5
+    4300882: booksTwo6
+    4300884: booksTwo7
+    4300886: pCube48
+    4300888: booksTwo4
+    4300890: booksTwo3
+    4300892: bookshelf
+    4300894: bookCluster4
+    4300896: bookCluster2
+    4300898: bookCluster6
+    4300900: bookCluster7
+    4300902: bookCluster3
+    4300904: TheSunAlsoRises
+    4300906: GentlemenPreferBlondes
+    4300908: DeclineAndFall
+    4300910: Ulysses
+    4300912: TheBeautifulAndTheDamned
+    4300914: bookCluster
+    4300916: DeclineAndFall2
+    4300918: GentlemenPreferBlondes2
+    4300920: open_book9
+    4300922: allQuietOnTheWesternFront2
+    4300924: chemistryBook2
+    4300926: TheSoundAndTheFury
+    4300928: TheDiviners
+    4300930: booksOne4
+    4300932: pCube45
+    4300934: pCube44
+    4300936: pCube43
+    4300938: pCube30
+    4300940: pCube42
+    4300942: pCube37
+    4300944: bookThree2
+    4300946: pCube41
+    4300948: pCube33
+    4300950: chemistryBook1
+    4300952: theSunAlsoRises
+    4300954: mrsDalloway
+    4300956: theDiviners
+    4300958: theSoundAndTheFiry
+    4300960: pCube4
+    4300962: aFarewellToArms
+    4300964: toTheLighthouse
+    4300966: allQuietOnTheWesternFront
+    4300968: bookFour2
+    4300970: metamorphasis
+    4300972: cookbook3
+    4300974: bookshelf
+    4300976: bookCluster4
+    4300978: bookCluster2
+    4300980: bookCluster6
+    4300982: bookCluster7
+    4300984: bookCluster3
+    4300986: TheSunAlsoRises
+    4300988: GentlemenPreferBlondes
+    4300990: DeclineAndFall
+    4300992: Ulysses
+    4300994: TheBeautifulAndTheDamned
+    4300996: bookCluster
+    4300998: DeclineAndFall2
+    4301000: GentlemenPreferBlondes2
+    4301002: open_book9
+    4301004: allQuietOnTheWesternFront2
+    4301006: chemistryBook2
+    4301008: TheSoundAndTheFury
+    4301010: TheDiviners
+    4301012: booksOne4
+    4301014: pCube45
+    4301016: pCube44
+    4301018: pCube43
+    4301020: pCube30
+    4301022: pCube42
+    4301024: pCube37
+    4301026: bookThree2
+    4301028: pCube41
+    4301030: pCube33
+    4301032: chemistryBook1
+    4301034: theSunAlsoRises
+    4301036: mrsDalloway
+    4301038: theDiviners
+    4301040: theSoundAndTheFiry
+    4301042: pCube4
+    4301044: aFarewellToArms
+    4301046: toTheLighthouse
+    4301048: allQuietOnTheWesternFront
+    4301050: bookFour2
+    4301052: metamorphasis
+    4301054: cookbook3
+    4301056: theAgeOfInnocence
+    4301058: drFrame_window2
+    4301060: drFrame_window1
+    4301062: doorWindow2
+    4301064: door8
+    4301066: door7
+    4301068: doorWindow1
+    4301070: door_frame
+    4301072: door9
+    4301074: doorHandle1
+    4301076: doorHandleFrame1
+    4301078: doorLock1
+    4301080: doorHandle1
+    4301082: doorHandleFrame1
+    4301084: doorLock1
+    4301086: doorHandle1
+    4301088: doorHandleFrame1
+    4301090: doorLock1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
