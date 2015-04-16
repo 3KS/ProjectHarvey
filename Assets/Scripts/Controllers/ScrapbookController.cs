@@ -46,7 +46,7 @@ public class ScrapbookController : MonoBehaviour {
 	void Update () {
 		if (!isOpen && GameController.GetMenuState() == GameController.MenuState.Scrapbook)
         {
-			if (GameController.GetGameState () == GameController.GameState.Room) {
+			if (GameController.GetGameState () == GameController.GameState.Room || GameController.GetGameState() == GameController.GameState.Diorama) {
 				MovementFreeze.OpenBook();
 			}
             state = BookState.Missions;
@@ -55,7 +55,7 @@ public class ScrapbookController : MonoBehaviour {
             MovementFreeze.FreezePlayer();
 		    Screen.lockCursor = false;
         } else if (isOpen && GameController.GetMenuState() != GameController.MenuState.Scrapbook) {
-			if (GameController.GetGameState () == GameController.GameState.Room) {
+			if (GameController.GetGameState () == GameController.GameState.Room || GameController.GetGameState() == GameController.GameState.Diorama) {
 				MovementFreeze.CloseBook();
 			}
 			CloseScrapbook();
