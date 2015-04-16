@@ -21,13 +21,6 @@ public class TheBeeGameMinnie : MonoBehaviour
 
 	void Update ()
 	{
-		if (Input.GetMouseButtonDown (1))
-		{
-			lookingAtCharacter = false;
-			MovementFreeze.UnFreezePlayer ();
-			player.GetComponent<MinnieTextTree>().textTreeStart = false;
-		}
-
 		if (lookingAtCharacter == true)
 		{
 			player.transform.LookAt(minnie.transform.position);
@@ -76,6 +69,7 @@ public class TheBeeGameMinnie : MonoBehaviour
 		// This kicks off the dialogue tree when the player presses E after entering minnies trigger
 	{
 		MovementFreeze.FreezePlayer ();
+		Screen.lockCursor = false;
 		player.transform.position = faceCharacterPosition.transform.position;
 		player.transform.rotation = faceCharacterPosition.transform.rotation;
 

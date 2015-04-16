@@ -153,7 +153,8 @@ public class TheBeeGame : MonoBehaviour
 		}
 		else if (waspkills == 11)
 		{
-			Debug.Log("wasp kills are at eleven");
+			//Debug.Log("wasp kills are at eleven");
+			AchievementController.UnlockAchievement(AchievementController.Achievements.SwatTeam);
 			waspkills10.renderer.enabled = false;
 		}
 	}

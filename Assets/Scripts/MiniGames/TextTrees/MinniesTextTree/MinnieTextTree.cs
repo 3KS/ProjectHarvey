@@ -174,6 +174,7 @@ public class MinnieTextTree : MonoBehaviour
 	{
 		Debug.Log ("Text tree has ended");
 		MovementFreeze.UnFreezePlayer ();
+		Screen.lockCursor = true;
 		talkingPosition.GetComponent<MinniesText> ().decision2ADialogue.active = false;
 		talkingPosition.GetComponent<MinniesText> ().decision2BDialogue.active = false;
 
