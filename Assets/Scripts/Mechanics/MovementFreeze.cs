@@ -29,6 +29,7 @@ public class MovementFreeze : MonoBehaviour
 
     public static bool FreezePlayer() {
         try{
+			Debug.Log("Froze Player");
             statPlayer.GetComponent<CharacterMotor> ().enabled = false;         //Used to freeze the player during examination
             statPlayer.GetComponent<MouseLook> ().enabled = false;              //Used to freeze the player during examination
             statPlayerCam.GetComponent<MouseLook> ().enabled = false;           //Used to freeze the player during examination
@@ -42,6 +43,7 @@ public class MovementFreeze : MonoBehaviour
 
     public static bool UnFreezePlayer() {
         try{
+			Debug.Log("Unfroze Player");
             statPlayer.GetComponent<CharacterMotor> ().enabled = true;          //Used to freeze the player during examination
             statPlayer.GetComponent<MouseLook> ().enabled = true;               //Used to freeze the player during examination
             statPlayerCam.GetComponent<MouseLook> ().enabled = true;            //Used to freeze the player during examination

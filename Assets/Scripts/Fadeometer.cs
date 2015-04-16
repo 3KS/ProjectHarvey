@@ -85,7 +85,7 @@ public class Fadeometer : MonoBehaviour
                 if (hit.transform.tag.Equals("Fadeometer"))
                 {
 					//If you press e and no other menus are open, it opens the fadeometer
-					if (Input.GetButtonUp("Select") && !isPlaying && delay <= 0)
+					if (Input.GetButtonDown("Select") && !isPlaying && delay <= 0)
                     {
 						GameController.ClearNotification("fadeNotification");
 						if(GameController.SetOutsideMenuState(GameController.MenuState.Game, gameID)) {

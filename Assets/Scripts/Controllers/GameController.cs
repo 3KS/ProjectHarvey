@@ -374,10 +374,10 @@ public class GameController : MonoBehaviour
 						}
 						GUI.enabled = false;
 				} else {
-						Time.timeScale = 1;
-						if(gameState == GameState.Room) {
+						if(gameState == GameState.Room && Time.timeScale != 1) {
 							MovementFreeze.UnFreezePlayer();
 						}
+						Time.timeScale = 1;
 						GUI.enabled = true;
 				}
 		}
