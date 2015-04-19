@@ -1,5 +1,6 @@
 ﻿/*
  * This script goes in the same room with the first mural
+ * SETS THE VISIBILITY OF MURALS ONCE THEYVE BEEN PICKED UP
  * R00nn13 SMYTHE
  * #SWAG
  */
@@ -17,10 +18,36 @@ public class Mural1 : MonoBehaviour
 
 	void Update () 
 	{
-
-		if(MuralCheck.muralsAreAdded && GameObject.Find("Mural 1") == null && !MuralCheck.muralIsTurnedIn)
+		if (PlayerPrefs.GetInt ("mural1Visible") == 2)
 		{
 			mural1Null = true;
+			MuralCheck.mural1Found = true;
+		}
+
+		else if(PlayerPrefs.GetInt ("mural1Visible") == 0)
+		{
+			if(GameObject.Find("Mural 1") != null)
+			{
+				GameObject.Find("Mural 1").renderer.enabled = false;
+				Debug.Log ("Mural 1 is not visible");
+			}
+		}
+		
+		else if (PlayerPrefs.GetInt ("mural1Visible") == 1)
+		{
+			if(GameObject.Find("Mural 1") != null)
+			{
+				GameObject.Find("Mural 1").renderer.enabled = true;
+				Debug.Log ("Mural 1 is visible");
+			}
+		}
+
+		//If the player finds the first mural and the quest is NOT turned in
+		//Set the mural2Int to 2 (null)
+		//Set the other 2 murals to invisible if they're in the game.
+
+		if(MuralCheck.muralsAreAdded && GameObject.Find("Mural 1") == null && !MuralCheck.mural1IsTurnedIn)
+		{
 			PlayerPrefs.SetInt ("mural1Visible", 2); //set to a global null
 
 			if(PlayerPrefs.GetInt ("mural2Visible") != 2)
@@ -35,31 +62,5 @@ public class Mural1 : MonoBehaviour
 
 			Debug.Log ("Mural 1 is null and the others are not visible");
 		}
-
-		if (MuralCheck.muralsAreAdded == false && mural1Null == false) 
-		{
-			//GameObject.Find("Mural 1").renderer.enabled = false;
-			PlayerPrefs.SetInt ("mural1Visible", 0);
-			Debug.Log ("Mural 1 is not visible");
-		}
-
-		else if (MuralCheck.muralsAreAdded == true && mural1Null == false)
-		{
-			//GameObject.Find("Mural 1").renderer.enabled = true;
-			PlayerPrefs.SetInt ("muralsAddedPrefs", 1);
-			PlayerPrefs.SetInt ("mural1Visible", 1);
-			Debug.Log ("Mural 1 is visible");
-		}
-
-		if(PlayerPrefs.GetInt ("mural1Visible") == 0)
-		{
-			GameObject.Find("Mural 1").renderer.enabled = false;
-		}
-		
-		else if (PlayerPrefs.GetInt ("mural1Visible") == 1)
-		{
-			GameObject.Find("Mural 1").renderer.enabled = true;
-		}
-
 	}
 }

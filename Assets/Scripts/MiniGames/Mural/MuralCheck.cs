@@ -19,8 +19,10 @@ public class MuralCheck : MonoBehaviour
 
 	//Plays after the user pressed the button to start the quest
 	public static bool startPromptIsPlaying = false;
-	public static bool muralIsTurnedIn = false;
-	public static bool muralIsTurnedInTwice = false;
+	public static bool mural1IsTurnedIn = false;
+	public static bool mural2IsTurnedIn = false;
+	public static bool mural3IsTurnedIn = false;
+	public static bool muralIsTurnedInTwice = false; // murals 2 and 3 both turned in
 
 	public static bool mural1Found = false;
 	public static bool mural2Found = false;
@@ -33,16 +35,17 @@ public class MuralCheck : MonoBehaviour
 	public float menuHeight;
 	public float menuSpace;
 	
-	public string labelText = "";
+	public string labelText = "gobble";
 	public static bool muralsFound = false;
 
 	void Start () 
 	{
+		//If the murals have not been added, the mural quest is not started
 		if(PlayerPrefs.GetInt ("muralsAddedPrefs") == 0)
 		{
 			MuralCollection.muralQuestIsStarted = false;
 		}
-
+		//If the murals have been added, display the visibility of the murals in the console
 		else if (PlayerPrefs.GetInt ("muralsAddedPrefs") == 1)
 		{
 			if (PlayerPrefs.GetInt ("mural1Visible") == 0) 
@@ -93,10 +96,11 @@ public class MuralCheck : MonoBehaviour
 
 	void Update () 
 	{
+		//RESETTING THE VISIBILITY OF MURALS AFTER THEY'VE BEEN TURNED IN
 		if(muralsAreAdded)
 		{
 			//If the player finds mural 1
-			if(PlayerPrefs.GetInt ("mural1Visible") == 2)
+			if(PlayerPrefs.GetInt ("mural1Visible") == 2 && mural1IsTurnedIn)
 			{
 				//If mural 2 is in the scene, don't render it
 				if(PlayerPrefs.GetInt ("mural2Visible") == 1)
@@ -108,78 +112,24 @@ public class MuralCheck : MonoBehaviour
 				{
 					PlayerPrefs.SetInt ("mural3Visible", 0);
 				}
-				//You found the real mural
-				mural1Found = true;
-				PlayerPrefs.SetInt ("mural1Visible", 2);
 			}
-			
-			//If Mural 2 is not in the scene but mural 3 is and it's not turned in yet
-			else if(PlayerPrefs.GetInt ("mural2Visible") == 2 && PlayerPrefs.GetInt ("mural3Visible") == 1 && !muralIsTurnedIn)
-			{
-				PlayerPrefs.SetInt ("mural1Visible", 0);
-				PlayerPrefs.SetInt ("mural3Visible", 0);
-				PlayerPrefs.SetInt ("mural2Visible", 2);
-				//You found an imposter
-				mural2Found = true;
-				mural3Found = false;
-				//Debug.Log ("Mural 2 has been found");
-			}
-			
-			else if(PlayerPrefs.GetInt ("mural2Visible") == 2 && PlayerPrefs.GetInt ("mural3Visible") == 1 && muralIsTurnedIn) //once you turn in the second one, you dont want the others to appear again
+
+			else if(PlayerPrefs.GetInt ("mural2Visible") == 2 && PlayerPrefs.GetInt ("mural3Visible") == 0 && mural2IsTurnedIn) //once you turn in the second one, you dont want the others to appear again
 			{
 				PlayerPrefs.SetInt ("mural1Visible", 1);
 				PlayerPrefs.SetInt ("mural3Visible", 1);				
-				PlayerPrefs.SetInt ("mural2Visible", 2);
-				
-				mural2Found = true;
-				mural3Found = false;
 			}
-			
-			//If Mural 3 is not in the scene and mural 2 is in the scene and the murals haven't been turned in to Cal
-			else if(PlayerPrefs.GetInt ("mural3Visible") == 2 && PlayerPrefs.GetInt ("mural2Visible") == 1 && !muralIsTurnedIn)
-			{
-				PlayerPrefs.SetInt ("mural1Visible", 0);
-				PlayerPrefs.SetInt ("mural2Visible", 0);	
-				PlayerPrefs.SetInt ("mural3Visible", 2);
-				
-				//You found an imposter
-				mural2Found = false;
-				mural3Found = true;
-				//Debug.Log ("Mural 3 has been found");
-			}
-			
-			else if(PlayerPrefs.GetInt ("mural3Visible") == 2 && PlayerPrefs.GetInt ("mural2Visible") == 1 && muralIsTurnedIn)
+
+			else if(PlayerPrefs.GetInt ("mural3Visible") == 2 && PlayerPrefs.GetInt ("mural2Visible") == 0 && mural3IsTurnedIn)
 			{
 				PlayerPrefs.SetInt ("mural1Visible", 1);
 				PlayerPrefs.SetInt ("mural2Visible", 1);	
-				PlayerPrefs.SetInt ("mural3Visible", 2);
-				
-				mural2Found = false;
-				mural3Found = true;
 			}
-			
-			//if mural 2 and 3 are out of the scene
-			else if(PlayerPrefs.GetInt ("mural3Visible") == 2 && PlayerPrefs.GetInt ("mural2Visible") == 2 && !muralIsTurnedInTwice)
-			{
-				PlayerPrefs.SetInt ("mural1Visible", 0);
-				PlayerPrefs.SetInt ("mural2Visible", 2);
-				PlayerPrefs.SetInt ("mural3Visible", 2);
-				
-				mural2Found = true;
-				mural3Found = true;
-			}
-			
+
 			else if(PlayerPrefs.GetInt ("mural3Visible") == 2 && PlayerPrefs.GetInt ("mural2Visible") == 2 && muralIsTurnedInTwice)
 			{
 				PlayerPrefs.SetInt ("mural1Visible", 1);
-				PlayerPrefs.SetInt ("mural2Visible", 2);
-				PlayerPrefs.SetInt ("mural3Visible", 2);
-				
-				
-				mural2Found = true;
-				mural3Found = true;
 			}
-
 		}
 	}
 
@@ -215,23 +165,30 @@ public class MuralCheck : MonoBehaviour
 				//if we havent started the quest put the buttons up
 				if (GUI.Button(new Rect(Screen.width / 2 + 90 + menuSpace, Screen.height / 2 - menuHeight, 200, 50), "Start mural quest"))
 				{
+					
+					Screen.showCursor = false;
+					Screen.lockCursor = true;
+					MovementFreeze.UnFreezePlayer ();
 					muralQuestIsStarted = true;
 					muralsAreAdded = true;
 					weInBusiness = true;
 					//hide the mouse
-					Screen.showCursor = false;
 					startPromptIsPlaying = true;
-					Screen.lockCursor = true;
-					MovementFreeze.UnFreezePlayer ();
-					
-					if(!muralsFound)
+
+					PlayerPrefs.SetInt ("mural1Visible", 1);
+					PlayerPrefs.SetInt ("mural2Visible", 1);
+					PlayerPrefs.SetInt ("mural3Visible", 1);
+
+					PlayerPrefs.SetInt ("muralsAddedPrefs", 1);
+
+					/*if(!muralsFound)
 					{
 						labelText = "My favorite mural went missing! Can you help me find it? I'm sure it's around here somewhere... Come back right away if you find it!";
 					}
 					else
 					{
 						labelText = "";
-					}
+					}*/
 				}
 				
 				else if (GUI.Button(new Rect(Screen.width / 2 - 250 - menuSpace, Screen.height / 2 - menuHeight, 200, 50), "Walk away"))
@@ -245,8 +202,16 @@ public class MuralCheck : MonoBehaviour
 			//If the first prompt has already played then move onto these next dialogue options
 			if(startPromptIsPlaying)
 			{
+				if(!muralsFound)
+				{
+					labelText = "My favorite mural went missing! Can you help me find it? I'm sure it's around here somewhere... Come back right away if you find it!";
+				}
+				else
+				{
+					labelText = "GOBBLE GOBBLE";
+				}
 				//If the first mural has been found (and is therefore null)
-				if(PlayerPrefs.GetInt ("mural1Visible") == 2)
+				if(mural1Found)
 				{
 					muralsFound = true;
 					if(correctButtonHit == false)
@@ -265,7 +230,7 @@ public class MuralCheck : MonoBehaviour
 						Screen.showCursor = false;
 						Screen.lockCursor = true;
 						MovementFreeze.UnFreezePlayer ();
-						muralIsTurnedIn = true;
+						mural1IsTurnedIn = true;
 					}
 				}
 
@@ -285,7 +250,7 @@ public class MuralCheck : MonoBehaviour
 						Screen.showCursor = false;
 						Screen.lockCursor = true;
 						MovementFreeze.UnFreezePlayer ();
-						muralIsTurnedIn = true;
+						mural2IsTurnedIn = true;
 					}
 				}
 
@@ -305,7 +270,7 @@ public class MuralCheck : MonoBehaviour
 						Screen.showCursor = false;
 						Screen.lockCursor = true;
 						MovementFreeze.UnFreezePlayer ();
-						muralIsTurnedIn = true;
+						mural3IsTurnedIn = true;
 					}
 				}
 

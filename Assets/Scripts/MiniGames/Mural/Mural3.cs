@@ -17,27 +17,34 @@ public class Mural3 : MonoBehaviour
 	
 	void Update () 
 	{
-
-		if(MuralCheck.muralsAreAdded && GameObject.Find("Mural 3") == null && !MuralCheck.muralIsTurnedIn)
+		if (PlayerPrefs.GetInt ("mural3Visible") == 2)
 		{
 			mural3Null = true;
-			PlayerPrefs.SetInt ("mural3Visible", 2); //set to a global null
-			
-			if(PlayerPrefs.GetInt ("mural1Visible") != 2)
+			MuralCheck.mural3Found = true;
+		}
+
+		if(PlayerPrefs.GetInt ("mural3Visible") == 0)
+		{
+			if(GameObject.Find("Mural 3") != null)
 			{
-				PlayerPrefs.SetInt ("mural2Visible", 0);
+				GameObject.Find("Mural 3").renderer.enabled = false;
+				Debug.Log ("Mural 3 is NOT visible");
 			}
-			
-			if(PlayerPrefs.GetInt ("mural2Visible") != 2)
-			{
-				PlayerPrefs.SetInt ("mural2Visible", 0);
-			}
-			Debug.Log ("Mural 3 is null");
 		}
 		
-		if(MuralCheck.muralsAreAdded && GameObject.Find("Mural 3") == null && !MuralCheck.muralIsTurnedInTwice)
+		else if (PlayerPrefs.GetInt ("mural3Visible") == 1)
 		{
-			mural3Null = true;
+			if(GameObject.Find("Mural 3") != null)
+			{
+				GameObject.Find("Mural 3").renderer.enabled = true;
+				Debug.Log ("Mural 3 is visible");
+			}
+		}
+
+		//If mural 3 is missing and has not been turned in
+		// Set the other 2 murals to invisible
+		if(MuralCheck.muralsAreAdded && GameObject.Find("Mural 3") == null && !MuralCheck.mural3IsTurnedIn)
+		{
 			PlayerPrefs.SetInt ("mural3Visible", 2); //set to a global null
 			
 			if(PlayerPrefs.GetInt ("mural1Visible") != 2)
@@ -49,33 +56,20 @@ public class Mural3 : MonoBehaviour
 			{
 				PlayerPrefs.SetInt ("mural2Visible", 0);
 			}
-			//Debug.Log ("murals 2 and 3 are null");
-		}
-		
-		if (MuralCheck.muralsAreAdded == false && mural3Null == false) 
-		{
-			//GameObject.Find("Mural 3").renderer.enabled = false;
-			PlayerPrefs.SetInt ("mural3Visible", 0);
-			Debug.Log ("Mural 3 is not visible");
-		}
-		
-		else if (MuralCheck.muralsAreAdded == true && mural3Null == false)
-		{
-			//GameObject.Find("Mural 3").renderer.enabled = true;
-			PlayerPrefs.SetInt ("muralsAddedPrefs", 1);
-			PlayerPrefs.SetInt ("mural3Visible", 1);
-			Debug.Log ("Mural 3 is visible");
+			Debug.Log ("Mural 3 is null");
 		}
 
-		if(PlayerPrefs.GetInt ("mural3Visible") == 0)
+		//if murals 2 and 3 are null and they have't been turned in twice
+		//set them to invisible (until muralCheck handles it)
+		if(MuralCheck.muralsAreAdded && GameObject.Find("Mural 3") == null && Mural2.mural2Null == true && !MuralCheck.muralIsTurnedInTwice)
 		{
-			GameObject.Find("Mural 3").renderer.enabled = false;
+			mural3Null = true;
+			PlayerPrefs.SetInt ("mural3Visible", 2); //set to a global null
+			
+			if(PlayerPrefs.GetInt ("mural1Visible") != 2)
+			{
+				PlayerPrefs.SetInt ("mural1Visible", 0);
+			}
 		}
-		
-		else if (PlayerPrefs.GetInt ("mural3Visible") == 1)
-		{
-			GameObject.Find("Mural 3").renderer.enabled = true;
-		}
-
 	}
 }
