@@ -45,7 +45,7 @@ public class TheatersetChangeTrigger : MonoBehaviour
 		{
 			if (Input.GetButtonDown("Select") && showPickup == true)
 			{
-				Debug.Log("GotHere 2");
+				//Debug.Log("GotHere 2");
 				playbill.active = true;
 				playbillPickUp.active = false;
 				Invoke ("ShowSetDown", setDownDelay);
@@ -53,7 +53,7 @@ public class TheatersetChangeTrigger : MonoBehaviour
 			
 			if (Input.GetButtonDown("Select") && showSetDown == true)
 			{
-				Debug.Log("GotHere 4");
+				//Debug.Log("GotHere 4");
 				PlayerPrefs.SetInt(SaveController.GetPrefix () + "canPlayTheater", 2);
 				playbill.active = false;
 				playbillSetDown.active = false;
@@ -148,7 +148,7 @@ public class TheatersetChangeTrigger : MonoBehaviour
 	void ShowSetDown ()
 	{
 		playbillSetDown.active = true;
-		Debug.Log("GotHere 3");
+		//Debug.Log("GotHere 3");
 		showSetDown = true;
 		showPickup = false;
 	}

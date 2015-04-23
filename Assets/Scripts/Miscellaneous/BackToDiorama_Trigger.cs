@@ -51,7 +51,7 @@ public class BackToDiorama_Trigger : MonoBehaviour
 
 	void OnTriggerStay (Collider door)
 	{
-        Debug.Log("Wants to exit!");
+    //    Debug.Log("Wants to exit!");
 
         if (Input.GetKeyDown(KeyCode.E) && exiting)
         {

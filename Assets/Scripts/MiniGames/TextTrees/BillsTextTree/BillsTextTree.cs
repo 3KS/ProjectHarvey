@@ -52,7 +52,7 @@ public class BillsTextTree : MonoBehaviour
 	void Raycasts ()
 	{
 		selectRay = Camera.main.ScreenPointToRay (Input.mousePosition);
-		Debug.DrawLine (selectRay.origin, selectHit.point);
+		//Debug.DrawLine (selectRay.origin, selectHit.point);
 		
 		if (Physics.Raycast(selectRay, out selectHit, 10))
 		{
@@ -60,7 +60,7 @@ public class BillsTextTree : MonoBehaviour
 			
 			if (currentOption.tag == "TextTreeOption")
 			{
-				Debug.Log("player selected " + currentOption.name);
+				//Debug.Log("player selected " + currentOption.name);
 				DecisionCheck ();
 			}
 		}
@@ -116,7 +116,7 @@ public class BillsTextTree : MonoBehaviour
 	
 	void DecisionCheck()
 	{
-		Debug.Log ("Called Decision Check");
+		//Debug.Log ("Called Decision Check");
 		if (currentOption.name == talk) //Talk
 		{
 			talkingPosition.GetComponent<BillsText> ().talkOption.active = false;
@@ -168,7 +168,7 @@ public class BillsTextTree : MonoBehaviour
 	void EndTextTree ()
 		//Farewell dialogue should be turned on, everything else is off
 	{
-		Debug.Log ("Text tree has ended");
+		//Debug.Log ("Text tree has ended");
 		MovementFreeze.UnFreezePlayer ();
 
 		talkingPosition.GetComponent<BillsText> ().decisionCDialogue2.active = false;

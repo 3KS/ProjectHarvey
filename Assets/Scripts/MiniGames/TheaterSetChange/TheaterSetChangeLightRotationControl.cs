@@ -26,7 +26,7 @@ public class TheaterSetChangeLightRotationControl : MonoBehaviour
 			if (Input.GetMouseButton (0))
 			{
 				ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-				Debug.DrawLine(ray.origin, hit.point);
+				//Debug.DrawLine(ray.origin, hit.point);
 				
 				if (Physics.Raycast(ray, out hit, 20))
 				{

@@ -29,13 +29,13 @@ public class MovementFreeze : MonoBehaviour
 
     public static bool FreezePlayer() {
         try{
-			Debug.Log("Froze Player");
+			//Debug.Log("Froze Player");
             statPlayer.GetComponent<CharacterMotor> ().enabled = false;         //Used to freeze the player during examination
             statPlayer.GetComponent<MouseLook> ().enabled = false;              //Used to freeze the player during examination
             statPlayerCam.GetComponent<MouseLook> ().enabled = false;           //Used to freeze the player during examination
             playerFrozen = true;
         } catch {
-            Debug.Log("MovementFreeze.FreezePlayer(); Encountered an error");
+           // Debug.Log("MovementFreeze.FreezePlayer(); Encountered an error");
             return false;
         }
         return true;
@@ -43,13 +43,13 @@ public class MovementFreeze : MonoBehaviour
 
     public static bool UnFreezePlayer() {
         try{
-			Debug.Log("Unfroze Player");
+			//Debug.Log("Unfroze Player");
             statPlayer.GetComponent<CharacterMotor> ().enabled = true;          //Used to freeze the player during examination
             statPlayer.GetComponent<MouseLook> ().enabled = true;               //Used to freeze the player during examination
             statPlayerCam.GetComponent<MouseLook> ().enabled = true;            //Used to freeze the player during examination
             playerFrozen = false;
         } catch {
-            Debug.Log("MovementFreeze.UnFreezePlayer(); Encountered an error");
+            //Debug.Log("MovementFreeze.UnFreezePlayer(); Encountered an error");
             return false;
         }
         return true;

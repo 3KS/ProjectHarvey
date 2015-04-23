@@ -11,6 +11,8 @@ public class TheaterSetChangeObjectMove : MonoBehaviour
 	public float smooth;
 	public float sliderValue;
 
+	public float currentSliderValue;
+
 // These objects are the object being moved, the objects start position and the objects end position (Could be changed to Vector3's later if need be).
 	public GameObject thisObject;
 	public GameObject thisObjectStart;
@@ -22,9 +24,16 @@ public class TheaterSetChangeObjectMove : MonoBehaviour
 	private Quaternion thisObjectInitialRotation;
 	private Quaternion thisObjectEndingRotation;
 
+	private Vector3 thisObjectCurrentPosition;
+	private Quaternion thisObjectCurrentRotation;
+
+	public bool collision;
+
 
 	void Start ()
 	{
+		slider.value = 0.1f;
+
 // Start and end positions are set here.
 		thisObjectInitialPosition = thisObjectStart.transform.position;
 		thisObjectEndingPosition = thisObjectEnd.transform.position;
@@ -33,12 +42,31 @@ public class TheaterSetChangeObjectMove : MonoBehaviour
 
 		//thisObject.transform.position = thisObjectInitialPosition;
 		//thisObject.transform.rotation = thisObjectInitialRotation;
+
+		collision = false;
 	}
 
 	void Update ()
 	{
-// Calls the position change for an object. SHOULD PROBABLY BE CHANGED LATER TO ONLY BE ACTIVE WHILE THE GAME IS PLAYING.
-		PianoPositionChange ();
+		Debug.Log (collision);
+		if (collision == false)
+		{
+			PianoPositionChange ();
+		}
+
+
+		if (collision == true)
+		{
+
+			if (sliderValue < currentSliderValue)
+			{
+				collision = false;
+			}
+			else if (sliderValue != 0)
+			{
+				slider.value = currentSliderValue;
+			}
+		}
 	}
 
 	public void PianoPositionChange ()
@@ -53,7 +81,35 @@ public class TheaterSetChangeObjectMove : MonoBehaviour
 
 	public void GetSliderValueChanged ()
 	{
-// Grabs the slider value and stores it. Also accesed by the slider in editor.
+// Grabs the slider value and stores it. Also accessed by the slider in editor.
 		sliderValue = slider.value;
+	}
+
+	void OnCollisionEnter (Collision other)
+	{
+		if (other.gameObject.tag == "TheaterSetPeice")
+		{
+			collision = true;
+			currentSliderValue = sliderValue;
+		}
+	}
+
+	void OnCollisionStay (Collision other)
+	{
+		if (other.gameObject.tag == "TheaterSetPeice")
+		{
+			thisObjectCurrentPosition = thisObject.transform.position;
+
+			thisObject.transform.position = Vector3.Lerp (thisObjectCurrentPosition, thisObjectInitialPosition, 0);
+
+		}
+	}
+
+	void OnCollisionExit (Collision other)
+	{
+		if (other.gameObject.tag == "TheaterSetPeice")
+		{
+			collision = false;
+		}
 	}
 }
